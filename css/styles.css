@@ -1,0 +1,153 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+section.main {
+    display: inline-block;
+    margin: 30px;
+}
+
+#ms-edge-wrapper {
+    border-radius: 3px;
+    -moz-box-shadow: 0 0 0 1px #c8c8c8;
+    -webkit-box-shadow: 0 0 0 1px #c8c8c8;
+    box-shadow: 0 0 0 1px #c8c8c8;
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3, MakeShadow=true, ShadowOpacity=0.30);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+    zoom: 1;
+}
+
+h1.headline {
+    margin: 0px 0px 38px 0px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #000;
+    text-decoration: none;
+    border-bottom: .1em solid rgba(0, 0, 0, .7);
+    border-bottom-color: rgba(0, 0, 0, 0.7);
+    border-bottom-style: solid;
+    border-bottom-width: 0.1em;
+}
+
+/*Table Configuration*/
+
+table {
+    position: relative;
+
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-style: hidden;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: 0 0 0 1px #c8c8c8;
+    -webkit-box-shadow: 0 0 0 1px #c8c8c8;
+    box-shadow: 0 0 0 1px #c8c8c8;
+}
+
+th, td {
+    border: 1px solid #c8c8c8;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 5px 10px 5px;
+    font-size: 14px;
+}
+
+th {
+    height: 35px;
+}
+
+th:first-child {
+    -webkit-border-radius: 3px 0 0 0;
+    border-radius: 3px 0 0 0;
+}
+
+th:last-child {
+    -webkit-border-radius: 0 3px 0 0;
+    border-radius: 0 3px 0 0;
+}
+
+td.bottom-left {
+    -webkit-border-radius: 0 0 0 3px;
+    border-radius: 0 0 0 3px;
+}
+
+tr:last-child td:last-child {
+    -webkit-border-radius: 0 0 3px 0;
+    border-radius: 0 0 3px 0;
+}
+
+.group-col {
+    width: 70px;
+}
+
+.aspect-col {
+    width: 200px;
+}
+
+.feature-col {
+    width: 200px;
+}
+
+.service-col {
+    width: 250px;
+}
+
+/*Messenger Icons*/
+
+.telegram-icon {
+    background-image: url('../icons/TelegramIcon.png');
+}
+
+.viber-icon {
+    background-image: url('../icons/ViberIcon.png');
+}
+
+.whatsapp-icon {
+    background-image: url('../icons/WhatsAppIcon.png');
+}
+
+.telegram-icon, .viber-icon, .whatsapp-icon {
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 0px 5px;
+    padding: 5px 25px 5px 25px;
+}
+
+/*Cells Classes*/
+
+.group-text {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    white-space: nowrap;
+    vertical-align: middle;
+    margin: 17px;
+}
+
+.advantage {
+    background-color: #d1ff82;
+    border: 1px solid #b1b1b1;
+}
+
+.mediocrity {
+    background-color: #fff394;
+    border: 1px solid #b1b1b1;
+}
+
+.disadvantage {
+    background-color: #ffbaba;
+    border: 1px solid #b1b1b1;
+}
+
+p.updated-date {
+    margin: 30px 10px 20px 10px;
+    font-size: 13px;
+    font-style: italic;
+    text-align: right;
+}
