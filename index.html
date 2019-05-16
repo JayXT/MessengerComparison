@@ -796,7 +796,7 @@
 					</tr>
 					<tr>
 						<td>&ldquo;Піднесіть, Щоб Говорити&rdquo; (Для Прослуховування Голосових Повідомлень)</td>
-						<td class="advantage">Підтримується</td>
+						<td class="advantage">Підтримується (зокрема для відео повідомлень)</td>
 						<td class="advantage">Підтримується</td>
 						<td class="advantage">Підтримується</td>
 					</tr>
@@ -826,14 +826,21 @@
 						<td class="advantage">Підтримується</td>
 					</tr>
 					<tr>
-						<td rowspan=122>
+						<td rowspan=123>
 							<h3 class="group-text">Методи Комунікації</h3>
 						</td>
-						<td rowspan=13><b>Загальні Можливості</b></td>
+						<td rowspan=14><b>Загальні Можливості</b></td>
 						<td>Збереження Контенту в Хмарі</td>
 						<td class="advantage">Необмежене за об&rsquo;ємом та періодом зберігання</td>
 						<td class="disadvantage">Не підтримується</td>
 						<td class="disadvantage">Не підтримується</td>
+					</tr>
+					<tr>
+						<td>Операції з Кількома Чатами Водночас</td>
+						<td class="advantage">Прикріплення/відкріплення, (роз)архівування, видалення, очистка історії,
+							кешу, позначення прочитаними/непрочитаними, увімкнення/вимкнення сповіщень</td>
+						<td class="disadvantage">Не підтримуються</td>
+						<td class="disadvantage">Не підтримуються</td>
 					</tr>
 					<tr>
 						<td>Очистка/Видалення Чатів</td>
@@ -861,13 +868,18 @@
 					</tr>
 					<tr>
 						<td>Прикріплення Чатів</td>
-						<td class="advantage">Підтримується</td>
+						<td class="advantage">Підтримується (до 5 чатів, в архіві необмежена кількість)</td>
 						<td class="advantage">Підтримується</td>
 						<td class="advantage">Підтримується</td>
 					</tr>
 					<tr>
 						<td>Приховування Чатів</td>
-						<td class="mediocrity">Чатів з вимкненими сповіщеннями на Desktop через workmode</td>
+						<td class="advantage">Через <a
+								href="https://telegram.org/blog/archive-and-new-design#everything-in-its-place">архівування</a>
+							та встановлення коду блокування або <a
+								href="https://medium.com/@iHaiku/telegram-%D0%BA%D0%B0%D0%BA-%D1%81%D0%BA%D1%80%D1%8B%D1%82%D1%8C-%D1%87%D0%B0%D1%82%D1%8B-%D1%81-%D0%B2%D1%8B%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8-%D1%83%D0%B2%D0%B5%D0%B4%D0%BE%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%D0%BC%D0%B8-cc2272496a8a">workmode</a>
+							(на
+							Desktop)</td>
 						<td class="advantage">Лише на мобільних пристроях, <a
 								href="https://support.viber.com/customer/portal/articles/2377249">приховані чати</a>
 							неможливо відновити на
@@ -876,7 +888,7 @@
 					</tr>
 					<tr>
 						<td>Присипляння Чатів</td>
-						<td class="disadvantage">Не підтримується</td>
+						<td class="advantage">Через архівування з вимиканням сповіщень</td>
 						<td class="advantage">Підтримується</td>
 						<td class="disadvantage">Не підтримується</td>
 					</tr>
@@ -966,7 +978,7 @@
 						<td class="advantage">Заблоковано</td>
 					</tr>
 					<tr>
-						<td>Пересилання Назовні</td>
+						<td>Копіювання/Пересилання Інформації Назовні</td>
 						<td class="advantage">Заблоковано</td>
 						<td class="advantage">Заблоковано</td>
 					</tr>
@@ -1231,7 +1243,7 @@
 						<td class="advantage">Підтримується</td>
 					</tr>
 					<tr>
-						<td>Інформація про Ав торів Повідомлень</td>
+						<td>Інформація про Авторів Повідомлень</td>
 						<td class="advantage">Прихована, надсилання від імені каналу з опціональними <a
 								href="https://www.telegram.org/blog/channels-2-0#admin-signatures">підписами
 								адміністраторів</a></td>
@@ -1762,7 +1774,7 @@
 						<td class="disadvantage">Не підтримується</td>
 					</tr>
 					<tr>
-						<td rowspan=17>
+						<td rowspan=18>
 							<h3 class="group-text">Користувацький Досвід</h3>
 						</td>
 						<td rowspan=2><b>Реалізація Додатків</b></td>
@@ -1778,7 +1790,7 @@
 						<td class="mediocrity">Середня</td>
 					</tr>
 					<tr>
-						<td rowspan=5><b>Елементи Керування</b></td>
+						<td rowspan=6><b>Елементи Керування</b></td>
 						<td>Комбінації Клавіш та Дії Мишею</td>
 						<td class="advantage"><a
 								href="https://github.com/telegramdesktop/tdesktop/wiki/Keyboard-Shortcuts">Широка
@@ -1804,6 +1816,14 @@
 						</td>
 						<td class="mediocrity">Обмежена підтримка</td>
 						<td class="mediocrity">Обмежена підтримка</td>
+					</tr>
+					<tr>
+						<td>Зміна Отримувача Повідомлень, Що Пересилаються</td>
+						<td class="advantage"><a
+								href="https://telegram.org/blog/archive-and-new-design#easier-forwarding-links-to-messages-online-badges">Підтримується</a>
+						</td>
+						<td class="disadvantage">Не підтримується</td>
+						<td class="disadvantage">Не підтримується</td>
 					</tr>
 					<tr>
 						<td>Відміна Очистки Історії Та Видалення Чатів</td>
@@ -2190,7 +2210,9 @@
 					</tr>
 					<tr>
 						<td>Повідомлень</td>
-						<td class="advantage">Підтримуються</td>
+						<td class="advantage">Підтримуються (публічних та <a
+								href="https://telegram.org/blog/archive-and-new-design#easier-forwarding-links-to-messages-online-badges">приватних</a>)
+						</td>
 						<td class="disadvantage">Не підтримуються</td>
 						<td class="disadvantage">Не підтримуються</td>
 					</tr>
@@ -2241,7 +2263,7 @@
 						<td class="mediocrity">Недоступна</td>
 					</tr>
 					<tr>
-						<td rowspan=99 height="3386" class="bottom-left">
+						<td rowspan=100 height="3386" class="bottom-left">
 							<h3 class="group-text">Налаштування</h3>
 						</td>
 						<td rowspan=8><b>Загальні</b></td>
@@ -2450,15 +2472,18 @@
 					</tr>
 					<tr>
 						<td>Код Блокування</td>
-						<td class="advantage">Підтримується</td>
+						<td class="advantage">Підтримується (як <a
+								href="https://telegram.org/blog/archive-and-new-design#you-shall-not-pass">PIN</a> або
+							пароль)</td>
 						<td class="disadvantage">Не підтримується</td>
 						<td class="disadvantage">Не підтримується</td>
 					</tr>
 					<tr>
 						<td>Приховані Чати</td>
-						<td class="disadvantage">Не підтримуються</td>
+						<td class="mediocrity">Обмежено конфігурацією архівованих чатів</td>
 						<td class="advantage">Зміна, скидання PIN, підтримка Touch ID для iOS</td>
-						<td class="disadvantage">Не підтримуються</td>
+						<td class="disadvantage">Обмежено конфігурацією архівованих чатів (без захисту кодом блокування)
+						</td>
 					</tr>
 					<tr>
 						<td>Очистка Довірених Контактів</td>
@@ -2719,7 +2744,7 @@
 						<td class="disadvantage">Не підтримується</td>
 					</tr>
 					<tr>
-						<td rowspan=23><b>Налаштування Чатів та Дзвінків</b></td>
+						<td rowspan=24><b>Налаштування Чатів та Дзвінків</b></td>
 						<td>Створення Нових Тем</td>
 						<td class="advantage">Підтримується (з налаштуванням десятків параметрів)</td>
 						<td class="disadvantage">Не підтримується</td>
@@ -2742,6 +2767,15 @@
 						<td class="advantage">Підтримується (зокрема доступні 4 стандартні)</td>
 						<td class="mediocrity">Лише темна тема</td>
 						<td class="disadvantage">Не підтримується</td>
+					</tr>
+					<tr>
+						<td>Вигляд Списку Чатів</td>
+						<td class="advantage">Зміна <a
+								href="https://telegram.org/blog/archive-and-new-design#more-info-at-a-glance">
+								кількості рядків тексту</a>
+						</td>
+						<td class="disadvantage">Конфігурація не підтримується</td>
+						<td class="disadvantage">Конфігурація не підтримується</td>
 					</tr>
 					<tr>
 						<td>Підтримка Вбудованого Браузеру</td>
@@ -2837,13 +2871,13 @@
 					</tr>
 					<tr>
 						<td>Архівування Всіх Чатів</td>
-						<td class="disadvantage">Не підтримується</td>
+						<td class="advantage">Через виділення чатів для архівування в їх списку</td>
 						<td class="disadvantage">Не підтримується</td>
 						<td class="advantage">Підтримується</td>
 					</tr>
 					<tr>
 						<td>Очистка/Видалення Чатів </td>
-						<td class="mediocrity">Очистка виконується на рівні окремих чатів</td>
+						<td class="advantage">Підтримується, для декількох чатів (через їх виділення)</td>
 						<td class="mediocrity">Очистка всіх власних повідомлень</td>
 						<td class="advantage">Очистка або видалення всіх чатів за виключенням груп або всіх повідомлень
 						</td>
@@ -2871,7 +2905,7 @@
 				</tbody>
 			</table>
 		</div>
-		<p class="updated-date">Оновлено: 02 травня 2019 р.</p>
+		<p class="updated-date">Оновлено: 10 травня 2019 р.</p>
 	</section>
 </body>
 
