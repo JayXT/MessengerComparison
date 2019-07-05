@@ -12,6 +12,12 @@ div.language {
     left: 15px;
 }
 
+div.language * {
+    display: inline;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
 section.main {
     display: inline-block;
     margin: 30px;
