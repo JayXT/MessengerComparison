@@ -8,5 +8,5 @@ The comparison table is available via following URLs:
 - https://jayxt.github.io/MessengerComparison/en
 
 Current Maintainers:
-JayXT: EN, UA
-Hookz: RU
+- JayXT: EN, UA
+- Hookz: RU
