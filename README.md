@@ -3,6 +3,6 @@ Project aimed at providing thorough comparison of Telegram, Viber and WhatsApp m
 This repository is currently targetting Ukrainian and English localization.
 The comparison table is available via following URLs:
 
-- https://messenger-comparison.azurewebsites.net/
+- https://messenger-comparison.azurewebsites.net/en
 
-- https://jayxt.github.io/MessengerComparison/
+- https://jayxt.github.io/MessengerComparison/en
