@@ -1,7 +1,7 @@
 # MessengerComparison
 Project aimed at providing thorough comparison of Telegram, Viber and WhatsApp messengers.
-This repository is currently targetting Italian localization.
-The original comparison table is available via following URLs:
+This repository is currently targetting Ukrainian, English and Russian localization.
+The comparison table is available via following URLs:
 
 - https://messenger-comparison.azurewebsites.net/en
 
