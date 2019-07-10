@@ -26,10 +26,10 @@ If you want to create the new translation or project based on this repository, f
 For **External Translation** and **Integrated Translation** approaches please make sure that:
 
 1) Your page markup doesn't include any HTML tags or attributes that are not included in the English/Ukrainian page and has exactly the same HTML structure.
-2) All attributes and CSS classes are applied correctly, especially pay attention to advantage, disadvantage and mediocrity cells.
+2) All HTML attributes and CSS classes are applied correctly, especially pay attention to advantage, disadvantage and mediocrity cells.
 3) All columns have the same width as in other translations.
 4) Your translation is accurate enough and upper/lower-case letters are applied the same way as in original page.
 
-To get approval of pull request into this repository's master branch, please apply changes only to [your_language]/index.html file. Other files as README.md and en/index.html, ru/index.html and index.html etc. should be left without changes and not included in pull request.
+To get approval of pull request into this repository's master branch, please apply changes only to [your_language]/index.html file. Other files as README.md, en/index.html, ru/index.html and index.html etc. should be left without changes and not included in pull request.
 In case if your [your_language]/index.html meets all conditions, the pull request will get approved, the page will be included in main repository and both README.md and all pages will get updated by me or respective translation maintainers to contain a link to your page.
 
