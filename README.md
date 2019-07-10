@@ -31,5 +31,5 @@ For **External Translation** and **Integrated Translation** approaches please ma
 4) Your translation is accurate enough and upper/lower-case letters are applied the same way as in original page.
 
 To get approval of pull request into this repository's master branch, please apply changes only to [your_language]/index.html file. Other files as README.md and en/index.html, ru/index.html and index.html etc. should be left without changes and not included in pull request.
-In case if your [your_language]/index.html meets all conditions the pull request will get approved, the page will be included in main repository and both README.md and all pages will get updated by me or respective translation maintainers to contain a link to your page.
+In case if your [your_language]/index.html meets all conditions, the pull request will get approved, the page will be included in main repository and both README.md and all pages will get updated by me or respective translation maintainers to contain a link to your page.
 
