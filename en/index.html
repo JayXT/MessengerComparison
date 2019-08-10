@@ -329,8 +329,12 @@
 						<td align="center"><b>Security</b></td>
 						<td><a href="https://en.wikipedia.org/wiki/Forward_secrecy">Perfect Forward Secrecy</a></td>
 						<td class="advantage"><a href="https://core.telegram.org/api/pfs">Supported</a></td>
-						<td class="advantage"><a href="https://www.viber.com/app/uploads/Viber-Encryption-Overview.pdf">Supported</a></td>
-						<td class="advantage"><a href="https://www.whatsapp.com/security/WhatsApp-Security-Whitepaper.pdf">Supported</a></td>
+						<td class="advantage"><a
+								href="https://www.viber.com/app/uploads/Viber-Encryption-Overview.pdf">Supported</a>
+						</td>
+						<td class="advantage"><a
+								href="https://www.whatsapp.com/security/WhatsApp-Security-Whitepaper.pdf">Supported</a>
+						</td>
 					</tr>
 					<tr>
 						<td rowspan=7><b>Apps</b></td>
@@ -384,15 +388,15 @@
 							fragmentation)</td>
 					</tr>
 					<tr>
-						<td rowspan=71>
+						<td rowspan=73>
 							<h3 class="group-text">Messages</h3>
 						</td>
-						<td rowspan=30><b>Supported Content</b></td>
+						<td rowspan=31><b>Supported Content</b></td>
 						<td>Text</td>
-						<td class="advantage">With formatting support (bold, monospace, italic, underlined,
+						<td class="advantage">With combined formatting support (bold, monospace, italic, underlined,
 							strikethrough font)</td>
 						<td class="disadvantage">Without formatting support</td>
-						<td class="advantage">With formatting support (bold, monospace, italic, strikethrough font)
+						<td class="mediocrity">With formatting support (bold, monospace, italic, strikethrough font)
 						</td>
 					</tr>
 					<tr>
@@ -447,6 +451,14 @@
 						<td class="advantage">Supported (including several sets on Desktop)</td>
 						<td class="advantage">Supported</td>
 						<td class="advantage">Supported</td>
+					</tr>
+					<tr>
+						<td>Animated Emoji</td>
+						<td class="advantage"><a
+								href="https://telegram.org/blog/silent-messages-slow-mode#animated-emoji">Supported
+								(only for some of them)</a>, few provide touch feedback</td>
+						<td class="disadvantage">Not supported</td>
+						<td class="disadvantage">Not supported</td>
 					</tr>
 					<tr>
 						<td>Stickers</td>
@@ -579,7 +591,7 @@
 						<td class="advantage">Supported</td>
 					</tr>
 					<tr>
-						<td rowspan=9><b>Sending</b></td>
+						<td rowspan=10><b>Sending</b></td>
 						<td>Bulk Media/File Sending</td>
 						<td class="advantage">Supported</td>
 						<td class="disadvantage">Not supported</td>
@@ -594,8 +606,16 @@
 					<tr>
 						<td>Bulk Forwarding</td>
 						<td class="advantage">Up to 100 messages at a time to different recipients</td>
-						<td class="mediocrity">Up 25 messages to different recipients from Desktop</td>
+						<td class="mediocrity">Desktop: up to 25 messages to different recipients;<br> Android: 1
+							message to different recipients</td>
 						<td class="mediocrity">Up to 10 messages at a time</td>
+					</tr>
+					<tr>
+						<td>Silent Message Sending</td>
+						<td class="advantage"><a
+								href="https://telegram.org/blog/silent-messages-slow-mode">Supported</a></td>
+						<td class="disadvantage">Not supported</td>
+						<td class="disadvantage">Not supported</td>
 					</tr>
 					<tr>
 						<td>Cancelling Sending on Slow Connections</td>
@@ -782,14 +802,16 @@
 					</tr>
 					<tr>
 						<td>Video Rewind</td>
-						<td class="advantage">Supported</td>
+						<td class="advantage">Available, with support for <a
+								href="https://telegram.org/blog/silent-messages-slow-mode#timestamps-and-improved-scrubbing">thumbnail
+								previews and timestamps</a></td>
 						<td class="disadvantage">Not supported</td>
 						<td class="disadvantage">Not supported</td>
 					</tr>
 					<tr>
 						<td>Autoplaying of Animations and Videos</td>
 						<td class="advantage">Supported (unmuting with volume buttons)</td>
-						<td class="disadvantage">Not supported</td>
+						<td class="advantage">Supported</td>
 						<td class="disadvantage">Not supported</td>
 					</tr>
 					<tr>
@@ -836,7 +858,7 @@
 						<td class="advantage">Supported</td>
 					</tr>
 					<tr>
-						<td rowspan=131>
+						<td rowspan=133>
 							<h3 class="group-text">Communication Methods</h3>
 						</td>
 						<td rowspan=16><b>General Capabilities</b></td>
@@ -1026,7 +1048,7 @@
 						<td class="advantage">Unavailable</td>
 					</tr>
 					<tr>
-						<td rowspan=26><b>Groups</b></td>
+						<td rowspan=28><b>Groups</b></td>
 						<td>Organized Through</td>
 						<td class="advantage">Groups</td>
 						<td class="mediocrity">Groups; Communities</td>
@@ -1106,9 +1128,26 @@
 						<td class="disadvantage">No</td>
 					</tr>
 					<tr>
+						<td>Slow Mode</td>
+						<td class="advantage"><a
+								href="https://telegram.org/blog/silent-messages-slow-mode#slow-mode">Supported</a>
+							(sending not more than one message per chosen time interval)</td>
+						<td class="disadvantage">Not supported</td>
+						<td class="disadvantage">Not supported</td>
+					</tr>
+					<tr>
 						<td>Changing Owner</td>
 						<td class="advantage"><a
 								href="https://telegram.org/blog/contacts-local-groups#transfer-group-chats">Supported</a>
+						</td>
+						<td class="disadvantage">Not supported</td>
+						<td class="disadvantage">Not supported</td>
+					</tr>
+					<tr>
+						<td>Admin Titles</td>
+						<td class="advantage"><a
+								href="https://telegram.org/blog/silent-messages-slow-mode#admin-titles">Supported</a>
+							(changing titles in admin messages)
 						</td>
 						<td class="disadvantage">Not supported</td>
 						<td class="disadvantage">Not supported</td>
@@ -1530,7 +1569,8 @@
 					<tr>
 						<td rowspan=5><b>Media Status</b></td>
 						<td>Destination</td>
-						<td rowspan=5 class="mediocrity">Limited support via combination of profile description, channels and bots</td>
+						<td rowspan=5 class="mediocrity">Limited support via combination of profile description,
+							channels and bots</td>
 						<td rowspan=5 class="disadvantage">Not supported</td>
 						<td class="advantage">Creation of personalized status</td>
 					</tr>
@@ -1974,7 +2014,7 @@
 						<td class="disadvantage">Not supported</td>
 					</tr>
 					<tr>
-						<td rowspan=52>
+						<td rowspan=55>
 							<h3 class="group-text">Ecosystem</h3>
 						</td>
 						<td><b>Application Development</b></td>
@@ -2032,7 +2072,8 @@
 					</tr>
 					<tr>
 						<td>Platform Capabilities</td>
-						<td class="advantage">Creation, managing and sharing sticker packs (including animated ones) as well
+						<td class="advantage">Creation, managing and sharing sticker packs (including animated ones) as
+							well
 							as viewing their statistics</td>
 						<td class="disadvantage">Buying and downloading packs</td>
 					</tr>
@@ -2077,6 +2118,26 @@
 						<td class="advantage">Speed, network traffic economy, caching, configuring appearance, no ads,
 							simple adoption by developers and support by
 							<a href="https://instantview.telegram.org/contest">thousands</a> of websites</td>
+					</tr>
+					<tr>
+						<td rowspan=3><b>Comments Platform</b></td>
+						<td>Concept</td>
+						<td class="advantage"><a
+								href="https://telegram.org/blog/silent-messages-slow-mode#comments-widget">A web
+								service</a> for convenient commenting with possibility to add comments to both Telegram
+							channels and external websites</td>
+						<td rowspan=3 class="disadvantage">Not supported</td>
+						<td rowspan=3 class="disadvantage">Not supported</td>
+					</tr>
+					<tr>
+						<td>Implementation</td>
+						<td class="advantage">Via <a href="https://comments.app/">comments.app</a> website and <a
+								href="https://t.me/discussbot">@discussbot</a> with authorization via Telegram</td>
+					</tr>
+					<tr>
+						<td>Main Capabilities</td>
+						<td class="advantage">Comments with text and photos, likes, dislikes, replies, subscription to
+							notifications</td>
 					</tr>
 					<tr>
 						<td rowspan=5><b>Web Publishing Platform</b></td>
@@ -2310,7 +2371,7 @@
 						<td class="mediocrity">Unavailable</td>
 					</tr>
 					<tr>
-						<td rowspan=103 height="3386" class="bottom-left">
+						<td rowspan=105 height="3386" class="bottom-left">
 							<h3 class="group-text">Settings</h3>
 						</td>
 						<td rowspan=8><b>General</b></td>
@@ -2559,7 +2620,8 @@
 					</tr>
 					<tr>
 						<td>Active Sessions Control</td>
-						<td class="advantage">Supported, with extended real-time info and possibility to end all other sessions from any device</td>
+						<td class="advantage">Supported, with extended real-time info and possibility to end all other
+							sessions from any device</td>
 						<td class="mediocrity">Supported</td>
 						<td class="mediocrity">Supported</td>
 					</tr>
@@ -2803,7 +2865,7 @@
 						<td class="disadvantage">Not supported</td>
 					</tr>
 					<tr>
-						<td rowspan=25><b>Chats and Calls Settings</b></td>
+						<td rowspan=27><b>Chats and Calls Settings</b></td>
 						<td>Creation of New Themes</td>
 						<td class="advantage">Supported (with configuration of dozens of parameters)</td>
 						<td class="disadvantage">Not supported</td>
@@ -2881,10 +2943,22 @@
 						<td class="advantage">Enabled/disabled</td>
 					</tr>
 					<tr>
+						<td>Distance Units</td>
+						<td class="advantage">Automatic, kilometers, miles</td>
+						<td class="disadvantage">Not supported</td>
+						<td class="disadvantage">Not supported</td>
+					</tr>
+					<tr>
 						<td>Stickers and Masks: Suggesting Stickers by Emoji</td>
 						<td class="advantage">All, your sets, none</td>
 						<td class="disadvantage">Configuration is not supported</td>
 						<td class="disadvantage">Configuration is not supported</td>
+					</tr>
+					<tr>
+						<td>Stickers and Masks: Loop Animated Stickers</td>
+						<td class="advantage">Enabled/disabled</td>
+						<td class="disadvantage">Not supported</td>
+						<td class="disadvantage">Not supported</td>
 					</tr>
 					<tr>
 						<td>Stickers and Masks: Viewing Trending Stickers</td>
@@ -2974,8 +3048,8 @@
 			</table>
 		</div>
 		<p class="updated-date">
-			Updated: 12 of July, 2019 <br>
-			Translation updated: 12 of July, 2019 <br> <br>
+			Updated: 10 of August, 2019 <br>
+			Translation updated: 10 of August, 2019 <br> <br>
 			Translation author: <a href="https://github.com/JayXT">JayXT</a>
 		</p>
 	</section>
