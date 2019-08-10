@@ -382,14 +382,14 @@
 						<td class="mediocrity">WhatsApp for Business (несмотря на маркетинговые возможности создаёт лишнюю фрагментацию)</td>
 					</tr>
 					<tr>
-						<td rowspan=71>
+						<td rowspan=73>
 							<h3 class="group-text">Сообщение</h3>
 						</td>
-						<td rowspan=30><b>Поддерживаемое содержание</b></td>
+						<td rowspan=31><b>Поддерживаемое содержание</b></td>
 						<td>Текст</td>
-						<td class="advantage">С поддержкой форматирования (жирный, моноширинный, курсивный, подчеркнутый, зачеркнутый шрифт)</td>
+						<td class="advantage">С поддержкой комбинированного форматирования (жирный, моноширинный, курсивный, подчеркнутый, зачеркнутый шрифт)</td>
 						<td class="disadvantage">Без поддержки форматирования</td>
-						<td class="advantage">С поддержкой форматирования (жирный, моноширинный, курсивный, зачеркнутый шрифт)
+						<td class="mediocrity">С поддержкой форматирования (жирный, моноширинный, курсивный, зачеркнутый шрифт)
 						</td>
 					</tr>
 					<tr>
@@ -444,6 +444,14 @@
 						<td class="advantage">Поддерживаются (в том числе несколько наборов на Desktop)</td>
 						<td class="advantage">Поддерживаются</td>
 						<td class="advantage">Поддерживаются</td>
+					</tr>
+					<tr>
+						<td>Анимированные Эмодзи</td>
+						<td class="advantage"><a
+								href="https://telegram.org/blog/silent-messages-slow-mode#animated-emoji">Поддерживаются
+								(только некоторые)</a>, часть оказывает тактильную отдачу</td>
+						<td class="disadvantage">Не поддерживаются</td>
+						<td class="disadvantage">Не поддерживаются</td>
 					</tr>
 					<tr>
 						<td>Стикеры</td>
@@ -576,7 +584,7 @@
 						<td class="advantage">Поддерживаются</td>
 					</tr>
 					<tr>
-						<td rowspan=9><b>Отправка</b></td>
+						<td rowspan=10><b>Отправка</b></td>
 						<td>Массовая Отправка Файлов/Медиа</td>
 						<td class="advantage">Поддерживается</td>
 						<td class="disadvantage">Не поддерживается</td>
@@ -591,8 +599,16 @@
 					<tr>
 						<td>Массовая Пересылка</td>
 						<td class="advantage">До 100 сообщений за раз разным получателям</td>
-						<td class="mediocrity">С настольной версии до 25 сообщений разным получателям</td>
+						<td class="mediocrity">Desktop: до 25 сообщений разным получателям;<br> Android: 1
+							сообщение различным получателям</td>
 						<td class="mediocrity">До 10 сообщений за раз</td>
+					</tr>
+					<tr>
+						<td>Тихая Отправка Сообщений</td>
+						<td class="advantage"><a
+								href="https://telegram.org/blog/silent-messages-slow-mode">Поддерживается</a></td>
+						<td class="disadvantage">Не поддерживается</td>
+						<td class="disadvantage">Не поддерживается</td>
 					</tr>
 					<tr>
 						<td>Отмена Отправки при Медленном Соединении</td>
@@ -775,15 +791,16 @@
 						<td class="disadvantage">Не поддерживается</td>
 					</tr>
 					<tr>
-						<td>Перемотки Видео</td>
-						<td class="advantage">Поддерживается</td>
+						<td>Перемотка Видео</td>
+						<td class="advantage">Доступно, с поддержкой <a
+								href="https://telegram.org/blog/silent-messages-slow-mode#timestamps-and-improved-scrubbing">предварительного просмотра и временных меток</a></td>
 						<td class="disadvantage">Не поддерживается</td>
 						<td class="disadvantage">Не поддерживается</td>
 					</tr>
 					<tr>
 						<td>Автозапуск Анимаций и Видео</td>
 						<td class="advantage">Поддерживается (включение звука кнопкой громкости)</td>
-						<td class="disadvantage">Не поддерживается</td>
+						<td class="advantage">Поддерживается</td>
 						<td class="disadvantage">Не поддерживается</td>
 					</tr>
 					<tr>
@@ -830,7 +847,7 @@
 						<td class="advantage">Поддерживается</td>
 					</tr>
 					<tr>
-						<td rowspan=131>
+						<td rowspan=133>
 							<h3 class="group-text">Методы Коммуникации</h3>
 						</td>
 						<td rowspan=16><b>Общие Возможности</b></td>
@@ -1020,7 +1037,7 @@
 						<td class="advantage">Не доступны</td>
 					</tr>
 					<tr>
-						<td rowspan=26><b>Группы</b></td>
+						<td rowspan=28><b>Группы</b></td>
 						<td>Организовано Через</td>
 						<td class="advantage">Группы</td>
 						<td class="mediocrity">Группы; Сообщества</td>
@@ -1098,9 +1115,26 @@
 						<td class="disadvantage">Нет</td>
 					</tr>
 					<tr>
+						<td>Медленный Режим</td>
+						<td class="advantage"><a
+								href="https://telegram.org/blog/silent-messages-slow-mode#slow-mode">Поддерживается</a>
+							(отправка не более одного сообщения за указанный промежуток времени)</td>
+						<td class="disadvantage">Не поддерживается</td>
+						<td class="disadvantage">Не поддерживается</td>
+					</tr>
+					<tr>
 						<td>Изменение Владельца</td>
 						<td class="advantage"><a
 								href="https://telegram.org/blog/contacts-local-groups#transfer-group-chats">Поддерживается</a>
+						</td>
+						<td class="disadvantage">Не поддерживается</td>
+						<td class="disadvantage">Не поддерживается</td>
+					</tr>
+					<tr>
+						<td>Должности Администраторов</td>
+						<td class="advantage"><a
+								href="https://telegram.org/blog/silent-messages-slow-mode#admin-titles">Поддерживается</a>
+							(изменение меток в сообщениях админов)
 						</td>
 						<td class="disadvantage">Не поддерживается</td>
 						<td class="disadvantage">Не поддерживается</td>
@@ -1915,7 +1949,7 @@
 						<td class="disadvantage">Не поддерживаются</td>
 					</tr>
 					<tr>
-						<td rowspan=52>
+						<td rowspan=55>
 							<h3 class="group-text">Экосистема</h3>
 						</td>
 						<td><b>Разработка Приложений</b></td>
@@ -2016,6 +2050,24 @@
 						<td class="advantage">Скорость, экономия трафика, кэширование, настройки внешнего вида,
 							отсутствие рекламы, простая адаптация разработчиками и поддержка <a
 								href="https://instantview.telegram.org/contest">тысяч</a> веб-сайтов</td>
+					</tr>
+					<tr>
+						<td rowspan=3><b>Платформа Комментариев</b></td>
+						<td>Концепция</td>
+						<td class="advantage"><a
+								href="https://telegram.org/blog/silent-messages-slow-mode#comments-widget">Веб-сервис</a>
+							для удобного комментирования с возможностью подключения как к каналам Telegram, так и к внешним веб-сайтам</td>
+						<td rowspan=3 class="disadvantage">Не поддерживается</td>
+						<td rowspan=3 class="disadvantage">Не поддерживается</td>
+					</tr>
+					<tr>
+						<td>Реализация</td>
+						<td class="advantage">Через сайт <a href="https://comments.app/">comments.app</a> и бота <a
+								href="https://t.me/discussbot">@discussbot</a> с авторизацией через Telegram</td>
+					</tr>
+					<tr>
+						<td>Основные возможности</td>
+						<td class="advantage">Комментарии с текстом и фото, лайки, дизлайки, ответы, подписка на уведомления</td>
 					</tr>
 					<tr>
 						<td rowspan=5><b>Платформа Веб Публикаций</b></td>
@@ -2240,7 +2292,7 @@
 						<td class="mediocrity">Недоступна</td>
 					</tr>
 					<tr>
-						<td rowspan=103 height="3386" class="bottom-left">
+						<td rowspan=105 height="3386" class="bottom-left">
 							<h3 class="group-text">Настройка</h3>
 						</td>
 						<td rowspan=8><b>Общие</b></td>
@@ -2718,7 +2770,7 @@
 						<td class="disadvantage">Не поддерживается</td>
 					</tr>
 					<tr>
-						<td rowspan=25><b>Настройка Чатов и Звонков</b></td>
+						<td rowspan=27><b>Настройка Чатов и Звонков</b></td>
 						<td>Создание Новых Тем</td>
 						<td class="advantage">Поддерживается (с настройкой десятков параметров)</td>
 						<td class="disadvantage">Не поддерживается</td>
@@ -2796,10 +2848,22 @@
 						<td class="advantage">Включен/выключен</td>
 					</tr>
 					<tr>
+						<td>Единица Расстояния</td>
+						<td class="advantage">Автоматически, километр, миля</td>
+						<td class="disadvantage">Не поддерживается</td>
+						<td class="disadvantage">Не поддерживается</td>
+					</tr>
+					<tr>
 						<td>Стикеры и Маски: Предложение Стикеров по Эмодзи</td>
 						<td class="advantage">Всех, ваших, никаких</td>
 						<td class="disadvantage">Конфигурация не поддерживается</td>
 						<td class="disadvantage">Конфигурация не поддерживается</td>
+					</tr>
+					<tr>
+						<td>Стикеры и Маски: Зацикливание Анимированных Стикеров</td>
+						<td class="advantage">Включен/выключен</td>
+						<td class="disadvantage">Не поддерживается</td>
+						<td class="disadvantage">Не поддерживается</td>
 					</tr>
 					<tr>
 						<td>Стикеры и Маски: Просмотр Популярных Стикеров</td>
@@ -2886,8 +2950,8 @@
 				</tbody>
 			</table>
 		</div>
-		<p class="updated-date">Обновлено: 12 июля 2019 г.<br>
-		Перевод обновлен: 12 июля 2019 г.<br><br>
+		<p class="updated-date">Обновлено: 10 августа 2019 г.<br>
+		Перевод обновлен: 10 августа 2019 г.<br><br>
 			Автор перевода: <a href="https://github.com/hookzof">hookz</a></p>
 	</section>
 </body>
