@@ -397,7 +397,7 @@
 							fragmentation)</td>
 					</tr>
 					<tr>
-						<td rowspan=74>
+						<td rowspan=76>
 							<h3 class="group-text">Messages</h3>
 						</td>
 						<td rowspan=31><b>Supported Content</b></td>
@@ -600,7 +600,7 @@
 						<td class="advantage">Supported</td>
 					</tr>
 					<tr>
-						<td rowspan=11><b>Sending</b></td>
+						<td rowspan=12><b>Sending</b></td>
 						<td>Bulk Media/File Sending</td>
 						<td class="advantage">Supported</td>
 						<td class="disadvantage">Not supported</td>
@@ -618,6 +618,12 @@
 						<td class="mediocrity">Desktop: up to 25 messages to different recipients;<br> Android/iOS: 1
 							message to different recipients</td>
 						<td class="mediocrity">Up to 10 messages at a time</td>
+					</tr>
+					<tr>
+						<td>Bulk Sharing</td>
+						<td class="advantage">Supported on Android (sending external content to several chats at a time)</td>
+						<td class="disadvantage">Not supported</td>
+						<td class="disadvantage">Not supported</td>
 					</tr>
 					<tr>
 						<td>Scheduled Message Sending</td>
@@ -765,7 +771,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td rowspan=17><b>Viewing</b></td>
+						<td rowspan=18><b>Viewing</b></td>
 						<td>Media</td>
 						<td class="advantage">All kinds</td>
 						<td class="disadvantage">Images, voice/video messages</td>
@@ -805,9 +811,9 @@
 						<td>Music Player</td>
 						<td class="advantage"><a
 								href="https://telegram.org/blog/live-locations#new-media-player">Available</a>, changing 
-							playback sequence, remembering last points and support for various formats
+							playback sequence, support for various formats
 							(MP3,
-							FLAC)</td>
+							FLAC)...</td>
 						<td class="disadvantage">Not supported</td>
 						<td class="mediocrity">Limited playback</td>
 					</tr>
@@ -822,6 +828,12 @@
 						<td class="advantage">Available, with support for <a
 								href="https://telegram.org/blog/silent-messages-slow-mode#timestamps-and-improved-scrubbing">thumbnail
 								previews and timestamps</a></td>
+						<td class="disadvantage">Not supported</td>
+						<td class="disadvantage">Not supported</td>
+					</tr>
+					<tr>
+						<td>Remembering Playback Points</td>
+						<td class="advantage">For long audio and video</td>
 						<td class="disadvantage">Not supported</td>
 						<td class="disadvantage">Not supported</td>
 					</tr>
@@ -875,10 +887,10 @@
 						<td class="advantage">Supported</td>
 					</tr>
 					<tr>
-						<td rowspan=134>
+						<td rowspan=136>
 							<h3 class="group-text">Communication Methods</h3>
 						</td>
-						<td rowspan=16><b>General Capabilities</b></td>
+						<td rowspan=18><b>General Capabilities</b></td>
 						<td>Saving Content to Cloud</td>
 						<td class="advantage">Unlimited by volume and storage period</td>
 						<td class="disadvantage">Not supported</td>
@@ -963,10 +975,23 @@
 						<td class="disadvantage">Not supported</td>
 					</tr>
 					<tr>
+						<td>Adding Contacts to Multiple Chats At A Time</td>
+						<td class="disadvantage">Not supported
+						</td>
+						<td class="advantage">Supported (for up to 10 groups on Android)</td>
+						<td class="disadvantage">Not supported</td>
+					</tr>
+					<tr>
 						<td>Marking as Read/Unread</td>
 						<td class="advantage">Supported (for chats)</td>
 						<td class="advantage">Supported (for chats)</td>
 						<td class="advantage">Supported (for chats)</td>
+					</tr>
+					<tr>
+						<td>Marking An Archive as Read</td>
+						<td class="advantage">Supported (for all its chats)</td>
+						<td class="disadvantage">Archive is not supported</td>
+						<td class="disadvantage">Not supported</td>
 					</tr>
 					<tr>
 						<td>Clearing Chat Cache</td>
@@ -1751,7 +1776,7 @@
 						<td class="advantage">Supported (fees apply)</td>
 					</tr>
 					<tr>
-						<td rowspan=21>
+						<td rowspan=22>
 							<h3 class="group-text">Search</h3>
 						</td>
 						<td align="center"><b>New Content</b></td>
@@ -1811,6 +1836,13 @@
 						<td class="disadvantage">Local device only (except for verified communities)
 						</td>
 						<td class="disadvantage">Local device only</td>
+					</tr>
+					<tr>
+						<td><b>Attachments</b></td>
+						<td>By Names</td>
+						<td class="advantage">Supported (for files and audio)</td>
+						<td class="disadvantage">Not supported</td>
+						<td class="disadvantage">Not supported</td>
 					</tr>
 					<tr>
 						<td rowspan=2><b>Emoji</b></td>
@@ -1896,7 +1928,7 @@
 						<td class="disadvantage">Not supported</td>
 					</tr>
 					<tr>
-						<td rowspan=19>
+						<td rowspan=21>
 							<h3 class="group-text">User Experience</h3>
 						</td>
 						<td rowspan=3><b>Apps Implementation</b></td>
@@ -1918,7 +1950,7 @@
 						<td class="mediocrity">Average</td>
 					</tr>
 					<tr>
-						<td rowspan=6><b>Controls</b></td>
+						<td rowspan=7><b>Controls</b></td>
 						<td>Keyboard Shortcuts and Mouse Actions</td>
 						<td class="advantage"><a
 								href="https://github.com/telegramdesktop/tdesktop/wiki/Keyboard-Shortcuts">Broad
@@ -1955,8 +1987,14 @@
 					</tr>
 					<tr>
 						<td>Undo Clearing History and Deleting Chats</td>
-						<td class="advantage">Supported, within 5 seconds</td>
+						<td class="advantage">Supported, within 5 seconds (Android, iOS)</td>
 						<td class="disadvantage">Not supported</td>
+						<td class="disadvantage">Not supported</td>
+					</tr>
+					<tr>
+						<td>Undo Deleting Messages</td>
+						<td class="disadvantage">Not supported</td>
+						<td class="advantage">For messages deleted for yourself (Desktop)</td>
 						<td class="disadvantage">Not supported</td>
 					</tr>
 					<tr>
@@ -1966,7 +2004,7 @@
 						<td class="disadvantage">Not supported</td>
 					</tr>
 					<tr>
-						<td rowspan=10><b>User Interface</b></td>
+						<td rowspan=11><b>User Interface</b></td>
 						<td>Changing Background for Individual Chats</td>
 						<td class="disadvantage">Not supported (background is common for all chats)</td>
 						<td class="advantage">Supported</td>
@@ -2029,6 +2067,12 @@
 					<tr>
 						<td>Sorting Contacts</td>
 						<td class="advantage">By name or by last seen</td>
+						<td class="mediocrity">By name</td>
+						<td class="mediocrity">By name</td>
+					</tr>
+					<tr>
+						<td>Sorting Files To Be Attached</td>
+						<td class="advantage">By name or changing date (including music)</td>
 						<td class="mediocrity">By name</td>
 						<td class="mediocrity">By name</td>
 					</tr>
@@ -2641,9 +2685,9 @@
 						<td class="advantage">Supported (as <a
 								href="https://telegram.org/blog/archive-and-new-design#you-shall-not-pass">PIN</a> or
 							password),
-							it's possible to unlock with fingerprint and set auto-lock</td>
+							it's possible to unlock with fingerprint; flexible auto-lock, notification contents' control are available</td>
 						<td class="mediocrity"> PIN only (on Viber Desktop)</td>
-						<td class="disadvantage">Not supported</td>
+						<td class="mediocrity">Solely via fingerprint with notification contents' control and mandatory auto-lock</td>
 					</tr>
 					<tr>
 						<td>Hidden Chats</td>
@@ -3098,8 +3142,8 @@
 			</table>
 		</div>
 		<p class="updated-date">
-			Updated: 13 of October, 2019 <br>
-			Translation updated: 13 of October, 2019 <br> <br>
+			Updated: 03 of November, 2019 <br>
+			Translation updated: 03 of November, 2019 <br> <br>
 			Translation author: <a href="https://github.com/JayXT">JayXT</a>
 		</p>
 	</section>
