@@ -72,11 +72,11 @@
 					</tr>
 					<tr>
 						<td>Джерело Фінансування</td>
-						<td class="advantage">Digital Fortress та Павло Дуров, пожертвування</td>
+						<td class="advantage">Digital Fortress та Павло Дуров, пожертвування, <a href="https://en.wikipedia.org/wiki/Telegram_(software)#Telegram_Open_Network_ICO">інвестиції</a> в Telegram Open Network</td>
 						<td class="mediocrity"><a
 								href="https://support.viber.com/customer/en/portal/articles/2536775">Реклама</a>,
 							платні функції (стікери, місцеві номери, Viber Out)</td>
-						<td class="mediocrity">Рекламний бізнес</td>
+						<td class="mediocrity">Рекламний бізнес та підписки</td>
 					</tr>
 					<tr>
 						<td rowspan=7><b>Відкритість</b></td>
@@ -122,7 +122,7 @@
 					</tr>
 					<tr>
 						<td>Додатки</td>
-						<td class="advantage"><a href="https://telegram.org/apps#source-code">Відкриті</a></td>
+						<td class="advantage"><a href="https://telegram.org/apps#source-code">Відкриті</a>, з <a href="https://core.telegram.org/reproducible-builds">можливістю</a> перевірки використаної кодової бази</td>
 						<td class="disadvantage">Закриті</td>
 						<td class="disadvantage">Закриті</td>
 					</tr>
@@ -136,7 +136,7 @@
 						<td class="disadvantage">Закрита</td>
 					</tr>
 					<tr>
-						<td>Протокол</td>
+						<td>Протокол Шифрування</td>
 						<td class="advantage">Власний відкритий <a href="https://core.telegram.org/mtproto">MTProto</a>
 						</td>
 						<td class="mediocrity">Напівзакритий пропрієтарний протокол (деяка <a
@@ -403,7 +403,7 @@
 							фрагментацію)</td>
 					</tr>
 					<tr>
-						<td rowspan=77>
+						<td rowspan=78>
 							<h3 class="group-text">Повідомлення</h3>
 						</td>
 						<td rowspan=32><b>Підтримуваний Вміст</b></td>
@@ -490,7 +490,7 @@
 						<td class="advantage"><a href="https://telegram.org/blog/animated-stickers">Підтримуються</a>,
 							поєднують суттєву економію ресурсів та високу плавність відтворення
 						</td>
-						<td class="disadvantage">Не підтримуються</td>
+						<td class="mediocrity">Лише мемоджі (iOS)</td>
 						<td class="disadvantage">Не підтримуються</td>
 					</tr>
 					<tr>
@@ -561,7 +561,7 @@
 					</tr>
 					<tr>
 						<td>Розташування та Місця</td>
-						<td class="advantage">Так, зокрема в режимі реального часу та переглядом взаємного розташування
+						<td class="advantage"><a href="https://telegram.org/blog/verifiable-apps-and-more#improved-venue-sharing">Так</a>, зокрема в режимі реального часу та переглядом взаємного розташування
 						</td>
 						<td class="mediocrity">Підтримуються</td>
 						<td class="advantage">Так, зокрема в режимі реального часу та переглядом взаємного розташування
@@ -601,7 +601,7 @@
 					<tr>
 						<td>Фінанси</td>
 						<td class="advantage">Необмежені можливості передачі через ботів</td>
-						<td class="disadvantage">Підтримка припинена</td>
+						<td class="mediocrity">Для деяких країн <a href="https://www.viber.com/blog/2019-12-18/pay-your-friends-back-with-moneytou/">через</a> розширення Moneytou (комісія ~1%)</td>
 						<td class="advantage">Через використання Facebook Pay</td>
 					</tr>
 					<tr>
@@ -646,8 +646,8 @@
 					<tr>
 						<td>Відкладена Відправка Повідомлень</td>
 						<td class="advantage"><a
-								href="https://telegram.org/blog/scheduled-reminders-themes">Підтримується</a>, з
-							переглядом та контролем відкладених повідомлень</td>
+								href="https://telegram.org/blog/scheduled-reminders-themes">Доступна</a> (також <a href="https://telegram.org/blog/verifiable-apps-and-more#send-when-online">при появі</a> в мережі) з
+							переглядом і контролем відкладених повідомлень</td>
 						<td class="disadvantage">Не підтримується</td>
 						<td class="disadvantage">Не підтримується</td>
 					</tr>
@@ -777,7 +777,7 @@
 						<td class="disadvantage">Не підтримується</td>
 					</tr>
 					<tr>
-						<td rowspan=2><b>Видалення</b></td>
+						<td rowspan=3><b>Видалення</b></td>
 						<td>Масове Видалення</td>
 						<td class="advantage">До 100 повідомлень за раз</td>
 						<td class="advantage">Підтримується</td>
@@ -790,6 +790,12 @@
 						<td class="disadvantage">Власні приватні повідомлення (впродовж 1 год зі сповіщенням про
 							видалення)
 						</td>
+					</tr>
+					<tr>
+						<td>Видалення Кешу Окремих Повідомлень</td>
+						<td class="advantage"><a href="https://telegram.org/blog/verifiable-apps-and-more#cache-clearing-shortcuts">Підтримується (iOS)</a></td>
+						<td class="disadvantage">Не підтримується (архітектурні обмеження)</td>
+						<td class="disadvantage">Не підтримується (архітектурні обмеження)</td>
 					</tr>
 					<tr>
 						<td rowspan=18><b>Перегляд</b></td>
@@ -854,7 +860,7 @@
 					</tr>
 					<tr>
 						<td>Запам'ятовування Позицій</td>
-						<td class="advantage">Для довгих аудіо та відео</td>
+						<td class="advantage">Для <a href="https://telegram.org/blog/verifiable-apps-and-more#podcast-and-audiobook-support">довгих</a> аудіо (подкасти, аудіокниги) та відео</td>
 						<td class="disadvantage">Не підтримується</td>
 						<td class="disadvantage">Не підтримується</td>
 					</tr>
@@ -1041,7 +1047,7 @@
 						<td>Призначення</td>
 						<td class="advantage">Хмарний доступ до власних даних з будь яких пристроїв</td>
 						<td rowspan=3 class="disadvantage">Не підтримується</td>
-						<td rowspan=3 class="disadvantage">Не підтримується</td>
+						<td rowspan=2 class="disadvantage">Не підтримується</td>
 					</tr>
 					<tr>
 						<td>Швидкий Перехід до Джерела</td>
@@ -1052,6 +1058,7 @@
 						<td class="advantage"><a
 								href="https://telegram.org/blog/scheduled-reminders-themes">Підтримується</a>, через
 							відкладені повідомлення</td>
+						<td class="mediocrity">Через платну <a href="https://whatsapp.any.do/">інтеграцію</a> з сервісом Any.do</td>
 					</tr>
 					<tr>
 						<td rowspan=2><b>Особисті Чати</b></td>
@@ -2061,7 +2068,7 @@
 					<tr>
 						<td>Розширена Конфігурація Фону</td>
 						<td class="advantage"><a href="https://telegram.org/blog/backgrounds-2-0">Підтримується</a>
-							(візерунки, їх
+							(<a href="https://telegram.org/blog/verifiable-apps-and-more#theme-editor-2-0">візерунки</a>, їх
 							інтенсивність, розмиття, рух)</td>
 						<td class="disadvantage">Не підтримується</td>
 						<td class="disadvantage">Не підтримується</td>
@@ -2076,7 +2083,7 @@
 					</tr>
 					<tr>
 						<td>Підтримка Нічного Режиму</td>
-						<td class="advantage">Підтримується</td>
+						<td class="advantage">З глибокою інтеграцією та підтримкою швидкої активації <a href="https://telegram.org/blog/verifiable-apps-and-more#switch-to-night-mode-faster">через перемикач</a></td>
 						<td class="disadvantage">Не підтримується</td>
 						<td class="disadvantage">Не підтримується</td>
 					</tr>
@@ -2134,7 +2141,7 @@
 						<td class="disadvantage">Не підтримуються</td>
 					</tr>
 					<tr>
-						<td rowspan=63>
+						<td rowspan=64>
 							<h3 class="group-text">Екосистема</h3>
 						</td>
 						<td><b>Розробка Додатків</b></td>
@@ -2225,6 +2232,13 @@
 						<td>Змагання</td>
 						<td class="advantage">Підтримуються (через обмін іграми в чатах та встановлення рекордів)</td>
 						<td class="mediocrity">Обмежена підтримка через відправку рекордів вручну</td>
+					</tr>
+					<tr>
+						<td><b>Платформа "Shorts"</b></td>
+						<td>Концепція</td>
+						<td class="mediocrity">Теоретична підтримка коротких чат-історій через Bot API</td>
+						<td class="advantage">Публікування, доступ та читання <a href="https://www.viber.com/blog/2019-10-22/shorts-by-viber-quick-reads-you-cant-stop-binging/">коротких історій</a> у вигляді чатів</td>
+						<td class="disadvantage">Не підтримується</td>
 					</tr>
 					<tr>
 						<td rowspan=3><b>Платформа Миттєвого Перегляду</b></td>
@@ -2565,7 +2579,7 @@
 						<td class="mediocrity">Недоступна</td>
 					</tr>
 					<tr>
-						<td rowspan=107 height="3386" class="bottom-left">
+						<td rowspan=111 height="3386" class="bottom-left">
 							<h3 class="group-text">Налаштування</h3>
 						</td>
 						<td rowspan=8><b>Загальні</b></td>
@@ -2930,7 +2944,7 @@
 						<td class="advantage">Геолокація не надається третім сторонам</td>
 					</tr>
 					<tr>
-						<td rowspan=22><b>Дані та Сховище</b></td>
+						<td rowspan=25><b>Дані та Сховище</b></td>
 						<td>Використання Сховища: Період Зберігання Медіа</td>
 						<td class="advantage">Завжди, місяць, тиждень або 3 дні</td>
 						<td class="mediocrity">Для відео та голосових повідомлень впродовж 14 днів (увімкнено/вимкнено)
@@ -2939,8 +2953,7 @@
 					</tr>
 					<tr>
 						<td>Використання Сховища: Очищення Кешу</td>
-						<td class="advantage">Доступне за типами вмісту (можлива очистка окремих каналів з контекстного
-							меню)
+						<td class="advantage">Доступне за типами вмісту (можлива очистка окремих каналів з контекстного меню) 
 						</td>
 						<td class="disadvantage">Лише відео та голосові повідомлення</td>
 						<td class="advantage">Доступне за чатами та типами вмісту</td>
@@ -2950,6 +2963,12 @@
 						<td class="advantage">Підтримується</td>
 						<td class="disadvantage">Не підтримується</td>
 						<td class="disadvantage">Не підтримується</td>
+					</tr>
+					<tr>
+						<td>Використання Сховища: Швидкий Моніторинг Пам'яті</td>
+						<td class="advantage"><a href="https://telegram.org/blog/verifiable-apps-and-more#storage-usage-at-a-glance">Доступний (iOS)</a></td>
+						<td class="disadvantage">Недоступний</td>
+						<td class="disadvantage">Недоступний</td>
 					</tr>
 					<tr>
 						<td>Споживання Трафіку: Типи Підключення</td>
@@ -3024,7 +3043,7 @@
 					</tr>
 					<tr>
 						<td>Автовідтворення</td>
-						<td class="advantage">Для GIF та відео</td>
+						<td class="advantage">Для GIF, відео та відеоповідомлень</td>
 						<td class="disadvantage">Не підтримується</td>
 						<td class="disadvantage">Не підтримується</td>
 					</tr>
@@ -3054,6 +3073,18 @@
 						<td class="disadvantage">Конфігурація не підтримується</td>
 					</tr>
 					<tr>
+						<td>Налаштування Меню Обміну iOS</td>
+						<td class="advantage"><a href="https://telegram.org/blog/verifiable-apps-and-more#share-sheet-settings">Підтримується</a></td>
+						<td class="disadvantage">Конфігурація не підтримується</td>
+						<td class="disadvantage">Конфігурація не підтримується</td>
+					</tr>
+					<tr>
+						<td>Вибір Браузеру Для Відкриття Посилань</td>
+						<td class="advantage"><a href="https://telegram.org/blog/verifiable-apps-and-more#choose-your-browser">Підтримується (iOS)</a></td>
+						<td class="disadvantage">Конфігурація не підтримується</td>
+						<td class="disadvantage">Конфігурація не підтримується</td>
+					</tr>
+					<tr>
 						<td>Політика Сну Wi-Fi</td>
 						<td class="disadvantage">Конфігурація не підтримується</td>
 						<td class="advantage">Завжди під&rsquo;єднано/використовувати налаштування пристрою</td>
@@ -3072,9 +3103,9 @@
 						<td class="disadvantage">Не підтримується</td>
 					</tr>
 					<tr>
-						<td rowspan=28><b>Налаштування Чатів та Дзвінків</b></td>
+						<td rowspan=29><b>Налаштування Чатів та Дзвінків</b></td>
 						<td>Створення Нових Тем</td>
-						<td class="advantage">Підтримується (з налаштуванням десятків параметрів)</td>
+						<td class="advantage">З налаштуванням десятків параметрів та підтримкою <a href="https://telegram.org/blog/verifiable-apps-and-more#theme-editor-2-0">градієнтів</a></td>
 						<td class="disadvantage">Не підтримується</td>
 						<td class="disadvantage">Не підтримується</td>
 					</tr>
@@ -3101,7 +3132,7 @@
 					<tr>
 						<td>Зміна Теми</td>
 						<td class="advantage">Підтримується (зокрема доступні 5 стандартних), зі <a
-								href="https://telegram.org/blog/scheduled-reminders-themes#custom-cloud-themes">зміною</a>
+								href="https://telegram.org/blog/verifiable-apps-and-more#new-predefined-colors">зміною</a>
 							акцентних кольорів</td>
 						<td class="mediocrity">Лише темна тема</td>
 						<td class="disadvantage">Не підтримується</td>
@@ -3154,7 +3185,7 @@
 					<tr>
 						<td>Зберігати до Галереї</td>
 						<td class="advantage">Вимкнено/увімкнено</td>
-						<td class="disadvantage">Не підтримується</td>
+						<td class="advantage">Вимкнено/увімкнено (Android)</td>
 						<td class="advantage">Увімкнено/вимкнено</td>
 					</tr>
 					<tr>
@@ -3251,6 +3282,12 @@
 						<td class="advantage">Опція відсутня (увімкнено за замовчуванням)</td>
 					</tr>
 					<tr>
+						<td>Перевірка Правопису</td>
+						<td class="advantage">Підтримується (Telegram Desktop)</td>
+						<td class="disadvantage">Не підтримується</td>
+						<td class="disadvantage">Не підтримується</td>
+					</tr>
+					<tr>
 						<td><b>Зміна Мови</b></td>
 						<td>З Можливістю Вибору</td>
 						<td class="advantage">Підтримується</td>
@@ -3262,7 +3299,7 @@
 			</table>
 		</div>
 		<p class="updated-date">
-			Оновлено: 16 листопада 2019 р. <br> <br>
+			Оновлено: 01 січня 2020 р. <br> <br>
 			Автор: <a href="https://github.com/JayXT">JayXT</a>
 		</p>
 	</section>
