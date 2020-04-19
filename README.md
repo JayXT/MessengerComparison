@@ -10,6 +10,7 @@ The comparison table is available via following URLs:
 Current Maintainers:
 - JayXT: EN, UA
 - Hookz: RU
+- Teuscard: PT
 
 
 If you want to create the new translation or project based on this repository, feel free to use one of the following approaches:
