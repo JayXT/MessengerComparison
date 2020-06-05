@@ -421,7 +421,7 @@
 							fragmentation)</td>
 					</tr>
 					<tr>
-						<td rowspan=79>
+						<td rowspan=80>
 							<h3 class="group-text">Messages</h3>
 						</td>
 						<td rowspan=32>
@@ -721,7 +721,7 @@
 						<td class="disadvantage">Not supported</td>
 					</tr>
 					<tr>
-						<td rowspan=13>
+						<td rowspan=14>
 							<h4 class="aspect-text">Editing</h4>
 						</td>
 						<td>Messages Text</td>
@@ -742,20 +742,26 @@
 						<td class="disadvantage">Not supported</td>
 					</tr>
 					<tr>
-						<td>Drawing on Images</td>
+						<td>Drawing on Media</td>
 						<td class="advantage">Supported</td>
-						<td class="advantage">Supported</td>
-						<td class="advantage">Supported</td>
+						<td class="mediocrity">On images only</td>
+						<td class="mediocrity">On images only</td>
 					</tr>
 					<tr>
 						<td>Adding Masks, Stickers, Text</td>
-						<td class="advantage">Supported</td>
-						<td class="mediocrity">Masks aren't supported</td>
-						<td class="disadvantage">Text only</td>
+						<td class="advantage">To images and videos</td>
+						<td class="disadvantage">Only to images (except for masks)</td>
+						<td class="disadvantage">Only to images, text only</td>
 					</tr>
 					<tr>
-						<td>Image Correction</td>
-						<td class="advantage">Supported</td>
+						<td>Adding Animated Stickers</td>
+						<td class="advantage">To <a href="https://telegram.org/blog/video-editor-gifs#animated-stickers-on-media">images and videos</a></td>
+						<td class="disadvantage">Not supported</td>
+						<td class="disadvantage">Not supported</td>
+					</tr>
+					<tr>
+						<td>Media Correction</td>
+						<td class="advantage">For images and videos</td>
 						<td class="disadvantage">Not supported</td>
 						<td class="disadvantage">Not supported</td>
 					</tr>
@@ -773,7 +779,7 @@
 					</tr>
 					<tr>
 						<td>Curves Tool</td>
-						<td class="advantage">Supported</td>
+						<td class="advantage">For images and videos</td>
 						<td class="disadvantage">Not supported</td>
 						<td class="disadvantage">Not supported</td>
 					</tr>
@@ -990,7 +996,7 @@
 					<tr>
 						<td>Operations with Multiple Chats Simultaneously</td>
 						<td class="advantage">Pinning/unpinning, (un)archiving, deleting, clearing history,
-							cache, marking as read/unread, enabling/disabling notifications</td>
+							cache, marking as read/unread, enabling/disabling notifications, adding/removing from folder</td>
 						<td class="disadvantage">Not supported</td>
 						<td class="disadvantage">Not supported</td>
 					</tr>
@@ -1834,8 +1840,8 @@
 						</td>
 						<td>Number of Participants</td>
 						<td rowspan=2 class="disadvantage">Not supported</td>
-						<td class="advantage">Up to 5 participants</td>
-						<td class="mediocrity">Up to 4 participants (mobile devices only)</td>
+						<td class="advantage">Up to 20 participants</td>
+						<td class="mediocrity">Up to 8 participants (mobile devices only)</td>
 					</tr>
 					<tr>
 						<td>Encryption</td>
@@ -1873,7 +1879,7 @@
 						<td>Number of Participants</td>
 						<td rowspan=2 class="disadvantage">Not supported</td>
 						<td rowspan=2 class="disadvantage">Not supported</td>
-						<td class="advantage">Up to 4 participants (mobile devices only)</td>
+						<td class="advantage">Up to 8 participants (mobile devices and <a href="https://portal.facebook.com/">Facebook Portal</a>)</td>
 					</tr>
 					<tr>
 						<td>Encryption</td>
@@ -1897,14 +1903,14 @@
 						<td class="advantage">Supported (fees apply)</td>
 					</tr>
 					<tr>
-						<td rowspan=22>
+						<td rowspan=23>
 							<h3 class="group-text">Search</h3>
 						</td>
 						<td>
 							<h4 class="aspect-text">New Content</h4>
 						</td>
 						<td>Via</td>
-						<td class="advantage">Bots or <a href="https://tlgrm.eu/channels">independent websites</a></td>
+						<td class="advantage">Integrated means (<a href="https://telegram.org/blog/video-editor-gifs#speaking-of-gifs">GIF</a>, <a href="https://telegram.org/blog/400-million#20-000-stickers">stickers</a>), bots or <a href="https://tlgrm.eu/channels">independent websites</a></td>
 						<td class="advantage"><a href="https://discover.viber.com/">Discover</a></td>
 						<td class="disadvantage">Not supported</td>
 					</tr>
@@ -2024,7 +2030,7 @@
 						<td class="disadvantage">Not supported</td>
 					</tr>
 					<tr>
-						<td>
+						<td rowspan=2>
 							<h4 class="aspect-text">Animations</h4>
 						</td>
 						<td>By Requests</td>
@@ -2032,6 +2038,12 @@
 						<td class="advantage">Supported (via extensions)</td>
 						<td class="advantage">Supported</td>
 					</tr>
+					<tr>
+						<td>Via Popular Emoji</td>
+						<td class="advantage"><a href="https://telegram.org/blog/video-editor-gifs#speaking-of-gifs">Supported</a></td>
+						<td class="advantage">Using extension with search by key tags</td>
+						<td class="disadvantage">Not supported</td>
+					</tr>	
 					<tr>
 						<td>
 							<h4 class="aspect-text">Places on Map</h4>
@@ -2077,7 +2089,7 @@
 						<td class="disadvantage">Not supported</td>
 					</tr>
 					<tr>
-						<td rowspan=22>
+						<td rowspan=23>
 							<h3 class="group-text">User Experience</h3>
 						</td>
 						<td rowspan=3>
@@ -2101,7 +2113,7 @@
 						<td class="mediocrity">Average</td>
 					</tr>
 					<tr>
-						<td rowspan=7>
+						<td rowspan=8>
 							<h4 class="aspect-text">Controls</h4>
 						</td>
 						<td>Keyboard Shortcuts and Mouse Actions</td>
@@ -2154,6 +2166,12 @@
 					<tr>
 						<td>Quick Video Playback in Full-Screen Mode</td>
 						<td class="advantage">Via screen rotation</td>
+						<td class="disadvantage">Not supported</td>
+						<td class="disadvantage">Not supported</td>
+					</tr>
+					<tr>
+						<td>Scaling in Media Editor</td>
+						<td class="advantage">For drawing</td>
 						<td class="disadvantage">Not supported</td>
 						<td class="disadvantage">Not supported</td>
 					</tr>
@@ -2250,7 +2268,7 @@
 						<td class="disadvantage">Not supported</td>
 					</tr>
 					<tr>
-						<td rowspan=67>
+						<td rowspan=68>
 							<h3 class="group-text">Ecosystem</h3>
 						</td>
 						<td>
@@ -2403,21 +2421,25 @@
 							notifications</td>
 					</tr>
 					<tr>
-						<td rowspan=4>
+						<td rowspan=5>
 							<h4 class="aspect-text">Quizzes Platform</h4>
 						</td>
 						<td>Concept</td>
-						<td class="advantage">Creation and editing of global <a href="https://telegram.org/blog/400-million#better-quizzes">quizzes</a></td>
-						<td rowspan=4 class="disadvantage">Not supported</td>
-						<td rowspan=4 class="disadvantage">Not supported</td>
+						<td class="advantage">Creation, editing, discovery and participation in global <a href="https://telegram.org/blog/400-million#better-quizzes">quizzes</a></td>
+						<td rowspan=5 class="disadvantage">Not supported</td>
+						<td rowspan=5 class="disadvantage">Not supported</td>
 					</tr>
 					<tr>
 						<td>Implementation</td>
-						<td class="advantage">Combining a set of polls with correct answers into quizzes with support for sharing and participation via <a href="https://t.me/quizbot">@quizbot</a></td>
+						<td class="advantage">Combining a set of polls with correct answers into quizzes with support for spreading via bot</td>
+					</tr>
+					<tr>
+						<td>Interaction Via</td>
+						<td class="advantage"><a href="https://t.me/quizbot">@quizbot</a>, <a href="https://quiz.directory">quiz.directory</a> website, groups, channels</td>
 					</tr>
 					<tr>
 						<td>Main Features</td>
-						<td class="advantage">Interaction via bot, groups, channels; support for global stats, explanations, timers, question shuffling</td>
+						<td class="advantage">Global stats, explanations, timers, question shuffling</td>
 					</tr>
 					<tr>
 						<td>Extensions</td>
@@ -3476,8 +3498,8 @@
 			</table>
 		</div>
 		<p class="updated-date">
-			Updated: 24 of April, 2020 <br>
-			Translation updated: 24 of April, 2020 <br> <br>
+			Updated: 5 of June, 2020 <br>
+			Translation updated: 5 of June, 2020 <br> <br>
 			Translation author: <a href="https://github.com/JayXT">JayXT</a>
 		</p>
 	</section>
