@@ -1,0 +1,26 @@
+name: DeployToGitHubPages
+env:
+  OUTPUT_DIR: Output
+
+# Controls when the action will run
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Generate Website
+      run: dotnet run
+
+    - name: Deploy Website
+      if: success()
+      uses: crazy-max/ghaction-github-pages@v1.5.1
+      with:
+        target_branch: gh-pages
+        build_dir: ${{ env.OUTPUT_DIR }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

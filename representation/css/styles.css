@@ -109,6 +109,11 @@ tr:last-child td:last-child {
     width: 250px;
 }
 
+td > ol {
+    padding-left: 20px;
+    margin: 0px;
+}
+
 /*Messenger Icons*/
 
 .telegram-icon {
