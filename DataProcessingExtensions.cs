@@ -1,4 +1,5 @@
 using CommonMark;
+using System;
 
 namespace MessengerComparison
 {
@@ -69,5 +70,13 @@ namespace MessengerComparison
             return false;
         }
 
+        public static DateTime ToDateTime(this string unixTimeStamp)
+        {
+            var dateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0,
+                                       System.DateTimeKind.Utc);
+            dateTime = dateTime.AddSeconds(Convert.ToDouble(unixTimeStamp));
+            
+            return dateTime;
+        }
     }
 }

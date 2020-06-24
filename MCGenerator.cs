@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Text.Json;
 
@@ -30,7 +31,7 @@ namespace MessengerComparison
 
                     var generalData =  GetObjectFromFile<Dictionary<string,string>>(generalDataPath);                    
                     var comparisonData = GetObjectFromFile<List<Group>>(comparisonDataPath);
-                    DateTime lastModified = File.GetLastWriteTimeUtc(comparisonDataPath);
+                    DateTime lastModified = GetLastModifiedDateFromGit(comparisonDataPath);
 
                     //Step 5: Generate HTML file from the data for a language
                     string html = new MCHtmlBuilder(lang, generalData, comparisonData, lastModified)
@@ -80,6 +81,34 @@ namespace MessengerComparison
             var jsonString = File.ReadAllText(filePath);
 
             return JsonSerializer.Deserialize<T>(jsonString);
+        }
+
+        static DateTime GetLastModifiedDateFromGit(string filePath)
+        {
+            try
+            {
+                var process = new Process()
+                {
+                    StartInfo = new ProcessStartInfo
+                    {
+                        FileName = "git",
+                        Arguments = $"log -1 --format=%cd --date=unix {filePath}",
+                        RedirectStandardOutput = true,
+                        UseShellExecute = false,
+                        CreateNoWindow = true,
+                    }
+                };
+
+                process.Start();
+                string unixTime = process.StandardOutput.ReadToEnd().TrimEnd('\n');
+                process.WaitForExit();
+
+                return unixTime.ToDateTime();
+            }
+            catch
+            {
+                return DateTime.UtcNow;
+            }
         }
     }
 }
