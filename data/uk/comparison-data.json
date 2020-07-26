@@ -309,7 +309,7 @@
           },
           {
             "FeatureName": "Підтримка Кількох Акаунтів",
-            "Telegram": "advantage|На iOS, Android та macOS"
+            "Telegram": "advantage|[Доступна](https://telegram.org/blog/profile-videos-people-nearby-and-more#multiple-accounts-on-telegram-desktop)"
           },
           {
             "FeatureName": "Альтернативні Клієнти",
@@ -389,7 +389,8 @@
           {
             "FeatureName": "Анімовані Стікери",
             "Telegram": "advantage|[Підтримуються](https://telegram.org/blog/animated-stickers), поєднують суттєву економію ресурсів та високу плавність відтворення",
-            "Viber": "mediocrity|Лише мемоджі (iOS)"
+            "Viber": "mediocrity|Лише мемоджі (iOS)",
+            "WhatsApp": "mediocrity|[Обмежена підтримка](https://blog.whatsapp.com/introducing-animated-stickers-qr-codes-and-more)"
           },
           {
             "FeatureName": "Анімації",
@@ -445,7 +446,7 @@
           },
           {
             "FeatureName": "Файли",
-            "Telegram": "advantage|До 1,5 ГБ в необмежених кількостях",
+            "Telegram": "advantage|До 2 ГБ в необмежених кількостях",
             "Viber": "mediocrity|До 0,2 ГБ",
             "WhatsApp": "disadvantage|Медіа до 0,016 ГБ, файли до 0,1 ГБ"
           },
@@ -585,13 +586,13 @@
           {
             "FeatureName": "Малювання на Медіа",
             "Telegram": "advantage|Підтримується",
-            "Viber": "mediocrity|Лише на зображеннях",
+            "Viber": "advantage|Підтримується",
             "WhatsApp": "mediocrity|Лише на зображеннях"
           },
           {
             "FeatureName": "Додавання Масок, Стікерів, Тексту",
             "Telegram": "advantage|До зображень та відео",
-            "Viber": "disadvantage|Лише до зображень (окрім масок)",
+            "Viber": "advantage|До зображень та відео",
             "WhatsApp": "disadvantage|Лише до зображень, лише текст"
           },
           {
@@ -601,6 +602,10 @@
           {
             "FeatureName": "Корекція Медіа",
             "Telegram": "advantage|Для зображень та відео"
+          },
+          {
+            "FeatureName": "Згладження Шкіри",
+            "Telegram": "advantage|[Для селфі](https://telegram.org/blog/profile-videos-people-nearby-and-more#soften-skin)"
           },
           {
             "FeatureName": "Фільтри Зображень",
@@ -616,9 +621,13 @@
             "Telegram": "advantage|Для зображень та відео"
           },
           {
-            "FeatureName": "Обрізка Відео та Відео Повідомлень",
+            "FeatureName": "Скорочення Відео та Відео Повідомлень",
             "Telegram": "advantage|Підтримується",
-            "Viber": "mediocrity|Лише відео, лише на iOS"
+            "Viber": "mediocrity|Лише відео"
+          },
+          {
+            "FeatureName": "Обрізка та Поворот Відео",
+            "Telegram": "advantage|[Підтримується](https://telegram.org/blog/profile-videos-people-nearby-and-more#android-extras)"
           },
           {
             "FeatureName": "Роздільна Здатність Відео",
@@ -630,7 +639,8 @@
           },
           {
             "FeatureName": "Створення Анімацій",
-            "Telegram": "advantage|Як відео з вимкненим звуком"
+            "Telegram": "advantage|Як відео з вимкненим звуком",
+            "Viber": "advantage|Підтримується (з [різноманітними](https://www.viber.com/en/blog/2020-06-16/loop-it-or-reverse-it-create-your-own-gif-on-viber/) режимами)"
           }
         ]
       },
@@ -801,6 +811,10 @@
             "Telegram": "advantage|Підтримується"
           },
           {
+            "FeatureName": "Відео Аватари Чатів",
+            "Telegram": "advantage|Підтримуються"
+          },
+          {
             "FeatureName": "Перегляд Вмісту За Типами Медіа",
             "Telegram": "advantage|Такі категорії як: медіа, файли, посилання, аудіо, голос, GIF",
             "Viber": "mediocrity|На Desktop та в групах такі дані як: медіа, посилання, файли, GIF",
@@ -899,9 +913,14 @@
           },
           {
             "FeatureName": "Спілкування з Публічними Акаунтами",
-            "Telegram": "advantage|Як з користувачами (через ім’я користувача), через ботів (наприклад, зворотного зв’язку)",
+            "Telegram": "advantage|Як з користувачами (через ім’я користувача, місцезнаходження), через ботів (наприклад, зворотного зв’язку)",
             "Viber": "advantage|Підтримується",
             "WhatsApp": "advantage|Підтримується (через WhatsApp for Business)"
+          },
+          {
+            "FeatureName": "Додаткові Функції Безпеки",
+            "Telegram": "advantage|В рамках секретних чатів",
+            "Viber": "advantage|Таймер самознищення повідомлень, сповіщення про скріншоти"
           }
         ]
       },
@@ -912,7 +931,7 @@
           {
             "FeatureName": "Захищені Чати з Контактами",
             "Telegram": "advantage|Підтримуються",
-            "Viber": "advantage|Підтримуються"
+            "Viber": "advantage|Підтримка як окремого типу чатів [припинена](https://www.viber.com/en/blog/2020-06-23/disappearing-messages-for-extra-privacy/)"
           },
           {
             "FeatureName": "Наскрізне Шифрування",
@@ -922,17 +941,17 @@
           {
             "FeatureName": "Вміст Сповіщень",
             "Telegram": "advantage|Приховано (з екрану блокування)",
-            "Viber": "advantage|Приховано (з екрану блокування)"
+            "Viber": "disadvantage|Відображено (на екрані блокування)"
           },
           {
             "FeatureName": "Знімки Екрана",
             "Telegram": "advantage|Заблоковано",
-            "Viber": "advantage|Заблоковано"
+            "Viber": "mediocrity|Про них [сповіщається](https://www.viber.com/en/blog/2020-06-23/disappearing-messages-for-extra-privacy/)"
           },
           {
             "FeatureName": "Копіювання/Пересилання Інформації Назовні",
             "Telegram": "advantage|Заблоковано",
-            "Viber": "advantage|Заблоковано"
+            "Viber": "disadvantage|Доступно"
           },
           {
             "FeatureName": "Таймер Самознищення Повідомлень",
@@ -942,7 +961,7 @@
           {
             "FeatureName": "Перевірка Безпеки",
             "Telegram": "advantage|Через [співставлення](https://telegram.org/faq#q-whats-this-encryption-key-39-thing) ключа шифрування",
-            "Viber": "mediocrity|Через [текстове підтвердження](https://support.viber.com/customer/portal/articles/2017401-viber-security-faq)"
+            "Viber": "disadvantage|Не підтримується"
           },
           {
             "FeatureName": "Підтримка Ботів/Розширень",
@@ -950,8 +969,8 @@
           },
           {
             "FeatureName": "Резервні Копії",
-            "Telegram": "advantage|Не доступні",
-            "Viber": "advantage|Не доступні"
+            "Telegram": "advantage|Недоступні",
+            "Viber": "disadvantage|Доступні"
           }
         ]
       },
@@ -1049,8 +1068,8 @@
           },
           {
             "FeatureName": "Статистика",
-            "Telegram": "advantage|Розширена статистика через ботів",
-            "Viber": "advantage|Через інструменти Community Insights"
+            "Telegram": "advantage|[Детальна інтегрована статистика](https://telegram.org/blog/profile-videos-people-nearby-and-more#group-stats), розширена статистика через ботів",
+            "Viber": "mediocrity|Через інструменти Community Insights"
           },
           {
             "FeatureName": "Контроль Дозволів Користувачів",
@@ -1276,7 +1295,7 @@
           },
           {
             "FeatureName": "Приклади Доступних Веб Сервісів",
-            "Telegram": "advantage|Bing Image Search, GIPHY, IMDb, YouTube, Wikipedia, Spotify, Gmail, Foursquare, Tenor, Guggy, Vlipsy…",
+            "Telegram": "advantage|Bing Image Search, Tenor, IMDb, YouTube, Wikipedia, Spotify, Gmail, Foursquare, Guggy, Vlipsy, GIPHY…",
             "Viber": "advantage|YouTube, Tenor, GIPHY, Guggy, Gfycat, FC Barcelona, TuneMoji, Vlipsy, Vice, Booking…"
           }
         ]
@@ -1369,7 +1388,7 @@
       },
       {
         "AspectName": "Медіа Статус",
-        "Telegram": "mediocrity|Обмежена підтримка через комбінацію опису профілю, каналів та ботів",
+        "Telegram": "mediocrity|Обмежена підтримка через комбінацію налаштувань профілю, каналів та ботів",
         "Features": [
           {
             "FeatureName": "Призначення",
@@ -1451,6 +1470,12 @@
             "WhatsApp": "mediocrity|Підтримуються (без можливості зміни відповідей)"
           },
           {
+            "FeatureName": "Реклама",
+            "Telegram": "advantage|Відсутня",
+            "Viber": "disadvantage|Після дзвінків",
+            "WhatsApp": "advantage|Відсутня"
+          },
+          {
             "FeatureName": "Перенесення Дзвінка на Пристрій",
             "Viber": "advantage|На телефон/комп’ютер"
           },
@@ -1472,6 +1497,11 @@
             "FeatureName": "Шифрування",
             "Viber": "mediocrity|Підтримується (реалізація невідома)",
             "WhatsApp": "advantage|Підтримується (теоретично Signal)"
+          },
+          {
+            "FeatureName": "Реклама",
+            "Viber": "disadvantage|Після дзвінків",
+            "WhatsApp": "advantage|Відсутня"
           }
         ]
       },
@@ -1494,8 +1524,13 @@
           },
           {
             "FeatureName": "Шифрування",
-            "Viber": "advantage|Підтримується (реалізація невідома)",
+            "Viber": "mediocrity|Підтримується (реалізація невідома)",
             "WhatsApp": "advantage|Підтримується (теоретично Signal)"
+          },
+          {
+            "FeatureName": "Реклама",
+            "Viber": "disadvantage|Після дзвінків",
+            "WhatsApp": "advantage|Відсутня"
           }
         ]
       },
@@ -1504,11 +1539,22 @@
         "Features": [
           {
             "FeatureName": "Кількість Учасників",
-            "WhatsApp": "advantage|До 8 учасників (на смартфонах та [Facebook Portal](https://portal.facebook.com/))"
+            "Viber": "advantage|До 20 учасників",
+            "WhatsApp": "mediocrity|До 8 учасників (на смартфонах та [Facebook Portal](https://portal.facebook.com/))"
           },
           {
             "FeatureName": "Шифрування",
+            "Viber": "disadvantage|Не підтримується",
             "WhatsApp": "advantage|Підтримується (теоретично Signal)"
+          },
+          {
+            "FeatureName": "Збільшення Відео Окремого Учасника",
+            "WhatsApp": "advantage|Підтримується"
+          },
+          {
+            "FeatureName": "Реклама",
+            "Viber": "disadvantage|Після дзвінків",
+            "WhatsApp": "advantage|Відсутня"
           }
         ]
       },
@@ -1750,9 +1796,9 @@
           },
           {
             "FeatureName": "Підтримка QR-кодів",
-            "Telegram": "advantage|Використовуються для обміну проксі (на macOS), авторизації в Telegram Desktop",
-            "Viber": "advantage|Використовуються зокрема для додавання друзів, приєднання до груп, додавання купонів, авторизації",
-            "WhatsApp": "advantage|Використовуються для співставлення ключів шифрування, запрошення до груп"
+            "Telegram": "advantage|Для обміну проксі (на macOS), авторизації в Telegram Desktop",
+            "Viber": "advantage|Для додавання друзів, приєднання до груп, додавання купонів, авторизації",
+            "WhatsApp": "advantage|Для співставлення ключів шифрування, запрошення до груп, додавання контактів, зв'язку з бізнес-акаунтами"
           },
           {
             "FeatureName": "Швидкі Переходи",
@@ -1799,7 +1845,7 @@
             "FeatureName": "Підтримка Тем",
             "Telegram": "advantage|Підтримуються, зокрема [користувацькі, хмарні теми](https://telegram.org/blog/scheduled-reminders-themes#custom-cloud-themes)",
             "Viber": "mediocrity|Лише темна та темно-синя тема",
-            "WhatsApp": "mediocrity|Лише [темна тема](https://blog.whatsapp.com/dark-mode-now-available-for-i-phone-and-android) (iOS, Android)"
+            "WhatsApp": "mediocrity|Лише [темна тема](https://blog.whatsapp.com/dark-mode-now-available-for-i-phone-and-android)"
           },
           {
             "FeatureName": "Підтримка Нічного Режиму",
@@ -1807,7 +1853,8 @@
           },
           {
             "FeatureName": "Перехід в Нічний Режим",
-            "Telegram": "advantage|За розкладом, сходом/заходом сонця чи показами датчика освітлення"
+            "Telegram": "advantage|За розкладом, сходом/заходом сонця чи показами датчика освітлення",
+            "Viber": "advantage|Підтримується (згідно з налаштувань системи)"
           },
           {
             "FeatureName": "Конфігурація Вигляду Бульбашок Повідомлень",
@@ -2121,6 +2168,10 @@
             "Telegram": "advantage|Створення, налаштування, редагування, пошук та обмін творчістю з іншими"
           },
           {
+            "FeatureName": "Через",
+            "Telegram": "advantage|Додатки та [веб-сайт](https://themes.telegram.org/)"
+          },
+          {
             "FeatureName": "Створення та Поширення Тем",
             "Telegram": "advantage|[Підтримується](https://core.telegram.org/themes) (результати конкурсів публікуються на офіційних каналах для [desktop](https://t.me/themes), [android](https://t.me/AndroidThemes))"
           },
@@ -2206,6 +2257,10 @@
           {
             "FeatureName": "Мов Інтерфейсу",
             "Telegram": "advantage|Підтримуються"
+          },
+          {
+            "FeatureName": "Бізнес Каталогів",
+            "WhatsApp": "advantage|[Підтримуються](https://blog.whatsapp.com/new-ways-to-reach-a-business-on-whatsapp)"
           }
         ]
       },
@@ -2252,6 +2307,10 @@
             "Telegram": "advantage|Підтримується (зокрема з можливістю пошуку зображень в інтернеті)",
             "Viber": "mediocrity|Лише зміна (підтримується імпорт з соц мереж)",
             "WhatsApp": "mediocrity|Лише зміна"
+          },
+          {
+            "FeatureName": "Зміна та Перегляд Відео Профілю",
+            "Telegram": "advantage|[Так](https://telegram.org/blog/profile-videos-people-nearby-and-more#profile-videos), з розширеним редагуванням"
           },
           {
             "FeatureName": "Зміна Імені",
@@ -2441,6 +2500,10 @@
           {
             "FeatureName": "Додавання Груп до Винятків",
             "Telegram": "advantage|[Підтримується](https://telegram.org/blog/privacy-discussions-web-bots)"
+          },
+          {
+            "FeatureName": "Приховування Чатів Не Від Ваших Контактів",
+            "Telegram": "advantage|[Вимкнено/увімкнено](https://telegram.org/blog/profile-videos-people-nearby-and-more#filter-new-chats-from-non-contacts) (вимикає сповіщення та архівує такі чати)"
           },
           {
             "FeatureName": "Статус Обміну Геоданими",

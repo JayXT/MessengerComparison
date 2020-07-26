@@ -309,7 +309,7 @@
           },
           {
             "FeatureName": "Support for Multiple Accounts",
-            "Telegram": "advantage|On iOS, Android and macOS"
+            "Telegram": "advantage|[Available](https://telegram.org/blog/profile-videos-people-nearby-and-more#multiple-accounts-on-telegram-desktop)"
           },
           {
             "FeatureName": "Alternative Clients",
@@ -389,7 +389,8 @@
           {
             "FeatureName": "Animated Stickers",
             "Telegram": "advantage|[Supported](https://telegram.org/blog/animated-stickers), they combine significant resources economy and high playback smoothness",
-            "Viber": "mediocrity|Memoji-only (iOS)"
+            "Viber": "mediocrity|Memoji-only (iOS)",
+            "WhatsApp": "mediocrity|[Limited support](https://blog.whatsapp.com/introducing-animated-stickers-qr-codes-and-more)"
           },
           {
             "FeatureName": "Animations",
@@ -445,7 +446,7 @@
           },
           {
             "FeatureName": "Files",
-            "Telegram": "advantage|Up to 1.5 GB with no limits on number of files",
+            "Telegram": "advantage|Up to 2 GB with no limits on number of files",
             "Viber": "mediocrity|Up to 0.2 GB",
             "WhatsApp": "disadvantage|Media up to 0.016 GB, files up to 0.1 GB"
           },
@@ -585,13 +586,13 @@
           {
             "FeatureName": "Drawing on Media",
             "Telegram": "advantage|Supported",
-            "Viber": "mediocrity|On images only",
+            "Viber": "advantage|Supported",
             "WhatsApp": "mediocrity|On images only"
           },
           {
             "FeatureName": "Adding Masks, Stickers, Text",
             "Telegram": "advantage|To images and videos",
-            "Viber": "disadvantage|Only to images (except for masks)",
+            "Viber": "advantage|To images and videos",
             "WhatsApp": "disadvantage|Only to images, text only"
           },
           {
@@ -601,6 +602,10 @@
           {
             "FeatureName": "Media Correction",
             "Telegram": "advantage|For images and videos"
+          },
+          {
+            "FeatureName": "Skin Softening",
+            "Telegram": "advantage|[For selfies](https://telegram.org/blog/profile-videos-people-nearby-and-more#soften-skin)"
           },
           {
             "FeatureName": "Image Filters",
@@ -618,7 +623,11 @@
           {
             "FeatureName": "Trimming Videos and Video Messages",
             "Telegram": "advantage|Supported",
-            "Viber": "mediocrity|Videos only, iOS only"
+            "Viber": "mediocrity|Videos only"
+          },
+          {
+            "FeatureName": "Cropping and Rotating Videos",
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/profile-videos-people-nearby-and-more#android-extras)"
           },
           {
             "FeatureName": "Video Resolution",
@@ -630,7 +639,8 @@
           },
           {
             "FeatureName": "Creation of Animations",
-            "Telegram": "advantage|As muted videos"
+            "Telegram": "advantage|As muted videos",
+            "Viber": "advantage|Supported (with [different](https://www.viber.com/en/blog/2020-06-16/loop-it-or-reverse-it-create-your-own-gif-on-viber/) modes)"
           }
         ]
       },
@@ -801,6 +811,10 @@
             "Telegram": "advantage|Supported"
           },
           {
+            "FeatureName": "Chat Video Avatars",
+            "Telegram": "advantage|Supported"
+          },
+          {
             "FeatureName": "Viewing Content By Media Types",
             "Telegram": "advantage|By such categories as: media, files, links, audio, voice, GIF",
             "Viber": "mediocrity|On Desktop and in groups such data as: media, links, files, GIF",
@@ -899,9 +913,14 @@
           },
           {
             "FeatureName": "Communication with Public Accounts",
-            "Telegram": "advantage|As with user (via username), via bots (e.g., feedback bots)",
+            "Telegram": "advantage|As with user (via username, location), via bots (e.g., feedback bots)",
             "Viber": "advantage|Supported",
             "WhatsApp": "advantage|Supported (via WhatsApp for Business)"
+          },
+          {
+            "FeatureName": "Additional Security Features",
+            "Telegram": "advantage|In scope of secret chats",
+            "Viber": "advantage|Messages self-destruct timer, screenshot notifications"
           }
         ]
       },
@@ -912,7 +931,7 @@
           {
             "FeatureName": "Secured Chats with Contacts",
             "Telegram": "advantage|Supported",
-            "Viber": "advantage|Supported"
+            "Viber": "advantage|Support for such separate chats' type has been [ended](https://www.viber.com/en/blog/2020-06-23/disappearing-messages-for-extra-privacy/)"
           },
           {
             "FeatureName": "End-to-End Encryption",
@@ -922,17 +941,17 @@
           {
             "FeatureName": "Notifications' Contents",
             "Telegram": "advantage|Hidden (from lockscreen)",
-            "Viber": "advantage|Hidden (from lockscreen)"
+            "Viber": "disadvantage|Shown (on lockscreen)"
           },
           {
             "FeatureName": "Screenshots",
             "Telegram": "advantage|Blocked",
-            "Viber": "advantage|Blocked"
+            "Viber": "mediocrity|Are being [notified](https://www.viber.com/en/blog/2020-06-23/disappearing-messages-for-extra-privacy/)"
           },
           {
             "FeatureName": "Copying/Forwarding of Info Outside",
             "Telegram": "advantage|Blocked",
-            "Viber": "advantage|Blocked"
+            "Viber": "disadvantage|Available"
           },
           {
             "FeatureName": "Messages Self-Destruction Timer",
@@ -942,7 +961,7 @@
           {
             "FeatureName": "Security Check",
             "Telegram": "advantage|Via [comparison](https://telegram.org/faq#q-whats-this-encryption-key-39-thing) of encryption key",
-            "Viber": "mediocrity|Via [text confirmation](https://support.viber.com/customer/portal/articles/2017401-viber-security-faq)"
+            "Viber": "disadvantage|Not supported"
           },
           {
             "FeatureName": "Support for Bots/Extensions",
@@ -951,7 +970,7 @@
           {
             "FeatureName": "Backups",
             "Telegram": "advantage|Unavailable",
-            "Viber": "advantage|Unavailable"
+            "Viber": "disadvantage|Available"
           }
         ]
       },
@@ -1049,8 +1068,8 @@
           },
           {
             "FeatureName": "Statistics",
-            "Telegram": "advantage|Extended statistics via bots",
-            "Viber": "advantage|Through Community Insights instruments"
+            "Telegram": "advantage|[Detailed integrated stats](https://telegram.org/blog/profile-videos-people-nearby-and-more#group-stats), extended statistics via bots",
+            "Viber": "mediocrity|Through Community Insights instruments"
           },
           {
             "FeatureName": "Users' Permissions Control",
@@ -1276,7 +1295,7 @@
           },
           {
             "FeatureName": "Examples of Available Web Services",
-            "Telegram": "advantage|Bing Image Search, GIPHY, IMDb, YouTube, Wikipedia, Spotify, Gmail, Foursquare, Tenor, Guggy, Vlipsy…",
+            "Telegram": "advantage|Bing Image Search, Tenor, IMDb, YouTube, Wikipedia, Spotify, Gmail, Foursquare, Guggy, Vlipsy, GIPHY…",
             "Viber": "advantage|YouTube, Tenor, GIPHY, Guggy, Gfycat, FC Barcelona, TuneMoji, Vlipsy, Vice, Booking…"
           }
         ]
@@ -1369,7 +1388,7 @@
       },
       {
         "AspectName": "Media Status",
-        "Telegram": "mediocrity|Limited support via combination of profile description, channels and bots",
+        "Telegram": "mediocrity|Limited support via combination of profile settings, channels and bots",
         "Features": [
           {
             "FeatureName": "Destination",
@@ -1451,6 +1470,12 @@
             "WhatsApp": "mediocrity|Supported (without possibility to change replies)"
           },
           {
+            "FeatureName": "Ads",
+            "Telegram": "advantage|Absent",
+            "Viber": "disadvantage|After calls",
+            "WhatsApp": "advantage|Absent"
+          },
+          {
             "FeatureName": "Transferring The Call to Device",
             "Viber": "advantage|To phone/PC"
           },
@@ -1472,6 +1497,11 @@
             "FeatureName": "Encryption",
             "Viber": "mediocrity|Supported (unknown implementation)",
             "WhatsApp": "advantage|Supported (theoretically Signal)"
+          },
+          {
+            "FeatureName": "Ads",
+            "Viber": "disadvantage|After calls",
+            "WhatsApp": "advantage|Absent"
           }
         ]
       },
@@ -1494,8 +1524,13 @@
           },
           {
             "FeatureName": "Encryption",
-            "Viber": "advantage|Supported (unknown implementation)",
+            "Viber": "mediocrity|Supported (unknown implementation)",
             "WhatsApp": "advantage|Supported (theoretically Signal)"
+          },
+          {
+            "FeatureName": "Ads",
+            "Viber": "disadvantage|After calls",
+            "WhatsApp": "advantage|Absent"
           }
         ]
       },
@@ -1504,11 +1539,22 @@
         "Features": [
           {
             "FeatureName": "Number of Participants",
-            "WhatsApp": "advantage|Up to 8 participants (mobile devices and [Facebook Portal](https://portal.facebook.com/))"
+            "Viber": "advantage|Up to 20 participants",
+            "WhatsApp": "mediocrity|Up to 8 participants (mobile devices and [Facebook Portal](https://portal.facebook.com/))"
           },
           {
             "FeatureName": "Encryption",
+            "Viber": "disadvantage|Not supported",
             "WhatsApp": "advantage|Supported (theoretically Signal)"
+          },
+          {
+            "FeatureName": "Maximizing Individual Participant's Video",
+            "WhatsApp": "advantage|Supported"
+          },
+          {
+            "FeatureName": "Ads",
+            "Viber": "disadvantage|After calls",
+            "WhatsApp": "advantage|Absent"
           }
         ]
       },
@@ -1750,9 +1796,9 @@
           },
           {
             "FeatureName": "QR-codes Support",
-            "Telegram": "advantage|Are used for sharing proxies (on macOS), authorization in Telegram Desktop",
-            "Viber": "advantage|In particular, they are used to add friends, joining to groups, adding coupons, authorization",
-            "WhatsApp": "advantage|Are used for encryption keys collation, group invitations"
+            "Telegram": "advantage|For sharing proxies (on macOS), authorization in Telegram Desktop",
+            "Viber": "advantage|Used to add friends, joining to groups, adding coupons, authorization",
+            "WhatsApp": "advantage|Used for encryption keys' collation, group invitations, adding contacts, reaching out to businesses"
           },
           {
             "FeatureName": "Quick Transitions",
@@ -1799,7 +1845,7 @@
             "FeatureName": "Themes Support",
             "Telegram": "advantage|Supported, in particular, [custom, cloud themes](https://telegram.org/blog/scheduled-reminders-themes#custom-cloud-themes)",
             "Viber": "mediocrity|Dark and dark-blue theme only",
-            "WhatsApp": "mediocrity|[Dark theme](https://blog.whatsapp.com/dark-mode-now-available-for-i-phone-and-android) only (iOS, Android)"
+            "WhatsApp": "mediocrity|[Dark theme](https://blog.whatsapp.com/dark-mode-now-available-for-i-phone-and-android) only"
           },
           {
             "FeatureName": "Night Mode Support",
@@ -1807,7 +1853,8 @@
           },
           {
             "FeatureName": "Transition to Night Mode",
-            "Telegram": "advantage|On schedule, with sunrise/sunset or according to light sensor measurements"
+            "Telegram": "advantage|On schedule, with sunrise/sunset or according to light sensor measurements",
+            "Viber": "advantage|Supported (according to system settings)"
           },
           {
             "FeatureName": "Configuring Message Bubbles Appearance",
@@ -2121,6 +2168,10 @@
             "Telegram": "advantage|Creation, configuration, editing, searching and sharing artwork with others"
           },
           {
+            "FeatureName": "Via",
+            "Telegram": "advantage|Apps and [website](https://themes.telegram.org/)"
+          },
+          {
             "FeatureName": "Creation and Sharing Themes",
             "Telegram": "advantage|[Supported](https://core.telegram.org/themes) (contest results are posted on official channels for [desktop](https://t.me/themes), [android](https://t.me/AndroidThemes))"
           },
@@ -2206,6 +2257,10 @@
           {
             "FeatureName": "UI Languages",
             "Telegram": "advantage|Supported"
+          },
+          {
+            "FeatureName": "Business Catalogs",
+            "WhatsApp": "advantage|[Supported](https://blog.whatsapp.com/new-ways-to-reach-a-business-on-whatsapp)"
           }
         ]
       },
@@ -2252,6 +2307,10 @@
             "Telegram": "advantage|Supported (including option to look for images on the web)",
             "Viber": "mediocrity|Changing only (import from social networks is supported)",
             "WhatsApp": "mediocrity|Changing only"
+          },
+          {
+            "FeatureName": "Changing and Viewing Profile Videos",
+            "Telegram": "advantage|[Yes](https://telegram.org/blog/profile-videos-people-nearby-and-more#profile-videos), with extended editing"
           },
           {
             "FeatureName": "Changing Name",
@@ -2441,6 +2500,10 @@
           {
             "FeatureName": "Adding Groups to Exceptions",
             "Telegram": "advantage|[Supported](https://telegram.org/blog/privacy-discussions-web-bots)"
+          },
+          {
+            "FeatureName": "Hiding New Chats From Non-Contacts",
+            "Telegram": "advantage|[Disabled/enabled](https://telegram.org/blog/profile-videos-people-nearby-and-more#filter-new-chats-from-non-contacts) (turns off notifications and archives such chats)"
           },
           {
             "FeatureName": "Location Data Sharing Status",
