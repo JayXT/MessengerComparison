@@ -390,7 +390,7 @@
             "FeatureName": "Анимированные Стикеры",
             "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/animated-stickers), сочетают существенную экономию ресурсов и высокую плавность воспроизведения",
             "Viber": "mediocrity|Только мемоджи (iOS)",
-			"WhatsApp": "mediocrity|[Ограниченная поддержка](https://blog.whatsapp.com/introducing-animated-stickers-qr-codes-and-more)"
+            "WhatsApp": "mediocrity|[Ограниченная поддержка](https://blog.whatsapp.com/introducing-animated-stickers-qr-codes-and-more)"
           },
           {
             "FeatureName": "Анимации",
@@ -603,7 +603,7 @@
             "FeatureName": "Коррекция Медиа",
             "Telegram": "advantage|Для изображений и видео"
           },
-		  {
+          {
             "FeatureName": "Сглаживание Кожи",
             "Telegram": "advantage|[Для селфи](https://telegram.org/blog/profile-videos-people-nearby-and-more#soften-skin)"
           },
@@ -625,7 +625,7 @@
             "Telegram": "advantage|Поддерживается",
             "Viber": "mediocrity|Только видео, только на iOS"
           },
-		  {
+          {
             "FeatureName": "Обрезка и Поворот Видео",
             "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/profile-videos-people-nearby-and-more#android-extras)"
           },
@@ -640,7 +640,7 @@
           {
             "FeatureName": "Создание Анимации",
             "Telegram": "advantage|Как видео с выключенным звуком",
-			"Viber": "advantage|Поддерживается (с [разнообразными](https://www.viber.com/en/blog/2020-06-16/loop-it-or-reverse-it-create-your-own-gif-on-viber/) режимами)"
+            "Viber": "advantage|Поддерживается (с [разнообразными](https://www.viber.com/en/blog/2020-06-16/loop-it-or-reverse-it-create-your-own-gif-on-viber/) режимами)"
           }
         ]
       },
@@ -810,7 +810,7 @@
             "FeatureName": "Предварительный Обзор Чатов",
             "Telegram": "advantage|Поддерживается"
           },
-		  {
+          {
             "FeatureName": "Видео Аватары Чатов",
             "Telegram": "advantage|Поддерживается"
           },
@@ -917,7 +917,7 @@
             "Viber": "advantage|Поддерживается",
             "WhatsApp": "advantage|Поддерживается (через WhatsApp for Business)"
           },
-		  {
+          {
             "FeatureName": "Дополнительные Функции Безопасности",
             "Telegram": "advantage|В рамках секретных чатов",
             "Viber": "advantage|Таймер самоуничтожения сообщений, уведомления о скриншотах"
@@ -1469,7 +1469,7 @@
             "Viber": "mediocrity|Поддерживаются (без возможности изменения ответов)",
             "WhatsApp": "mediocrity|Поддерживаются (без возможности изменения ответов)"
           },
-		  {
+          {
             "FeatureName": "Реклама",
             "Telegram": "advantage|Отсутствует",
             "Viber": "disadvantage|После звонков",
@@ -1498,7 +1498,7 @@
             "Viber": "mediocrity|Поддерживается (реализация неизвестна)",
             "WhatsApp": "advantage|Поддерживается (теоретически Signal)"
           },
-		  {
+          {
             "FeatureName": "Реклама",
             "Viber": "disadvantage|После звонков",
             "WhatsApp": "advantage|Отсутствует"
@@ -1527,7 +1527,7 @@
             "Viber": "mediocrity|Поддерживается (реализация неизвестна)",
             "WhatsApp": "advantage|Поддерживается (теоретически Signal)"
           },
-		  {
+          {
             "FeatureName": "Реклама",
             "Viber": "disadvantage|После звонков",
             "WhatsApp": "advantage|Отсутствует"
@@ -1539,15 +1539,15 @@
         "Features": [
           {
             "FeatureName": "Количество Участников",
-			"Viber": "advantage|До 20 участников",
+            "Viber": "advantage|До 20 участников",
             "WhatsApp": "advantage|До 8 участников (на смартфонах и [Facebook Portal](https://portal.facebook.com/))"
           },
           {
             "FeatureName": "Шифрование",
-			"Viber": "disadvantage|Не поддерживается",
+            "Viber": "disadvantage|Не поддерживается",
             "WhatsApp": "advantage|Поддерживается (теоретически Signal)"
           },
-		  {
+          {
             "FeatureName": "Увеличение Видео Отдельного Участника",
             "WhatsApp": "advantage|Поддерживается"
           },
@@ -1854,7 +1854,7 @@
           {
             "FeatureName": "Переход в Ночной Режим",
             "Telegram": "advantage|По расписанию, восхода/захода солнца или показаниям датчика освещения",
-			"Viber": "advantage|Поддерживается (согласно настройкам системы)"
+            "Viber": "advantage|Поддерживается (согласно настройкам системы)"
           },
           {
             "FeatureName": "Конфигурация Вида Пузырьков Сообщений",
@@ -2167,7 +2167,7 @@
             "FeatureName": "Концепция",
             "Telegram": "advantage|Создание, настройка, редактирование, поиск и обмен творчеством с другими"
           },
-		  {
+          {
             "FeatureName": "Через",
             "Telegram": "advantage|Приложения и [веб-сайт](https://themes.telegram.org/)"
           },
@@ -2258,7 +2258,7 @@
             "FeatureName": "Языку интерфейса",
             "Telegram": "advantage|Поддерживаются"
           },
-		  {
+          {
             "FeatureName": "Бизнес Каталогам",
             "WhatsApp": "advantage|[Поддерживаются](https://blog.whatsapp.com/new-ways-to-reach-a-business-on-whatsapp)"
           }
@@ -2308,7 +2308,7 @@
             "Viber": "mediocrity|Только изменение (поддерживается импорт из социальных сетей)",
             "WhatsApp": "mediocrity|Только изменение"
           },
-		  {
+          {
             "FeatureName": "Изменение и Просмотр Видео Профиля",
             "Telegram": "advantage|[Да](https://telegram.org/blog/profile-videos-people-nearby-and-more#profile-videos), с расширенным редактированием"
           },
@@ -2501,7 +2501,7 @@
             "FeatureName": "Добавление Групп в Исключения",
             "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/privacy-discussions-web-bots)"
           },
-		  {
+          {
             "FeatureName": "Сокрытие Чатов Не От Ваших Контактов",
             "Telegram": "advantage|[Выключено/включено](https://telegram.org/blog/profile-videos-people-nearby-and-more#filter-new-chats-from-non-contacts) (выключает оповещения и архивирует такие чаты)"
           },
