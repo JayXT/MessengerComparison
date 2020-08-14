@@ -1510,7 +1510,7 @@
         "Features": [
           {
             "FeatureName": "Support",
-            "Telegram": "mediocrity|Android-only ([iOS coming soon](https://telegram.org/blog/video-calls#why-not-on-ios))",
+            "Telegram": "advantage|Supported",
             "Viber": "advantage|Supported",
             "WhatsApp": "mediocrity|Supported (mobile devices only)"
           },
