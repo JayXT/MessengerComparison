@@ -1424,8 +1424,8 @@
           {
             "FeatureName": "Якість Зв’язку",
             "Telegram": "advantage|Висока",
-            "Viber": "mediocrity|Середня",
-            "WhatsApp": "mediocrity|Середня"
+            "Viber": "advantage|Висока",
+            "WhatsApp": "advantage|Висока"
           },
           {
             "FeatureName": "Шифрування",
@@ -1510,27 +1510,57 @@
         "Features": [
           {
             "FeatureName": "Підтримка",
+            "Telegram": "mediocrity|Лише Android ([незабаром iOS](https://telegram.org/blog/video-calls#why-not-on-ios))",
             "Viber": "advantage|Підтримуються",
             "WhatsApp": "mediocrity|Підтримуються (виключно на смартфонах)"
           },
           {
-            "FeatureName": "Перенесення Дзвінка на Пристрій",
-            "Viber": "advantage|На телефон/комп’ютер"
+            "FeatureName": "Якість Зв’язку",
+            "Telegram": "advantage|Висока",
+            "Viber": "advantage|Висока",
+            "WhatsApp": "advantage|Висока"
+          },        
+          {
+            "FeatureName": "Шифрування",
+            "Telegram": "advantage|Підтримується (MTProto в секретному режимі)",
+            "Viber": "mediocrity|Підтримується (реалізація невідома)",
+            "WhatsApp": "mediocrity|Підтримується (теоретично Signal)"
+          },
+          {
+            "FeatureName": "Швидка Перевірка Безпеки Шифрування",
+            "Telegram": "advantage|Через [співставлення 4-х емоджі](https://telegram.org/blog/video-calls#video-calls)",
+            "Viber": "disadvantage|Не підтримується (лише через громіздкий код)"
           },
           {
             "FeatureName": "Фоновий Режим",
+            "Telegram": "advantage|Підтримується (режим картинка в картинці)",
             "Viber": "disadvantage|Не підтримується (відбувається перехід в режим голосового дзвінка)",
             "WhatsApp": "advantage|Підтримується (режим картинка в картинці)"
           },
           {
-            "FeatureName": "Шифрування",
-            "Viber": "mediocrity|Підтримується (реалізація невідома)",
-            "WhatsApp": "advantage|Підтримується (теоретично Signal)"
+            "FeatureName": "Перемикання Між Камерами",
+            "Telegram": "advantage|Так, на смартфонах",
+            "Viber": "advantage|Так, на смартфонах"
+          },
+          {
+            "FeatureName": "Індикація Наявності Адресата в Мережі",
+            "Telegram": "advantage|Через різні види гудків"
+          },
+          {
+            "FeatureName": "Швидкі Текстові Відповіді",
+            "Telegram": "advantage|Підтримуються (з можливістю зміни відповідей за замовчуванням)",
+            "Viber": "mediocrity|Підтримуються (без можливості зміни відповідей)",
+            "WhatsApp": "mediocrity|Підтримуються (без можливості зміни відповідей)"
           },
           {
             "FeatureName": "Реклама",
+            "Telegram": "advantage|Відсутня",
             "Viber": "disadvantage|Після дзвінків",
             "WhatsApp": "advantage|Відсутня"
+          },
+          {
+            "FeatureName": "Перенесення Дзвінка на Пристрій",
+            "Viber": "advantage|На телефон/комп’ютер"
           }
         ]
       },
@@ -1616,6 +1646,10 @@
           {
             "FeatureName": "Фільтрація за Відправником",
             "Telegram": "advantage|Підтримується"
+          },
+          {
+            "FeatureName": "У Веб",
+            "WhatsApp": "advantage|[Підтримується](https://blog.whatsapp.com/search-the-web) (для вмісту активно пересланих повідомлень)"
           }
         ]
       },

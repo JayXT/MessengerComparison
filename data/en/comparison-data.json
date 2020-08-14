@@ -1424,8 +1424,8 @@
           {
             "FeatureName": "Connection Quality",
             "Telegram": "advantage|High",
-            "Viber": "mediocrity|Average",
-            "WhatsApp": "mediocrity|Average"
+            "Viber": "advantage|High",
+            "WhatsApp": "advantage|High"
           },
           {
             "FeatureName": "Encryption",
@@ -1510,27 +1510,57 @@
         "Features": [
           {
             "FeatureName": "Support",
+            "Telegram": "mediocrity|Android-only ([iOS coming soon](https://telegram.org/blog/video-calls#why-not-on-ios))",
             "Viber": "advantage|Supported",
             "WhatsApp": "mediocrity|Supported (mobile devices only)"
           },
           {
-            "FeatureName": "Transferring The Call to Device",
-            "Viber": "advantage|To phone/PC"
+            "FeatureName": "Connection Quality",
+            "Telegram": "advantage|High",
+            "Viber": "advantage|High",
+            "WhatsApp": "advantage|High"
+          },
+          {
+            "FeatureName": "Encryption",
+            "Telegram": "advantage|Supported (MTProto in secret mode)",
+            "Viber": "mediocrity|Supported (unknown implementation)",
+            "WhatsApp": "mediocrity|Supported (theoretically Signal)"
+          },
+          {
+            "FeatureName": "Quick Encryption Security Check",
+            "Telegram": "advantage|By [comparing 4 emoji](https://telegram.org/blog/video-calls#video-calls)",
+            "Viber": "disadvantage|Not supported (only through cumbersome code)"
           },
           {
             "FeatureName": "Background Mode",
+            "Telegram": "advantage|Supported (picture-in-picture mode)",
             "Viber": "disadvantage|Not supported (the call switches to voice-only mode)",
             "WhatsApp": "advantage|Supported (picture-in-picture mode)"
           },
           {
-            "FeatureName": "Encryption",
-            "Viber": "mediocrity|Supported (unknown implementation)",
-            "WhatsApp": "advantage|Supported (theoretically Signal)"
+            "FeatureName": "Flipping Cameras",
+            "Telegram": "advantage|Yes, on phones",
+            "Viber": "advantage|Yes, on phones"
+          },
+          {
+            "FeatureName": "Inidication of Interlocutor Online Availability",
+            "Telegram": "advantage|Via different kinds of tones"
+          },
+          {
+            "FeatureName": "Quick Text Replies",
+            "Telegram": "advantage|Supported (with possibility to change default replies)",
+            "Viber": "mediocrity|Supported (without possibility to change replies)",
+            "WhatsApp": "mediocrity|Supported (without possibility to change replies)"
           },
           {
             "FeatureName": "Ads",
+            "Telegram": "advantage|Absent",
             "Viber": "disadvantage|After calls",
             "WhatsApp": "advantage|Absent"
+          },
+          {
+            "FeatureName": "Transferring The Call to Device",
+            "Viber": "advantage|To phone/PC"
           }
         ]
       },
@@ -1616,6 +1646,10 @@
           {
             "FeatureName": "Filtering By Sender",
             "Telegram": "advantage|Supported"
+          },
+          {
+            "FeatureName": "On The Web",
+            "WhatsApp": "advantage|[Supported](https://blog.whatsapp.com/search-the-web) (for actively forwarded message contents)"
           }
         ]
       },
