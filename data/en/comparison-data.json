@@ -2663,6 +2663,10 @@
             "Viber": "mediocrity|For video and voice messages during 14 days (enabled/disabled)"
           },
           {
+            "FeatureName": "Storage Usage: Cache Size Limit",
+            "Telegram": "advantage|Supported"
+          },
+          {
             "FeatureName": "Storage Usage: Clearing Cache",
             "Telegram": "advantage|Available by content types (it's possible to clear individual channels from context menu)",
             "Viber": "disadvantage|Video and voice messages only",
@@ -2937,6 +2941,7 @@
           },
           {
             "FeatureName": "Accepting Video Calls",
+            "Telegram": "mediocrity|In scope of calls privacy settings",
             "Viber": "advantage|Enabled/disabled",
             "WhatsApp": "disadvantage|Configuration is not supported"
           },
