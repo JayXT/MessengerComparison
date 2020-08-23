@@ -10,7 +10,8 @@ The comparison table is available via following URLs:
 Current Maintainers:
 - JayXT: EN, UK
 - Hookz: RU
-- Teuscard: PT
+- David S.: IT
+- Teuscard: PT (translation is out-of-date)
 
 
 If you want to create a translation for your lanuage of choice, feel free to become a contributor of this repository by creating a separate git branch for your translation. To translate the page you have to:
