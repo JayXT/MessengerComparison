@@ -465,7 +465,7 @@
           {
             "FeatureName": "Polls",
             "Telegram": "advantage|[Yes](https://telegram.org/blog/polls-2-0-vmq) (anonymous/non-anonymous, with multiple answers, [quizzes](https://telegram.org/blog/400-million#better-quizzes))",
-            "Viber": "mediocrity|Supported (up to 4 choices)"
+            "Viber": "mediocrity|Yes (up to 4 choices, quiz mode)"
           },
           {
             "FeatureName": "Voice Messages",
@@ -480,7 +480,12 @@
           },
           {
             "FeatureName": "Comments",
-            "Telegram": "advantage|Via bots"
+            "Telegram": "advantage|Yes"
+          },
+          {
+            "FeatureName": "Message Reactions",
+            "Telegram": "mediocrity|Via bots",
+            "Viber": "advantage|Yes"
           },
           {
             "FeatureName": "Bots/Extensions Content",
@@ -684,7 +689,7 @@
           {
             "FeatureName": "Streaming of",
             "Telegram": "advantage|Media and web content",
-            "Viber": "disadvantage|YouTube"
+            "Viber": "mediocrity|Media and YouTube"
           },
           {
             "FeatureName": "Picture-in-Picture",
@@ -823,7 +828,7 @@
           {
             "FeatureName": "Pinning Messages",
             "Telegram": "advantage|Supported",
-            "Viber": "mediocrity|Supported (groups only)"
+            "Viber": "advantage|Supported"
           },
           {
             "FeatureName": "Pinning Chats",
@@ -893,12 +898,17 @@
           },
           {
             "FeatureName": "Quick Jump to Forwarded Message Source",
-            "Telegram": "advantage|Supported"
+            "Telegram": "advantage|Supported",
+            "Viber": "advantage|Supported"
           },
           {
             "FeatureName": "Sending Reminders",
             "Telegram": "advantage|[Supported](https://telegram.org/blog/scheduled-reminders-themes), via scheduled messages",
             "WhatsApp": "mediocrity|Via paid [integration](https://whatsapp.any.do/) with Any.do service"
+          },
+          {
+            "FeatureName": "Marking Messages Done",
+            "Viber": "advantage|Supported"
           }
         ]
       },
@@ -1058,7 +1068,7 @@
           },
           {
             "FeatureName": "Choosing and Controlling Admins",
-            "Telegram": "advantage|Atomic rights on: changing group info, moderation, deleting messages, blocking/unblocking users, link invites, pinning messages, adding/removing admins",
+            "Telegram": "advantage|Atomic rights on: changing group info, moderation, deleting messages, blocking/unblocking users, link invites, pinning messages, adding/removing admins, [anonymous](https://telegram.org/blog/filters-anonymous-admins-comments#anonymous-group-admins) message sending",
             "Viber": "advantage|Group admins: adding/removing admins, users  \n Communities admins: adding/removing/blocking members, pinning messages, moderation, deleting messages  \n Communities superadmins other than that have: rights to change group info, elevating/decreasing rights, changing background for members, access to admins' contact data",
             "WhatsApp": "mediocrity|Rights to change group info, adding/removing users/admins, inviting by links"
           },
@@ -1106,10 +1116,9 @@
             "WhatsApp": "advantage|Supported by default"
           },
           {
-            "FeatureName": "Liking Messages",
-            "Telegram": "mediocrity|Via bots (optional)",
-            "Viber": "advantage|Supported (with viewing people)",
-            "WhatsApp": "advantage|Supported"
+            "FeatureName": "Message Reactions",
+            "Telegram": "mediocrity|Via bots",
+            "Viber": "advantage|[Supported](https://www.viber.com/en/blog/2020-09-30/perfectly-react-to-messages-and-everything-else-thats-new-on-viber/)"
           },
           {
             "FeatureName": "Collections of Favorites",
@@ -1227,9 +1236,9 @@
             "Telegram": "advantage|Supported (choosing recipients, commenting)"
           },
           {
-            "FeatureName": "Liking Messages",
-            "Telegram": "mediocrity|Via bots (optional)",
-            "Viber": "advantage|Supported (with viewing people)"
+            "FeatureName": "Message Reactions",
+            "Telegram": "mediocrity|Via bots",
+            "Viber": "advantage|[Supported](https://www.viber.com/en/blog/2020-09-30/perfectly-react-to-messages-and-everything-else-thats-new-on-viber/)"
           },
           {
             "FeatureName": "Favorites Collections",
@@ -1243,7 +1252,7 @@
           },
           {
             "FeatureName": "Discussions and Comments",
-            "Telegram": "advantage|Via [integration with groups](https://telegram.org/blog/privacy-discussions-web-bots#broadcasts-meet-group-chats) and such bots as [@discussbot](https://t.me/discussbot), [@commentsbot](https://t.me/commentsbot)"
+            "Telegram": "advantage|[Built-in comments](https://telegram.org/blog/filters-anonymous-admins-comments#channel-comments) based on [discussion groups](https://telegram.org/blog/privacy-discussions-web-bots#broadcasts-meet-group-chats), or comments via bots ([@discussbot](https://t.me/discussbot), [@commentsbot](https://t.me/commentsbot))"
           },
           {
             "FeatureName": "Presence of Advertising",
@@ -1669,9 +1678,17 @@
         "Features": [
           {
             "FeatureName": "Of Data",
-            "Telegram": "advantage|Supported (bots, users, sticker packs, channels…)",
+            "Telegram": "advantage|Supported (messages, bots, users, sticker packs, channels…)",
             "Viber": "disadvantage|Local device only (except for verified communities)",
             "WhatsApp": "disadvantage|Local device only"
+          },
+          {
+            "FeatureName": "Filtering",
+            "Telegram": "advantage|[By date, chat or combined](https://telegram.org/blog/filters-anonymous-admins-comments#search-filters)"
+          },
+          {
+            "FeatureName": "Viewing By Categories",
+            "Telegram": "advantage|Chats, media, links, files, music, voice messages"
           }
         ]
       },
@@ -2522,7 +2539,7 @@
           {
             "FeatureName": "Adding to Groups",
             "Telegram": "advantage|All, your contacts",
-            "Viber": "disadvantage|Configuration is not supported",
+            "Viber": "advantage|All, your contacts",
             "WhatsApp": "advantage|All, your contacts, nobody"
           },
           {
@@ -2738,7 +2755,8 @@
           },
           {
             "FeatureName": "Auto-play",
-            "Telegram": "advantage|For GIFs, videos and video messages"
+            "Telegram": "advantage|For GIFs, videos and video messages",
+            "Viber": "advantage|For videos"
           },
           {
             "FeatureName": "Streaming",
