@@ -465,7 +465,7 @@
           {
             "FeatureName": "Sondaggi",
             "Telegram": "advantage|[Sì](https://telegram.org/blog/polls-2-0-vmq) (anonimo/non anonimo, con più risposte, [quiz](https://telegram.org/blog/400-million#better-quizzes))",
-            "Viber": "mediocrity|Supportato (fino a 4 scelte)"
+            "Viber": "mediocrity|Sì (fino a 4 scelte, modalità quiz)"
           },
           {
             "FeatureName": "Messaggi Vocali",
@@ -480,7 +480,12 @@
           },
           {
             "FeatureName": "Commenti",
-            "Telegram": "advantage|Tramite bot"
+            "Telegram": "advantage|Si"
+		  },
+          {
+            "FeatureName": "Reazioni ai messaggi",
+            "Telegram": "mediocrity|Tramite bots",
+            "Viber": "advantage|Si"
           },
           {
             "FeatureName": "Bots/Estensioni Contenuti",
@@ -684,7 +689,7 @@
           {
             "FeatureName": "Streaming di",
             "Telegram": "advantage|Contenuti multimediali e contenuti web",
-            "Viber": "disadvantage|YouTube"
+            "Viber": "mediocrity|Media e YouTube"
           },
           {
             "FeatureName": "Picture-in-Picture",
@@ -823,7 +828,7 @@
           {
             "FeatureName": "Messaggi Fissati",
             "Telegram": "advantage|Supportato",
-            "Viber": "mediocrity|Supportato (solo gruppi)"
+            "Viber": "advantage|Supportato"
           },
           {
             "FeatureName": "Chat Fissate",
@@ -893,12 +898,17 @@
           },
           {
             "FeatureName": "Salto Rapido alla Sorgente del Messaggio Inoltrato",
-            "Telegram": "advantage|Supportato"
+            "Telegram": "advantage|Supportato",
+			"Viber": "advantage|Supportato"
           },
           {
             "FeatureName": "Invio Di Promemoria",
             "Telegram": "advantage|[Supportato](https://telegram.org/blog/scheduled-reminders-themes), tramite messaggi pianificati",
             "WhatsApp": "mediocrity|Tramite pagamento [integrato](https://whatsapp.any.do/) con il servizio Any.do"
+		  },
+          {
+            "FeatureName": "Contrassegno Messaggi Fatto",
+            "Viber": "advantage|Supportato"
           }
         ]
       },
@@ -1058,7 +1068,7 @@
           },
           {
             "FeatureName": "Scegliere e Controllare gli Amministratori",
-            "Telegram": "advantage|Diritti Atomici su: modifica delle informazioni di gruppo, moderazione, eliminare messaggi, blocco/sblocco degli utenti, link invito, fissare messaggi, aggiunta/rimozione di amministratori",
+            "Telegram": "advantage|Diritti atomici su: modifica delle informazioni sul gruppo, moderazione, eliminazione dei messaggi, blocco/sblocco utenti, link di collegamento, blocco messaggi, aggiunta/rimozione amministratori, [anonimato](https://telegram.org/blog/filters-anonymous-admins-comments#anonymous-group-admins) invio di messaggi",
             "Viber": "advantage|Amministratori di gruppo: aggiunta/rimozione di amministratori, utenti  \n Amministratori delle comunità: aggiunta/rimozione/ blocco dei membri, fissare messaggi, moderazione, eliminazione dei messaggi  \n Superadmins delle comunità diverso da quello che hanno: diritti per modificare le informazioni del gruppo, aumentare/ diminuire dei diritti, cambiare sfondo per i membri, accesso ai dati di contatto degli amministratori",
             "WhatsApp": "mediocrity|Diritti per modificare le informazioni del gruppo, aggiunta/rimozione di utenti/amministratori, link d'invito"
           },
@@ -1106,10 +1116,9 @@
             "WhatsApp": "advantage|Supportato per impostazione predefinita"
           },
           {
-            "FeatureName": "Messaggi di Gradimento",
-            "Telegram": "mediocrity|Tramite bots (opzionale)",
-            "Viber": "advantage|Supportato (con la visualizzazione di persone)",
-            "WhatsApp": "advantage|Supportato"
+            "FeatureName": "Reazioni ai Messaggi",
+            "Telegram": "mediocrity|Tramite bots",
+            "Viber": "advantage|[Supportato](https://www.viber.com/en/blog/2020-09-30/perfectly-react-to-messages-and-everything-else-thats-new-on-viber/)"
           },
           {
             "FeatureName": "Collezioni di Preferiti",
@@ -1227,9 +1236,9 @@
             "Telegram": "advantage|Supportato (scelta dei destinatari, commenti)"
           },
           {
-            "FeatureName": "Messaggi di Gradimento",
-            "Telegram": "mediocrity|Tramite bots (opzionale)",
-            "Viber": "advantage|Supportato (con la visualizzazione di persone)"
+            "FeatureName": "Reazioni ai Messaggi",
+            "Telegram": "mediocrity|Tramite bots",
+            "Viber": "advantage|[Supportato](https://www.viber.com/en/blog/2020-09-30/perfectly-react-to-messages-and-everything-else-thats-new-on-viber/)"
           },
           {
             "FeatureName": "Collezioni Preferite",
@@ -1243,7 +1252,7 @@
           },
           {
             "FeatureName": "Discussioni e Commenti",
-            "Telegram": "advantage|Tramite [integrazione con i gruppi](https://telegram.org/blog/privacy-discussions-web-bots#broadcasts-meet-group-chats) e bot come [@discussbot](https://t.me/discussbot), [@commentsbot](https://t.me/commentsbot)"
+            "Telegram": "advantage|[Commenti incorporati](https://telegram.org/blog/filters-anonymous-admins-comments#channel-comments) sulla base di [gruppi di discussione](https://telegram.org/blog/privacy-discussions-web-bots#broadcasts-meet-group-chats), o commenti tramite bots ([@discussbot](https://t.me/discussbot), [@commentsbot](https://t.me/commentsbot))"
           },
           {
             "FeatureName": "Presenza di Pubblicità",
@@ -1669,9 +1678,17 @@
         "Features": [
           {
             "FeatureName": "di Dati",
-            "Telegram": "advantage|Supportato (bots, utenti, pacchetti di stickers, canali…)",
+            "Telegram": "advantage|Supportato (messaggi, bots, utenti, sticker packs, canali…)",
             "Viber": "disadvantage|Solo dispositivo locale (ad eccezione delle comunità verificate)",
             "WhatsApp": "disadvantage|Solo dispositivo locale"
+		  },
+          {
+            "FeatureName": "Filtraggio",
+            "Telegram": "advantage|[Per data, chat o combinato](https://telegram.org/blog/filters-anonymous-admins-comments#search-filters)"
+          },
+          {
+            "FeatureName": "Visualizzazione Per Categorie",
+            "Telegram": "advantage|Chats, media, links, files, musica, messaggi vocali"
           }
         ]
       },
@@ -2522,7 +2539,7 @@
           {
             "FeatureName": "Aggiunta a Gruppi",
             "Telegram": "advantage|Tutti, i tuoi contatti",
-            "Viber": "disadvantage|La configurazione non è supportata",
+            "Viber": "advantage|Tutti, i tuoi contatti",
             "WhatsApp": "advantage|Tutti, i tuoi contatti, nessuno"
           },
           {
@@ -2738,7 +2755,8 @@
           },
           {
             "FeatureName": "Auto-play",
-            "Telegram": "advantage|Per gif, video e messaggi video"
+            "Telegram": "advantage|Per gif, video e messaggi video",
+            "Viber": "advantage|Per video"
           },
           {
             "FeatureName": "Streaming",
