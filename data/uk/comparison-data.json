@@ -378,7 +378,7 @@
           },
           {
             "FeatureName": "Анімовані Емоджі",
-            "Telegram": "advantage|[Підтримуються](https://telegram.org/blog/folders#new-animated-emoji), деякі мають тактильну віддачу, чи інші [особливості](https://telegram.org/blog/folders#and-one-more-thing)"
+            "Telegram": "advantage|[Так](https://telegram.org/blog/folders#new-animated-emoji), деякі підтримують тактильну віддачу, звуки чи [інші](https://telegram.org/blog/pinned-messages-locations-playlists/world#jackpot) [особливості](https://telegram.org/blog/folders#and-one-more-thing)"
           },
           {
             "FeatureName": "Стікери",
@@ -451,6 +451,10 @@
             "WhatsApp": "disadvantage|Медіа до 0,016 ГБ, файли до 0,1 ГБ"
           },
           {
+            "FeatureName": "Колекції Файлів",
+            "Telegram": "advantage|До 10 елементів на повідомлення, наприклад, [списки відтворення](https://telegram.org/blog/pinned-messages-locations-playlists/world#playlists)"
+          },
+          {
             "FeatureName": "Контакти",
             "Telegram": "advantage|VCARD з підтримкою всіх полів",
             "Viber": "mediocrity|Обмежена підтримка",
@@ -458,9 +462,9 @@
           },
           {
             "FeatureName": "Розташування та Місця",
-            "Telegram": "advantage|[Так](https://telegram.org/blog/verifiable-apps-and-more#improved-venue-sharing), зокрема в режимі реального часу та переглядом взаємного розташування",
+            "Telegram": "advantage|[Зокрема](https://telegram.org/blog/verifiable-apps-and-more#improved-venue-sharing) в режимі реального часу, з переглядом взаємного розташування та [сповіщеннями](https://telegram.org/blog/pinned-messages-locations-playlists/world#improved-live-locations)",
             "Viber": "mediocrity|Підтримуються",
-            "WhatsApp": "advantage|Так, зокрема в режимі реального часу та переглядом взаємного розташування"
+            "WhatsApp": "advantage|Зокрема в режимі реального часу та переглядом взаємного розташування"
           },
           {
             "FeatureName": "Опитування",
@@ -583,6 +587,10 @@
           {
             "FeatureName": "Заміна Медіа/Файлів",
             "Telegram": "advantage|Підтримується"
+          },
+          {
+            "FeatureName": "Корекція Відправлених Зображень",
+            "Telegram": "advantage|[Підтримується](https://telegram.org/blog/pinned-messages-locations-playlists/world#new-animations-on-android) (Android)"
           },
           {
             "FeatureName": "Обрізка/Поворот/Нахил Зображень",
@@ -827,8 +835,8 @@
           },
           {
             "FeatureName": "Прикріплення Повідомлень",
-            "Telegram": "advantage|Підтримуються",
-            "Viber": "advantage|Підтримується"
+            "Telegram": "advantage|[Зокрема кількох](https://telegram.org/blog/pinned-messages-locations-playlists/world#multiple-pinned-messages), з переглядом їх переліку",
+            "Viber": "mediocrity|Підтримується (одне повідомлення)"
           },
           {
             "FeatureName": "Прикріплення Чатів",
@@ -985,6 +993,39 @@
         ]
       },
       {
+        "AspectName": "Бізнес Чати",
+        "Features": [
+          {
+            "FeatureName": "Взаємодія з Бізнесом",
+            "Telegram": "advantage|Через ботів",
+            "Viber": "advantage|Через публічні акаунти",
+            "WhatsApp": "advantage|Через чати з акаунтами WhatsApp Business"
+          },
+          {
+            "FeatureName": "Профіль Компанії",
+            "Telegram": "mediocrity|Як опис бота чи його вміст",
+            "Viber": "mediocrity|Як опис публічного акаунту",
+            "WhatsApp": "advantage|Як [окрема](https://www.whatsapp.com/business/api) сторінка з деталями"
+          },
+          {
+            "FeatureName": "Каталоги Товарів",
+            "Telegram": "mediocrity|Через вміст ботів",
+            "WhatsApp": "advantage|Підтримуються"
+          },
+          {
+            "FeatureName": "Придбання Товарів",
+            "Telegram": "advantage|Через Bot Payments API",
+            "WhatsApp": "advantage|Підтримується"
+          },
+          {
+            "FeatureName": "Адаптивність Під Потреби Бізнесу",
+            "Telegram": "advantage|Висока (повний контроль в рамках Telegram Bot API)",
+            "Viber": "disadvantage|Низька",
+            "WhatsApp": "mediocrity|Середня (обмежена WhatsApp Business API)"
+          }
+        ]
+      },
+      {
         "AspectName": "Групи",
         "Features": [
           {
@@ -1077,9 +1118,14 @@
             "Telegram": "advantage|За останні 48 годин"
           },
           {
-            "FeatureName": "Статистика",
+            "FeatureName": "Загальна Статистика",
             "Telegram": "advantage|[Детальна інтегрована статистика](https://telegram.org/blog/profile-videos-people-nearby-and-more#group-stats), розширена статистика через ботів",
-            "Viber": "mediocrity|Через інструменти Community Insights"
+            "Viber": "mediocrity|Через інструменти [Community Insights](https://help.viber.com/en/article/learn-about-your-community-with-insights)"
+          },
+          {
+            "FeatureName": "Статистика Окремих Повідомлень",
+            "Telegram": "mediocrity|[Детальна, але лише для каналів](https://telegram.org/blog/pinned-messages-locations-playlists/world#channel-post-stats)",
+            "Viber": "advantage|[Лише для спільнот](https://help.viber.com/en/article/communities-message-statistics)"
           },
           {
             "FeatureName": "Контроль Дозволів Користувачів",
@@ -1110,6 +1156,10 @@
             "WhatsApp": "advantage|Підтримуються"
           },
           {
+            "FeatureName": "Ланцюжки Відповідей",
+            "Telegram": "advantage|Підтримуються"
+          },
+          {
             "FeatureName": "Написання Повідомлень Новими Користувачами",
             "Telegram": "advantage|За замовчуванням підтримується",
             "Viber": "mediocrity|Для спільнот за замовчуванням не підтримується",
@@ -1122,7 +1172,7 @@
           },
           {
             "FeatureName": "Колекції Обраного Вмісту",
-            "Telegram": "mediocrity|Через перегляд за типами медіа або фільтрацію за хештегами",
+            "Telegram": "advantage|Через [набір](https://telegram.org/blog/pinned-messages-locations-playlists#multiple-pinned-messages) прикріплених повідомлень, перегляд за типами медіа або фільтрацію за хештегами",
             "Viber": "advantage|Підтримується для спільнот"
           },
           {
@@ -1242,7 +1292,7 @@
           },
           {
             "FeatureName": "Колекції Обраного Вмісту",
-            "Telegram": "mediocrity|Через перегляд за типами медіа або фільтрацію за хештегами",
+            "Telegram": "advantage|Через [набір](https://telegram.org/blog/pinned-messages-locations-playlists#multiple-pinned-messages) прикріплених повідомлень, перегляд за типами медіа або фільтрацію за хештегами",
             "Viber": "advantage|Підтримуються"
           },
           {
@@ -1270,9 +1320,14 @@
             "Viber": "advantage|Присутні, встановлення стікерпаку приєднує до спільноти, стікери слугують посиланнями для спільноти"
           },
           {
-            "FeatureName": "Статистика",
+            "FeatureName": "Загальна Статистика",
             "Telegram": "advantage|[Детальна інтегрована статистика](https://telegram.org/blog/folders#channel-stats), розширена статистика через ботів",
-            "Viber": "mediocrity|Через інструменти Community Insights"
+            "Viber": "mediocrity|Через інструменти [Community Insights](https://help.viber.com/en/article/learn-about-your-community-with-insights)"
+          },
+          {
+            "FeatureName": "Статистика Окремих Публікацій",
+            "Telegram": "advantage|[Детальна інтегрована статистика](https://telegram.org/blog/pinned-messages-locations-playlists/world#channel-post-stats)",
+            "Viber": "mediocrity|[Підтримується](https://help.viber.com/en/article/communities-message-statistics) (перегляди, обміни, натискання на посиланнях)"
           },
           {
             "FeatureName": "Зворотній Зв’язок",
