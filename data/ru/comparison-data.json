@@ -378,7 +378,7 @@
           },
           {
             "FeatureName": "Анимированные Эмодзи",
-            "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/folders#new-animated-emoji), некоторые имеют тактильную отдачу, или другие [особенности](https://telegram.org/blog/folders#and-one-more-thing)"
+            "Telegram": "advantage|[Да](https://telegram.org/blog/folders#new-animated-emoji), некоторые поддерживают тактильную отдачу, звуки или [другие](https://telegram.org/blog/pinned-messages-locations-playlists/world#jackpot) [особенности](https://telegram.org/blog/folders#and-one-more-thing)"
           },
           {
             "FeatureName": "Стикеры",
@@ -451,6 +451,10 @@
             "WhatsApp": "disadvantage|Медиа до 0,016 ГБ, файлы до 0,1 ГБ"
           },
           {
+            "FeatureName": "Коллекции Файлов",
+            "Telegram": "advantage|До 10 элементов на сообщение, например, [плейлисты](https://telegram.org/blog/pinned-messages-locations-playlists/world#playlists)"
+          },
+          {
             "FeatureName": "Контакты",
             "Telegram": "advantage|VCARD с поддержкой всех полей",
             "Viber": "mediocrity|Ограниченная поддержка",
@@ -458,9 +462,9 @@
           },
           {
             "FeatureName": "Расположение и Места",
-            "Telegram": "advantage|[Да](https://telegram.org/blog/verifiable-apps-and-more#improved-venue-sharing), в частности в режиме реального времени и просмотром взаимного расположения",
+            "Telegram": "advantage|[В частности](https://telegram.org/blog/verifiable-apps-and-more#improved-venue-sharing), в режиме реального времени, с просмотром взаимного расположения и [уведомлениями](https://telegram.org/blog/pinned-messages-locations-playlists/world#improved-live-locations)",
             "Viber": "mediocrity|Поддерживаются",
-            "WhatsApp": "advantage|Да, в частности в режиме реального времени и просмотром взаимного расположения"
+            "WhatsApp": "advantage|В частности, в режиме реального времени и просмотром взаимного расположения"
           },
           {
             "FeatureName": "Опросы",
@@ -583,6 +587,10 @@
           {
             "FeatureName": "Замена Медиа/Файлов",
             "Telegram": "advantage|Поддерживается"
+          },
+          {
+            "FeatureName": "Коррекция Отправленных Изображений",
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/pinned-messages-locations-playlists/world#new-animations-on-android) (Android)"
           },
           {
             "FeatureName": "Обрезка/Поворот/Наклон изображений",
@@ -827,8 +835,8 @@
           },
           {
             "FeatureName": "Прикрепление Сообщений",
-            "Telegram": "advantage|Поддерживается",
-            "Viber": "advantage|Поддерживается"
+            "Telegram": "advantage|[В частности нескольких](https://telegram.org/blog/pinned-messages-locations-playlists/world#multiple-pinned-messages), с просмотром их перечисления",
+            "Viber": "mediocrity|Поддерживается (одно сообщение)"
           },
           {
             "FeatureName": "Прикрепление Чатов",
@@ -985,6 +993,39 @@
         ]
       },
       {
+        "AspectName": "Бизнес Чаты",
+        "Features": [
+          {
+            "FeatureName": "Взаимодействие с Бизнесом",
+            "Telegram": "advantage|Через ботов",
+            "Viber": "advantage|Через публичные аккаунты",
+            "WhatsApp": "advantage|Через чаты с аккаунтами WhatsApp Business"
+          },
+          {
+            "FeatureName": "Профиль Компании",
+            "Telegram": "mediocrity|Как описание бота или его содержание",
+            "Viber": "mediocrity|Как описание публичного аккаунта",
+            "WhatsApp": "advantage|Как [отдельная](https://www.whatsapp.com/business/api) страница с деталями"
+          },
+          {
+            "FeatureName": "Каталоги Товаров",
+            "Telegram": "mediocrity|Через содержание ботов",
+            "WhatsApp": "advantage|Поддерживаются"
+          },
+          {
+            "FeatureName": "Приобретение Товаров",
+            "Telegram": "advantage|Через Bot Payments API",
+            "WhatsApp": "advantage|Поддерживается"
+          },
+          {
+            "FeatureName": "Адаптивность Под Потребности Бизнеса",
+            "Telegram": "advantage|Высокая (полный контроль в рамках Telegram Bot API)",
+            "Viber": "disadvantage|Низкая",
+            "WhatsApp": "mediocrity|Средняя (ограничена WhatsApp Business API)"
+          }
+        ]
+      },
+      {
         "AspectName": "Группы",
         "Features": [
           {
@@ -1077,9 +1118,14 @@
             "Telegram": "advantage|За последние 48 часов"
           },
           {
-            "FeatureName": "Статистика",
+            "FeatureName": "Общая Статистика",
             "Telegram": "advantage|[Подробная интегрированная статистика](https://telegram.org/blog/profile-videos-people-nearby-and-more#group-stats), расширенная статистика через ботов",
-            "Viber": "mediocrity|Через инструменты Community Insights"
+            "Viber": "mediocrity|Через инструменты [Community Insights](https://help.viber.com/en/article/learn-about-your-community-with-insights)"
+          },
+          {
+            "FeatureName": "Статистика Отдельных Сообщений",
+            "Telegram": "mediocrity|[Подробная, но только для каналов](https://telegram.org/blog/pinned-messages-locations-playlists/world#channel-post-stats)",
+            "Viber": "advantage|[Только для сообществ](https://help.viber.com/en/article/communities-message-statistics)"
           },
           {
             "FeatureName": "Контроль Разрешений Пользователей",
@@ -1110,6 +1156,10 @@
             "WhatsApp": "advantage|Поддерживаются"
           },
           {
+            "FeatureName": "Цепочки Ответов",
+            "Telegram": "advantage|Поддерживаются"
+          },
+          {
             "FeatureName": "Написание Сообщений Новыми Пользователями",
             "Telegram": "advantage|По умолчанию поддерживается",
             "Viber": "mediocrity|Для сообществ по умолчанию не поддерживается",
@@ -1122,7 +1172,7 @@
           },
           {
             "FeatureName": "Коллекции Избранного Содержания",
-            "Telegram": "mediocrity|Через просмотр по типам медиа или фильтрацию по хэштегам",
+            "Telegram": "advantage|Через [набор](https://telegram.org/blog/pinned-messages-locations-playlists#multiple-pinned-messages) прикрепленных сообщений, просмотр по типам медиа или фильтрацию по хэштегам",
             "Viber": "advantage|Поддерживается для сообществ"
           },
           {
@@ -1242,7 +1292,7 @@
           },
           {
             "FeatureName": "Коллекции Избранного Содержания",
-            "Telegram": "mediocrity|Через просмотр по типам медиа или фильтрацию по хэштегам",
+            "Telegram": "advantage|Через [набор](https://telegram.org/blog/pinned-messages-locations-playlists#multiple-pinned-messages) прикрепленных сообщений, просмотр по типам медиа или фильтрацию по хэштегам",
             "Viber": "advantage|Поддерживаются"
           },
           {
@@ -1270,9 +1320,14 @@
             "Viber": "advantage|Присутствуют, стикерпаки присоединяются к сообществу, стикеры служат ссылками для сообщества"
           },
           {
-            "FeatureName": "Статистика",
+            "FeatureName": "Общая Статистика",
             "Telegram": "advantage|[Подробная интегрированная статистика](https://telegram.org/blog/folders#channel-stats), расширенная статистика через ботов",
-            "Viber": "mediocrity|Через инструменты Community Insights"
+            "Viber": "mediocrity|Через инструменты [Community Insights](https://help.viber.com/en/article/learn-about-your-community-with-insights)"
+          },
+          {
+            "FeatureName": "Статистика Отдельных Публикаций",
+            "Telegram": "advantage|[Подробная интегрированная статистика](https://telegram.org/blog/pinned-messages-locations-playlists/world#channel-post-stats)",
+            "Viber": "mediocrity|[Поддерживается](https://help.viber.com/en/article/communities-message-statistics) (просмотры, обмены, нажатие на ссылках)"
           },
           {
             "FeatureName": "Обратная Связь",
