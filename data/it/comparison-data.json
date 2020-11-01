@@ -378,7 +378,7 @@
           },
           {
             "FeatureName": "Emoji animate",
-            "Telegram": "advantage|[Supportate](https://telegram.org/blog/folders#new-animated-emoji), alcuni hanno feedback al tocco, e altre [caratteristiche](https://telegram.org/blog/folders#and-one-more-thing)"
+            "Telegram": "advantage|[Si](https://telegram.org/blog/folders#new-animated-emoji), alcuni hanno feedback al tocco, suoni e [altre](https://telegram.org/blog/pinned-messages-locations-playlists/world#jackpot) [features](https://telegram.org/blog/folders#and-one-more-thing)"
           },
           {
             "FeatureName": "Stickers",
@@ -450,6 +450,10 @@
             "Viber": "mediocrity|Fino a 0,2 GB",
             "WhatsApp": "disadvantage|Supporto fino a 0,016 GB, file fino a 0,1 GB"
           },
+		  {
+            "FeatureName": "Collezioni di File",
+            "Telegram": "advantage|Fino a 10 elementi per messaggio, ad esempio, [playlists](https://telegram.org/blog/pinned-messages-locations-playlists/world#playlists)"
+          },
           {
             "FeatureName": "Contatti",
             "Telegram": "advantage|VCARD con il supporto per tutti i campi",
@@ -458,7 +462,7 @@
           },
           {
             "FeatureName": "Posizione e Luoghi",
-            "Telegram": "advantage|[Si](https://telegram.org/blog/verifiable-apps-and-more#improved-venue-sharing), in particolare in tempo reale con la visualizzazione della posizione reciproca",
+            "Telegram": "advantage|[In particolare](https://telegram.org/blog/verifiable-apps-and-more#improved-venue-sharing) in tempo reale con visualizzazione della posizione reciproca e [notifica](https://telegram.org/blog/pinned-messages-locations-playlists/world#improved-live-locations)",			
             "Viber": "mediocrity|Supportati",
             "WhatsApp": "advantage|Sì, in particolare in tempo reale con la visualizzazione della posizione reciproca"
           },
@@ -583,6 +587,10 @@
           {
             "FeatureName": "Sostituzione Media/Files",
             "Telegram": "advantage|Supportata"
+          },
+		  {
+            "FeatureName": "Correzione delle Immagini Inviate",
+            "Telegram": "advantage|[Supportato](https://telegram.org/blog/pinned-messages-locations-playlists/world#new-animations-on-android) (Android)"
           },
           {
             "FeatureName": "Ritaglio/Rotazione/Inclinazione delle Immagini",
@@ -827,8 +835,8 @@
           },
           {
             "FeatureName": "Messaggi Fissati",
-            "Telegram": "advantage|Supportato",
-            "Viber": "advantage|Supportato"
+            "Telegram": "advantage|[In particolare, diversi](https://telegram.org/blog/pinned-messages-locations-playlists/world#multiple-pinned-messages) con un'opzione per visualizzarli tutti",
+            "Viber": "advantage|Supportato (1 messaggio)"
           },
           {
             "FeatureName": "Chat Fissate",
@@ -985,6 +993,39 @@
         ]
       },
       {
+	    "AspectName": "Chat aziendali",
+        "Features": [
+          {
+            "FeatureName": "Interazione con le aziende",
+            "Telegram": "advantage|Tramite bots",
+            "Viber": "advantage|Tramite accounts pubblici",
+            "WhatsApp": "advantage|Tramite chat con account WhatsApp Business"
+          },
+          {
+            "FeatureName": "Profilo Aziendale",
+            "Telegram": "mediocrity|Come descrizione del bot o il suo contenuto",
+            "Viber": "mediocrity|Come descrizione dell'account pubblico",
+            "WhatsApp": "advantage|Come una [separata](https://www.whatsapp.com/business/api) pagina con i dettagli"
+          },
+          {
+            "FeatureName": "Cataloghi Merceologici",
+            "Telegram": "mediocrity|Tramite il contenuto dei bot",
+            "WhatsApp": "advantage|Supportati"
+          },
+          {
+            "FeatureName": "Acquisto di beni",
+            "Telegram": "advantage|Tramite Telegram Bot Pagamenti API",
+            "WhatsApp": "advantage|Supportati"
+          },
+          {
+            "FeatureName": "Adattabilità alle esigenze aziendali",
+            "Telegram": "advantage|Alta (controllo completo nell'ambito dell'API Telegram Bot)",
+            "Viber": "disadvantage|Bassa",
+            "WhatsApp": "mediocrity|Media (limitato dall'API WhatsApp Business)"
+          }
+        ]
+      },
+      {
         "AspectName": "Gruppi",
         "Features": [
           {
@@ -1077,9 +1118,14 @@
             "Telegram": "advantage|Entro le ultime 48 ore"
           },
           {
-            "FeatureName": "Statistiche",
+            "FeatureName": "Statistiche Generali",
             "Telegram": "advantage|[Statistiche integrate dettagliate](https://telegram.org/blog/profile-videos-people-nearby-and-more#group-stats), statistiche estese tramite bot",
-            "Viber": "mediocrity|Attraverso strumenti di Community Insights"
+            "Viber": "mediocrity|Attraverso strumenti di [Community Insights](https://help.viber.com/en/article/learn-about-your-community-with-insights)"
+          },
+		  {
+            "FeatureName": "Statistiche dei Singoli Messaggi",
+            "Telegram": "mediocrity|[Dettagliato, ma solo per i canali](https://telegram.org/blog/pinned-messages-locations-playlists/world#channel-post-stats)",
+            "Viber": "advantage|[Solo per le comunità](https://help.viber.com/en/article/communities-message-statistics)"
           },
           {
             "FeatureName": "Controllo delle Autorizzazioni degli Utenti",
@@ -1109,6 +1155,10 @@
             "Viber": "advantage|Supportato",
             "WhatsApp": "advantage|Supportato"
           },
+		  {
+            "FeatureName": "Catene di Risposta (Discussioni)",
+            "Telegram": "advantage|Supportato"
+          },
           {
             "FeatureName": "Scrittura di Messaggi da Parte di Nuovi Utenti",
             "Telegram": "advantage|Supportato per impostazione predefinita",
@@ -1122,7 +1172,7 @@
           },
           {
             "FeatureName": "Collezioni di Preferiti",
-            "Telegram": "mediocrity|Tramite la visualizzazione da tipi di media o filtraggio da hashtag",
+            "Telegram": "advantage|Tramite un [set](https://telegram.org/blog/pinned-messages-locations-playlists#multiple-pinned-messages) di messaggi fissati, visualizzazione per tipi di media o filtraggio per hashtag",
             "Viber": "advantage|Supportato per le comunità"
           },
           {
@@ -1242,7 +1292,7 @@
           },
           {
             "FeatureName": "Collezioni Preferite",
-            "Telegram": "mediocrity|Attraverso la visualizzazione per tipo di supporto o il filtraggio per hashtag",
+            "Telegram": "advantage|Tramite un [set](https://telegram.org/blog/pinned-messages-locations-playlists#multiple-pinned-messages) di messaggi fissati, visualizzazione per tipo di media o filtraggio per hashtag",
             "Viber": "advantage|Supportato"
           },
           {
@@ -1270,9 +1320,14 @@
             "Viber": "advantage|Presente (l'installazione di un pacchetto di adesivi vi unisce alla comunità, gli adesivi servono come link alla comunità"
           },
           {
-            "FeatureName": "Statistiche",
-            "Telegram": "advantage|[Statistiche dettagliate integrate](https://telegram.org/blog/folders#channel-stats), statistiche estese tramite i bot",
-            "Viber": "mediocrity|Attraverso gli strumenti di Community Insights"
+            "FeatureName": "Statistiche Generali",
+            "Telegram": "advantage|[Statistiche integrate dettagliate](https://telegram.org/blog/folders#channel-stats), statistiche estese tramite bot",
+            "Viber": "mediocrity|Tramite [Community Insights](https://help.viber.com/en/article/learn-about-your-community-with-insights) tools"
+          },
+		  {
+            "FeatureName": "Statistiche dei Singoli Post",
+            "Telegram": "advantage|[Statistiche integrate dettagliate](https://telegram.org/blog/pinned-messages-locations-playlists/world#channel-post-stats)",
+            "Viber": "mediocrity|[Supportato](https://help.viber.com/en/article/communities-message-statistics) (visualizzazioni, condivisioni, clic sui collegamenti)"
           },
           {
             "FeatureName": "Feedback",
@@ -1349,8 +1404,8 @@
           },
           {
             "FeatureName": "Comunicazione in Modalità Inline",
-            "Telegram": "advantage|[Supportato](https://core.telegram.org/bots#inline-mode) (inviare richieste e ottenere risposte on-the-fly)",
-            "Viber": "mediocrity|Insemplificazione limitata tramite estensioni"
+            "Telegram": "advantage|[Supportato](https://core.telegram.org/bots#inline-mode) (inviando richieste e ottenendo risposte on-the-fly)",
+            "Viber": "mediocrity|Implementazione limitata tramite estensioni"
           },
           {
             "FeatureName": "Interazione con i Messaggi dei Bot",
@@ -1547,7 +1602,7 @@
             "WhatsApp": "advantage|Supportato (modalità picture-in-picture)"
           },
           {
-            "FeatureName": "Capovolgimento delle Camere",
+            "FeatureName": "Capovolgimento della Camera",
             "Telegram": "advantage|Sì, sui telefoni",
             "Viber": "advantage|Sì, sui telefoni"
           },
@@ -2029,7 +2084,7 @@
         ]
       },
       {
-        "AspectName": "Piattaforma \"Shorts\" ",
+        "AspectName": "Piattaforma \"Storie\" ",
         "Features": [
           {
             "FeatureName": "Concetto",
@@ -2915,7 +2970,7 @@
             "WhatsApp": "mediocrity|Visualizzazione, modifica della sequenza e cancellazione"
           },
           {
-            "FeatureName": "Stickers e Maschere: Masks",
+            "FeatureName": "Stickers e Maschere: Maschere",
             "Telegram": "advantage|Visualizzazione, modifica della sequenza, archiviazione e cancellazione"
           },
           {
