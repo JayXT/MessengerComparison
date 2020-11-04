@@ -820,8 +820,8 @@
             "WhatsApp": "mediocrity|Partial support"
           },
           {
-            "FeatureName": "Chats Preview",
-            "Telegram": "advantage|Supported"
+            "FeatureName": "Preview Of",
+            "Telegram": "advantage|Your accounts; chats, users"
           },
           {
             "FeatureName": "Chat Video Avatars",
@@ -1389,7 +1389,7 @@
           },
           {
             "FeatureName": "Supported Content Types",
-            "Telegram": "advantage|All (that supported by Telegram), in particular [location and phone number](https://core.telegram.org/bots#location-and-number), [polls](https://telegram.org/blog/polls-2-0-vmq#bot-api-and-quiz-bot)",
+            "Telegram": "advantage|[All](https://core.telegram.org/bots/api#available-types) (supported by Telegram), in particular, [location and phone number](https://core.telegram.org/bots#location-and-number), [polls](https://telegram.org/blog/polls-2-0-vmq#bot-api-and-quiz-bot)",
             "Viber": "mediocrity|Text, image, video, contact, URL, [carousels](https://developers.viber.com/docs/api/rest-bot-api/#carousel-content-message), graphics and location"
           },
           {
@@ -2027,6 +2027,14 @@
             "Telegram": "advantage|Via [Bot Payments API](https://core.telegram.org/bots/payments)"
           },
           {
+            "FeatureName": "Bot API on Own Servers",
+            "Telegram": "advantage|[Supported](https://core.telegram.org/bots/api#using-a-local-bot-api-server) (as an alternative to api.telegram.org)"
+          },
+          {
+            "FeatureName": "Bot Ownership Transfer",
+            "Telegram": "advantage|Via [@BotFather](https://telegram.me/botfather) bot"
+          },
+          {
             "FeatureName": "Integration with CRM",
             "Telegram": "advantage|Via bots",
             "Viber": "advantage|[Within public accounts](https://developers.viber.com/docs/general/get-started/#connect-a-solution-to-a-public-account)"
@@ -2035,6 +2043,10 @@
             "FeatureName": "Integration with New Platforms",
             "Telegram": "advantage|Unlimited",
             "Viber": "disadvantage|Limited to business area and public accounts"
+          },
+          {
+            "FeatureName": "News/Discussions About Bot API",
+            "Telegram": "advantage|[@BotNews](https://t.me/botnews) channel, [@BotTalk](https://t.me/bottalk) group"
           }
         ]
       },
@@ -2742,7 +2754,7 @@
             "FeatureName": "Storage Usage: Clearing Cache",
             "Telegram": "advantage|Available by content types (it's possible to clear individual channels from context menu)",
             "Viber": "disadvantage|Video and voice messages only",
-            "WhatsApp": "advantage|Available by chats and content types"
+            "WhatsApp": "advantage|Available by chats, often forwarded messages or content > 5 MB"
           },
           {
             "FeatureName": "Storage Usage: Clearing Local Data",
@@ -2750,7 +2762,8 @@
           },
           {
             "FeatureName": "Storage Usage: Quick Memory Monitoring",
-            "Telegram": "advantage|[Available (Android, iOS)](https://telegram.org/blog/verifiable-apps-and-more#storage-usage-at-a-glance)"
+            "Telegram": "advantage|[Available](https://telegram.org/blog/verifiable-apps-and-more#storage-usage-at-a-glance)",
+            "WhatsApp": "advantage|Available (Android, iOS)"
           },
           {
             "FeatureName": "Data Usage: Connection Types",
