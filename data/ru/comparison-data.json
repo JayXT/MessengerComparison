@@ -820,8 +820,8 @@
             "WhatsApp": "mediocrity|Частичная поддержка"
           },
           {
-            "FeatureName": "Предварительный Обзор Чатов",
-            "Telegram": "advantage|Поддерживается"
+            "FeatureName": "Предварительный Обзор",
+            "Telegram": "advantage|Собственных аккаунтов; чатов, пользователей"
           },
           {
             "FeatureName": "Видео Аватары Чатов",
@@ -1389,7 +1389,7 @@
           },
           {
             "FeatureName": "Поддерживаемые Типы Содержимого",
-            "Telegram": "advantage|Все (что поддерживаются Telegram), в частности [местонахождение и номер](https://core.telegram.org/bots#location-and-number), [опрос](https://telegram.org/blog/polls-2-0-vmq#bot-api-and-quiz-bot)",
+            "Telegram": "advantage|[Все](https://core.telegram.org/bots/api#available-types) (что поддерживаются Telegram), в частности [местонахождение и номер](https://core.telegram.org/bots#location-and-number), [опрос](https://telegram.org/blog/polls-2-0-vmq#bot-api-and-quiz-bot)",
             "Viber": "mediocrity|Текст, Изображения, видео, контакт, URL, [карусели](https://developers.viber.com/docs/api/rest-bot-api/#carousel-content-message), графическое содержание, а также местонахождение"
           },
           {
@@ -2027,6 +2027,14 @@
             "Telegram": "advantage|Через [Bot Payments API](https://core.telegram.org/bots/payments)"
           },
           {
+            "FeatureName": "Bot API на Собственных Серверах",
+            "Telegram": "advantage|[Поддерживается](https://core.telegram.org/bots/api#using-a-local-bot-api-server) (как альтернатива api.telegram.org)"
+          },
+          {
+            "FeatureName": "Передача Прав на Бота",
+            "Telegram": "advantage|Через бота [@BotFather](https://telegram.me/botfather)"
+          },
+          {
             "FeatureName": "Интеграция с CRM",
             "Telegram": "advantage|Через ботов",
             "Viber": "advantage|[В рамках публичных аккаунтов](https://developers.viber.com/docs/general/get-started/#connect-a-solution-to-a-public-account)"
@@ -2035,6 +2043,10 @@
             "FeatureName": "Интеграция с Новыми Платформами",
             "Telegram": "advantage|Неограниченное",
             "Viber": "disadvantage|Ограниченная бизнес областью и публичными аккаунтами"
+          },
+          {
+            "FeatureName": "Новости/Обсуждение Bot API",
+            "Telegram": "advantage|Канал [@BotNews](https://t.me/botnews), группа [@BotTalk](https://t.me/bottalk)"
           }
         ]
       },
@@ -2742,7 +2754,7 @@
             "FeatureName": "Использование Хранилища: Очистка кэша",
             "Telegram": "advantage|Доступное по типам содержания (возможна очистка отдельных каналов из контекстного меню)",
             "Viber": "disadvantage|Только видео и голосовые сообщения",
-            "WhatsApp": "advantage|Доступное по чатами и типами содержания"
+            "WhatsApp": "advantage|Доступное по чатами, часто пересылаемых сообщений или содержанием > 5 MБ"
           },
           {
             "FeatureName": "Использование Хранилища: Очистка Локальных Данных",
@@ -2750,7 +2762,8 @@
           },
           {
             "FeatureName": "Использование Хранилища: Быстрый Мониторинг Памяти",
-            "Telegram": "advantage|[Доступен (Android, iOS)](https://telegram.org/blog/verifiable-apps-and-more#storage-usage-at-a-glance)"
+            "Telegram": "advantage|[Доступен](https://telegram.org/blog/verifiable-apps-and-more#storage-usage-at-a-glance)",
+            "WhatsApp": "advantage|Доступен (Android, iOS)"
           },
           {
             "FeatureName": "Потребление Трафика: Типы Подключения",
