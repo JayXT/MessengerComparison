@@ -31,6 +31,10 @@ namespace MessengerComparison
                <html lang=""{Language}"">
                     <head>
                         <meta http-equiv=""content-type"" content=""text/html; charset=utf-8"" />
+                        <meta property=""og:site_name"" content=""MessengerComparison"">
+                        <meta property=""og:title"" content=""{GeneralData["Headline"]}"">
+                        <meta property=""og:description"" content=""{GeneralData["Description"]}"">
+                        <meta property=""og:image"" content=""https://jayxt.github.io/MessengerComparison/preview.png"">                        
                         <title>MessengerComparison</title>
                         <link rel=""shortcut icon"" href=""../favicon.ico"" type=""image/x-icon"">
                         <link href=""https://fonts.googleapis.com/css?family=Noto+Sans"" rel=""stylesheet"">
