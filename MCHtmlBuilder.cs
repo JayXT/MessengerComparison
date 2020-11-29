@@ -46,33 +46,32 @@ namespace MessengerComparison
                         </div>
                         <section class=""main"">
                         <h1 class=""headline"">{GeneralData["Headline"]}</h1>
-                        <div id=""ms-edge-wrapper"">
-                            <table>
-                                <colgroup>
-                                    <col class=""group-col"">
-                                    <col class=""aspect-col"">
-                                    <col class=""feature-col"">
-                                    <col class=""service-col"">
-                                    <col class=""service-col"">
-                                    <col class=""service-col"">
-                                </colgroup>
-                                <thead>
-                                    <tr>
-                                        <th>{GeneralData["Group"]}</th>
-                                        <th>{GeneralData["Aspect"]}</th>
-                                        <th>{GeneralData["Feature"]}</th>
-                                        <th>
-                                            <span class=""telegram-icon"">{GeneralData["Telegram"]}</span>
-                                        </th>
-                                        <th>
-                                            <span class=""viber-icon"">{GeneralData["Viber"]}</span>
-                                        </th>
-                                        <th>
-                                            <span class=""whatsapp-icon"">{GeneralData["WhatsApp"]}</span>
-                                        </th>
-                                    </tr>                            
-                                </thead>
-                                <tbody>
+                        <table>
+                            <colgroup>
+                                <col class=""group-col"">
+                                <col class=""aspect-col"">
+                                <col class=""feature-col"">
+                                <col class=""service-col"">
+                                <col class=""service-col"">
+                                <col class=""service-col"">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>{GeneralData["Group"]}</th>
+                                    <th>{GeneralData["Aspect"]}</th>
+                                    <th>{GeneralData["Feature"]}</th>
+                                    <th>
+                                        <span class=""telegram-icon"">{GeneralData["Telegram"]}</span>
+                                    </th>
+                                    <th>
+                                        <span class=""viber-icon"">{GeneralData["Viber"]}</span>
+                                    </th>
+                                    <th>
+                                        <span class=""whatsapp-icon"">{GeneralData["WhatsApp"]}</span>
+                                    </th>
+                                </tr>                            
+                            </thead>
+                            <tbody>
             ");
 
             string value = string.Empty;
@@ -211,16 +210,15 @@ namespace MessengerComparison
             }
 
             builder.AppendLine($@"
-                                    </tbody>
-                                </table>
-                            </div>
-                            <p class=""updated-date"">
-                                {GetLastModifiedText()}  <br><br>
-                                {GeneralData["Author"].ToHtml()}
-                            </p>
-                        </section>
-                    </body>
-                </html>
+                                </tbody>
+                            </table>
+                        <p class=""updated-date"">
+                            {GetLastModifiedText()}  <br><br>
+                            {GeneralData["Author"].ToHtml()}
+                        </p>
+                    </section>
+                </body>
+            </html>
                 ");
 
             return builder.ToString();
