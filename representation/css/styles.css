@@ -7,9 +7,9 @@ body {
 }
 
 div.language {
-    position: absolute;
-    top: 15px;
-    left: 15px;
+    position: relative;
+    margin: 15px 5px;
+    text-align: left;
 }
 
 div.language * {
@@ -19,15 +19,15 @@ div.language * {
 }
 
 section.main {
-    display: inline-block;
-    margin: 30px 0px 30px 0px;
+    display: block;
+    margin: auto;
     width: 100%;
     min-width: 700px;
     max-width: 1400px;
 }
 
 h1.headline {
-    margin: 0px 0px 38px 0px;
+    margin: 0px 0px 45px 0px;
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -171,7 +171,7 @@ td > ol {
 }
 
 p.updated-date {
-    margin: 30px 10px 20px 10px;
+    margin: 40px 10px;
     font-size: 13px;
     font-style: italic;
     text-align: right;
