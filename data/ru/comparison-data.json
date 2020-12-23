@@ -218,7 +218,7 @@
           {
             "FeatureName": "Содержание Резервных Копий",
             "Telegram": "advantage|Все данные, кроме секретных чатов, включая: чаты, сообщения, настройки, медиа, файлы",
-            "Viber": "disadvantage|Текстовые сообщения (кроме секретных чатов)",
+            "Viber": "disadvantage|Текстовые сообщения и медиа",
             "WhatsApp": "disadvantage|Текстовые сообщения и медиа"
           },
           {
@@ -500,8 +500,8 @@
           {
             "FeatureName": "Финансы",
             "Telegram": "advantage|Неограниченные возможности передачи через ботов",
-            "Viber": "mediocrity|Для некоторых стран [через](https://www.viber.com/blog/2019-12-18/pay-your-friends-back-with-moneytou/) расширение Moneytou (комиссия ~1%)",
-            "WhatsApp": "advantage|Через использование Facebook Pay"
+            "Viber": "advantage|Через расширение [Moneytou](https://www.viber.com/blog/2019-12-18/pay-your-friends-back-with-moneytou/) (комиссия ~1%), [Apple Pay/Google Pay](https://www.viber.com/en/blog/2020-11-23/pay-in-chatbots-backup-media-and-all-thats-new-on-viber/)",
+            "WhatsApp": "advantage|Через использование Facebook Pay, [UPI в Индии](https://blog.whatsapp.com/send-payments-in-india-with-whatsapp)"
           },
           {
             "FeatureName": "Товары из Каталогов",
@@ -533,7 +533,7 @@
           {
             "FeatureName": "Массовая Пересылка",
             "Telegram": "advantage|До 100 сообщений за раз разным получателям",
-            "Viber": "mediocrity|Desktop: до 25 сообщений разным получателям;  \n Android/iOS: 1 сообщение различным получателям",
+            "Viber": "mediocrity|До 25 сообщений различным получателям",
             "WhatsApp": "mediocrity|До 10 сообщений за раз"
           },
           {
@@ -590,7 +590,7 @@
           },
           {
             "FeatureName": "Коррекция Отправленных Изображений",
-            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/pinned-messages-locations-playlists/world#new-animations-on-android) (Android)"
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/voice-chats?ln=r#editing-improvements)"
           },
           {
             "FeatureName": "Обрезка/Поворот/Наклон изображений",
@@ -856,6 +856,10 @@
             "Viber": "advantage|Поддерживается"
           },
           {
+            "FeatureName": "Фильтрование Неизвестных Чатов",
+            "Viber": "advantage|[Автоматическое](https://www.viber.com/en/blog/2020-11-23/pay-in-chatbots-backup-media-and-all-thats-new-on-viber/)"
+          },
+          {
             "FeatureName": "Просмотр Общих с Контактом Групп",
             "Telegram": "advantage|Поддерживается",
             "Viber": "advantage|Поддерживается"
@@ -912,6 +916,7 @@
           {
             "FeatureName": "Отправка Напоминаний",
             "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/scheduled-reminders-themes), через отложенные сообщения",
+            "Viber": "advantage|С поддержкой повторений",
             "WhatsApp": "mediocrity|Через платную [интеграцию](https://whatsapp.any.do/) с сервисом Any.do"
           },
           {
@@ -938,7 +943,8 @@
           {
             "FeatureName": "Дополнительные Функции Безопасности",
             "Telegram": "advantage|В рамках секретных чатов",
-            "Viber": "advantage|Таймер самоуничтожения сообщений, уведомления о скриншотах"
+            "Viber": "advantage|Таймер самоуничтожения сообщений, уведомления о скриншотах",
+            "WhatsApp": "advantage|[Исчезающие сообщение](https://blog.whatsapp.com/introducing-disappearing-messages-on-whatsapp) (через 7 дней)"
           }
         ]
       },
@@ -1011,6 +1017,10 @@
             "FeatureName": "Каталоги Товаров",
             "Telegram": "mediocrity|Через содержание ботов",
             "WhatsApp": "advantage|Поддерживаются"
+          },
+          {
+            "FeatureName": "Корзина Товаров",
+            "WhatsApp": "advantage|[Поддерживается](https://blog.whatsapp.com/making-it-easier-to-shop-on-whatsapp-with-carts)"
           },
           {
             "FeatureName": "Приобретение Товаров",
@@ -1169,6 +1179,11 @@
             "FeatureName": "Реакции на Сообщения",
             "Telegram": "mediocrity|Через ботов",
             "Viber": "advantage|[Поддерживаются](https://www.viber.com/en/blog/2020-09-30/perfectly-react-to-messages-and-everything-else-thats-new-on-viber/)"
+          },
+          {
+            "FeatureName": "Исчезающие Сообщения",
+            "Telegram": "mediocrity|Через ботов",
+            "WhatsApp": "advantage|[Поддерживаются](https://blog.whatsapp.com/introducing-disappearing-messages-on-whatsapp) (через 7 дней)"
           },
           {
             "FeatureName": "Коллекции Избранного Содержания",
@@ -1554,8 +1569,27 @@
         "Features": [
           {
             "FeatureName": "Количество Участников",
-            "Viber": "advantage|До 20 участников",
-            "WhatsApp": "mediocrity|До 8 участников (исключительно на смартфонах)"
+            "Telegram": "advantage|До нескольких тысяч",
+            "Viber": "mediocrity|До 20 участников",
+            "WhatsApp": "disadvantage|До 8 участников (только на смартфонах)"
+          },
+          {
+            "FeatureName": "Организовано Как",
+            "Telegram": "mediocrity|[Голосовые чаты](https://telegram.org/blog/voice-chats?ln=r#voice-chats) доступны из групп",
+            "Viber": "advantage|Звонки из групп или расширение звонков 1:1",
+            "WhatsApp": "advantage|Звонки из групп, расширение звонков 1:1 или отдельные групповые вызовы"
+          },
+          {
+            "FeatureName": "Контроль Количества Участников",
+            "Telegram": "advantage|Через гибкие средства администрирования"
+          },
+          {
+            "FeatureName": "Виджет Для Быстрого Доступа",
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/voice-chats?ln=r#voice-chats) (Android)"
+          },
+          {
+            "FeatureName": "\"Нажмите, Чтобы Говорить\"",
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/voice-chats?ln=r#push-to-talk-shortcuts), в частности с горячей клавишей на выбор"
           },
           {
             "FeatureName": "Шифрование",
@@ -1564,6 +1598,7 @@
           },
           {
             "FeatureName": "Реклама",
+            "Telegram": "advantage|Отсутствует",
             "Viber": "disadvantage|После звонков",
             "WhatsApp": "advantage|Отсутствует"
           }
@@ -1963,6 +1998,10 @@
             "Viber": "advantage|Поддерживается (согласно настройкам системы)"
           },
           {
+            "FeatureName": "Индикация Активных Участников Звонков",
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/voice-chats?ln=r#voice-chats) (с визуализацией громкости)"
+          },
+          {
             "FeatureName": "Конфигурация Вида Пузырьков Сообщений",
             "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/polls-2-0-vmq#message-corners)"
           },
@@ -2024,7 +2063,8 @@
           },
           {
             "FeatureName": "Поддержка Платежей",
-            "Telegram": "advantage|Через [Bot Payments API](https://core.telegram.org/bots/payments)"
+            "Telegram": "advantage|Через [Bot Payments API](https://core.telegram.org/bots/payments)",
+            "Viber": "advantage|Через Apple Pay, Google Pay"
           },
           {
             "FeatureName": "Bot API на Собственных Серверах",
@@ -2132,6 +2172,10 @@
           {
             "FeatureName": "Реализация",
             "Telegram": "advantage|Через сайт [comments.app](https://comments.app/) и бота [@discussbot](https://t.me/discussbot) с авторизацией через Telegram"
+          },
+          {
+            "FeatureName": "Синхронизация с Встроенными Комментариями",
+            "Telegram": "advantage|[Поддерживается](https://core.telegram.org/widgets/discussion)"
           },
           {
             "FeatureName": "Основные возможности",
@@ -2300,6 +2344,27 @@
           {
             "FeatureName": "Способы Обмена",
             "Telegram": "advantage|Локальные файлы или [ссылки](https://telegram.org/blog/scheduled-reminders-themes#custom-cloud-themes) (с поддержкой облачной синхронизации и кросс-платформенного доступа)"
+          }
+        ]
+      },
+      {
+        "AspectName": "Платформа Дефектов и Предложений",
+        "Features": [
+          {
+            "FeatureName": "Концепция",
+            "Telegram": "advantage|Работа с карточками, описывающих исправления и предложения для воплощения в приложениях Telegram"
+          },
+          {
+            "FeatureName": "Через",
+            "Telegram": "advantage|[Веб-сайт](https://bugs.telegram.org/)"
+          },
+          {
+            "FeatureName": "Значение",
+            "Telegram": "advantage|Определение сообществом вектора развития и разработки Telegram"
+          },
+          {
+            "FeatureName": "Основные Возможности",
+            "Telegram": "advantage|Создание, отслеживание, голосования, комментирование и подписка на уведомления в мессенджере"
           }
         ]
       },
@@ -2784,6 +2849,10 @@
             "FeatureName": "Потребление Трафика: Сброс Статистики",
             "Telegram": "advantage|Поддерживается",
             "WhatsApp": "advantage|Поддерживается"
+          },
+          {
+            "FeatureName": "Путь К Хранилищу",
+            "Telegram": "advantage|[Внутренняя память/карта памяти](https://telegram.org/blog/voice-chats?ln=r#sd-card-storage-on-android) (Android)"
           },
           {
             "FeatureName": "Автозагрузка Медиа: Типы Подключения",
