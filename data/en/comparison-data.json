@@ -218,7 +218,7 @@
           {
             "FeatureName": "Backup Contents",
             "Telegram": "advantage|All of the data, except secret chats, including: chats, messages, settings, media and files",
-            "Viber": "disadvantage|Text messages (except secret chats)",
+            "Viber": "disadvantage|Text messages and media",
             "WhatsApp": "disadvantage|Text messages and media"
           },
           {
@@ -500,8 +500,8 @@
           {
             "FeatureName": "Finance",
             "Telegram": "advantage|Unlimited opportunities of transfer via bots",
-            "Viber": "mediocrity|For some countries [via](https://www.viber.com/blog/2019-12-18/pay-your-friends-back-with-moneytou/) Moneytou extension (~1% commision)",
-            "WhatsApp": "advantage|By using Facebook Pay"
+            "Viber": "advantage|Via [Moneytou](https://www.viber.com/blog/2019-12-18/pay-your-friends-back-with-moneytou/) extension (~1% commision), [Apple Pay/Google Pay](https://www.viber.com/en/blog/2020-11-23/pay-in-chatbots-backup-media-and-all-thats-new-on-viber/)",
+            "WhatsApp": "advantage|By using Facebook Pay, [Indian UPI](https://blog.whatsapp.com/send-payments-in-india-with-whatsapp)"
           },
           {
             "FeatureName": "Goods From Catalogs",
@@ -533,7 +533,7 @@
           {
             "FeatureName": "Bulk Forwarding",
             "Telegram": "advantage|Up to 100 messages at a time to different recipients",
-            "Viber": "mediocrity|Desktop: up to 25 messages to different recipients;  \n Android/iOS: 1 message to different recipients",
+            "Viber": "mediocrity|Up to 25 messages to different recipients",
             "WhatsApp": "mediocrity|Up to 10 messages at a time"
           },
           {
@@ -590,7 +590,7 @@
           },
           {
             "FeatureName": "Correction of Sent Images",
-            "Telegram": "advantage|[Supported](https://telegram.org/blog/pinned-messages-locations-playlists/world#new-animations-on-android) (Android)"
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/voice-chats?ln=r#editing-improvements)"
           },
           {
             "FeatureName": "Cropping/Rotating/Tilting Images",
@@ -856,6 +856,10 @@
             "Viber": "advantage|Supported"
           },
           {
+            "FeatureName": "Filtering Unknown Chats",
+            "Viber": "advantage|[Automatic](https://www.viber.com/en/blog/2020-11-23/pay-in-chatbots-backup-media-and-all-thats-new-on-viber/)"
+          },
+          {
             "FeatureName": "Viewing Groups in Common with Contact",
             "Telegram": "advantage|Supported",
             "Viber": "advantage|Supported"
@@ -912,6 +916,7 @@
           {
             "FeatureName": "Sending Reminders",
             "Telegram": "advantage|[Supported](https://telegram.org/blog/scheduled-reminders-themes), via scheduled messages",
+            "Viber": "advantage|With support for repetitions",
             "WhatsApp": "mediocrity|Via paid [integration](https://whatsapp.any.do/) with Any.do service"
           },
           {
@@ -938,7 +943,8 @@
           {
             "FeatureName": "Additional Security Features",
             "Telegram": "advantage|In scope of secret chats",
-            "Viber": "advantage|Messages self-destruct timer, screenshot notifications"
+            "Viber": "advantage|Messages self-destruct timer, screenshot notifications",
+            "WhatsApp": "advantage|[Disappearing messages](https://blog.whatsapp.com/introducing-disappearing-messages-on-whatsapp) (after 7 days)"
           }
         ]
       },
@@ -1011,6 +1017,10 @@
             "FeatureName": "Goods Catalogs",
             "Telegram": "mediocrity|Via bots' content",
             "WhatsApp": "advantage|Supported"
+          },
+          {
+            "FeatureName": "A Cart of Goods",
+            "WhatsApp": "advantage|[Supported](https://blog.whatsapp.com/making-it-easier-to-shop-on-whatsapp-with-carts)"
           },
           {
             "FeatureName": "Buying Goods",
@@ -1169,6 +1179,11 @@
             "FeatureName": "Message Reactions",
             "Telegram": "mediocrity|Via bots",
             "Viber": "advantage|[Supported](https://www.viber.com/en/blog/2020-09-30/perfectly-react-to-messages-and-everything-else-thats-new-on-viber/)"
+          },
+          {
+            "FeatureName": "Disappearing Messages",
+            "Telegram": "mediocrity|Via bots",
+            "WhatsApp": "advantage|[Supported](https://blog.whatsapp.com/introducing-disappearing-messages-on-whatsapp) (after 7 days)"
           },
           {
             "FeatureName": "Collections of Favorites",
@@ -1554,8 +1569,27 @@
         "Features": [
           {
             "FeatureName": "Number of Participants",
-            "Viber": "advantage|Up to 20 participants",
-            "WhatsApp": "mediocrity|Up to 8 participants (mobile devices only)"
+            "Telegram": "advantage|Up to a few thousands",
+            "Viber": "mediocrity|Up to 20 participants",
+            "WhatsApp": "disadvantage|Up to 8 participants (mobile devices only)"
+          },
+          {
+            "FeatureName": "Organized As",
+            "Telegram": "mediocrity|[Voice chats](https://telegram.org/blog/voice-chats?ln=r#voice-chats) available from groups",
+            "Viber": "advantage|Calls from groups, or extension of 1:1 calls ",
+            "WhatsApp": "advantage|Calls from groups, extension of 1:1 calls, or as separate group calls"
+          },
+          {
+            "FeatureName": "Controlling Number of Speakers",
+            "Telegram": "advantage|Via flexible admin tools"
+          },
+          {
+            "FeatureName": "Quick Access Widget",
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/voice-chats?ln=r#voice-chats) (Android)"
+          },          
+          {
+            "FeatureName": "Push-to-Talk",
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/voice-chats?ln=r#push-to-talk-shortcuts), with a custom hotkey support"
           },
           {
             "FeatureName": "Encryption",
@@ -1564,6 +1598,7 @@
           },
           {
             "FeatureName": "Ads",
+            "Telegram": "advantage|Absent",
             "Viber": "disadvantage|After calls",
             "WhatsApp": "advantage|Absent"
           }
@@ -1963,6 +1998,10 @@
             "Viber": "advantage|Supported (according to system settings)"
           },
           {
+            "FeatureName": "Indication of Active Call Participants",
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/voice-chats?ln=r#voice-chats) (with volume level visualisation)"
+          },
+          {
             "FeatureName": "Configuring Message Bubbles Appearance",
             "Telegram": "advantage|[Supported](https://telegram.org/blog/polls-2-0-vmq#message-corners)"
           },
@@ -2024,7 +2063,8 @@
           },
           {
             "FeatureName": "Payments Support",
-            "Telegram": "advantage|Via [Bot Payments API](https://core.telegram.org/bots/payments)"
+            "Telegram": "advantage|Via [Bot Payments API](https://core.telegram.org/bots/payments)",
+            "Viber": "advantage|Via Apple Pay, Google Pay"
           },
           {
             "FeatureName": "Bot API on Own Servers",
@@ -2132,6 +2172,10 @@
           {
             "FeatureName": "Implementation",
             "Telegram": "advantage|Via [comments.app](https://comments.app/) website and [@discussbot](https://t.me/discussbot) with authorization via Telegram"
+          },
+          {
+            "FeatureName": "Sync With Built-In Comments",
+            "Telegram": "advantage|[Supported](https://core.telegram.org/widgets/discussion)"
           },
           {
             "FeatureName": "Main Capabilities",
@@ -2301,6 +2345,27 @@
             "FeatureName": "Ways of Sharing",
             "Telegram": "advantage|Local files or [links](https://telegram.org/blog/scheduled-reminders-themes#custom-cloud-themes) (with support for cloud sync and cross-platform access)"
           }
+        ]
+      },
+      {
+        "AspectName": "Bugs and Suggestions Platform",
+        "Features": [
+          {
+            "FeatureName": "Concept",
+            "Telegram": "advantage|Working with cards that describe fixes and suggestions to implement in Telegram apps"
+          },
+          {
+            "FeatureName": "Via",
+            "Telegram": "advantage|[Website](https://bugs.telegram.org/)"
+          },
+          {
+            "FeatureName": "Significance",
+            "Telegram": "advantage|Community-driven definition of Telegram's direction of evolution and development"
+          },
+          {
+            "FeatureName": "Main Capabilities",
+            "Telegram": "advantage|Creation, tracking, voting, commenting and subscription to the messenger's notifications"
+          }               
         ]
       },
       {
@@ -2784,6 +2849,10 @@
             "FeatureName": "Data Usage: Resetting Statistics",
             "Telegram": "advantage|Supported",
             "WhatsApp": "advantage|Supported"
+          },
+          {
+            "FeatureName": "Storage Path",
+            "Telegram": "advantage|[Internal storage/SD card](https://telegram.org/blog/voice-chats?ln=r#sd-card-storage-on-android) (Android)"
           },
           {
             "FeatureName": "Automatic Media Download: Connection Types",
