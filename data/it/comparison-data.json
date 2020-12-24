@@ -1331,7 +1331,7 @@
           },
           {
             "FeatureName": "Stickers Pack Sponsorizzati",
-            "Telegram": "advantage|Assente (tutte gli stickers pack sono gratuiti)",
+            "Telegram": "advantage|Assente (tutti gli stickers pack sono gratuiti)",
             "Viber": "advantage|Presente (l'installazione di un pacchetto di adesivi vi unisce alla comunità, gli adesivi servono come link alla comunità"
           },
           {
@@ -1575,21 +1575,21 @@
           },
           {
             "FeatureName": "Organizzato come",
-            "Telegram": "mediocrity|[Chat vocali](https://telegram.org/blog/voice-chats?ln=r#voice-chats) disponibile da gruppi",
+            "Telegram": "mediocrity|[Chat vocali](https://telegram.org/blog/voice-chats?ln=it#chat-vocali) disponibile da gruppi",
             "Viber": "advantage|Chiamate da gruppi o estensione delle chiamate 1:1 ",
             "WhatsApp": "advantage|Chiamate da gruppi, estensione delle chiamate 1:1 o come chiamate di gruppo separate"
           },
           {
-            "FeatureName": "Controllo del Numero di Speakers",
+            "FeatureName": "Controllo del Numero dei Partecipanti",
             "Telegram": "advantage|Tramite strumenti di amministrazione flessibili"
           },
           {
             "FeatureName": "Widget Accesso Rapido",
-            "Telegram": "advantage|[Supportato](https://telegram.org/blog/voice-chats?ln=r#voice-chats) (Android)"
+            "Telegram": "advantage|[Supportato](https://telegram.org/blog/voice-chats?ln=it#chat-vocali) (Android)"
           },          
           {
             "FeatureName": "Push-to-Talk",
-            "Telegram": "advantage|[Supportato](https://telegram.org/blog/voice-chats?ln=r#push-to-talk-shortcuts), con un supporto personalizzato per i tasti di scelta rapida"
+            "Telegram": "advantage|[Supportato](https://telegram.org/blog/voice-chats?ln=it#scorciatoie-per-il-push-to-talk), con un supporto personalizzato per i tasti di scelta rapida"
           },
           {
             "FeatureName": "Crittografia",
