@@ -8,18 +8,21 @@ namespace MessengerComparison
     public class MCHtmlBuilder
     {
         public static List<string> Languages { get; set; }
+        public static DateTime OriginalUpdatedDate { get; set; }
         Dictionary<string, string> GeneralData { get; set; }
         List<Group> ComparisonData { get; set; }
         string Language { get; set; }
-        DateTime LastModified { get; set; }
+        string LastUpdatedDateText { get; set; }
+        bool IsTranslationOutOfDate { get; set;}
 
         public MCHtmlBuilder(string language, Dictionary<string, string> generalData,
-                             List<Group> comparisonData, DateTime lastModified)
+                             List<Group> comparisonData, DateTime lastUpdatedDate)
         {
             Language = language;
             GeneralData = generalData;
             ComparisonData = comparisonData;
-            LastModified = lastModified;
+            LastUpdatedDateText = GetLastUpdatedDateText(lastUpdatedDate);
+            IsTranslationOutOfDate = IsOutdated(OriginalUpdatedDate, lastUpdatedDate);
         }
 
         public string Build()
@@ -46,29 +49,33 @@ namespace MessengerComparison
                             {GetLanguages()}
                         </div>
                         <section class=""main"">
-                        <h1 class=""headline"">{GeneralData["Headline"]}</h1>
-                        <table>
-                            <colgroup>
-                                <col class=""feature-col"">
-                                <col class=""service-col"">
-                                <col class=""service-col"">
-                                <col class=""service-col"">
-                            </colgroup>
-                            <thead>
-                                <tr>
-                                    <th class=""header"">{GeneralData["Feature"]}</th>
-                                    <th class=""header"">
-                                        <span class=""telegram-icon"">{GeneralData["Telegram"]}</span>
-                                    </th>
-                                    <th class=""header"">
-                                        <span class=""viber-icon"">{GeneralData["Viber"]}</span>
-                                    </th>
-                                    <th class=""header"">
-                                        <span class=""whatsapp-icon"">{GeneralData["WhatsApp"]}</span>
-                                    </th>
-                                </tr>                            
-                            </thead>
-                            <tbody>
+                            <div class=""headline"">
+                                <h1>{GeneralData["Headline"]}</h1>
+                                {(IsTranslationOutOfDate ? 
+                                $"<h2 class=\"outdated\">Translation is out of date: {LastUpdatedDateText}</h2>" : "")}
+                            </div>
+                            <table>
+                                <colgroup>
+                                    <col class=""feature-col"">
+                                    <col class=""service-col"">
+                                    <col class=""service-col"">
+                                    <col class=""service-col"">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th class=""header"">{GeneralData["Feature"]}</th>
+                                        <th class=""header"">
+                                            <span class=""telegram-icon"">{GeneralData["Telegram"]}</span>
+                                        </th>
+                                        <th class=""header"">
+                                            <span class=""viber-icon"">{GeneralData["Viber"]}</span>
+                                        </th>
+                                        <th class=""header"">
+                                            <span class=""whatsapp-icon"">{GeneralData["WhatsApp"]}</span>
+                                        </th>
+                                    </tr>                            
+                                </thead>
+                                <tbody>
             ");
 
             string value = string.Empty;
@@ -199,7 +206,7 @@ namespace MessengerComparison
                                 </tbody>
                             </table>
                         <p class=""updated-date"">
-                            {GetLastModifiedText()}  <br><br>
+                            {GeneralData["UpdatedText"]} {LastUpdatedDateText}  <br><br>
                             {GeneralData["Author"].ToHtml()}
                         </p>
                     </section>
@@ -210,7 +217,7 @@ namespace MessengerComparison
             return builder.ToString();
         }
 
-        public string GetLanguages()
+        private string GetLanguages()
         {
             var languagesHtml = string.Empty;
 
@@ -222,35 +229,21 @@ namespace MessengerComparison
             return languagesHtml;
         }
 
-        public string GetLastModifiedText()
+        private string GetLastUpdatedDateText(DateTime lastUpdated)
         {
-
-            CultureInfo ci;
-
-            var textPrefix = GeneralData["UpdatedText"] + " ";
+            CultureInfo ci = new CultureInfo(Language);
 
             if (GeneralData.ContainsKey("UpdatedDate") &&
                !string.IsNullOrEmpty(GeneralData["UpdatedDate"]))
-                return textPrefix + GeneralData["UpdatedDate"];
+                return GeneralData["UpdatedDate"];
 
-            switch (Language)
-            {
-                case "en":
-                    ci = new CultureInfo("en-US");
-                    return textPrefix + LastModified.ToString(@"dd \o\f MMMM, yyyy", ci);
-                case "pt":
-                    ci = new CultureInfo("pt-BR");
-                    return textPrefix + LastModified.ToString(@"dd \d\e MMMM \d\e yyyy", ci);
-                case "ru":
-                    ci = new CultureInfo("ru-RU");
-                    return textPrefix + LastModified.ToString(@"dd MMMM yyyy \г.", ci);
-                case "uk":
-                    ci = new CultureInfo("uk-UA");
-                    return textPrefix + LastModified.ToString(@"dd MMMM yyyy \р.", ci);
-                default:
-                    ci = CultureInfo.InvariantCulture;
-                    return textPrefix + LastModified.ToString(@"MM/dd/yyyy", ci);
-            }
+            return lastUpdated.ToString(GeneralData["UpdatedFormat"], ci);
+        }
+
+        private bool IsOutdated(DateTime originalDate, DateTime translationDate) 
+        {
+            return originalDate > translationDate &&
+                  (originalDate - translationDate) > TimeSpan.FromDays(180);
         }
 
     }

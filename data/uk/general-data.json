@@ -1,12 +1,11 @@
 {
     "Headline": "Деталізоване Порівняння Месенджерів",
     "Description": "Який сервіс для обміну повідомленнями оберете ви?",
-    "Group": "Група",
-    "Aspect": "Аспект",
     "Feature": "Особливість",
     "Telegram": "Telegram",
     "Viber": "Viber",
     "WhatsApp": "WhatsApp",
     "UpdatedText": "Оновлено:",
+    "UpdatedFormat": "dd MMMM yyyy \\р.",
     "Author": "Автор: [JayXT](https://github.com/JayXT)"
 }

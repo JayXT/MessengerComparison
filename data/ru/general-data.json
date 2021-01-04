@@ -1,12 +1,11 @@
 {
     "Headline": "Подробное Сравнение Мессенджеров",
     "Description": "Какой сервис для обмена сообщениями выберете вы?",
-    "Group": "Группа",
-    "Aspect": "Аспект",
     "Feature": "Особенность",
     "Telegram": "Telegram",
     "Viber": "Viber",
     "WhatsApp": "WhatsApp",
     "UpdatedText": "Перевод обновлен:",
+    "UpdatedFormat": "dd MMMM yyyy \\г.",
     "Author": "Автор перевода: [hookz](https://github.com/hookzof)"
 }

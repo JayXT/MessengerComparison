@@ -36,16 +36,6 @@ namespace MessengerComparison
             }
         }
 
-        public static int GetRowCount(this Group group)
-        {
-            int rowCount = 0;
-
-            foreach (var aspect in group.Aspects)
-                rowCount += aspect.Features.Count;
-
-            return rowCount;
-        }
-
         public static bool AreTelegramFeaturesPresent(this Aspect aspect)
         {
             foreach (var feature in aspect.Features)

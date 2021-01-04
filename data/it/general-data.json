@@ -1,12 +1,11 @@
 {
     "Headline": "Confronto Dettagliato tra le App di Messaggistica",
     "Description": "",
-    "Group": "Gruppo",
-    "Aspect": "Aspetto",
     "Feature": "Funzionalità",
     "Telegram": "Telegram",
     "Viber": "Viber",
     "WhatsApp": "WhatsApp",
     "UpdatedText": "Traduzione aggiornata al:",
+    "UpdatedFormat": "dd MMMM yyyy",
     "Author": "Tradotto da: [David S.](https://github.com/DMJWorld)"
 }

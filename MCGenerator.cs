@@ -22,10 +22,14 @@ namespace MessengerComparison
                 //Step 2: Get a list of data languages
                 MCHtmlBuilder.Languages = GetLanguages(DataPath);
 
-                //Step 3: Go over languages            
+                //Step 3: Determine original comparison updated date
+                MCHtmlBuilder.OriginalUpdatedDate = GetLastModifiedDateFromGit(
+                                    Path.Combine(DataPath, "uk", "comparison-data.json"));
+
+                //Step 4: Go over languages            
                 foreach (var lang in MCHtmlBuilder.Languages)
                 {
-                    //Step 4: Prepare the data for a language
+                    //Step 5: Prepare the data for a language
                     var generalDataPath = Path.Combine(DataPath, lang, "general-data.json");
                     var comparisonDataPath = Path.Combine(DataPath, lang, "comparison-data.json");
 
@@ -33,11 +37,11 @@ namespace MessengerComparison
                     var comparisonData = GetObjectFromFile<List<Group>>(comparisonDataPath);
                     DateTime lastModified = GetLastModifiedDateFromGit(comparisonDataPath);
 
-                    //Step 5: Generate HTML file from the data for a language
+                    //Step 6: Generate HTML file from the data for a language
                     string html = new MCHtmlBuilder(lang, generalData, comparisonData, lastModified)
                                         .Build();
 
-                    //Step 6: Save HTML file to the Output folder for a language
+                    //Step 7: Save HTML file to the Output folder for a language
                     var outputFilePath = Path.Combine(OutputPath, lang, "index.html");
                     new FileInfo(outputFilePath).Directory.Create();
                     File.WriteAllText(outputFilePath, html);
