@@ -29,7 +29,8 @@ namespace MessengerComparison
             builder.AppendLine(
             $@"<!DOCTYPE html>
                <html lang=""{Language}"">
-                    <head>
+                    <head>                        
+                        <meta name=""viewport"" content=""width=device-width"">
                         <meta http-equiv=""content-type"" content=""text/html; charset=utf-8"" />
                         <meta property=""og:site_name"" content=""MessengerComparison"">
                         <meta property=""og:title"" content=""{GeneralData["Headline"]}"">
@@ -48,8 +49,6 @@ namespace MessengerComparison
                         <h1 class=""headline"">{GeneralData["Headline"]}</h1>
                         <table>
                             <colgroup>
-                                <col class=""group-col"">
-                                <col class=""aspect-col"">
                                 <col class=""feature-col"">
                                 <col class=""service-col"">
                                 <col class=""service-col"">
@@ -57,16 +56,14 @@ namespace MessengerComparison
                             </colgroup>
                             <thead>
                                 <tr>
-                                    <th>{GeneralData["Group"]}</th>
-                                    <th>{GeneralData["Aspect"]}</th>
-                                    <th>{GeneralData["Feature"]}</th>
-                                    <th>
+                                    <th class=""header"">{GeneralData["Feature"]}</th>
+                                    <th class=""header"">
                                         <span class=""telegram-icon"">{GeneralData["Telegram"]}</span>
                                     </th>
-                                    <th>
+                                    <th class=""header"">
                                         <span class=""viber-icon"">{GeneralData["Viber"]}</span>
                                     </th>
-                                    <th>
+                                    <th class=""header"">
                                         <span class=""whatsapp-icon"">{GeneralData["WhatsApp"]}</span>
                                     </th>
                                 </tr>                            
@@ -76,15 +73,11 @@ namespace MessengerComparison
 
             string value = string.Empty;
             string score = string.Empty;
-            int groupRowspan, aspectRowspan;
-            bool groupWasAdded, aspectWasAdded;
+            int aspectRowspan;
+            bool aspectWasAdded;
 
-            foreach(var group in ComparisonData)
-            {                        
-                groupRowspan = group.GetRowCount();
-                groupWasAdded = false;
-
-                foreach(var aspect in group.Aspects)
+            foreach (var group in ComparisonData)
+                foreach (var aspect in group.Aspects)
                 {
                     aspectRowspan = aspect.Features.Count;
                     aspectWasAdded = false;
@@ -92,122 +85,115 @@ namespace MessengerComparison
                     bool ViberFeaturesPresent = aspect.AreViberFeaturesPresent();
                     bool WhatsAppFeaturesPresent = aspect.AreWhatsAppFeaturesPresent();
 
-                    foreach(var feature in aspect.Features)
+                    builder.AppendLine($@"
+                    <tr>
+                        <th scope=""col"" class=""category"" colspan=""4"">
+                           <div class=""category-container"">
+                                <span class=""group-text"">{group.GroupName}</span>
+                                <span class=""category-arrow"">&rarr;</span>
+                                <span class=""aspect-text"">{aspect.AspectName}</span>
+                           </div>                              
+                        </th>
+                    </tr>
+                    ");
+                    foreach (var feature in aspect.Features)
                     {
                         builder.AppendLine(
-                            "<tr>");                                    
-                            if(!groupWasAdded)
-                            {
-                                builder.AppendLine($@"
-                                <td rowspan=""{groupRowspan}"">
-                                    <h3 class=""group-text"">{group.GroupName}</h3>
-                                </td>
-                                ");
-                            }
+                            "<tr>");
 
-                            if(!aspectWasAdded)
-                            {
-                                builder.AppendLine($@"
-                                <td rowspan=""{aspectRowspan}"">
-                                    <h4 class=""aspect-text"">{aspect.AspectName}</h4>
-                                </td>
-                                ");
-                            }
-                            builder.AppendLine($@"
+                        builder.AppendLine($@"
                                 <td>{feature.FeatureName.ToHtml()}</td>
                             ");
 
 
-                            if(feature.Telegram != null) 
-                            {
-                                (score, value) =  feature.Telegram.GetScoreValue();
-                                builder.AppendLine($@"
+                        if (feature.Telegram != null)
+                        {
+                            (score, value) = feature.Telegram.GetScoreValue();
+                            builder.AppendLine($@"
                                 <td class=""{score}"">{value}</td>
                                 ");
-                            }
-                            else if(TelegramFeaturesPresent && feature.Telegram == null) 
-                            {
-                                builder.AppendLine($@"
+                        }
+                        else if (TelegramFeaturesPresent && feature.Telegram == null)
+                        {
+                            builder.AppendLine($@"
                                 <td class=""disadvantage"">&#8212;</td>
                                 ");
-                            }
-                            else if(!aspectWasAdded && !TelegramFeaturesPresent && aspect.Telegram != null)
-                            {
-                                (score, value) =  aspect.Telegram.GetScoreValue();                                        
-                                builder.AppendLine($@"
+                        }
+                        else if (!aspectWasAdded && !TelegramFeaturesPresent && aspect.Telegram != null)
+                        {
+                            (score, value) = aspect.Telegram.GetScoreValue();
+                            builder.AppendLine($@"
                                 <td class=""{score}"" rowspan=""{aspectRowspan}"">{value}</td>
                                 ");
-                            }
-                            else if(!aspectWasAdded && !TelegramFeaturesPresent && aspect.Telegram == null) 
-                            {
-                                builder.AppendLine($@"
+                        }
+                        else if (!aspectWasAdded && !TelegramFeaturesPresent && aspect.Telegram == null)
+                        {
+                            builder.AppendLine($@"
                                 <td class=""disadvantage"" rowspan=""{aspectRowspan}"">&#8212;</td>
                                 ");
-                            }
+                        }
 
 
-                            if(feature.Viber != null) 
-                            {
-                                (score, value) = feature.Viber.GetScoreValue();
-                                builder.AppendLine($@"
+                        if (feature.Viber != null)
+                        {
+                            (score, value) = feature.Viber.GetScoreValue();
+                            builder.AppendLine($@"
                                 <td class=""{score}"">{value}</td>
                                 ");
-                            }
-                            else if(ViberFeaturesPresent && feature.Viber == null) 
-                            {
-                                builder.AppendLine($@"
+                        }
+                        else if (ViberFeaturesPresent && feature.Viber == null)
+                        {
+                            builder.AppendLine($@"
                                 <td class=""disadvantage"">&#8212;</td>
                                 ");
-                            }
-                            else if(!aspectWasAdded && !ViberFeaturesPresent && aspect.Viber != null)
-                            {
-                                (score, value) = aspect.Viber.GetScoreValue();
-                                builder.AppendLine($@"
+                        }
+                        else if (!aspectWasAdded && !ViberFeaturesPresent && aspect.Viber != null)
+                        {
+                            (score, value) = aspect.Viber.GetScoreValue();
+                            builder.AppendLine($@"
                                 <td class=""{score}"" rowspan=""{aspectRowspan}"">value</td>
                                 ");
-                            }
-                            else if(!aspectWasAdded && !ViberFeaturesPresent && aspect.Viber == null) 
-                            {
-                                builder.AppendLine($@"
+                        }
+                        else if (!aspectWasAdded && !ViberFeaturesPresent && aspect.Viber == null)
+                        {
+                            builder.AppendLine($@"
                                 <td class=""disadvantage"" rowspan=""{aspectRowspan}"">&#8212;</td>
                                 ");
-                            }
+                        }
 
 
-                            if(feature.WhatsApp != null) 
-                            {
-                                (score, value) = feature.WhatsApp.GetScoreValue();
-                                builder.AppendLine($@"
+                        if (feature.WhatsApp != null)
+                        {
+                            (score, value) = feature.WhatsApp.GetScoreValue();
+                            builder.AppendLine($@"
                                 <td class=""{score}"">{value}</td>
                                 ");
-                            }
-                            else if(WhatsAppFeaturesPresent && feature.WhatsApp == null) 
-                            {
-                                builder.AppendLine($@"
+                        }
+                        else if (WhatsAppFeaturesPresent && feature.WhatsApp == null)
+                        {
+                            builder.AppendLine($@"
                                 <td class=""disadvantage"">&#8212;</td>
                                 ");
-                            }
-                            else if(!aspectWasAdded && !WhatsAppFeaturesPresent && aspect.WhatsApp != null)
-                            {
-                                (score, value) = aspect.WhatsApp.GetScoreValue();
-                                builder.AppendLine($@"
+                        }
+                        else if (!aspectWasAdded && !WhatsAppFeaturesPresent && aspect.WhatsApp != null)
+                        {
+                            (score, value) = aspect.WhatsApp.GetScoreValue();
+                            builder.AppendLine($@"
                                 <td class=""{score}"" rowspan=""{aspectRowspan}"">{value}</td>
                                 ");
-                            }
-                            else if(!aspectWasAdded && !WhatsAppFeaturesPresent && aspect.WhatsApp == null) 
-                            {
-                                builder.AppendLine($@"
+                        }
+                        else if (!aspectWasAdded && !WhatsAppFeaturesPresent && aspect.WhatsApp == null)
+                        {
+                            builder.AppendLine($@"
                                 <td class=""disadvantage"" rowspan=""{aspectRowspan}"">&#8212;</td>
                                 ");
-                            }
+                        }
 
-                            groupWasAdded = true;
-                            aspectWasAdded = true;
+                        aspectWasAdded = true;
                         builder.AppendLine($@"
                         </tr>");
                     }
-                }                        
-            }
+                }
 
             builder.AppendLine($@"
                                 </tbody>
@@ -242,8 +228,8 @@ namespace MessengerComparison
             CultureInfo ci;
 
             var textPrefix = GeneralData["UpdatedText"] + " ";
-            
-            if(GeneralData.ContainsKey("UpdatedDate") &&
+
+            if (GeneralData.ContainsKey("UpdatedDate") &&
                !string.IsNullOrEmpty(GeneralData["UpdatedDate"]))
                 return textPrefix + GeneralData["UpdatedDate"];
 
