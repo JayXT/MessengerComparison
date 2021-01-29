@@ -1595,7 +1595,7 @@
         "Features": [
           {
             "FeatureName": "Кількість Учасників",
-            "Telegram": "advantage|До кількох тисяч",
+            "Telegram": "advantage|[До 5000 учасників](https://t.me/TelegramTips/233)",
             "Viber": "mediocrity|До 20 учасників",
             "WhatsApp": "disadvantage|До 8 учасників (виключно на смартфонах)"
           },
@@ -3130,7 +3130,8 @@
           {
             "FeatureName": "Експорт Чатів",
             "Telegram": "advantage|Гнучкий та контрольований, всіх або окремих в JSON/HTML (на Telegram Desktop)",
-            "WhatsApp": "mediocrity|В текстовий файл з підтримкою окремих медіа файлів"
+            "Viber": "mediocrity|Базовий експорт чатів",
+            "WhatsApp": "mediocrity|Базовий експорт чатів"
           },
           {
             "FeatureName": "Архівування Всіх Чатів",

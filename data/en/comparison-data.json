@@ -1595,7 +1595,7 @@
         "Features": [
           {
             "FeatureName": "Number of Participants",
-            "Telegram": "advantage|Up to a few thousands",
+            "Telegram": "advantage|[Up to 5000 participants](https://t.me/TelegramTips/233)",
             "Viber": "mediocrity|Up to 20 participants",
             "WhatsApp": "disadvantage|Up to 8 participants (mobile devices only)"
           },
@@ -2002,7 +2002,7 @@
             "Telegram": "advantage|[Supported](https://telegram.org/blog/move-history#improved-audio-player)"
           },
           {
-            "FeatureName": "Fast Greeting Stickers",
+            "FeatureName": "Quick Greeting Stickers",
             "Telegram": "advantage|[Supported](https://telegram.org/blog/move-history#greeting-stickers)",
             "Viber": "advantage|Supported"
           },
@@ -3130,7 +3130,8 @@
           {
             "FeatureName": "Chats Export",
             "Telegram": "advantage|Flexible and controlled export of all or individual chats into JSON/HTML (on Telegram Desktop)",
-            "WhatsApp": "mediocrity|Into text file with support for separate media files"
+            "Viber": "mediocrity|Basic export of chats",
+            "WhatsApp": "mediocrity|Basic export of chats"
           },
           {
             "FeatureName": "Archiving All Chats",
