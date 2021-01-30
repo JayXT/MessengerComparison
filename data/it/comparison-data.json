@@ -40,6 +40,12 @@
             "Viber": "mediocrity|[Di mediocre complessità](https://www.viber.com/terms/viber-privacy-policy/)",
             "WhatsApp": "disadvantage|[Abbastanza complicata](https://www.whatsapp.com/legal?eea=1#privacy-policy-how-the-general-data-protection-regulation-applies-to-our-european-region-users)"
           },
+		  {
+            "FeatureName": "Divulgazione dei Dati Utente a Terzi",
+            "Telegram": "advantage|Assente ([Numeri di telefono e indirizzi IP dei terroristi](https://telegram.org/privacy#8-3-law-enforcement-authorities) possono essere potenzialmente divulgati)",
+            "Viber": "disadvantage|[Possibile, ai partners in particolare](https://www.viber.com/terms/viber-privacy-policy/)",
+            "WhatsApp": "disadvantage|[A Facebook e alle aziende collegate](https://www.whatsapp.com/legal/updates/privacy-policy?eea=0#privacy-policy-updates-how-we-work-with-other-facebook-companies)"
+          },
           {
             "FeatureName": "Documentazione",
             "Telegram": "advantage|[Aperta e dettagliata](https://core.telegram.org/)",
@@ -75,7 +81,7 @@
         "Features": [
           {
             "FeatureName": "Numero di Utenti Attivi",
-            "Telegram": "mediocrity|[400 milioni](https://telegram.org/blog/400-million)",
+            "Telegram": "mediocrity|[500 milioni](https://t.me/durov/147)",
             "Viber": "mediocrity|[260 milioni](https://en.wikipedia.org/wiki/Messaging_apps)",
             "WhatsApp": "advantage|[2000 milioni](https://blog.whatsapp.com/10000666/Two-Billion-Users--Connecting-the-World-Privately)"
           }
@@ -96,6 +102,12 @@
             "Viber": "mediocrity|[Disponibile](https://www.viber.com/blog/), fornisce solo informazioni selettive o di marketing",
             "WhatsApp": "disadvantage|[Disponibile](https://blog.whatsapp.com/), anche se viene aggiornato raramente e fornisce quasi nessuna informazione sugli aggiornamenti"
           },
+		  {
+            "FeatureName": "Presentazione delle Funzionalità",
+            "Telegram": "advantage|Come animazioni sul canale [Suggerimenti di Telegram](https://t.me/TelegramTipsIT) e sul blog",
+            "Viber": "mediocrity|Limitato, tramite sito web di supporto, blog",
+            "WhatsApp": "mediocrity|Limitato, via FAQ, blog"
+          },
           {
             "FeatureName": "Modello di Supporto",
             "Telegram": "disadvantage|Supporto volontario ([TSF](https://core.telegram.org/tsi))",
@@ -109,8 +121,8 @@
         "Features": [
           {
             "FeatureName": "Spam",
-            "Telegram": "advantage|[Controllo affidabile dello spam](https://telegram.org/faq_spam) e [avvertimenti](https://telegram.org/blog/privacy-discussions-web-bots#scam-alerts) circa lo scam",
-            "Viber": "disadvantage|[Controllo dello Spam](https://support.viber.com/customer/en/portal/articles/2002168-spam-messages-on-viber?b_id=3838) (aziende di spam, annunci e notifiche ridondanti sono ancora ricevuti)",
+            "Telegram": "advantage|[Controllo affidabile dello spam](https://telegram.org/faq_spam) e [avvertimenti](https://telegram.org/blog/privacy-discussions-web-bots#scam-alerts) di [sospette](https://telegram.org/blog/move-history/it?ln=a#segnalazione-canali-falsi) attività",
+            "Viber": "mediocrity|[Controllo dello spam e casella delle richieste di messaggi](https://www.viber.com/en/blog/2021-01-27/securitips-how-to-play-it-safe-on-viber-and-how-your-chats-are-kept-private/) (spam aziendali, ads e le notifiche ridondanti vengono ancora ricevute)",
             "WhatsApp": "mediocrity|Controllo limitato dello spam"
           },
           {
@@ -218,7 +230,7 @@
           {
             "FeatureName": "Contenuti del Backup",
             "Telegram": "advantage|Tutti i dati, eccetto le chat segrete, inclusi: chat, messaggi, impostazioni, media e file",
-            "Viber": "disadvantage|Messaggi di testo e media",
+            "Viber": "mediocrity|Messaggi di testo, media e dati dell'account",
             "WhatsApp": "disadvantage|Messaggi di testo e media"
           },
           {
@@ -238,14 +250,35 @@
             "Telegram": "advantage|Solo per i contenuti scaricati",
             "Viber": "disadvantage|Salva tutto il contenuto",
             "WhatsApp": "disadvantage|Salva tutto il contenuto e backup locali completi"
+		  }
+        ]
+      },
+      {
+        "AspectName": "Sicurezza",
+        "Features": [
+          {
+            "FeatureName": "Crittografia dei Dati in Transito",
+            "Telegram": "advantage|End-to-end (chat segrete), client-server (chat su cloud)",
+            "Viber": "mediocrity|Teoricamente crittografia end-to-end (l'implementazione non può essere verificata)",
+            "WhatsApp": "mediocrity|Crittografia teorica end-to-end tramite Signal (l'implementazione non può essere verificata)"
           },
           {
-            "FeatureName": "Crittografia",
-            "Telegram": "advantage|In modalità client-server con suddivisione della chiave di crittografia in diverse giurisdizioni",
-            "Viber": "disadvantage|I backup non sono crittografati",
-            "WhatsApp": "disadvantage|I backup non sono crittografati"
+            "FeatureName": "Crittografia dei Dati Archiviati sul Server",
+            "Telegram": "advantage|Supportato (vengono salvate solo le chat cloud)",
+            "Viber": "disadvantage|Google/Apple backups non sono crittografati",
+            "WhatsApp": "disadvantage|Google/Apple backups non sono crittografati"
+          },
+          {
+            "FeatureName": "Posizione della Chiave di Crittografia per i Dati Memorizzati",
+            "Telegram": "advantage|Divisi in diverse giurisdizioni"
+          },
+          {
+            "FeatureName": "[Segretezza perfetta in avanti](https://it.wikipedia.org/wiki/Forward_secrecy)",
+            "Telegram": "advantage|[Supportato](https://core.telegram.org/api/pfs)",
+            "Viber": "advantage|[Supportato](https://www.viber.com/app/uploads/Viber-Encryption-Overview.pdf)",
+            "WhatsApp": "advantage|[Supportato](https://www.whatsapp.com/security/WhatsApp-Security-Whitepaper.pdf)"
           }
-        ]
+        ] 
       },
       {
         "AspectName": "Bypass del Blocco",
@@ -263,17 +296,6 @@
             "FeatureName": "Strumenti Estesi con Supporto per la Crittografia",
             "Telegram": "advantage|[MTProto Proxy](https://hybridtechcar.com/2018/05/26/telegram-mtproto-proxy/)",
             "Viber": "advantage|Shadowsocks, GoQuiet, Cloak"
-          }
-        ]
-      },
-      {
-        "AspectName": "Sicurezza",
-        "Features": [
-          {
-            "FeatureName": "[Perfect Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy)",
-            "Telegram": "advantage|[Supportato](https://core.telegram.org/api/pfs)",
-            "Viber": "advantage|[Supportato](https://www.viber.com/app/uploads/Viber-Encryption-Overview.pdf)",
-            "WhatsApp": "advantage|[Supportato](https://www.whatsapp.com/security/WhatsApp-Security-Whitepaper.pdf)"
           }
         ]
       },
@@ -301,11 +323,15 @@
             "Viber": "disadvantage|Presente",
             "WhatsApp": "disadvantage|Presente"
           },
+		   {
+            "FeatureName": "Supporto per Importazione Dei Dati",
+            "Telegram": "advantage|[Importazione di chat e gruppi](https://telegram.org/blog/move-history/it?ln=a) da WhatsApp, Line, KakaoTalk"
+          },
           {
             "FeatureName": "Supporto per l'Esportazione dei Dati",
             "Telegram": "advantage|[Esportazione flessibile](https://telegram.org/blog/export-and-more) da Telegram Desktop in JSON/HTML",
             "Viber": "mediocrity|Invio limitato della cronologia della chat a e-mail ed esportazione dei dati personali in Viber",
-            "WhatsApp": "mediocrity|Invio limitato della cronologia delle singole chat per e-mail o esportazione in file di testo"
+            "WhatsApp": "mediocrity|Invio limitato della cronologia delle singole chat a e-mail o esportazione nella memoria locale"
           },
           {
             "FeatureName": "Supporto per Account Multipli",
@@ -554,7 +580,8 @@
           },
           {
             "FeatureName": "Bozze Cloud",
-            "Telegram": "advantage|Supportato, i messaggi incompiuti possono essere continuati e inviati da qualsiasi dispositivo"
+            "Telegram": "advantage|Supportato, i messaggi incompiuti possono essere continuati e inviati da qualsiasi dispositivo",
+			"Viber": "mediocrity|Solo bozze locali"
           },
           {
             "FeatureName": "Invio di File di Archiviazione Cloud Incorporato",
@@ -594,7 +621,8 @@
           },
           {
             "FeatureName": "Ritaglio/Rotazione/Inclinazione delle Immagini",
-            "Telegram": "advantage|Supportato"
+            "Telegram": "advantage|Supportato",
+			"WhatsApp": "mediocrity|Solo ritaglio/rotazione"       
           },
           {
             "FeatureName": "Disegno sui Media",
@@ -606,7 +634,7 @@
             "FeatureName": "Aggiunta Maschere, Stickers, Testo",
             "Telegram": "advantage|Alle immagini e ai video",
             "Viber": "advantage|Alle immagini e ai video",
-            "WhatsApp": "disadvantage|Solo alle immagini, solo testo"
+            "WhatsApp": "mediocrity|Solo alle immagini (testo ed emoji)"
           },
           {
             "FeatureName": "Aggiunta Stickers Animaati",
@@ -814,10 +842,8 @@
             "Telegram": "advantage|Fissare/rimuovere, Archiviazione, eliminazione, cancellazione della cronologia, cache, Contrassegno come letto/non letto, Abilitazione/disabilitazione delle notifiche, Aggiunta/rimozione dalla cartella"
           },
           {
-            "FeatureName": "Cancellazione/Eliminazione di Chat",
-            "Telegram": "advantage|Supportato per entrambi i partecipanti",
-            "Viber": "mediocrity|Supporto parziale",
-            "WhatsApp": "mediocrity|Supporto parziale"
+            "FeatureName": "Cancellazione/Eliminazione Dei Dati per Tutti i Membri",
+            "Telegram": "advantage|[Di chat, gruppi e cronologia delle chiamate](https://telegram.org/blog/move-history/it?ln=a#controlla-la-tua-presenza-digitale)"
           },
           {
             "FeatureName": "Anteprima Dei",
@@ -1119,7 +1145,7 @@
           },
           {
             "FeatureName": "Scegliere e Controllare gli Amministratori",
-            "Telegram": "advantage|Diritti atomici su: modifica delle informazioni sul gruppo, moderazione, eliminazione dei messaggi, blocco/sblocco utenti, link di collegamento, blocco messaggi, aggiunta/rimozione amministratori, [anonimato](https://telegram.org/blog/filters-anonymous-admins-comments#anonymous-group-admins) invio di messaggi",
+            "Telegram": "advantage|Diritti atomici su: modifica delle informazioni sul gruppo, moderazione, eliminazione dei messaggi, blocco/sblocco utenti, link di collegamento, blocco messaggi, aggiunta/rimozione amministratori, [anonimato](https://telegram.org/blog/filters-anonymous-admins-comments#anonymous-group-admins) invio di messaggi, gestione delle chat vocali",
             "Viber": "advantage|Amministratori di gruppo: aggiunta/rimozione di amministratori, utenti  \n Amministratori delle comunità: aggiunta/rimozione/ blocco dei membri, fissare messaggi, moderazione, eliminazione dei messaggi  \n Superadmins delle comunità diverso da quello che hanno: diritti per modificare le informazioni del gruppo, aumentare/ diminuire dei diritti, cambiare sfondo per i membri, accesso ai dati di contatto degli amministratori",
             "WhatsApp": "mediocrity|Diritti per modificare le informazioni del gruppo, aggiunta/rimozione di utenti/amministratori, link d'invito"
           },
@@ -1569,7 +1595,7 @@
         "Features": [
           {
             "FeatureName": "Numero di Partecipanti",
-            "Telegram": "advantage|Fino a poche migliaia",
+            "Telegram": "advantage|[Fino a 5000 partecipanti](https://t.me/TelegramTipsIT/123)",
             "Viber": "mediocrity|Fino a 20 partecipanti",
             "WhatsApp": "disadvantage|Fino a 8 partecipanti (solo per dispositivi mobili)"
           },
@@ -1595,6 +1621,10 @@
             "FeatureName": "Crittografia",
             "Viber": "mediocrity|Supportata (implementazione sconosciuta)",
             "WhatsApp": "advantage|Supportata (teoricamente Signal)"
+          },
+		  {
+            "FeatureName": "Correzione Del Livello di Volume Dei Singoli Membri",
+            "Telegram": "advantage|[Supportato](https://telegram.org/blog/move-history/it?ln=a#chat-vocali-migliorate), comprese le modifiche per tutti in modalità cloud"
           },
           {
             "FeatureName": "Annunci",
@@ -1963,6 +1993,19 @@
             "FeatureName": "Riproduzione Rapida Video in Modalità Schermo Intero",
             "Telegram": "advantage|Tramite la rotazione dello schermo"
           },
+		  {
+            "FeatureName": "Accurato Avanzamento/Riavvolgimento Veloce Dell'Audio",
+            "Telegram": "advantage|[Supportato](https://telegram.org/blog/move-history/it?ln=a#player-audio-migliorato)"
+          },
+          {
+            "FeatureName": "Visualizzazione Di Tutti I Brani Dell'Artista",
+            "Telegram": "advantage|[Supportato](https://telegram.org/blog/move-history/it?ln=a#player-audio-migliorato)"
+          },
+          {
+            "FeatureName": "Sticker Rapido Di Benvenuto",
+            "Telegram": "advantage|[Supportato](https://telegram.org/blog/move-history/it?ln=a#sticker-di-benvenuto)",
+            "Viber": "advantage|Supportato"
+          },
           {
             "FeatureName": "Ridimensionamento nell'Editor Multimediale",
             "Telegram": "advantage|Per il disegno"
@@ -2021,6 +2064,12 @@
             "Viber": "mediocrity|Aprendo una pagina web",
             "WhatsApp": "mediocrity|Aprendo una pagina web"
           },
+		  {
+            "FeatureName": "Promemoria Dei Compleanni",
+            "Telegram": "mediocrity|I dati extra non vengono raccolti",
+            "Viber": "advantage|[Supportato](https://help.viber.com/en/article/birthday-reminders-and-notifications), con configurazione delle impostazioni di privacy",
+            "WhatsApp": "mediocrity|I dati extra non vengono raccolti"
+          },
           {
             "FeatureName": "Ordinamento Contatti",
             "Telegram": "advantage|Per nome o per ultimo visto",
@@ -2035,7 +2084,7 @@
           },
           {
             "FeatureName": "VoiceOver, TalkBack",
-            "Telegram": "advantage|Supportato"
+            "Telegram": "advantage|[Supportato](https://telegram.org/blog/move-history/it?ln=a#accessibilita-migliorata)"
           }
         ]
       }
@@ -2384,8 +2433,8 @@
             "Telegram": "advantage|Tramite canali ufficiali: [Telegram Contests](https://t.me/contest), [Telegram Designers](https://t.me/designers)"
           },
           {
-            "FeatureName": "Presentazione di Opere e Applicazioni",
-            "Telegram": "advantage|Tramite bots [@jobs_bot](https://t.me/jobs_bot), [@design_bot](https://t.me/design_bot)"
+            "FeatureName": "Presentazione di Lavori e Applicazioni",
+            "Telegram": "advantage|Tramite bots [@contestbot](https://t.me/contestbot), [@jobs_bot](https://t.me/jobs_bot), [@design_bot](https://t.me/design_bot)"
           },
           {
             "FeatureName": "Domande e Discussioni",
@@ -3081,7 +3130,8 @@
           {
             "FeatureName": "Esportazione Chats",
             "Telegram": "advantage|Esportazione flessibile e controllata di tutte o singole chat in JSON/HTML (su Telegram Desktop)",
-            "WhatsApp": "mediocrity|In un file di testo con supporto per file multimediali separati"
+            "Viber": "mediocrity|Esportazione di base delle chat",
+            "WhatsApp": "mediocrity|Esportazione di base delle chat"
           },
           {
             "FeatureName": "Archiviazione Tutte le Chat",
