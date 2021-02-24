@@ -325,7 +325,7 @@
           },
           {
             "FeatureName": "Поддержка Импорта Данных",
-            "Telegram": "advantage|[Импорт чатов и групп](https://telegram.org/blog/move-history) с WhatsApp, Line, KakaoTalk"
+            "Telegram": "advantage|[Импорт чатов и групп](https://telegram.org/blog/move-history) с WhatsApp, Line, KakaoTalk (дата отправки сообщений [сохраняется](https://telegram.org/blog/autodelete-inv2/uk?setln=en#improved-chat-import))"
           },
           {
             "FeatureName": "Поддержка Экспорта Данных",
@@ -865,6 +865,12 @@
             "Viber": "mediocrity|Поддерживается (одно сообщение)"
           },
           {
+            "FeatureName": "Автоудаление Сообщений",
+            "Telegram": "advantage|[Через 24 часа или 7 дней](https://telegram.org/blog/autodelete-inv2#auto-delete-messages)",
+            "Viber": "mediocrity|[Только в личных чатах](https://help.viber.com/en/article/disappearing-messages) (10 с, 30 с, 1 мин, 1 год)",
+            "WhatsApp": "mediocrity|[Через 7 дней](https://blog.whatsapp.com/introducing-disappearing-messages-on-whatsapp)"
+          },
+          {
             "FeatureName": "Прикрепление Чатов",
             "Telegram": "advantage|Поддерживается (до 5 чатов, в архиве, папках неограниченное количество)",
             "Viber": "advantage|Поддерживается",
@@ -969,8 +975,7 @@
           {
             "FeatureName": "Дополнительные Функции Безопасности",
             "Telegram": "advantage|В рамках секретных чатов",
-            "Viber": "advantage|Таймер самоуничтожения сообщений, уведомления о скриншотах",
-            "WhatsApp": "advantage|[Исчезающие сообщение](https://blog.whatsapp.com/introducing-disappearing-messages-on-whatsapp) (через 7 дней)"
+            "Viber": "advantage|Уведомление о скриншотах"
           }
         ]
       },
@@ -1005,8 +1010,8 @@
           },
           {
             "FeatureName": "Таймер Самоуничтожения Сообщений",
-            "Telegram": "advantage|Поддерживается",
-            "Viber": "advantage|Поддерживается"
+            "Telegram": "advantage|1 c - 1 неделя",
+            "Viber": "mediocrity|10 с, 30 с, 1 мин, 1 год"
           },
           {
             "FeatureName": "Проверка Безопасности",
@@ -1066,15 +1071,15 @@
         "Features": [
           {
             "FeatureName": "Организовано Через",
-            "Telegram": "advantage|Группы",
+            "Telegram": "advantage|Группы; [Группы для Трансляций](https://telegram.org/blog/autodelete-inv2/uk?setln=en#groups-with-unlimited-members)",
             "Viber": "mediocrity|Группы; Сообщества",
             "WhatsApp": "advantage|Группы"
           },
           {
-            "FeatureName": "Чат Между Участниками",
-            "Telegram": "advantage|До 200 000 участников",
-            "Viber": "advantage|Группы – до 250 участников;  \nСообщества – неограниченное количество участников",
-            "WhatsApp": "disadvantage|До 256 участников"
+            "FeatureName": "Максимальное Количество Участников",
+            "Telegram": "advantage|Группы - 200 000;  \nГруппы для Трансляций - ограничено, отправка сообщений только админами",
+            "Viber": "advantage|Группы – 250;  \nСообщества - неограниченно",
+            "WhatsApp": "disadvantage|256"
           },
           {
             "FeatureName": "Шифрование",
@@ -1110,6 +1115,10 @@
             "Telegram": "advantage|Доступ через закрытые ссылки",
             "Viber": "mediocrity|Доступ к группам/сообществам через закрытые ссылки, только на мобильных устройствах",
             "WhatsApp": "advantage|Доступ через закрытые ссылки"
+          },
+          {
+            "FeatureName": "Временные Пригласительные Ссылки",
+            "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/autodelete-inv2/uk?setln=en#expiring-invite-links) (по продолжительности действия и/или количеству использований)"
           },
           {
             "FeatureName": "Группы С Привязкой к Местоположению",
@@ -1244,7 +1253,7 @@
         "Features": [
           {
             "FeatureName": "Через",
-            "Telegram": "advantage|Каналы",
+            "Telegram": "advantage|[Каналы](https://telegram.org/tour/channels); [Группы для Трасляций](https://telegram.org/blog/autodelete-inv2/uk?setln=en#groups-with-unlimited-members)",
             "Viber": "mediocrity|Сообщества; Почта Бизнес Сообщений; Публичные Аккаунты"
           },
           {
@@ -1285,6 +1294,10 @@
             "FeatureName": "Приватные",
             "Telegram": "advantage|Доступ через закрытые ссылки",
             "Viber": "mediocrity|Доступ через закрытые ссылки, только на мобильных устройствах"
+          },
+          {
+            "FeatureName": "Временные Пригласительные Ссылки",
+            "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/autodelete-inv2/uk?setln=en#expiring-invite-links) (по продолжительности действия и/или количеству использований)"
           },
           {
             "FeatureName": "Ручное Добавление Подписчиков",
@@ -1962,12 +1975,12 @@
           {
             "FeatureName": "Комбинации Клавиш и Действия мышью",
             "Telegram": "advantage|[Широкая поддержка](https://github.com/telegramdesktop/tdesktop/wiki/Keyboard-Shortcuts)",
-            "Viber": "disadvantage|[Минимальная поддержка](https://support.viber.com/customer/portal/articles/2965061-get-to-know-viber-extra-features-on-desktop#keyboard-shortcuts)",
-            "WhatsApp": "mediocrity|[Средняя поддержка](https://www.gizmotimes.com/computers/pc-software/whatsapp-desktop-keyboard-shortcuts/12464)"
+            "Viber": "mediocrity|[Средняя поддержка](https://help.viber.com/en/article/keyboard-shortcuts-for-viber-on-desktop)",
+            "WhatsApp": "mediocrity|[Средняя поддержка](https://shortcutworld.com/WhatsApp-Desktop/win/Whatsapp-Desktop_Shortcuts)"
           },
           {
             "FeatureName": "Поддержка QR-кодов",
-            "Telegram": "advantage|Для обмена прокси (на macOS), авторизации в Telegram Desktop",
+            "Telegram": "advantage|Для [пригласительных ссылок](https://telegram.org/blog/autodelete-inv2/uk?setln=en#expiring-invite-links), обмена прокси (на macOS), авторизации (Telegram Desktop)",
             "Viber": "advantage|Для добавления друзей, присоединение к группам, добавления купонов, авторизации",
             "WhatsApp": "advantage|Для сопоставления ключей шифрования, приглашения в группы, добавление контактов, связи с бизнес-аккаунтами"
           },
@@ -2000,6 +2013,11 @@
           {
             "FeatureName": "Просмотр Всех Композиций Исполнителя",
             "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/move-history#improved-audio-player)"
+          },
+          {
+            "FeatureName": "Виджеты Домашнего Экрана",
+            "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/autodelete-inv2#home-screen-widgets)",
+            "WhatsApp": "advantage|Поддерживаются"
           },
           {
             "FeatureName": "Быстрые Поздравительные Стикеры",
@@ -2430,7 +2448,7 @@
           },
           {
             "FeatureName": "Информирование О Деталях Соревнований",
-            "Telegram": "advantage|Через официальные каналы: [Telegram Contests](https://t.me/contest), [Telegram Designers](https://t.me/designers)"
+            "Telegram": "advantage|Через официальные каналы: [Telegram Contests](https://t.me/contest), [Telegram Designers](https://t.me/designers), [Aptitude Test Contest](https://t.me/AptitudeTestContest)"
           },
           {
             "FeatureName": "Подача Работ и Заявок",
