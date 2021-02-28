@@ -325,7 +325,7 @@
           },
 		   {
             "FeatureName": "Supporto per Importazione Dei Dati",
-            "Telegram": "advantage|[Importazione di chat e gruppi](https://telegram.org/blog/move-history/it?ln=a) da WhatsApp, Line, KakaoTalk"
+            "Telegram": "advantage|[Importazione di chat e gruppi](https://telegram.org/blog/move-history/it?ln=a) da WhatsApp, Line, KakaoTalk (le date di invio del messaggio [sono conservate](https://telegram.org/blog/autodelete-inv2/uk?setln=it#importazione-chat-migliorata))"
           },
           {
             "FeatureName": "Supporto per l'Esportazione dei Dati",
@@ -864,6 +864,12 @@
             "Telegram": "advantage|[In particolare, diversi](https://telegram.org/blog/pinned-messages-locations-playlists/world#multiple-pinned-messages) con un'opzione per visualizzarli tutti",
             "Viber": "advantage|Supportato (1 messaggio)"
           },
+		  {
+            "FeatureName": "Auto-Cancellazione Messaggi",
+            "Telegram": "advantage|[Dopo 24 ore o 7 giorni](https://telegram.org/blog/autodelete-inv2/uk?setln=it#autoelimina-i-messaggi)",
+            "Viber": "mediocrity|[Solo nelle chat personali](https://help.viber.com/en/article/disappearing-messages) (10 s, 30 s, 1 min, 1 h)",
+            "WhatsApp": "mediocrity|[Dopo 7 giorni](https://blog.whatsapp.com/introducing-disappearing-messages-on-whatsapp)"
+          },
           {
             "FeatureName": "Chat Fissate",
             "Telegram": "advantage|Supportato (fino a 5 chat, numero illimitato in archivio, cartelle)",
@@ -969,8 +975,7 @@
           {
             "FeatureName": "Funzionalità di Sicurezza Aggiuntive",
             "Telegram": "advantage|Nell'ambito delle chat segrete",
-            "Viber": "advantage|Timer di autodistruzione dei messaggi, notifiche screenshot",
-			"WhatsApp": "advantage|[Messaggi che scompaiono](https://blog.whatsapp.com/introducing-disappearing-messages-on-whatsapp) (dopo 7 giorni)"
+            "Viber": "advantage|Notifiche degli screenshot"
           }
         ]
       },
@@ -1004,9 +1009,9 @@
             "Viber": "disadvantage|Disponibile"
           },
           {
-            "FeatureName": "Timer Autodistruzione Messaggi",
-            "Telegram": "advantage|Supportato",
-            "Viber": "advantage|Supportato"
+            "FeatureName": "Timer Autodistruzione Messaggio",
+            "Telegram": "advantage|1 s - 1 settimana",
+            "Viber": "mediocrity|10 s, 30 s, 1 min, 1 h"
           },
           {
             "FeatureName": "Controllo di Sicurezza",
@@ -1066,15 +1071,15 @@
         "Features": [
           {
             "FeatureName": "Organizzato Attraverso",
-            "Telegram": "advantage|Gruppi",
+            "Telegram": "advantage|Gruppi; [Gruppi Broadcast](https://telegram.org/blog/autodelete-inv2/uk?setln=it#gruppi-senza-limite-di-membri)",
             "Viber": "mediocrity|Gruppi; Comunità",
             "WhatsApp": "advantage|Gruppi"
           },
           {
-            "FeatureName": "Chattare tra i Partecipanti",
-            "Telegram": "advantage|Fino a 200 000 membri",
-            "Viber": "advantage|Gruppi – fino a 250 membri;  \nComunità – numero illimitato di membri",
-            "WhatsApp": "disadvantage|Fino a 256 membri"
+            "FeatureName": "Numero Massimo di Partecipanti",
+            "Telegram": "advantage|Gruppi - 200 000;  \nGruppi Broadcast - illimitati (solo gli amministratori possono inviare messaggi)",
+            "Viber": "advantage|Gruppi – 250;  \nComunità – illimitati",
+            "WhatsApp": "disadvantage|256"
           },
           {
             "FeatureName": "Crittografia",
@@ -1110,6 +1115,10 @@
             "Telegram": "advantage|Accesso tramite link chiusi",
             "Viber": "mediocrity|Accesso a gruppi/comunità tramite link chiuso, solo su dispositivi mobili",
             "WhatsApp": "advantage|Accesso tramite link chiuso"
+          },
+		  {
+            "FeatureName": "Link di Invito con Scadenza",
+            "Telegram": "advantage|[Supportati](https://telegram.org/blog/autodelete-inv2/uk?setln=it#link-d-39invito-con-scadenza) (con una durata e/o numero di usi)"
           },
           {
             "FeatureName": "Gruppi Basati sulla Posizione",
@@ -1244,7 +1253,7 @@
         "Features": [
           {
             "FeatureName": "Tramite",
-            "Telegram": "advantage|Canali",
+            "Telegram": "advantage|[Canali](https://telegram.org/tour/channels/it?ln=a); [Gruppi Broadcast](https://telegram.org/blog/autodelete-inv2/uk?setln=it#gruppi-senza-limite-di-membri)",
             "Viber": "mediocrity|Comunità; Caselle di posta aziendali; Conti pubblici"
           },
           {
@@ -1285,6 +1294,10 @@
             "FeatureName": "Privato",
             "Telegram": "advantage|Accesso tramite link privato",
             "Viber": "mediocrity|Accesso tramite link privato, solo su dispositivi mobili"
+          },
+		  {
+            "FeatureName": "Link di Invito con Scadenza",
+            "Telegram": "advantage|[Supportati](https://telegram.org/blog/autodelete-inv2/uk?setln=it#link-d-39invito-con-scadenza) (con una durata e/o numero di usi)"
           },
           {
             "FeatureName": "Aggiunta Manuale di Abbonati",
@@ -1962,12 +1975,12 @@
           {
             "FeatureName": "Scorciatoie da Tastiera e Azioni del Mouse",
             "Telegram": "advantage|[Ampio supporto](https://github.com/telegramdesktop/tdesktop/wiki/Keyboard-Shortcuts)",
-            "Viber": "disadvantage|[Supporto minimo](https://support.viber.com/customer/portal/articles/2965061-get-to-know-viber-extra-features-on-desktop#keyboard-shortcuts)",
-            "WhatsApp": "mediocrity|[Supporto medio](https://www.gizmotimes.com/computers/pc-software/whatsapp-desktop-keyboard-shortcuts/12464)"
+            "Viber": "mediocrity|[Supporto medio](https://help.viber.com/en/article/keyboard-shortcuts-for-viber-on-desktop)",
+            "WhatsApp": "mediocrity|[Supporto medio](https://shortcutworld.com/WhatsApp-Desktop/win/Whatsapp-Desktop_Shortcuts)"
           },
           {
             "FeatureName": "Supporto Codici QR",
-            "Telegram": "advantage|Per la condivisione di proxy (su macOS), autorizzazione in Telegram Desktop",
+            "Telegram": "advantage|Per [links d'invito](https://telegram.org/blog/autodelete-inv2/uk?setln=it#link-d-39invito-con-scadenza), condivisione proxy (su macOS), autorizzazione (Telegram Desktop)",
             "Viber": "advantage|Utilizzato per aggiungere amici, partecipare a gruppi, aggiungere coupon, autorizzazioni",
             "WhatsApp": "advantage|Utilizzato per la raccolta delle chiavi di crittografia, gli inviti di gruppo, l'aggiunta di contatti, comunicazione con le aziende"
           },
@@ -2000,6 +2013,11 @@
           {
             "FeatureName": "Visualizzazione Di Tutti I Brani Dell'Artista",
             "Telegram": "advantage|[Supportato](https://telegram.org/blog/move-history/it?ln=a#player-audio-migliorato)"
+          },
+		  {
+            "FeatureName": "Widget per la Schermata Home",
+            "Telegram": "advantage|[Supportato](https://telegram.org/blog/autodelete-inv2/uk?setln=it#widget-per-la-schermata-home)",
+            "WhatsApp": "advantage|Supportato"
           },
           {
             "FeatureName": "Sticker Rapido Di Benvenuto",
@@ -2430,7 +2448,7 @@
           },
           {
             "FeatureName": "Informazione Dettagli dei Concorsi",
-            "Telegram": "advantage|Tramite canali ufficiali: [Telegram Contests](https://t.me/contest), [Telegram Designers](https://t.me/designers)"
+            "Telegram": "advantage|Tramite canali ufficiali: [Telegram Contests](https://t.me/contest), [Telegram Designers](https://t.me/designers), [Concorso di Test Attitudinali](https://t.me/AptitudeTestContest)"
           },
           {
             "FeatureName": "Presentazione di Lavori e Applicazioni",
