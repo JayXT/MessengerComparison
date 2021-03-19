@@ -57,6 +57,10 @@
             "Telegram": "advantage|Crowdsourcing и [конкурсы](https://contest.com/)"
           },
           {
+            "FeatureName": "Запросы от Прессы",
+            "Telegram": "advantage|Через бота [@PressBot](https://t.me/PressBot)"
+          },
+          {
             "FeatureName": "Приложения",
             "Telegram": "advantage|[Открытые](https://telegram.org/apps#source-code), с [возможностью](https://core.telegram.org/reproducible-builds) проверки использованной кодовой базы",
             "Viber": "disadvantage|Закрытые",
@@ -271,6 +275,14 @@
           {
             "FeatureName": "Расположение Ключа Шифрования Хранимых Данных",
             "Telegram": "advantage|Распределен между различными юрисдикциями"
+          },
+          {
+            "FeatureName": "Результаты Последнего Конкурса по Безопасности",
+            "Telegram": "advantage|[Победителей не выявлено](https://telegram.org/blog/cryptocontest-ends) (приз в $300 000)"
+          },
+          {
+            "FeatureName": "Протокол Шифрования Отвечает [IND-CCA](https://en.wikipedia.org/wiki/Ciphertext_indistinguishability)",
+            "Telegram": "advantage|[Да](https://core.telegram.org/techfaq#what-about-ind-cca)"
           },
           {
             "FeatureName": "[Perfect Forward Secrecy](https://ru.wikipedia.org/wiki/Perfect_forward_secrecy)",
@@ -761,7 +773,7 @@
           },
           {
             "FeatureName": "Запоминание Позиций",
-            "Telegram": "advantage|Для [долгих](https://telegram.org/blog/verifiable-apps-and-more#podcast-and-audiobook-support) аудио (подкасты, аудиокниги) и видео"
+            "Telegram": "advantage|Для [долгих](https://telegram.org/blog/verifiable-apps-and-more#podcast-and-audiobook-support) аудио (подкасты, аудиокниги), видео и голосовых сообщений"
           },
           {
             "FeatureName": "Автозапуск Анимаций и Видео",
@@ -856,8 +868,13 @@
           {
             "FeatureName": "Просмотр Содержимого по типам Медиа",
             "Telegram": "advantage|Такие категории как: медиа, файлы, ссылки, аудио, голос, GIF",
-            "Viber": "mediocrity|На Desktop и в группах такие данные как: медиа, ссылки, файлы, GIF",
+            "Viber": "advantage|Такие категории как: медиа, ссылки, файлы, GIF",
             "WhatsApp": "advantage|Частично поддерживается, кроме того доступны каталоги товаров в WhatsApp Business"
+          },
+          {
+            "FeatureName": "Фильтрация Типов Медиа по Отправителю",
+            "Telegram": "advantage|Поддерживается (при глобальном поиске)",
+            "Viber": "advantage|Поддерживается (на уровне чата)"
           },
           {
             "FeatureName": "Прикрепление Сообщений",
@@ -1390,7 +1407,8 @@
           },
           {
             "FeatureName": "Просмотр Содержимого Через Интернет",
-            "Telegram": "advantage|Поддерживается (публичные каналы можно [читать](https://telegram.org/blog/privacy-discussions-web-bots#view-public-channels) в браузере)"
+            "Telegram": "advantage|Поддерживается (публичные каналы можно [читать](https://telegram.org/blog/privacy-discussions-web-bots#view-public-channels) в браузере)",
+            "Viber": "advantage|Поддерживается (сообщества)"
           },
           {
             "FeatureName": "Расширение Возможностей",
@@ -1537,7 +1555,7 @@
             "FeatureName": "Поддержка",
             "Telegram": "advantage|Поддерживаются",
             "Viber": "advantage|Поддерживаются",
-            "WhatsApp": "mediocrity|Только на смартфонах"
+            "WhatsApp": "advantage|Поддерживаются"
           },
           {
             "FeatureName": "Качество связи",
@@ -1608,13 +1626,13 @@
         "Features": [
           {
             "FeatureName": "Количество Участников",
-            "Telegram": "advantage|[До 5000 участников](https://t.me/TelegramTips/233)",
+            "Telegram": "advantage|[Неограниченно](https://telegram.org/blog/voice-chats-on-steroids#limitless-voice-chats)",
             "Viber": "mediocrity|До 20 участников",
             "WhatsApp": "disadvantage|До 8 участников (только на смартфонах)"
           },
           {
             "FeatureName": "Организовано Как",
-            "Telegram": "mediocrity|[Голосовые чаты](https://telegram.org/blog/voice-chats?ln=r#voice-chats) доступны из групп",
+            "Telegram": "advantage|[Голосовые чаты](https://telegram.org/blog/voice-chats?ln=r#voice-chats) доступны из [групп и каналов](https://telegram.org/blog/voice-chats-on-steroids)",
             "Viber": "advantage|Звонки из групп или расширение звонков 1:1",
             "WhatsApp": "advantage|Звонки из групп, расширение звонков 1:1 или отдельные групповые вызовы"
           },
@@ -1623,12 +1641,32 @@
             "Telegram": "advantage|Через гибкие средства администрирования"
           },
           {
+            "FeatureName": "Присоединение От Имени Сообщества",
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/voice-chats-on-steroids#join-as), от имени одного из своих каналов или текущей группы"
+          },
+          {
             "FeatureName": "Виджет Для Быстрого Доступа",
             "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/voice-chats?ln=r#voice-chats) (Android)"
           },
           {
             "FeatureName": "\"Нажмите, Чтобы Говорить\"",
             "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/voice-chats?ln=r#push-to-talk-shortcuts), в частности с горячей клавишей на выбор"
+          },
+          {
+            "FeatureName": "\"Подъём Руки\"",
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/voice-chats-on-steroids#raise-hand)"
+          },
+          {
+            "FeatureName": "Запись Конференций",
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/voice-chats-on-steroids#recorded-chats), с индикацией записи"
+          },
+          {
+            "FeatureName": "Быстрое Приглашение Участников",
+            "Telegram": "advantage|Через [ссылки для говорящих или слушателей](https://telegram.org/blog/voice-chats-on-steroids#speaker-and-listener-links)"
+          },
+          {
+            "FeatureName": "Названия Конференций",
+            "Telegram": "advantage|Поддерживаются (как названия голосовых чатов)"
           },
           {
             "FeatureName": "Шифрование",
@@ -1654,7 +1692,7 @@
             "FeatureName": "Поддержка",
             "Telegram": "advantage|Поддерживаются",
             "Viber": "advantage|Поддерживаются",
-            "WhatsApp": "mediocrity|Поддерживаются (исключительно на смартфонах)"
+            "WhatsApp": "advantage|Поддерживаются"
           },
           {
             "FeatureName": "Качество Связи",
@@ -1682,7 +1720,8 @@
           {
             "FeatureName": "Переключение Между Камерами",
             "Telegram": "advantage|Да, на смартфонах",
-            "Viber": "advantage|Да, на смартфонах"
+            "Viber": "advantage|Да, на смартфонах",
+            "WhatsApp": "advantage|Да, на смартфонах"
           },
           {
             "FeatureName": "Индикация Наличия Адресата в Сети",
@@ -1993,6 +2032,10 @@
           {
             "FeatureName": "Изменение Получателя Пересылаемых Сообщений",
             "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/archive-and-new-design#easier-forwarding-links-to-messages-online-badges)"
+          },
+          {
+            "FeatureName": "Выбор Действия При Смахивании Чата",
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/voice-chats-on-steroids#and-more) (изменение папки, архивирование, удаление, прикрепление, обозначение прочитанным, отключение уведомлений)"
           },
           {
             "FeatureName": "Отмена Очистки Истории И Удаления Чатов",
@@ -2483,6 +2526,10 @@
             "WhatsApp": "mediocrity|Исключительно в приватных группах"
           },
           {
+            "FeatureName": "Конференции",
+            "Telegram": "advantage|К голосовым чатам в качестве говорящего или слушателя"
+          },
+          {
             "FeatureName": "Ботам",
             "Telegram": "advantage|Поддерживаются",
             "Viber": "advantage|Поддерживаются"
@@ -2511,6 +2558,12 @@
           {
             "FeatureName": "Бизнес Каталогам",
             "WhatsApp": "advantage|[Поддерживаются](https://blog.whatsapp.com/new-ways-to-reach-a-business-on-whatsapp)"
+          },
+          {
+            "FeatureName": "Другим Параметрам и Возможностям",
+            "Telegram": "advantage|[Широкая поддержка](https://t.me/DeepLink)",
+            "Viber": "mediocrity|Минимальная поддержка",
+            "WhatsApp": "mediocrity|Минимальная поддержка"
           }
         ]
       },
