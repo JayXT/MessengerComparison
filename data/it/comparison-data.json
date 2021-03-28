@@ -56,6 +56,10 @@
             "FeatureName": "Collaborazione con la Community",
             "Telegram": "advantage|Crowdsourcing and [concorsi](https://contest.com/)"
           },
+		  {
+            "FeatureName": "Richieste della Stampa",
+            "Telegram": "advantage|Tramite [@PressBot](https://t.me/PressBot)"
+          },
           {
             "FeatureName": "Apps",
             "Telegram": "advantage|[Open-sourced](https://telegram.org/apps#source-code), con la [possibilità](https://core.telegram.org/reproducible-builds) di verificare il codice sorgente in uso",
@@ -271,6 +275,14 @@
           {
             "FeatureName": "Posizione della Chiave di Crittografia per i Dati Memorizzati",
             "Telegram": "advantage|Divisi in diverse giurisdizioni"
+          },
+		  {
+            "FeatureName": "Risultati dell'Ultimo Concorso di Crittografia",
+            "Telegram": "advantage|[Nessun vincitore identificato](https://telegram.org/blog/cryptocontest-ends) ($300 000 taglia)"
+          },
+          {
+            "FeatureName": "Il Protocollo di Crittografia Soddisfa [IND-CCA](https://en.wikipedia.org/wiki/Ciphertext_indistinguishability)",
+            "Telegram": "advantage|[Sì](https://core.telegram.org/techfaq#what-about-ind-cca)"
           },
           {
             "FeatureName": "[Segretezza perfetta in avanti](https://it.wikipedia.org/wiki/Forward_secrecy)",
@@ -761,7 +773,7 @@
           },
           {
             "FeatureName": "Memorizzazione delle Posizioni di Riproduzione",
-            "Telegram": "advantage|Per [lunghi](https://telegram.org/blog/verifiable-apps-and-more#podcast-and-audiobook-support) audio (podcasts, audiobooks) e video"
+            "Telegram": "advantage|Per [lunghi](https://telegram.org/blog/verifiable-apps-and-more#podcast-and-audiobook-support) audio (podcasts, audiobooks), video e video messaggi"
           },
           {
             "FeatureName": "Riproduzione Automatica Animazioni e Video",
@@ -856,8 +868,13 @@
           {
             "FeatureName": "Visualizzazione del Contenuto in Base ai Tipi di File Multimediali",
             "Telegram": "advantage|In categorie quali: media, file, link, audio, voce, GIF",
-            "Viber": "mediocrity|Sul desktop e in gruppi quali: elementi multimediali, link, file, GIF",
+            "Viber": "advantage|Per categorie come: media, links, files, GIF",
             "WhatsApp": "mediocrity|Parzialmente supportati, a parte che i cataloghi di merci sono disponibili in WhatsApp Business"
+          },
+		  {
+            "FeatureName": "Filtraggio Tipi di Supporto in base al Mittente",
+            "Telegram": "advantage|Supportato (su ricerca globale)",
+            "Viber": "advantage|Supportato (a livello di chat)"
           },
           {
             "FeatureName": "Messaggi Fissati",
@@ -1390,7 +1407,8 @@
           },
           {
             "FeatureName": "Navigazione dei Contenuti",
-            "Telegram": "advantage|Supportato (i canali pubblici potrebbero essere [letti](https://telegram.org/blog/privacy-discussions-web-bots#view-public-channels) da browser)"
+            "Telegram": "advantage|Supportato (i canali pubblici potrebbero essere [letti](https://telegram.org/blog/privacy-discussions-web-bots#view-public-channels) da browser)",
+			"Viber": "advantage|Supportato (comunità)"
           },
           {
             "FeatureName": "Funzionalità Estese",
@@ -1537,7 +1555,7 @@
             "FeatureName": "Supporto",
             "Telegram": "advantage|Supportato",
             "Viber": "advantage|Supportato",
-            "WhatsApp": "mediocrity|Solo telefoni"
+            "WhatsApp": "advantage|Supportato"
           },
           {
             "FeatureName": "Qualità della Connessione",
@@ -1608,13 +1626,13 @@
         "Features": [
           {
             "FeatureName": "Numero di Partecipanti",
-            "Telegram": "advantage|[Fino a 5000 partecipanti](https://t.me/TelegramTipsIT/123)",
+            "Telegram": "advantage|[Illimitato](https://telegram.org/blog/voice-chats-on-steroids/it#chat-vocali-senza-limiti)",
             "Viber": "mediocrity|Fino a 20 partecipanti",
             "WhatsApp": "disadvantage|Fino a 8 partecipanti (solo per dispositivi mobili)"
           },
           {
             "FeatureName": "Organizzato come",
-            "Telegram": "mediocrity|[Chat vocali](https://telegram.org/blog/voice-chats?ln=it#chat-vocali) disponibile da gruppi",
+            "Telegram": "advantage|[Chat vocali](https://telegram.org/blog/voice-chats/it#chat-vocali) disponibile da [gruppi e canali](https://telegram.org/blog/voice-chats-on-steroids/it)",
             "Viber": "advantage|Chiamate da gruppi o estensione delle chiamate 1:1 ",
             "WhatsApp": "advantage|Chiamate da gruppi, estensione delle chiamate 1:1 o come chiamate di gruppo separate"
           },
@@ -1622,13 +1640,33 @@
             "FeatureName": "Controllo del Numero dei Partecipanti",
             "Telegram": "advantage|Tramite strumenti di amministrazione flessibili"
           },
+		  {
+            "FeatureName": "Entrare a Far Parte della Community",
+            "Telegram": "advantage|[Supportato](https://telegram.org/blog/voice-chats-on-steroids/it#unisciti-come), a nome di uno dei propri canali o del gruppo attuale"
+          },
           {
             "FeatureName": "Widget Accesso Rapido",
             "Telegram": "advantage|[Supportato](https://telegram.org/blog/voice-chats?ln=it#chat-vocali) (Android)"
           },          
           {
             "FeatureName": "Push-to-Talk",
-            "Telegram": "advantage|[Supportato](https://telegram.org/blog/voice-chats?ln=it#scorciatoie-per-il-push-to-talk), con un supporto personalizzato per i tasti di scelta rapida"
+            "Telegram": "advantage|[Supportato](https://telegram.org/blog/voice-chats?ln=it#scorciatoie-per-il-push-to-talk), con il supporto personalizzato per i tasti di scelta rapida"
+		  },
+          {
+            "FeatureName": "\"Alzare la mano\"",
+            "Telegram": "advantage|[Supportato](https://telegram.org/blog/voice-chats-on-steroids/it#alza-la-mano)"
+          },
+          {
+            "FeatureName": "Registrazione delle Conferenze",
+            "Telegram": "advantage|[Supportato](https://telegram.org/blog/voice-chats-on-steroids/it#chat-registrate), con indicazione di registrazione"
+          },
+          {
+            "FeatureName": "Invito Rapido dei Partecipanti",
+            "Telegram": "advantage|Tramite [links per speakers o ascoltatori](https://telegram.org/blog/voice-chats-on-steroids/it#link-per-speaker-e-ascoltatori)"
+          },
+          {
+            "FeatureName": "Titoli delle Conferenze",
+            "Telegram": "advantage|Supportato (come nomi della chat vocale)"
           },
           {
             "FeatureName": "Crittografia",
@@ -1654,7 +1692,7 @@
             "FeatureName": "Supporto",
             "Telegram": "advantage|Supportato",
             "Viber": "advantage|Supportato",
-            "WhatsApp": "mediocrity|Supportato (solo dispositivi mobili)"
+            "WhatsApp": "mediocrity|Supportato"
           },
           {
             "FeatureName": "Qualità della Connessione",
@@ -1682,7 +1720,8 @@
           {
             "FeatureName": "Capovolgimento della Camera",
             "Telegram": "advantage|Sì, sui telefoni",
-            "Viber": "advantage|Sì, sui telefoni"
+            "Viber": "advantage|Sì, sui telefoni",
+			"WhatsApp": "advantage|Sì, sui telefoni"
           },
           {
             "FeatureName": "Inidicazione della Disponibilità Online dell'Interlocutore",
@@ -1993,6 +2032,10 @@
           {
             "FeatureName": "Modifica del Destinatario dell'Inoltro dei Messaggi",
             "Telegram": "advantage|[Supportato](https://telegram.org/blog/archive-and-new-design#easier-forwarding-links-to-messages-online-badges)"
+          },
+		  {
+            "FeatureName": "Scelta Azione Scorrimento Rapido delle Chat",
+            "Telegram": "advantage|[Supportato](https://telegram.org/blog/voice-chats-on-steroids/it#e-altro) (cambio cartella, archivia, cancella, fissa, segna come letto, muta)"
           },
           {
             "FeatureName": "Annulla la Cancellazione della Cronologia e l'Eliminazione delle Chat",
@@ -2482,6 +2525,10 @@
             "Viber": "mediocrity|Solo alle comunità",
             "WhatsApp": "mediocrity|Solo a gruppi privati"
           },
+		  {
+            "FeatureName": "Conferenze",
+            "Telegram": "advantage|Alle chat vocali come speaker o ascoltatore"
+          },
           {
             "FeatureName": "Bots",
             "Telegram": "advantage|Supportato",
@@ -2511,6 +2558,12 @@
           {
             "FeatureName": "Cataloghi Aziendali",
             "WhatsApp": "advantage|[Supportato](https://blog.whatsapp.com/new-ways-to-reach-a-business-on-whatsapp)"
+		  },
+          {
+            "FeatureName": "Altre Opzioni e Caratteristiche",
+            "Telegram": "advantage|[Ampio supporto](https://t.me/DeepLink)",
+            "Viber": "mediocrity|Supporto minimo",
+            "WhatsApp": "mediocrity|Supporto minimo"
           }
         ]
       },
