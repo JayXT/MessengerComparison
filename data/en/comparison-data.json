@@ -68,7 +68,7 @@
           },
           {
             "FeatureName": "Server Side",
-            "Telegram": "disadvantage|Closed [so far](https://telegram.org/faq#q-why-not-open-source-everything)",
+            "Telegram": "disadvantage|Closed",
             "Viber": "disadvantage|Closed",
             "WhatsApp": "disadvantage|Closed"
           },
@@ -108,7 +108,7 @@
           },
           {
             "FeatureName": "Showcasing Features",
-            "Telegram": "advantage|As animations on [Telegram Tips](https://t.me/TelegramTips) channel and on the blog",
+            "Telegram": "advantage|[Integrated](https://telegram.org/blog/payments-2-0-scheduled-voice-chats#tips-and-new-android-animations) via animations on [Telegram Tips](https://t.me/TelegramTips) channel and on the blog",
             "Viber": "mediocrity|Limited, via support website, blog",
             "WhatsApp": "mediocrity|Limited, via FAQ, blog"
           },
@@ -316,13 +316,13 @@
         "Features": [
           {
             "FeatureName": "Supported OS",
-            "Telegram": "advantage|Android, iOS, Windows, macOS, Linux, Wear OS, watchOS",
+            "Telegram": "advantage|[Android](https://telegram.org/blog/payments-2-0-scheduled-voice-chats#direct-download-for-android), iOS, Windows, macOS, Linux, Wear OS, watchOS",
             "Viber": "advantage|Android, iOS, Windows, macOS, Linux, Wear OS, watchOS",
             "WhatsApp": "disadvantage|Android, iOS, Windows, macOS"
           },
           {
             "FeatureName": "Availability of Web-version",
-            "Telegram": "advantage|Available",
+            "Telegram": "advantage|[Two](https://telegram.org/blog/payments-2-0-scheduled-voice-chats#new-web-versions) standalone, lightweight and adaptive web clients",
             "WhatsApp": "mediocrity|Available (as an addition to the mobile app)"
           },
           {
@@ -366,9 +366,9 @@
         "Features": [
           {
             "FeatureName": "Text",
-            "Telegram": "advantage|With combined formatting support (bold, monospace, italic, underlined, strikethrough font)",
-            "Viber": "disadvantage|Without formatting support",
-            "WhatsApp": "mediocrity|With formatting support (bold, monospace, italic, strikethrough font)"
+            "Telegram": "advantage|With combined formatting support (bold, monospace, italics, underlined, strikethrough font)",
+            "Viber": "mediocrity|With formatting support (bold, monospace, italics, strikethrough font)",
+            "WhatsApp": "mediocrity|With formatting support (bold, monospace, italics, strikethrough font)"
           },
           {
             "FeatureName": "Hyperlinks",
@@ -537,7 +537,7 @@
           },
           {
             "FeatureName": "Finance",
-            "Telegram": "advantage|Unlimited opportunities of transfer via bots",
+            "Telegram": "advantage|[In any chats](https://telegram.org/blog/payments-2-0-scheduled-voice-chats?#payments-2-0) via one of payment providers and with support for tipping",
             "Viber": "advantage|Via [Moneytou](https://www.viber.com/blog/2019-12-18/pay-your-friends-back-with-moneytou/) extension (~1% commision), [Apple Pay/Google Pay](https://www.viber.com/en/blog/2020-11-23/pay-in-chatbots-backup-media-and-all-thats-new-on-viber/)",
             "WhatsApp": "advantage|By using Facebook Pay, [Indian UPI](https://blog.whatsapp.com/send-payments-in-india-with-whatsapp)"
           },
@@ -1332,7 +1332,7 @@
           },
           {
             "FeatureName": "Choosing and Controlling Admins",
-            "Telegram": "advantage|Atomic rights on: changing channel info, posting messages, editing and deleting others' messages, inviting users by link, adding admins",
+            "Telegram": "advantage|Atomic rights on: changing channel info, posting messages, editing and deleting others' messages, inviting users by link, adding admins, managing voice chats",
             "Viber": "advantage|Similar to group category"
           },
           {
@@ -1667,6 +1667,10 @@
           {
             "FeatureName": "Conference Titles",
             "Telegram": "advantage|Supported (as voice chat names)"
+          },
+          {
+            "FeatureName": "Scheduling Conferences",
+            "Telegram": "advantage|[With countdown and notifications](https://telegram.org/blog/payments-2-0-scheduled-voice-chats#scheduled-voice-chats)"
           },
           {
             "FeatureName": "Encryption",
@@ -2054,6 +2058,10 @@
             "Telegram": "advantage|[Supported](https://telegram.org/blog/move-history#improved-audio-player)"
           },
           {
+            "FeatureName": "Accurate Fast-forwarding/Rewinding of Videos" ,
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/payments-2-0-scheduled-voice-chats#improved-video-player)"
+          },
+          {
             "FeatureName": "Viewing All Artist's Soundtracks",
             "Telegram": "advantage|[Supported](https://telegram.org/blog/move-history#improved-audio-player)"
           },
@@ -2070,6 +2078,10 @@
           {
             "FeatureName": "Scaling in Media Editor",
             "Telegram": "advantage|For drawing"
+          },
+          {
+            "FeatureName": "Quick Image Zooming",
+            "Telegram": "advantage|[Via pinch-to-zoom](https://telegram.org/blog/payments-2-0-scheduled-voice-chats#pinch-to-zoom)"
           }
         ]
       },
