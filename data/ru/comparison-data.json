@@ -68,7 +68,7 @@
           },
           {
             "FeatureName": "Серверная Часть",
-            "Telegram": "disadvantage|[Пока что](https://telegram.org/faq#q-why-not-open-source-everything) закрыта",
+            "Telegram": "disadvantage|Закрыта",
             "Viber": "disadvantage|Закрыта",
             "WhatsApp": "disadvantage|Закрыта"
           },
@@ -108,7 +108,7 @@
           },
           {
             "FeatureName": "Демонстрация Возможностей",
-            "Telegram": "advantage|В виде анимаций на канале [Telegram Tips](https://t.me/TelegramTips) и в блоге",
+            "Telegram": "advantage|[Интегрирована](https://telegram.org/blog/payments-2-0-scheduled-voice-chats#tips-and-new-android-animations) в виде анимаций на канале [Telegram Tips](https://t.me/TelegramTips) и в блоге",
             "Viber": "mediocrity|Ограничена, через сайт поддержки, блог",
             "WhatsApp": "mediocrity|Ограничена, через FAQ, блог"
           },
@@ -316,13 +316,13 @@
         "Features": [
           {
             "FeatureName": "Поддерживаемые ОС",
-            "Telegram": "advantage|Android, iOS, Windows, macOS, Linux, Wear OS, watchOS",
+            "Telegram": "advantage|[Android](https://telegram.org/blog/payments-2-0-scheduled-voice-chats#direct-download-for-android), iOS, Windows, macOS, Linux, Wear OS, watchOS",
             "Viber": "advantage|Android, iOS, Windows, macOS, Linux, Wear OS, watchOS",
             "WhatsApp": "disadvantage|Android, iOS, Windows, macOS"
           },
           {
             "FeatureName": "Наличие Веб-версии",
-            "Telegram": "advantage|Есть",
+            "Telegram": "advantage|[Два](https://telegram.org/blog/payments-2-0-scheduled-voice-chats#new-web-versions) полноценных, лёгких и адаптивных веб-клиентов",
             "WhatsApp": "mediocrity|Есть (как дополнение к мобильному приложению)"
           },
           {
@@ -367,7 +367,7 @@
           {
             "FeatureName": "Текст",
             "Telegram": "advantage|С поддержкой комбинированного форматирования (жирный, моноширинный, курсивный, подчеркнутый, зачеркнутый шрифт)",
-            "Viber": "disadvantage|Без поддержки форматирования",
+            "Viber": "disadvantage|С поддержкой форматирования (жирный, моноширинный, курсивный, зачеркнутый шрифт)",
             "WhatsApp": "mediocrity|С поддержкой форматирования (жирный, моноширинный, курсивный, зачеркнутый шрифт)"
           },
           {
@@ -537,7 +537,7 @@
           },
           {
             "FeatureName": "Финансы",
-            "Telegram": "advantage|Неограниченные возможности передачи через ботов",
+            "Telegram": "advantage|[В любых чатах](https://telegram.org/blog/payments-2-0-scheduled-voice-chats?#payments-2-0) через одного из нескольких платёжных провайдеров и с поддержкой чаевых",
             "Viber": "advantage|Через расширение [Moneytou](https://www.viber.com/blog/2019-12-18/pay-your-friends-back-with-moneytou/) (комиссия ~1%), [Apple Pay/Google Pay](https://www.viber.com/en/blog/2020-11-23/pay-in-chatbots-backup-media-and-all-thats-new-on-viber/)",
             "WhatsApp": "advantage|Через использование Facebook Pay, [UPI в Индии](https://blog.whatsapp.com/send-payments-in-india-with-whatsapp)"
           },
@@ -1233,11 +1233,6 @@
             "Viber": "advantage|[Поддерживаются](https://www.viber.com/en/blog/2020-09-30/perfectly-react-to-messages-and-everything-else-thats-new-on-viber/)"
           },
           {
-            "FeatureName": "Исчезающие Сообщения",
-            "Telegram": "mediocrity|Через ботов",
-            "WhatsApp": "advantage|[Поддерживаются](https://blog.whatsapp.com/introducing-disappearing-messages-on-whatsapp) (через 7 дней)"
-          },
-          {
             "FeatureName": "Коллекции Избранного Содержания",
             "Telegram": "advantage|Через [набор](https://telegram.org/blog/pinned-messages-locations-playlists#multiple-pinned-messages) прикрепленных сообщений, просмотр по типам медиа или фильтрацию по хэштегам",
             "Viber": "advantage|Поддерживается для сообществ"
@@ -1332,7 +1327,7 @@
           },
           {
             "FeatureName": "Выбор и Контроль Администраторов",
-            "Telegram": "advantage|Атомарные права на: изменение информации канала, публикацию сообщений, редактирование и удаление сообщений других, приглашение пользователей по ссылке, добавлением админов",
+            "Telegram": "advantage|Атомарные права на: изменение информации канала, публикацию сообщений, редактирование и удаление сообщений других, приглашение пользователей по ссылке, добавлением админов, управление голосовыми чатами",
             "Viber": "advantage|Аналогично категории групп"
           },
           {
@@ -1667,6 +1662,10 @@
           {
             "FeatureName": "Названия Конференций",
             "Telegram": "advantage|Поддерживаются (как названия голосовых чатов)"
+          },
+          {
+            "FeatureName": "Откладывание Конференций",
+            "Telegram": "advantage|[С обратным отсчётом и уведомлениями](https://telegram.org/blog/payments-2-0-scheduled-voice-chats#scheduled-voice-chats)"
           },
           {
             "FeatureName": "Шифрование",
@@ -2050,8 +2049,8 @@
             "Telegram": "advantage|Через поворот экрана"
           },
           {
-            "FeatureName": "Точная Перемотка Аудио",
-            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/move-history#improved-audio-player)"
+            "FeatureName": "Точная Перемотка",
+            "Telegram": "advantage|[Аудио](https://telegram.org/blog/move-history#improved-audio-player) и [видео](https://telegram.org/blog/payments-2-0-scheduled-voice-chats#improved-video-player)"
           },
           {
             "FeatureName": "Просмотр Всех Композиций Исполнителя",
@@ -2070,6 +2069,10 @@
           {
             "FeatureName": "Масштабирование в Редакторе Медиа",
             "Telegram": "advantage|При рисовании"
+          },
+          {
+            "FeatureName": "Быстрое Увеличение Изображений",
+            "Telegram": "advantage|[Через pinch-to-zoom](https://telegram.org/blog/payments-2-0-scheduled-voice-chats#pinch-to-zoom)"
           }
         ]
       },
