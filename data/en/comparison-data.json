@@ -124,14 +124,14 @@
         "AspectName": "Fight Against Violations",
         "Features": [
           {
-            "FeatureName": "Spam",
-            "Telegram": "advantage|[Reliable spam control](https://telegram.org/faq_spam) and [warnings](https://telegram.org/blog/privacy-discussions-web-bots#scam-alerts) about [suspicious](https://telegram.org/blog/move-history#reporting-fake-channels) activity",
-            "Viber": "mediocrity|[Spam control and message requests box](https://www.viber.com/en/blog/2021-01-27/securitips-how-to-play-it-safe-on-viber-and-how-your-chats-are-kept-private/) (companies spam, ads and redundant notifications are still received)",
-            "WhatsApp": "mediocrity|Limited spam control"
+            "FeatureName": "Spam Control",
+            "Telegram": "mediocrity|[Available](https://telegram.org/faq_spam), with support for [labels](https://telegram.org/blog/privacy-discussions-web-bots#scam-alerts) (there are issues with spam in large groups/channels)",
+            "Viber": "mediocrity|[In particular via message requests box](https://www.viber.com/en/blog/2021-01-27/securitips-how-to-play-it-safe-on-viber-and-how-your-chats-are-kept-private/) (companies' spam, ads and redundant notifications are still received)",
+            "WhatsApp": "advantage|Available"
           },
           {
             "FeatureName": "Illegal/Criminal Content",
-            "Telegram": "advantage|[Is blocked](https://telegram.org/faq#q-wait-0-o-do-you-process-take-down-requests-from-third-parties)",
+            "Telegram": "disadvantage|[It's blocked](https://telegram.org/faq#q-there-39s-illegal-content-on-telegram-how-do-i-take-it-down), but with delays",
             "Viber": "advantage|Is blocked",
             "WhatsApp": "advantage|Is blocked"
           }
@@ -367,7 +367,7 @@
           {
             "FeatureName": "Text",
             "Telegram": "advantage|With combined formatting support (bold, monospace, italics, underlined, strikethrough font)",
-            "Viber": "mediocrity|With formatting support (bold, monospace, italics, strikethrough font)",
+            "Viber": "advantage|With combined formatting support (bold, monospace, italics, strikethrough font)",
             "WhatsApp": "mediocrity|With formatting support (bold, monospace, italics, strikethrough font)"
           },
           {
@@ -518,7 +518,7 @@
           {
             "FeatureName": "Video Messages",
             "Telegram": "advantage|Supported (up to 60 seconds)",
-            "Viber": "mediocrity|Supported (up to 30 seconds)"
+            "Viber": "mediocrity|Supported (up to 20 seconds)"
           },
           {
             "FeatureName": "Comments",
@@ -533,7 +533,7 @@
             "FeatureName": "Bots/Extensions Content",
             "Telegram": "advantage|Various kinds of keyboards, decorations and dynamic messages in different types of chats",
             "Viber": "mediocrity|Various kinds of keyboards, extensions and their decorations",
-            "WhatsApp": "disadvantage|Proper support is missing"
+            "WhatsApp": "mediocrity|Menu buttons and extra content in business chats"
           },
           {
             "FeatureName": "Finance",
@@ -1051,19 +1051,19 @@
         "Features": [
           {
             "FeatureName": "Interaction with Businesses",
-            "Telegram": "advantage|Via bots",
-            "Viber": "advantage|Via public accounts",
+            "Telegram": "advantage|Via bots, channels",
+            "Viber": "mediocrity|Via [chatbots](https://help.viber.com/en/article/how-to-buy-from-a-chatbot-on-viber-faq) (Ukraine-only)",
             "WhatsApp": "advantage|Via chats with WhatsApp Business accounts"
           },
           {
             "FeatureName": "Company Profile",
-            "Telegram": "mediocrity|As bot description or its contents",
-            "Viber": "mediocrity|As a public account description",
+            "Telegram": "mediocrity|As description of a bot, channel or as their contents",
+            "Viber": "mediocrity|As chatbot description",
             "WhatsApp": "advantage|As a [separate](https://www.whatsapp.com/business/api) page with details"
           },
           {
             "FeatureName": "Goods Catalogs",
-            "Telegram": "mediocrity|Via bots' content",
+            "Telegram": "advantage|Via [channels](https://t.me/TestStore) with invoice messages and merchant bots",
             "WhatsApp": "advantage|Supported"
           },
           {
@@ -1073,6 +1073,7 @@
           {
             "FeatureName": "Buying Goods",
             "Telegram": "advantage|Via Telegram Bot Payments API",
+            "Viber": "mediocrity|Via Bot Payments API (Ukraine-only)",
             "WhatsApp": "advantage|Supported"
           },
           {
@@ -1544,17 +1545,23 @@
         ]
       },
       {
-        "AspectName": "Voice Calls",
+        "AspectName": "1-on-1 Calls",
         "Features": [
           {
-            "FeatureName": "Support",
-            "Telegram": "advantage|Supported",
-            "Viber": "advantage|Supported",
-            "WhatsApp": "advantage|Supported"
+            "FeatureName": "Types of Connection",
+            "Telegram": "advantage|Audio, video",
+            "Viber": "advantage|Audio, video",
+            "WhatsApp": "advantage|Audio, video"
           },
           {
             "FeatureName": "Connection Quality",
             "Telegram": "advantage|High",
+            "Viber": "advantage|High",
+            "WhatsApp": "advantage|High"
+          },
+          {
+            "FeatureName": "Connection Stability",
+            "Telegram": "mediocrity|Average",
             "Viber": "advantage|High",
             "WhatsApp": "advantage|High"
           },
@@ -1570,19 +1577,20 @@
             "Viber": "advantage|Supported"
           },
           {
-            "FeatureName": "AI-Based Connection Optimization",
-            "Telegram": "advantage|Supported"
-          },
-          {
             "FeatureName": "Quick Encryption Security Check",
-            "Telegram": "advantage|By [comparing 4 emoji](https://telegram.org/blog/calls#secure)",
+            "Telegram": "advantage|By [comparing 4 emoji](https://telegram.org/blog/video-calls#video-calls)",
             "Viber": "disadvantage|Not supported (only through cumbersome code)"
           },
           {
-            "FeatureName": "Background Mode",
-            "Telegram": "advantage|Supported",
-            "Viber": "advantage|Supported",
-            "WhatsApp": "advantage|Supported"
+            "FeatureName": "Picture-In-Picture Mode",
+            "Telegram": "advantage|For video calls",
+            "WhatsApp": "advantage|For video calls"
+          },
+          {
+            "FeatureName": "Flipping Cameras",
+            "Telegram": "advantage|Yes, on phones",
+            "Viber": "advantage|Yes, on phones",
+            "WhatsApp": "advantage|Yes, on phones"
           },
           {
             "FeatureName": "Inidication of Interlocutor Online Availability",
@@ -1611,25 +1619,41 @@
             "Viber": "advantage|To phone/PC"
           },
           {
-            "FeatureName": "Desktop Presentation",
+            "FeatureName": "Screen Sharing",
             "Viber": "advantage|Supported (on Viber Desktop)"
+          },
+          {
+            "FeatureName": "Cellular Calls",
+            "Telegram": "mediocrity|Not supported (they contradict the philosophy and security approach)",
+            "Viber": "advantage|Via paid Viber Out",
+            "WhatsApp": "mediocrity|Not supported"
           }
         ]
       },
       {
-        "AspectName": "Voice Conferences",
+        "AspectName": "Conference Calls",
         "Features": [
+          {
+            "FeatureName": "Types of Connection",
+            "Telegram": "disadvantage|Audio",
+            "Viber": "advantage|Audio, video",
+            "WhatsApp": "advantage|Audio, video"
+          },
           {
             "FeatureName": "Number of Participants",
             "Telegram": "advantage|[Unlimited](https://telegram.org/blog/voice-chats-on-steroids#limitless-voice-chats)",
-            "Viber": "mediocrity|Up to 20 participants",
-            "WhatsApp": "disadvantage|Up to 8 participants (mobile devices only)"
+            "Viber": "mediocrity|Up to 30 participants",
+            "WhatsApp": "disadvantage|Up to 8 participants (mobile devices and [Facebook Portal](https://portal.facebook.com/))"
           },
           {
             "FeatureName": "Organized As",
             "Telegram": "advantage|[Voice chats](https://telegram.org/blog/voice-chats?ln=r#voice-chats) available from [groups and channels](https://telegram.org/blog/voice-chats-on-steroids)",
-            "Viber": "advantage|Calls from groups, or extension of 1:1 calls ",
-            "WhatsApp": "advantage|Calls from groups, extension of 1:1 calls, or as separate group calls"
+            "Viber": "advantage|[Calls from groups](https://help.viber.com/en/article/group-voice-and-video-calls-on-viber), or extension of 1:1 calls ",
+            "WhatsApp": "advantage|[Calls from groups](https://faq.whatsapp.com/iphone/voice-and-video-calls/how-to-make-a-group-video-call), extension of 1:1 calls, or as separate group calls"
+          },
+          {
+            "FeatureName": "Encryption",
+            "WhatsApp": "advantage|Supported (theoretically Signal)"
           },
           {
             "FeatureName": "Controlling Number of Speakers",
@@ -1652,6 +1676,10 @@
             "Telegram": "advantage|[Supported](https://telegram.org/blog/voice-chats-on-steroids#raise-hand)"
           },
           {
+            "FeatureName": "Screen Sharing",
+            "Viber": "advantage|Supported (on Viber Desktop)"
+          },
+          {
             "FeatureName": "Recording Conferences",
             "Telegram": "advantage|[Supported](https://telegram.org/blog/voice-chats-on-steroids#recorded-chats), with recording indication"
           },
@@ -1668,9 +1696,8 @@
             "Telegram": "advantage|[With countdown and notifications](https://telegram.org/blog/payments-2-0-scheduled-voice-chats#scheduled-voice-chats)"
           },
           {
-            "FeatureName": "Encryption",
-            "Viber": "mediocrity|Supported (unknown implementation)",
-            "WhatsApp": "advantage|Supported (theoretically Signal)"
+            "FeatureName": "Pinning Individual Participant's Video",
+            "Viber": "advantage|Supported"
           },
           {
             "FeatureName": "Correction Of Individual Members' Volume Level",
@@ -1681,105 +1708,6 @@
             "Telegram": "advantage|Absent",
             "Viber": "disadvantage|After calls",
             "WhatsApp": "advantage|Absent"
-          }
-        ]
-      },
-      {
-        "AspectName": "Video Calls",
-        "Features": [
-          {
-            "FeatureName": "Support",
-            "Telegram": "advantage|Supported",
-            "Viber": "advantage|Supported",
-            "WhatsApp": "advantage|Supported"
-          },
-          {
-            "FeatureName": "Connection Quality",
-            "Telegram": "advantage|High",
-            "Viber": "advantage|High",
-            "WhatsApp": "advantage|High"
-          },
-          {
-            "FeatureName": "Encryption",
-            "Telegram": "advantage|Supported (MTProto in secret mode)",
-            "Viber": "mediocrity|Supported (unknown implementation)",
-            "WhatsApp": "mediocrity|Supported (theoretically Signal)"
-          },
-          {
-            "FeatureName": "Quick Encryption Security Check",
-            "Telegram": "advantage|By [comparing 4 emoji](https://telegram.org/blog/video-calls#video-calls)",
-            "Viber": "disadvantage|Not supported (only through cumbersome code)"
-          },
-          {
-            "FeatureName": "Background Mode",
-            "Telegram": "advantage|Supported (picture-in-picture mode)",
-            "Viber": "disadvantage|Not supported (the call switches to voice-only mode)",
-            "WhatsApp": "advantage|Supported (picture-in-picture mode)"
-          },
-          {
-            "FeatureName": "Flipping Cameras",
-            "Telegram": "advantage|Yes, on phones",
-            "Viber": "advantage|Yes, on phones",
-            "WhatsApp": "advantage|Yes, on phones"
-          },
-          {
-            "FeatureName": "Inidication of Interlocutor Online Availability",
-            "Telegram": "advantage|Via different kinds of tones"
-          },
-          {
-            "FeatureName": "Quick Text Replies",
-            "Telegram": "advantage|Supported (with possibility to change default replies)",
-            "Viber": "mediocrity|Supported (without possibility to change replies)",
-            "WhatsApp": "mediocrity|Supported (without possibility to change replies)"
-          },
-          {
-            "FeatureName": "Ads",
-            "Telegram": "advantage|Absent",
-            "Viber": "disadvantage|After calls",
-            "WhatsApp": "advantage|Absent"
-          },
-          {
-            "FeatureName": "Transferring The Call to Device",
-            "Viber": "advantage|To phone/PC"
-          }
-        ]
-      },
-      {
-        "AspectName": "Video Conferences",
-        "Features": [
-          {
-            "FeatureName": "Number of Participants",
-            "Viber": "advantage|Up to 20 participants",
-            "WhatsApp": "mediocrity|Up to 8 participants (mobile devices and [Facebook Portal](https://portal.facebook.com/))"
-          },
-          {
-            "FeatureName": "Encryption",
-            "Viber": "disadvantage|Not supported",
-            "WhatsApp": "advantage|Supported (theoretically Signal)"
-          },
-          {
-            "FeatureName": "Maximizing Individual Participant's Video",
-            "WhatsApp": "advantage|Supported"
-          },
-          {
-            "FeatureName": "Ads",
-            "Viber": "disadvantage|After calls",
-            "WhatsApp": "advantage|Absent"
-          }
-        ]
-      },
-      {
-        "AspectName": "Cellular Calls",
-        "Telegram": "mediocrity|Not supported (they contradict the philosophy and security approach)",
-        "WhatsApp": "mediocrity|Not supported (they contradict the philosophy and security approach)",
-        "Features": [
-          {
-            "FeatureName": "Via Providers",
-            "Viber": "advantage|Paid Viber Out"
-          },
-          {
-            "FeatureName": "Subscription to Local Number In Other Country",
-            "Viber": "advantage|Supported (fees apply)"
           }
         ]
       }

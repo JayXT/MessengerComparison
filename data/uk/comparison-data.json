@@ -124,14 +124,14 @@
         "AspectName": "Боротьба з Порушеннями",
         "Features": [
           {
-            "FeatureName": "Спам",
-            "Telegram": "advantage|[Надійний контроль спаму](https://telegram.org/faq_spam) та [попередження](https://telegram.org/blog/privacy-discussions-web-bots#scam-alerts) про [підозрілу](https://telegram.org/blog/move-history#reporting-fake-channels) активність",
-            "Viber": "mediocrity|[Контроль спаму та скринька запитів повідомлень](https://www.viber.com/en/blog/2021-01-27/securitips-how-to-play-it-safe-on-viber-and-how-your-chats-are-kept-private/) (спам від компаній, реклама та надлишкові сповіщення все ще надходять)",
-            "WhatsApp": "mediocrity|Обмежений контроль спаму"
+            "FeatureName": "Контроль Спаму",
+            "Telegram": "mediocrity|[Наявний](https://telegram.org/faq_spam), з підтримкою [міток](https://telegram.org/blog/privacy-discussions-web-bots#scam-alerts) (є проблеми зі спамом у великих групах/каналах)",
+            "Viber": "mediocrity|[Зокрема через скриньку запитів повідомлень](https://www.viber.com/en/blog/2021-01-27/securitips-how-to-play-it-safe-on-viber-and-how-your-chats-are-kept-private/) (спам від компаній, реклама та надлишкові сповіщення все ще надходять)",
+            "WhatsApp": "advantage|Наявний"
           },
           {
             "FeatureName": "Нелегальний/Злочинний Контент",
-            "Telegram": "advantage|[Блокується](https://telegram.org/faq#q-wait-0-o-do-you-process-take-down-requests-from-third-parties)",
+            "Telegram": "disadvantage|[Блокується](https://telegram.org/faq#q-there-39s-illegal-content-on-telegram-how-do-i-take-it-down), але із затримками",
             "Viber": "advantage|Блокується",
             "WhatsApp": "advantage|Блокується"
           }
@@ -367,7 +367,7 @@
           {
             "FeatureName": "Текст",
             "Telegram": "advantage|З підтримкою комбінованого форматування (жирний, моноширний, курсивний, підкреслений, закреслений шрифт)",
-            "Viber": "mediocrity|З підтримкою форматування (жирний, моноширний, курсивний, закреслений шрифт)",
+            "Viber": "advantage|З підтримкою комбінованого форматування (жирний, моноширний, курсивний, закреслений шрифт)",
             "WhatsApp": "mediocrity|З підтримкою форматування (жирний, моноширний, курсивний, закреслений шрифт)"
           },
           {
@@ -518,7 +518,7 @@
           {
             "FeatureName": "Відео Повідомлення",
             "Telegram": "advantage|Підтримуються (до 60 с.)",
-            "Viber": "mediocrity|Підтримуються (до 30 с.)"
+            "Viber": "mediocrity|Підтримуються (до 20 с.)"
           },
           {
             "FeatureName": "Коментарі",
@@ -533,7 +533,7 @@
             "FeatureName": "Вміст Ботів/Розширень",
             "Telegram": "advantage|Різноманітні види клавіатур, декорацій та динамічних повідомлень в різних видах чатів",
             "Viber": "mediocrity|Різноманітні види клавіатур, розширень та їх декорацій",
-            "WhatsApp": "disadvantage|Немає належної підтримки"
+            "WhatsApp": "mediocrity|Кнопки меню та додатковий вміст бізнес чатів"
           },
           {
             "FeatureName": "Фінанси",
@@ -1051,19 +1051,19 @@
         "Features": [
           {
             "FeatureName": "Взаємодія з Бізнесом",
-            "Telegram": "advantage|Через ботів",
-            "Viber": "advantage|Через публічні акаунти",
+            "Telegram": "advantage|Через ботів, канали",
+            "Viber": "mediocrity|Через [чатботів](https://help.viber.com/en/article/how-to-buy-from-a-chatbot-on-viber-faq) (лише в Україні)",
             "WhatsApp": "advantage|Через чати з акаунтами WhatsApp Business"
           },
           {
             "FeatureName": "Профіль Компанії",
-            "Telegram": "mediocrity|Як опис бота чи його вміст",
-            "Viber": "mediocrity|Як опис публічного акаунту",
+            "Telegram": "mediocrity|Як опис бота, каналу чи їх вміст",
+            "Viber": "mediocrity|Як опис чатбота",
             "WhatsApp": "advantage|Як [окрема](https://www.whatsapp.com/business/api) сторінка з деталями"
           },
           {
             "FeatureName": "Каталоги Товарів",
-            "Telegram": "mediocrity|Через вміст ботів",
+            "Telegram": "advantage|Через [канали](https://t.me/TestStore) з повідомленнями накладними та торгових ботів",
             "WhatsApp": "advantage|Підтримуються"
           },
           {
@@ -1073,6 +1073,7 @@
           {
             "FeatureName": "Придбання Товарів",
             "Telegram": "advantage|Через Bot Payments API",
+            "Viber": "mediocrity|Через Bot Payments API (лише в Україні)",
             "WhatsApp": "advantage|Підтримується"
           },
           {
@@ -1544,17 +1545,23 @@
         ]
       },
       {
-        "AspectName": "Голосові Дзвінки",
+        "AspectName": "Дзвінки 1 на 1",
         "Features": [
           {
-            "FeatureName": "Підтримка",
-            "Telegram": "advantage|Підтримуються",
-            "Viber": "advantage|Підтримуються",
-            "WhatsApp": "advantage|Підтримуються"
+            "FeatureName": "Типи Зв'язку",
+            "Telegram": "advantage|Аудіо, відео",
+            "Viber": "advantage|Аудіо, відео",
+            "WhatsApp": "advantage|Аудіо, відео"
           },
           {
             "FeatureName": "Якість Зв’язку",
             "Telegram": "advantage|Висока",
+            "Viber": "advantage|Висока",
+            "WhatsApp": "advantage|Висока"
+          },
+          {
+            "FeatureName": "Стабільність Зв’язку",
+            "Telegram": "mediocrity|Середня",
             "Viber": "advantage|Висока",
             "WhatsApp": "advantage|Висока"
           },
@@ -1570,19 +1577,20 @@
             "Viber": "advantage|Підтримується"
           },
           {
-            "FeatureName": "Оптимізація Зв’язку Через Штучний Інтелект",
-            "Telegram": "advantage|Підтримується"
-          },
-          {
             "FeatureName": "Швидка Перевірка Безпеки Шифрування",
-            "Telegram": "advantage|Через [співставлення 4-х емоджі](https://telegram.org/blog/calls#secure)",
+            "Telegram": "advantage|Через [співставлення 4-х емоджі](https://telegram.org/blog/video-calls#video-calls)",
             "Viber": "disadvantage|Не підтримується (лише через громіздкий код)"
           },
           {
-            "FeatureName": "Фоновий Режим",
-            "Telegram": "advantage|Підтримується",
-            "Viber": "advantage|Підтримується",
-            "WhatsApp": "advantage|Підтримується"
+            "FeatureName": "Режим Картинка в Картинці",
+            "Telegram": "advantage|Для відео дзвінків",
+            "WhatsApp": "advantage|Для відео дзвінків"
+          },
+          {
+            "FeatureName": "Перемикання Між Камерами",
+            "Telegram": "advantage|Так, на смартфонах",
+            "Viber": "advantage|Так, на смартфонах",
+            "WhatsApp": "advantage|Так, на смартфонах"
           },
           {
             "FeatureName": "Індикація Наявності Адресата в Мережі",
@@ -1613,23 +1621,39 @@
           {
             "FeatureName": "Демонстрація Робочого Столу",
             "Viber": "advantage|Підтримується (на Viber Desktop)"
+          },
+          {
+            "FeatureName": "Стільникові Дзвінки",
+            "Telegram": "mediocrity|Не підтримуються (суперечать філософії та підходу до безпеки)",
+            "Viber": "advantage|Через платний Viber Out",
+            "WhatsApp": "mediocrity|Не підтримуються"
           }
         ]
       },
       {
-        "AspectName": "Голосові Конференції",
+        "AspectName": "Конференції",
         "Features": [
+          {
+            "FeatureName": "Типи Зв'язку",
+            "Telegram": "disadvantage|Аудіо",
+            "Viber": "advantage|Аудіо, відео",
+            "WhatsApp": "advantage|Аудіо, відео"
+          },
           {
             "FeatureName": "Кількість Учасників",
             "Telegram": "advantage|[Необмежена](https://telegram.org/blog/voice-chats-on-steroids#limitless-voice-chats)",
-            "Viber": "mediocrity|До 20 учасників",
-            "WhatsApp": "disadvantage|До 8 учасників (виключно на смартфонах)"
+            "Viber": "mediocrity|До 30 учасників",
+            "WhatsApp": "disadvantage|До 8 учасників (на смартфонах та [Facebook Portal](https://portal.facebook.com/))"
           },
           {
             "FeatureName": "Організовано Як",
             "Telegram": "advantage|[Голосові чати](https://telegram.org/blog/voice-chats?ln=r#voice-chats) доступні з [груп та каналів](https://telegram.org/blog/voice-chats-on-steroids)",
-            "Viber": "advantage|Дзвінки з груп або розширення дзвінків 1:1 ",
-            "WhatsApp": "advantage|Дзвінки з груп, розширення дзвінків 1:1 або окремі групові виклики"
+            "Viber": "advantage|[Дзвінки з груп](https://help.viber.com/en/article/group-voice-and-video-calls-on-viber) або розширення дзвінків 1:1 ",
+            "WhatsApp": "advantage|[Дзвінки з груп](https://faq.whatsapp.com/iphone/voice-and-video-calls/how-to-make-a-group-video-call), розширення дзвінків 1:1 або окремі групові виклики"
+          },
+          {
+            "FeatureName": "Шифрування",
+            "WhatsApp": "advantage|Підтримується (теоретично Signal)"
           },
           {
             "FeatureName": "Контроль Кількості Учасників",
@@ -1652,6 +1676,10 @@
             "Telegram": "advantage|[Підтримується](https://telegram.org/blog/voice-chats-on-steroids#raise-hand)"
           },
           {
+            "FeatureName": "Демонстрація Робочого Столу",
+            "Viber": "advantage|Підтримується (на Viber Desktop)"
+          },
+          {
             "FeatureName": "Запис Конференцій",
             "Telegram": "advantage|[Підтримується](https://telegram.org/blog/voice-chats-on-steroids#recorded-chats), з індикацією запису"
           },
@@ -1668,9 +1696,8 @@
             "Telegram": "advantage|[Зі зворотнім відліком та сповіщеннями](https://telegram.org/blog/payments-2-0-scheduled-voice-chats#scheduled-voice-chats)"
           },
           {
-            "FeatureName": "Шифрування",
-            "Viber": "mediocrity|Підтримується (реалізація невідома)",
-            "WhatsApp": "advantage|Підтримується (теоретично Signal)"
+            "FeatureName": "Прикріплення Відео Окремого Учасника",
+            "Viber": "advantage|Підтримується"
           },
           {
             "FeatureName": "Коригування Гучності Окремих Учасників",
@@ -1681,105 +1708,6 @@
             "Telegram": "advantage|Відсутня",
             "Viber": "disadvantage|Після дзвінків",
             "WhatsApp": "advantage|Відсутня"
-          }
-        ]
-      },
-      {
-        "AspectName": "Відео Дзвінки",
-        "Features": [
-          {
-            "FeatureName": "Підтримка",
-            "Telegram": "advantage|Підтримуються",
-            "Viber": "advantage|Підтримуються",
-            "WhatsApp": "advantage|Підтримуються"
-          },
-          {
-            "FeatureName": "Якість Зв’язку",
-            "Telegram": "advantage|Висока",
-            "Viber": "advantage|Висока",
-            "WhatsApp": "advantage|Висока"
-          },        
-          {
-            "FeatureName": "Шифрування",
-            "Telegram": "advantage|Підтримується (MTProto в секретному режимі)",
-            "Viber": "mediocrity|Підтримується (реалізація невідома)",
-            "WhatsApp": "mediocrity|Підтримується (теоретично Signal)"
-          },
-          {
-            "FeatureName": "Швидка Перевірка Безпеки Шифрування",
-            "Telegram": "advantage|Через [співставлення 4-х емоджі](https://telegram.org/blog/video-calls#video-calls)",
-            "Viber": "disadvantage|Не підтримується (лише через громіздкий код)"
-          },
-          {
-            "FeatureName": "Фоновий Режим",
-            "Telegram": "advantage|Підтримується (режим картинка в картинці)",
-            "Viber": "disadvantage|Не підтримується (відбувається перехід в режим голосового дзвінка)",
-            "WhatsApp": "advantage|Підтримується (режим картинка в картинці)"
-          },
-          {
-            "FeatureName": "Перемикання Між Камерами",
-            "Telegram": "advantage|Так, на смартфонах",
-            "Viber": "advantage|Так, на смартфонах",
-            "WhatsApp": "advantage|Так, на смартфонах"
-          },
-          {
-            "FeatureName": "Індикація Наявності Адресата в Мережі",
-            "Telegram": "advantage|Через різні види гудків"
-          },
-          {
-            "FeatureName": "Швидкі Текстові Відповіді",
-            "Telegram": "advantage|Підтримуються (з можливістю зміни відповідей за замовчуванням)",
-            "Viber": "mediocrity|Підтримуються (без можливості зміни відповідей)",
-            "WhatsApp": "mediocrity|Підтримуються (без можливості зміни відповідей)"
-          },
-          {
-            "FeatureName": "Реклама",
-            "Telegram": "advantage|Відсутня",
-            "Viber": "disadvantage|Після дзвінків",
-            "WhatsApp": "advantage|Відсутня"
-          },
-          {
-            "FeatureName": "Перенесення Дзвінка на Пристрій",
-            "Viber": "advantage|На телефон/комп’ютер"
-          }
-        ]
-      },
-      {
-        "AspectName": "Відео Конференції",
-        "Features": [
-          {
-            "FeatureName": "Кількість Учасників",
-            "Viber": "advantage|До 20 учасників",
-            "WhatsApp": "mediocrity|До 8 учасників (на смартфонах та [Facebook Portal](https://portal.facebook.com/))"
-          },
-          {
-            "FeatureName": "Шифрування",
-            "Viber": "disadvantage|Не підтримується",
-            "WhatsApp": "advantage|Підтримується (теоретично Signal)"
-          },
-          {
-            "FeatureName": "Збільшення Відео Окремого Учасника",
-            "WhatsApp": "advantage|Підтримується"
-          },
-          {
-            "FeatureName": "Реклама",
-            "Viber": "disadvantage|Після дзвінків",
-            "WhatsApp": "advantage|Відсутня"
-          }
-        ]
-      },
-      {
-        "AspectName": "Стільникові Дзвінки",
-        "Telegram": "mediocrity|Не підтримуються (суперечать філософії та підходу до безпеки)",
-        "WhatsApp": "mediocrity|Не підтримуються (суперечать філософії та підходу до безпеки)",
-        "Features": [
-          {
-            "FeatureName": "Через Операторів",
-            "Viber": "advantage|Платний Viber Out"
-          },
-          {
-            "FeatureName": "Передплата Місцевого Номеру В Іншій Країні",
-            "Viber": "advantage|Підтримується (за додаткову плату)"
           }
         ]
       }
