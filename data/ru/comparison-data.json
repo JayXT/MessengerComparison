@@ -289,6 +289,10 @@
             "Telegram": "advantage|[Поддерживается](https://core.telegram.org/api/pfs)",
             "Viber": "advantage|[Поддерживается](https://www.viber.com/app/uploads/Viber-Encryption-Overview.pdf)",
             "WhatsApp": "advantage|[Поддерживается](https://www.whatsapp.com/security/WhatsApp-Security-Whitepaper.pdf)"
+          },
+          {
+            "FeatureName": "Оповещение Об Изменении Настроек 2FA",
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/animated-backgrounds#login-info-reminders)"
           }
         ]
       },
@@ -1477,8 +1481,12 @@
           },
           {
             "FeatureName": "Взаимодействие с Сообщениями Ботов",
-            "Telegram": "advantage|Через[ встроенные](https://core.telegram.org/bots#inline-keyboards-and-on-the-fly-updating) клавитатуры с поддержкой обновления содержимого динамических сообщений",
+            "Telegram": "advantage|Через [встроенные](https://core.telegram.org/bots#inline-keyboards-and-on-the-fly-updating) клавитатуры с поддержкой обновления содержимого динамических сообщений",
             "Viber": "mediocrity|Ограниченная поддержка (через кнопки)"
+          },
+          {
+            "FeatureName": "Контекстуальная Логика",
+            "Telegram": "advantage|[На основе языков интерфейса, типов чатов/пользователей](https://telegram.org/blog/animated-backgrounds#bot-menu)"
           },
           {
             "FeatureName": "Добавление Ботов к Другим Чатам",
@@ -1520,7 +1528,7 @@
       },
       {
         "AspectName": "Медиа Статус",
-        "Telegram": "mediocrity|Ограниченная поддержка через комбинацию настроек профиля, каналов и ботов",
+        "Telegram": "advantage|Через настройки профиля, каналы, ботов и без ограничений в 24 часа",
         "Features": [
           {
             "FeatureName": "Назначения",
@@ -1635,13 +1643,13 @@
         "Features": [
           {
             "FeatureName": "Типы Связи",
-            "Telegram": "disadvantage|Аудио",
+            "Telegram": "advantage|Аудио, видео",
             "Viber": "advantage|Аудио, видео",
             "WhatsApp": "advantage|Аудио, видео"
           },
           {
             "FeatureName": "Количество Участников",
-            "Telegram": "advantage|[Неограниченно](https://telegram.org/blog/voice-chats-on-steroids#limitless-voice-chats)",
+            "Telegram": "advantage|[Неограниченно](https://telegram.org/blog/voice-chats-on-steroids#limitless-voice-chats), видео только для [первых 30](https://telegram.org/blog/group-video-calls#group-video-calls)",
             "Viber": "mediocrity|До 30 участников",
             "WhatsApp": "disadvantage|До 8 участников (на смартфонах и [Facebook Portal](https://portal.facebook.com/))"
           },
@@ -1677,11 +1685,12 @@
           },
           {
             "FeatureName": "Демонстрация Рабочего Стола",
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/group-video-calls#screen-sharing), с возможностью выбора отдельных окон в настольной версии",
             "Viber": "advantage|Поддерживается (на Viber Desktop)"
           },
           {
             "FeatureName": "Запись Конференций",
-            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/voice-chats-on-steroids#recorded-chats), с индикацией записи"
+            "Telegram": "advantage|[Аудио](https://telegram.org/blog/voice-chats-on-steroids#recorded-chats), с индикацией записи"
           },
           {
             "FeatureName": "Быстрое Приглашение Участников",
@@ -1697,11 +1706,20 @@
           },
           {
             "FeatureName": "Прикрепление Видео Отдельного Участника",
+            "Telegram": "advantage|Поддерживается",
             "Viber": "advantage|Поддерживается"
           },
           {
-            "FeatureName": "Настройка Громкости Отдельных участников",
+            "FeatureName": "Гибкая Видео Сетка",
+            "Telegram": "advantage|[Для планшетов и ПК](https://telegram.org/blog/group-video-calls#tablet-and-desktop-support)"
+          },
+          {
+            "FeatureName": "Настройка Громкости Отдельных Участников",
             "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/move-history#improved-voice-chats), в том числе для всех в облачном режиме"
+          },
+          {
+            "FeatureName": "Отключение Шумоподавления",
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/group-video-calls#noise-suppression-options)"
           },
           {
             "FeatureName": "Реклама",
@@ -2015,7 +2033,7 @@
           },
           {
             "FeatureName": "Расширенная Конфигурация Фона",
-            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/backgrounds-2-0) ([узоры](https://telegram.org/blog/verifiable-apps-and-more#theme-editor-2-0), их интенсивность, размытие, движение)"
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/backgrounds-2-0) ([узоры](https://telegram.org/blog/verifiable-apps-and-more#theme-editor-2-0), их интенсивность, размытие, движение, [анимации](https://telegram.org/blog/animated-backgrounds#animated-backgrounds))"
           },
           {
             "FeatureName": "Поддержка Тем",
@@ -2149,6 +2167,11 @@
             "FeatureName": "Возможности Платформы",
             "Telegram": "advantage|Создание, управление и обмен наборами стикеров, а также просмотр их статистики (в частности анимированных)",
             "Viber": "mediocrity|Покупка и загрузка наборов, [создание, управление и обмен](https://www.viber.com/blog/2019-09-16/create-your-own-stickers-and-express-yourself-perfectly/) собственными стикерами"
+          },
+          {
+            "FeatureName": "Механизмы Создания Наборов Стикеров",
+            "Telegram": "advantage|Через [бота или API для разработчиков](https://core.telegram.org/import-stickers)",
+            "Viber": "advantage|Через встроенный интерфейс"
           },
           {
             "FeatureName": "Конкурсы Для Создания Наборов",
@@ -3006,7 +3029,7 @@
           },
           {
             "FeatureName": "Создание и Изменение Фонов",
-            "Telegram": "advantage|Поддерживается",
+            "Telegram": "advantage|[С расширенной конфигурацией](https://telegram.org/blog/animated-backgrounds#creating-amp-sharing-backgrounds)",
             "Viber": "mediocrity|Только изменение фона",
             "WhatsApp": "mediocrity|Только изменение фона"
           },
@@ -3017,7 +3040,7 @@
           },
           {
             "FeatureName": "Изменение Иконки Приложения",
-            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/contacts-local-groups#theme-picker-and-icon-style) (на iOS)"
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/animated-backgrounds#ios-semi-transparency-amp-new-app-icons) (на iOS)"
           },
           {
             "FeatureName": "Изменение Темы",
