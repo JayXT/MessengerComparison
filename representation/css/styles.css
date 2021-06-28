@@ -28,8 +28,8 @@ section.main {
     display: block;
     margin: auto;
     width: 100%;
-    min-width: 550px;
-    max-width: 1100px;
+    min-width: 575px;
+    max-width: 1150px;
 }
 
 .headline {
@@ -105,12 +105,8 @@ th.category {
     padding: 2px 5px;
 }
 
-.feature-col {
-    width: 22%;
-}
-
-.service-col {
-    width: 26%;
+.feature-col, .service-col {
+    width: 25%;
 }
 
 td>ol {
@@ -199,6 +195,36 @@ tr:last-child td:last-child {
 
 .aspect-text {
     text-align: left;
+}
+
+a.anchor {
+    display: inline-block;
+    width: 20px;
+    height: 20px; 
+    border-bottom-style: none;
+    line-height: 1;
+    scroll-margin-top: 55px;
+}
+
+.anchor-icon {
+    display: inline-block;
+    width: 18px;
+    height: 20px;    
+    margin-top: 2px;
+    vertical-align: text-top;
+    background: url(../icons/LinkIcon.png) 0 0 no-repeat;
+    background-size: 17px 18px;
+    opacity: 0;
+    cursor: pointer;
+    -webkit-transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -ms-transition: opacity .15s ease-in-out;
+    -o-transition: opacity .15s ease-in-out;
+    transition: opacity .15s ease-in-out;
+}
+
+.anchor-icon:hover {
+    opacity: 1 !important;
 }
 
 .category-arrow {

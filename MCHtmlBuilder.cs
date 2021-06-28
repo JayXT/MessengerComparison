@@ -13,7 +13,7 @@ namespace MessengerComparison
         List<Group> ComparisonData { get; set; }
         string Language { get; set; }
         string LastUpdatedDateText { get; set; }
-        bool IsTranslationOutOfDate { get; set;}
+        bool IsTranslationOutOfDate { get; set; }
 
         public MCHtmlBuilder(string language, Dictionary<string, string> generalData,
                              List<Group> comparisonData, DateTime lastUpdatedDate)
@@ -51,7 +51,7 @@ namespace MessengerComparison
                         <section class=""main"">
                             <div class=""headline"">
                                 <h1>{GeneralData["Headline"]}</h1>
-                                {(IsTranslationOutOfDate ? 
+                                {(IsTranslationOutOfDate ?
                                 $"<h2 class=\"outdated\">Translation is out of date: {LastUpdatedDateText}</h2>" : "")}
                             </div>
                             <table>
@@ -91,18 +91,26 @@ namespace MessengerComparison
                     bool TelegramFeaturesPresent = aspect.AreTelegramFeaturesPresent();
                     bool ViberFeaturesPresent = aspect.AreViberFeaturesPresent();
                     bool WhatsAppFeaturesPresent = aspect.AreWhatsAppFeaturesPresent();
+                    string categoryLink = $"{group.GroupName}--{aspect.AspectName}"
+                                                .ToUrlString();
 
                     builder.AppendLine($@"
                     <tr>
                         <th scope=""col"" class=""category"" colspan=""4"">
                            <div class=""category-container"">
-                                <span class=""group-text"">{group.GroupName}</span>
+                                <span class=""group-text"">
+                                    <a class=""anchor"" name=""{categoryLink}"" href=""#{categoryLink}"">
+                                        <i class=""anchor-icon""></i>
+                                    </a>
+                                    {group.GroupName}
+                                </span>
                                 <span class=""category-arrow"">&rarr;</span>
                                 <span class=""aspect-text"">{aspect.AspectName}</span>
                            </div>                              
                         </th>
                     </tr>
                     ");
+
                     foreach (var feature in aspect.Features)
                     {
                         builder.AppendLine(
@@ -240,7 +248,7 @@ namespace MessengerComparison
             return lastUpdated.ToString(GeneralData["UpdatedFormat"], ci);
         }
 
-        private bool IsOutdated(DateTime originalDate, DateTime translationDate) 
+        private bool IsOutdated(DateTime originalDate, DateTime translationDate)
         {
             return originalDate > translationDate &&
                   (originalDate - translationDate) > TimeSpan.FromDays(180);
