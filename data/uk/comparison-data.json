@@ -521,7 +521,7 @@
           },
           {
             "FeatureName": "Відео Повідомлення",
-            "Telegram": "advantage|[Підтримуються](https://telegram.org/blog/video-1000/#video-messages-2-0) (до 60 с.) з перемотуванням та масштабуванням",
+            "Telegram": "advantage|[Підтримуються](https://telegram.org/blog/video-1000/#video-messages-2-0) (до 60 с.), з перемотуванням та масштабуванням",
             "Viber": "mediocrity|Підтримуються (до 20 с.)"
           },
           {
