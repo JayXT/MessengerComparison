@@ -521,7 +521,7 @@
           },
           {
             "FeatureName": "Відео Повідомлення",
-            "Telegram": "advantage|Підтримуються (до 60 с.)",
+            "Telegram": "advantage|[Підтримуються](https://telegram.org/blog/video-1000/#video-messages-2-0) (до 60 с.) з перемотуванням та масштабуванням",
             "Viber": "mediocrity|Підтримуються (до 20 с.)"
           },
           {
@@ -642,7 +642,7 @@
           },
           {
             "FeatureName": "Малювання на Медіа",
-            "Telegram": "advantage|Підтримується",
+            "Telegram": "advantage|[З високою точністю](https://telegram.org/blog/video-1000/#precision-drawing)",
             "Viber": "advantage|Підтримується",
             "WhatsApp": "mediocrity|Лише на зображеннях"
           },
@@ -769,7 +769,7 @@
           },
           {
             "FeatureName": "Прискорене Відтворення",
-            "Telegram": "advantage|Для відео (Telegram Desktop), аудіо, голосових та відео повідомлень"
+            "Telegram": "advantage|Для відео, аудіо, голосових та відео повідомлень"
           },
           {
             "FeatureName": "Перемотування Відео",
@@ -887,7 +887,7 @@
           },
           {
             "FeatureName": "Автовидалення Повідомлень",
-            "Telegram": "advantage|[Через 24 години або 7 днів](https://telegram.org/blog/autodelete-inv2#auto-delete-messages)",
+            "Telegram": "advantage|[Через 24 години, 7 днів чи місяць](https://telegram.org/blog/video-1000/#auto-delete-after-1-month)",
             "Viber": "mediocrity|[Лише в особистих чатах](https://help.viber.com/en/article/disappearing-messages) (10 с, 30 с, 1 хв, 1 год)",
             "WhatsApp": "mediocrity|[Через 7 днів](https://blog.whatsapp.com/introducing-disappearing-messages-on-whatsapp)"
           },
@@ -1628,7 +1628,8 @@
           },
           {
             "FeatureName": "Демонстрація Робочого Столу",
-            "Viber": "advantage|Підтримується (на Viber Desktop)"
+            "Telegram": "advantage|[Підтримується](https://telegram.org/blog/video-1000/#screen-sharing-with-sound)",
+            "Viber": "mediocrity|Підтримується (на Viber Desktop)"
           },
           {
             "FeatureName": "Стільникові Дзвінки",
@@ -1649,7 +1650,7 @@
           },
           {
             "FeatureName": "Кількість Учасників",
-            "Telegram": "advantage|[Необмежена](https://telegram.org/blog/voice-chats-on-steroids#limitless-voice-chats), відео лише для [перших 30](https://telegram.org/blog/group-video-calls#group-video-calls)",
+            "Telegram": "advantage|[Необмежена](https://telegram.org/blog/voice-chats-on-steroids#limitless-voice-chats), відео: трансляція для [30](https://telegram.org/blog/group-video-calls#group-video-calls), перегляд для [1000](https://telegram.org/blog/video-1000/#group-video-calls-2-0) учасників",
             "Viber": "mediocrity|До 30 учасників",
             "WhatsApp": "disadvantage|До 8 учасників (на смартфонах та [Facebook Portal](https://portal.facebook.com/))"
           },
@@ -1973,6 +1974,14 @@
             "Telegram": "advantage|В початок списку чатів, до останнього повідомлення, згадки чи дати в чаті",
             "Viber": "mediocrity|Обмежена підтримка",
             "WhatsApp": "mediocrity|Обмежена підтримка"
+          },
+          {
+            "FeatureName": "Швидке Виділення Повідомлень",
+            "Telegram": "advantage|Підтримується"
+          },
+          {
+            "FeatureName": "Швидке Виділення Чатів",
+            "Telegram": "advantage|[На iOS](https://telegram.org/blog/video-1000/#more-for-ios)"
           },
           {
             "FeatureName": "Зміна Отримувача Повідомлень, Що Пересилаються",
@@ -2491,6 +2500,10 @@
           {
             "FeatureName": "Повідомлень",
             "Telegram": "advantage|Підтримуються (публічних та [приватних](https://telegram.org/blog/archive-and-new-design#easier-forwarding-links-to-messages-online-badges))"
+          },
+          {
+            "FeatureName": "Часових Міток Медіа",
+            "Telegram": "advantage|[Підтримуються](https://telegram.org/blog/video-1000/#video-playback-speed)"
           },
           {
             "FeatureName": "Наборів Стікерів",
