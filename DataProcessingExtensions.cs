@@ -1,5 +1,6 @@
 using CommonMark;
 using System;
+using System.Web;
 
 namespace MessengerComparison
 {
@@ -67,6 +68,11 @@ namespace MessengerComparison
             dateTime = dateTime.AddSeconds(Convert.ToDouble(unixTimeStamp));
             
             return dateTime;
+        }
+
+        public static string ToUrlString(this string inputString)
+        {
+            return HttpUtility.UrlEncode(inputString.Replace(' ', '-'));
         }
     }
 }
