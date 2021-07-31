@@ -520,8 +520,8 @@
             "WhatsApp": "advantage|Supportati"
           },
           {
-            "FeatureName": "Video Messaggi",
-            "Telegram": "advantage|Supportato (fino a 60 secondi)",
+            "FeatureName": "Videomessaggi",
+            "Telegram": "advantage|[Supportati](https://telegram.org/blog/video-1000/it?ln=a#videomessaggi-2-0) (fino a 60 secondi) con supporto riavvolgimento e zoom",
             "Viber": "mediocrity|Supportato (fino a 20 secondi)"
           },
           {
@@ -642,7 +642,7 @@
           },
           {
             "FeatureName": "Disegno sui Media",
-            "Telegram": "advantage|Supportato",
+            "Telegram": "advantage|[Con alta precisione](https://telegram.org/blog/video-1000/it?ln=a#disegni-precisi)",
             "Viber": "advantage|Supportato",
             "WhatsApp": "mediocrity|Solo su immagini"
           },
@@ -769,7 +769,7 @@
           },
           {
             "FeatureName": "Riproduzione Accelerata",
-            "Telegram": "advantage|Per i messaggi video (Telegram Desktop), i messaggi audio, voce e video"
+            "Telegram": "advantage|Per video, audio, vocali e videomessaggi"
           },
           {
             "FeatureName": "Riavvolgimento Video",
@@ -887,7 +887,7 @@
           },
 		  {
             "FeatureName": "Auto-Cancellazione Messaggi",
-            "Telegram": "advantage|[Dopo 24 ore o 7 giorni](https://telegram.org/blog/autodelete-inv2/uk?setln=it#autoelimina-i-messaggi)",
+            "Telegram": "advantage|[Dopo 24 ore, 7 giorni, o un mese](https://telegram.org/blog/video-1000/it?ln=a#autoelimina-dopo-1-mese)",
             "Viber": "mediocrity|[Solo nelle chat personali](https://help.viber.com/en/article/disappearing-messages) (10 s, 30 s, 1 min, 1 h)",
             "WhatsApp": "mediocrity|[Dopo 7 giorni](https://blog.whatsapp.com/introducing-disappearing-messages-on-whatsapp)"
           },
@@ -1628,7 +1628,8 @@
           },
           {
             "FeatureName": "Condivisione dello Schermo",
-            "Viber": "advantage|Supportato (su Viber Desktop)"
+            "Telegram": "advantage|[Supportato](https://telegram.org/blog/video-1000/it?ln=a#condivisione-schermo-con-il-suono)",
+            "Viber": "mediocrity|Supportato (su Viber Desktop)"
 		  },
           {
             "FeatureName": "Chiamate Cellulari",
@@ -1649,7 +1650,7 @@
           },
           {
             "FeatureName": "Numero di Partecipanti",
-            "Telegram": "advantage|[Illimitato](https://telegram.org/blog/voice-chats-on-steroids/it#chat-vocali-senza-limiti), video solo per i [primi 30 membri](https://telegram.org/blog/group-video-calls/it?ln=a#videochiamate-di-gruppo)",
+            "Telegram": "advantage|[Illimitato](https://telegram.org/blog/voice-chats-on-steroids/it#chat-vocali-senza-limiti), video: trasmissione fino a [30] membri(https://telegram.org/blog/group-video-calls/it?setln=it#videochiamate-di-gruppo), visione fino a [1000] membri(https://telegram.org/blog/video-1000/it?ln=a#videochiamate-di-gruppo-2-0)",
             "Viber": "mediocrity|Fino a 30 partecipanti",
             "WhatsApp": "disadvantage|Fino a 8 partecipanti (dispositivi mobili e [Facebook Portal](https://portal.facebook.com/))"
           },
@@ -1958,7 +1959,7 @@
         "Features": [
           {
             "FeatureName": "Scorciatoie da Tastiera e Azioni del Mouse",
-            "Telegram": "advantage|[Ampio supporto](https://github.com/telegramdesktop/tdesktop/wiki/Keyboard-Shortcuts)",
+            "Telegram": "advantage|[Supporto esteso](https://github.com/telegramdesktop/tdesktop/wiki/Keyboard-Shortcuts)",
             "Viber": "mediocrity|[Supporto medio](https://help.viber.com/en/article/keyboard-shortcuts-for-viber-on-desktop)",
             "WhatsApp": "mediocrity|[Supporto medio](https://shortcutworld.com/WhatsApp-Desktop/win/Whatsapp-Desktop_Shortcuts)"
           },
@@ -1973,6 +1974,14 @@
             "Telegram": "advantage|All'inizio dell'elenco chat, all'ultimo messaggio, menzione o data nella chat",
             "Viber": "mediocrity|Supporto limitato",
             "WhatsApp": "mediocrity|Supporto limitato"
+          },
+		  {
+            "FeatureName": "Selezione Rapida dei Messaggi",
+            "Telegram": "advantage|Supportata"
+          },
+          {
+            "FeatureName": "Selezione Rapida delle Chat",
+            "Telegram": "advantage|[Su iOS](https://telegram.org/blog/video-1000/it?ln=a#altro-per-ios)"
           },
           {
             "FeatureName": "Modifica del Destinatario dell'Inoltro dei Messaggi",
@@ -2491,6 +2500,10 @@
           {
             "FeatureName": "Messaggi",
             "Telegram": "advantage|Supportati(pubblici e [privati](https://telegram.org/blog/archive-and-new-design#easier-forwarding-links-to-messages-online-badges))"
+          },
+		  {
+            "FeatureName": "Timestamp dei Media",
+            "Telegram": "advantage|[Supportato](https://telegram.org/blog/video-1000/it?ln=a#collegamenti-con-i-timestamp)"
           },
           {
             "FeatureName": "Pacchetti Sticker",
