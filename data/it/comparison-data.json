@@ -1650,7 +1650,7 @@
           },
           {
             "FeatureName": "Numero di Partecipanti",
-            "Telegram": "advantage|[Illimitato](https://telegram.org/blog/voice-chats-on-steroids/it#chat-vocali-senza-limiti), video: trasmissione fino a [30] membri(https://telegram.org/blog/group-video-calls/it?setln=it#videochiamate-di-gruppo), visione fino a [1000] membri(https://telegram.org/blog/video-1000/it?ln=a#videochiamate-di-gruppo-2-0)",
+            "Telegram": "advantage|[Illimitato](https://telegram.org/blog/voice-chats-on-steroids/it#chat-vocali-senza-limiti), video: trasmissione fino a [30](https://telegram.org/blog/group-video-calls/it?setln=it#videochiamate-di-gruppo) membri, visione fino a [1000](https://telegram.org/blog/video-1000/it?ln=a#videochiamate-di-gruppo-2-0)  membri",
             "Viber": "mediocrity|Fino a 30 partecipanti",
             "WhatsApp": "disadvantage|Fino a 8 partecipanti (dispositivi mobili e [Facebook Portal](https://portal.facebook.com/))"
           },
