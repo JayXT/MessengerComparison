@@ -408,7 +408,7 @@
           },
           {
             "FeatureName": "Message Forwarding",
-            "Telegram": "advantage|Supported",
+            "Telegram": "advantage|With [flexible](https://telegram.org/blog/live-streams-forwarding-next-channel#flexible-forwarding) options",
             "Viber": "advantage|Supported",
             "WhatsApp": "mediocrity|Supported (1 chat at a time)"
           },
@@ -717,6 +717,11 @@
             "WhatsApp": "disadvantage|Own private messages (during 1 hour with notification about deletion)"
           },
           {
+            "FeatureName": "Self-Destruction of Sent Photos/Videos",
+            "Telegram": "advantage|Supported (destruction in range from 1 s to 1 min after a message is viewed)",
+            "WhatsApp": "mediocrity|Via [ViewOnce](https://blog.whatsapp.com/view-once-photos-and-videos-on-whatsapp), without configuration"
+          },
+          {
             "FeatureName": "Deleting The Cache of Separate Messages",
             "Telegram": "advantage|[Supported (iOS)](https://telegram.org/blog/verifiable-apps-and-more#cache-clearing-shortcuts)",
             "Viber": "disadvantage|Not supported (architectural limitations)",
@@ -768,7 +773,7 @@
             "WhatsApp": "mediocrity|Limited playback"
           },
           {
-            "FeatureName": "Accelerated Playback",
+            "FeatureName": "Changing Playback Speed",
             "Telegram": "advantage|For video, audio, voice and video messages"
           },
           {
@@ -1176,7 +1181,7 @@
           },
           {
             "FeatureName": "Choosing and Controlling Admins",
-            "Telegram": "advantage|Atomic rights on: changing group info, moderation, deleting messages, blocking/unblocking users, link invites, pinning messages, adding/removing admins, [anonymous](https://telegram.org/blog/filters-anonymous-admins-comments#anonymous-group-admins) message sending, managing voice chats",
+            "Telegram": "advantage|Atomic rights on: changing group info, moderation, deleting messages, blocking/unblocking users, link invites, pinning messages, adding/removing admins, [anonymous](https://telegram.org/blog/filters-anonymous-admins-comments#anonymous-group-admins) message sending, managing video chats",
             "Viber": "advantage|Group admins: adding/removing admins, users  \n Communities admins: adding/removing/blocking members, pinning messages, moderation, deleting messages  \n Communities superadmins other than that have: rights to change group info, elevating/decreasing rights, changing background for members, access to admins' contact data",
             "WhatsApp": "mediocrity|Rights to change group info, adding/removing users/admins, inviting by links"
           },
@@ -1332,7 +1337,7 @@
           },
           {
             "FeatureName": "Choosing and Controlling Admins",
-            "Telegram": "advantage|Atomic rights on: changing channel info, posting messages, editing and deleting others' messages, inviting users by link, adding admins, managing voice chats",
+            "Telegram": "advantage|Atomic rights on: changing channel info, posting messages, editing and deleting others' messages, inviting users by link, adding admins, managing video chats",
             "Viber": "advantage|Similar to group category"
           },
           {
@@ -1354,7 +1359,7 @@
           },
           {
             "FeatureName": "Comfy Messages Sharing",
-            "Telegram": "advantage|Supported (choosing recipients, commenting)"
+            "Telegram": "advantage|Supported (choosing/searching recipients, commenting)"
           },
           {
             "FeatureName": "Message Reactions",
@@ -1592,6 +1597,7 @@
           {
             "FeatureName": "Picture-In-Picture Mode",
             "Telegram": "advantage|For video calls",
+            "Viber": "advantage|For video calls",
             "WhatsApp": "advantage|For video calls"
           },
           {
@@ -1650,13 +1656,13 @@
           },
           {
             "FeatureName": "Number of Participants",
-            "Telegram": "advantage|[Unlimited](https://telegram.org/blog/voice-chats-on-steroids#limitless-voice-chats), video: broadcasting for [30](https://telegram.org/blog/group-video-calls#group-video-calls), watching for [1000](https://telegram.org/blog/video-1000/#group-video-calls-2-0) members",
+            "Telegram": "advantage|[Unlimited](https://telegram.org/blog/live-streams-forwarding-next-channel#unlimited-live-streams), video broadcasting from the first [30](https://telegram.org/blog/group-video-calls#group-video-calls) members",
             "Viber": "mediocrity|Up to 30 participants",
             "WhatsApp": "disadvantage|Up to 8 participants (mobile devices and [Facebook Portal](https://portal.facebook.com/))"
           },
           {
             "FeatureName": "Organized As",
-            "Telegram": "advantage|[Voice chats](https://telegram.org/blog/voice-chats?ln=r#voice-chats) available from [groups and channels](https://telegram.org/blog/voice-chats-on-steroids)",
+            "Telegram": "advantage|[Video chats/live streams](https://telegram.org/blog/live-streams-forwarding-next-channel#unlimited-live-streams) available from [groups and channels](https://telegram.org/blog/voice-chats-on-steroids)",
             "Viber": "advantage|[Calls from groups](https://help.viber.com/en/article/group-voice-and-video-calls-on-viber), or extension of 1:1 calls ",
             "WhatsApp": "advantage|[Calls from groups](https://faq.whatsapp.com/iphone/voice-and-video-calls/how-to-make-a-group-video-call), extension of 1:1 calls, or as separate group calls"
           },
@@ -1699,7 +1705,7 @@
           },
           {
             "FeatureName": "Conference Titles",
-            "Telegram": "advantage|Supported (as voice chat names)"
+            "Telegram": "advantage|Supported (as video chat names)"
           },
           {
             "FeatureName": "Scheduling Conferences",
@@ -1982,6 +1988,14 @@
           {
             "FeatureName": "Quick Selection of Chats",
             "Telegram": "advantage|[On iOS](https://telegram.org/blog/video-1000/#more-for-ios)"
+          },
+          {
+            "FeatureName": "Quick Viewing of Unread Posts",
+            "Telegram": "advantage|[For channels](https://telegram.org/blog/live-streams-forwarding-next-channel#jump-to-next-channel) by folder priority"
+          },
+          {
+            "FeatureName": "Quick Access To Trending Stickers",
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/live-streams-forwarding-next-channel#trending-stickers)"
           },
           {
             "FeatureName": "Changing The Recipient of Forwarding Messages",
@@ -2490,7 +2504,7 @@
           },
           {
             "FeatureName": "Conferences",
-            "Telegram": "advantage|To voice chats as a speaker or listener"
+            "Telegram": "advantage|To video chats as a speaker or listener"
           },
           {
             "FeatureName": "Bots",
