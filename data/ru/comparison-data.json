@@ -341,7 +341,7 @@
           },
           {
             "FeatureName": "Поддержка Импорта Данных",
-            "Telegram": "advantage|[Импорт чатов и групп](https://telegram.org/blog/move-history) с WhatsApp, Line, KakaoTalk (дата отправки сообщений [сохраняется](https://telegram.org/blog/autodelete-inv2/uk?setln=en#improved-chat-import))"
+            "Telegram": "advantage|[Импорт чатов и групп](https://telegram.org/blog/move-history) с WhatsApp, Line, KakaoTalk (дата отправки сообщений [сохраняется](https://telegram.org/blog/autodelete-inv2#improved-chat-import))"
           },
           {
             "FeatureName": "Поддержка Экспорта Данных",
@@ -408,7 +408,7 @@
           },
           {
             "FeatureName": "Пересылка Сообщений",
-            "Telegram": "advantage|Поддерживается",
+            "Telegram": "advantage|С [гибкими](https://telegram.org/blog/live-streams-forwarding-next-channel#flexible-forwarding) опциями",
             "Viber": "advantage|Поддерживается",
             "WhatsApp": "mediocrity|Поддерживается (1 чат за раз)"
           },
@@ -717,6 +717,11 @@
             "WhatsApp": "disadvantage|Собственные, личные сообщения (в течение 1 ч с уведомлением об удалении)"
           },
           {
+            "FeatureName": "Самоуничтожение Отправленных Фото/Видео",
+            "Telegram": "advantage|Поддерживается (уничтожение от 1 с до 1 мин. после просмотра)",
+            "WhatsApp": "mediocrity|Через [ViewOnce](https://blog.whatsapp.com/view-once-photos-and-videos-on-whatsapp), без конфигурации"
+          },
+          {
             "FeatureName": "Удаление Кэша Отдельных Сообщений",
             "Telegram": "advantage|[Поддерживается (iOS)](https://telegram.org/blog/verifiable-apps-and-more#cache-clearing-shortcuts)",
             "Viber": "disadvantage|Не поддерживается (архитектурные ограничения)",
@@ -768,7 +773,7 @@
             "WhatsApp": "mediocrity|Ограниченные воспроизведения"
           },
           {
-            "FeatureName": "Ускоренное Воспроизведение",
+            "FeatureName": "Изменение Скорости Воспроизведение",
             "Telegram": "advantage|Для видео, аудио, голосовых и видео сообщений"
           },
           {
@@ -1093,7 +1098,7 @@
         "Features": [
           {
             "FeatureName": "Организовано Через",
-            "Telegram": "advantage|Группы; [Группы для Трансляций](https://telegram.org/blog/autodelete-inv2/uk?setln=en#groups-with-unlimited-members)",
+            "Telegram": "advantage|Группы; [Группы для Трансляций](https://telegram.org/blog/autodelete-inv2#groups-with-unlimited-members)",
             "Viber": "mediocrity|Группы; Сообщества",
             "WhatsApp": "advantage|Группы"
           },
@@ -1140,7 +1145,7 @@
           },
           {
             "FeatureName": "Временные Пригласительные Ссылки",
-            "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/autodelete-inv2/uk?setln=en#expiring-invite-links) (по продолжительности действия и/или количеству использований)"
+            "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/autodelete-inv2#expiring-invite-links) (по продолжительности действия и/или количеству использований)"
           },
           {
             "FeatureName": "Группы С Привязкой к Местоположению",
@@ -1176,7 +1181,7 @@
           },
           {
             "FeatureName": "Выбор и Контроль Администраторов",
-            "Telegram": "advantage|Атомарные права на: изменение информации группы, модерацию, удаление сообщений, блокировка/удаление пользователей, приглашение по ссылке, прикрепление сообщений, добавление/удаление администраторов, [анонимную](https://telegram.org/blog/filters-anonymous-admins-comments#anonymous-group-admins) отправку сообщений, управление голосовыми чатами",
+            "Telegram": "advantage|Атомарные права на: изменение информации группы, модерацию, удаление сообщений, блокировка/удаление пользователей, приглашение по ссылке, прикрепление сообщений, добавление/удаление администраторов, [анонимную](https://telegram.org/blog/filters-anonymous-admins-comments#anonymous-group-admins) отправку сообщений, управление видеочатами",
             "Viber": "advantage|Администраторы групп: добавление/удаление администраторов, пользователей  \nАдмины сообществ: добавление/удаление/блокировки участников, прикрепление сообщений, модерация, удаление сообщений  \nСуперадмины сообществ кроме этого: права на изменение информации группы, повышение/понижение прав, изменение фона для участников, доступ к контактным данным админов",
             "WhatsApp": "mediocrity|Права на изменение информации группы, добавление/удаление пользователей/администраторов, приглашение по ссылке"
           },
@@ -1270,7 +1275,7 @@
         "Features": [
           {
             "FeatureName": "Через",
-            "Telegram": "advantage|[Каналы](https://telegram.org/tour/channels); [Группы для Трансляций](https://telegram.org/blog/autodelete-inv2/uk?setln=en#groups-with-unlimited-members)",
+            "Telegram": "advantage|[Каналы](https://telegram.org/tour/channels); [Группы для Трансляций](https://telegram.org/blog/autodelete-inv2#groups-with-unlimited-members)",
             "Viber": "mediocrity|Сообщества; Почта Бизнес Сообщений; Публичные Аккаунты"
           },
           {
@@ -1314,7 +1319,7 @@
           },
           {
             "FeatureName": "Временные Пригласительные Ссылки",
-            "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/autodelete-inv2/uk?setln=en#expiring-invite-links) (по продолжительности действия и/или количеству использований)"
+            "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/autodelete-inv2#expiring-invite-links) (по продолжительности действия и/или количеству использований)"
           },
           {
             "FeatureName": "Ручное Добавление Подписчиков",
@@ -1332,7 +1337,7 @@
           },
           {
             "FeatureName": "Выбор и Контроль Администраторов",
-            "Telegram": "advantage|Атомарные права на: изменение информации канала, публикацию сообщений, редактирование и удаление сообщений других, приглашение пользователей по ссылке, добавлением админов, управление голосовыми чатами",
+            "Telegram": "advantage|Атомарные права на: изменение информации канала, публикацию сообщений, редактирование и удаление сообщений других, приглашение пользователей по ссылке, добавлением админов, управление видеочатами",
             "Viber": "advantage|Аналогично категории групп"
           },
           {
@@ -1354,7 +1359,7 @@
           },
           {
             "FeatureName": "Удобный Обмен Сообщениями",
-            "Telegram": "advantage|Поддерживается (выбор получателей, комментирование)"
+            "Telegram": "advantage|Поддерживается (выбор/поиск получателей, комментирование)"
           },
           {
             "FeatureName": "Реакции на Сообщения",
@@ -1592,6 +1597,7 @@
           {
             "FeatureName": "Режим Картинка в Картинке",
             "Telegram": "advantage|Для видео звонков",
+            "Viber": "advantage|Для видео звонков",
             "WhatsApp": "advantage|Для видео звонков"
           },
           {
@@ -1650,13 +1656,13 @@
           },
           {
             "FeatureName": "Количество Участников",
-            "Telegram": "advantage|[Неограниченно](https://telegram.org/blog/voice-chats-on-steroids#limitless-voice-chats), видео: трансляция для [30](https://telegram.org/blog/group-video-calls#group-video-calls), просмотр для [1000](https://telegram.org/blog/video-1000/#group-video-calls-2-0) участников",
+            "Telegram": "advantage|[Неограниченно](https://telegram.org/blog/live-streams-forwarding-next-channel#unlimited-live-streams), трансляция видео от первых [30](https://telegram.org/blog/group-video-calls#group-video-calls) участников",
             "Viber": "mediocrity|До 30 участников",
             "WhatsApp": "disadvantage|До 8 участников (на смартфонах и [Facebook Portal](https://portal.facebook.com/))"
           },
           {
             "FeatureName": "Организовано Как",
-            "Telegram": "advantage|[Голосовые чаты](https://telegram.org/blog/voice-chats?ln=r#voice-chats) доступны из [групп и каналов](https://telegram.org/blog/voice-chats-on-steroids)",
+            "Telegram": "advantage|[Видеочаты/прямые трансляции](https://telegram.org/blog/live-streams-forwarding-next-channel#unlimited-live-streams) доступны с [групп и каналов](https://telegram.org/blog/voice-chats-on-steroids)",
             "Viber": "advantage|[Звонки из групп](https://help.viber.com/en/article/group-voice-and-video-calls-on-viber) или расширение звонков 1:1",
             "WhatsApp": "advantage|[Звонки из групп](https://faq.whatsapp.com/iphone/voice-and-video-calls/how-to-make-a-group-video-call), расширение звонков 1:1 или отдельные групповые вызовы"
           },
@@ -1699,7 +1705,7 @@
           },
           {
             "FeatureName": "Названия Конференций",
-            "Telegram": "advantage|Поддерживаются (как названия голосовых чатов)"
+            "Telegram": "advantage|Поддерживаются (как названия видеочатов)"
           },
           {
             "FeatureName": "Откладывание Конференций",
@@ -1965,7 +1971,7 @@
           },
           {
             "FeatureName": "Поддержка QR-кодов",
-            "Telegram": "advantage|Для [пригласительных ссылок](https://telegram.org/blog/autodelete-inv2/uk?setln=en#expiring-invite-links), обмена прокси (на macOS), авторизации (Telegram Desktop)",
+            "Telegram": "advantage|Для [пригласительных ссылок](https://telegram.org/blog/autodelete-inv2#expiring-invite-links), обмена прокси (на macOS), авторизации (Telegram Desktop)",
             "Viber": "advantage|Для добавления друзей, присоединение к группам, добавления купонов, авторизации",
             "WhatsApp": "advantage|Для сопоставления ключей шифрования, приглашения в группы, добавление контактов, связи с бизнес-аккаунтами"
           },
@@ -1982,6 +1988,14 @@
           {
             "FeatureName": "Быстрое Выделение Чатов",
             "Telegram": "advantage|[На iOS](https://telegram.org/blog/video-1000/#more-for-ios)"
+          },
+          {
+            "FeatureName": "Быстрый Просмотр Непрочитанных Публикаций",
+            "Telegram": "advantage|[Для каналов](https://telegram.org/blog/live-streams-forwarding-next-channel#jump-to-next-channel) по приоритету папок"
+          },
+          {
+            "FeatureName": "Быстрый Доступ К Популярным Стикерам",
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/live-streams-forwarding-next-channel#trending-stickers)"
           },
           {
             "FeatureName": "Изменение Получателя Пересылаемых Сообщений",
@@ -2490,7 +2504,7 @@
           },
           {
             "FeatureName": "Конференции",
-            "Telegram": "advantage|К голосовым чатам в качестве говорящего или слушателя"
+            "Telegram": "advantage|К видеочатам в качестве говорящего или слушателя"
           },
           {
             "FeatureName": "Ботам",
