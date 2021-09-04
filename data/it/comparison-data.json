@@ -408,7 +408,7 @@
           },
           {
             "FeatureName": "Inoltro dei Messaggi",
-            "Telegram": "advantage|Supportato",
+            "Telegram": "advantage|Con opzioni [flessibili](https://telegram.org/blog/live-streams-forwarding-next-channel#flexible-forwarding)",
             "Viber": "advantage|Supportato",
             "WhatsApp": "mediocrity|Supportato (1 chat alla volta)"
           },
@@ -716,6 +716,11 @@
             "Viber": "mediocrity|Messaggi privati propri (con notifica di cancellazione)",
             "WhatsApp": "disadvantage|Messaggi privati propri (entro 1 ora con notifica di cancellazione)"
           },
+		  {
+            "FeatureName": "Autodistruzione di Foto/Video Inviati",
+            "Telegram": "advantage|Supportato (distruzione nell'intervallo da 1 s a 1 minuto dopo che un messaggio è stato visto)",
+            "WhatsApp": "mediocrity|Tramite [ViewOnce](https://blog.whatsapp.com/view-once-photos-and-videos-on-whatsapp), senza configurazione"
+          },
           {
             "FeatureName": "Cancellazione della Cache dei Messaggi Separati",
             "Telegram": "advantage|[Supportata (iOS)](https://telegram.org/blog/verifiable-apps-and-more#cache-clearing-shortcuts)",
@@ -768,7 +773,7 @@
             "WhatsApp": "mediocrity|Riproduzione limitata"
           },
           {
-            "FeatureName": "Riproduzione Accelerata",
+            "FeatureName": "Modifica della Velocità di Riproduzione",
             "Telegram": "advantage|Per video, audio, vocali e videomessaggi"
           },
           {
@@ -1176,7 +1181,7 @@
           },
           {
             "FeatureName": "Scegliere e Controllare gli Amministratori",
-            "Telegram": "advantage|Diritti atomici su: modifica delle informazioni sul gruppo, moderazione, eliminazione dei messaggi, blocco/sblocco utenti, link di collegamento, blocco messaggi, aggiunta/rimozione amministratori, [anonimato](https://telegram.org/blog/filters-anonymous-admins-comments#anonymous-group-admins) invio di messaggi, gestione delle chat vocali",
+            "Telegram": "advantage|Diritti atomici su: modifica delle informazioni sul gruppo, moderazione, eliminazione dei messaggi, blocco/sblocco utenti, link di collegamento, blocco messaggi, aggiunta/rimozione amministratori, [anonimato](https://telegram.org/blog/filters-anonymous-admins-comments#anonymous-group-admins) invio di messaggi, gestione delle chat video",
             "Viber": "advantage|Amministratori di gruppo: aggiunta/rimozione di amministratori, utenti  \n Amministratori delle comunità: aggiunta/rimozione/ blocco dei membri, fissare messaggi, moderazione, eliminazione dei messaggi  \n Superadmins delle comunità diverso da quello che hanno: diritti per modificare le informazioni del gruppo, aumentare/ diminuire dei diritti, cambiare sfondo per i membri, accesso ai dati di contatto degli amministratori",
             "WhatsApp": "mediocrity|Diritti per modificare le informazioni del gruppo, aggiunta/rimozione di utenti/amministratori, link d'invito"
           },
@@ -1332,7 +1337,7 @@
           },
           {
             "FeatureName": "Scelta e Controllo degli Amministratori",
-            "Telegram": "advantage|Diritti atomici su: modifica delle informazioni sul canale, pubblicazione di messaggi, modifica ed eliminazione dei messaggi degli altri, invito degli utenti tramite link, aggiunta di amministratori, gestione delle chat vocali",
+            "Telegram": "advantage|Diritti atomici su: modifica delle informazioni sul canale, pubblicazione di messaggi, modifica ed eliminazione dei messaggi degli altri, invito degli utenti tramite link, aggiunta di amministratori, gestione delle chat video",
             "Viber": "advantage|Simile alla categoria di gruppo"
           },
           {
@@ -1354,7 +1359,7 @@
           },
           {
             "FeatureName": "Comodità Condivisione Messaggi",
-            "Telegram": "advantage|Supportato (scelta dei destinatari, commenti)"
+            "Telegram": "advantage|Supportato (scelta/ricerca dei destinatari, commenti)"
           },
           {
             "FeatureName": "Reazioni ai Messaggi",
@@ -1592,6 +1597,7 @@
           {
             "FeatureName": "Modalità Picture-In-Picture",
             "Telegram": "advantage|Per videochiamate",
+			"Viber": "advantage|Per videochiamate",
             "WhatsApp": "advantage|Per videochiamate"
           },
           {
@@ -1650,13 +1656,13 @@
           },
           {
             "FeatureName": "Numero di Partecipanti",
-            "Telegram": "advantage|[Illimitato](https://telegram.org/blog/voice-chats-on-steroids/it#chat-vocali-senza-limiti), video: trasmissione fino a [30](https://telegram.org/blog/group-video-calls/it?setln=it#videochiamate-di-gruppo) membri, visione fino a [1000](https://telegram.org/blog/video-1000/it?ln=a#videochiamate-di-gruppo-2-0)  membri",
+            "Telegram": "advantage|[Illimitati](https://telegram.org/blog/live-streams-forwarding-next-channel/it?ln=a#dirette-streaming-illimitate), trasmissione video per i primi [30](https://telegram.org/blog/group-video-calls/it?setln=it#videochiamate-di-gruppo) membri",
             "Viber": "mediocrity|Fino a 30 partecipanti",
             "WhatsApp": "disadvantage|Fino a 8 partecipanti (dispositivi mobili e [Facebook Portal](https://portal.facebook.com/))"
           },
           {
             "FeatureName": "Organizzato come",
-            "Telegram": "advantage|[Chat vocali](https://telegram.org/blog/voice-chats/it#chat-vocali) disponibile da [gruppi e canali](https://telegram.org/blog/voice-chats-on-steroids/it)",
+            "Telegram": "advantage|[Chat video/ Diretta streaming](https://telegram.org/blog/live-streams-forwarding-next-channel/it?ln=a#dirette-streaming-illimitate) disponibile da [gruppi e canali](https://telegram.org/blog/voice-chats-on-steroids/it)",
             "Viber": "advantage|[Chiamate da gruppi](https://help.viber.com/en/article/group-voice-and-video-calls-on-viber), o estensione delle chiamate 1:1 ",
             "WhatsApp": "advantage|[Chiamate da gruppi](https://faq.whatsapp.com/iphone/voice-and-video-calls/how-to-make-a-group-video-call), estensione delle chiamate 1:1, o come chiamate di gruppo separate"
           },
@@ -1699,7 +1705,7 @@
           },
           {
             "FeatureName": "Titoli delle Conferenze",
-            "Telegram": "advantage|Supportato (come nomi della chat vocale)"
+            "Telegram": "advantage|Supportato (come nomi della chat video)"
           },
 		  {
             "FeatureName": "Programmazione delle Conferenze",
@@ -1982,6 +1988,14 @@
           {
             "FeatureName": "Selezione Rapida delle Chat",
             "Telegram": "advantage|[Su iOS](https://telegram.org/blog/video-1000/it?ln=a#altro-per-ios)"
+          },
+		  {
+            "FeatureName": "Visualizzazione Rapida dei Messaggi Non Letti",
+            "Telegram": "advantage|[Per i canali](https://telegram.org/blog/live-streams-forwarding-next-channel/it?ln=a#passa-al-canale-successivo) iniziando dalle cartelle"
+          },
+          {
+            "FeatureName": "Accesso Rapido agli Stickers in Primo Piano",
+            "Telegram": "advantage|[Supportato](https://telegram.org/blog/live-streams-forwarding-next-channel/it?ln=a#sticker-in-primo-piano)"
           },
           {
             "FeatureName": "Modifica del Destinatario dell'Inoltro dei Messaggi",
@@ -2490,7 +2504,7 @@
           },
 		  {
             "FeatureName": "Conferenze",
-            "Telegram": "advantage|Alle chat vocali come speaker o ascoltatore"
+            "Telegram": "advantage|Alle chat video come speaker o ascoltatore"
           },
           {
             "FeatureName": "Bots",
