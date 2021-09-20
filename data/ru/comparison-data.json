@@ -241,7 +241,7 @@
             "FeatureName": "Восстановление",
             "Telegram": "advantage|Без ограничений",
             "Viber": "disadvantage|Только на смартфон с той же ОС",
-            "WhatsApp": "disadvantage|Только на смартфон с той же ОС"
+            "WhatsApp": "mediocrity|Вручную, миграция ограничена лишь [определёнными](https://blog.whatsapp.com/taking-your-chats-with-you) устройствами"
           },
           {
             "FeatureName": "Срок Хранения Данных",
@@ -420,7 +420,7 @@
           },
           {
             "FeatureName": "Анимированные Эмодзи",
-            "Telegram": "advantage|[Да](https://telegram.org/blog/folders#new-animated-emoji), некоторые поддерживают тактильную отдачу, звуки или [другие](https://telegram.org/blog/pinned-messages-locations-playlists/world#jackpot) [особенности](https://telegram.org/blog/folders#and-one-more-thing)"
+            "Telegram": "advantage|[Да](https://telegram.org/blog/folders#new-animated-emoji), с дополнительными особенностями: [1](https://telegram.org/blog/pinned-messages-locations-playlists/world#jackpot), [2](https://telegram.org/blog/folders#and-one-more-thing), [3](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#interactive-emoji)"
           },
           {
             "FeatureName": "Стикеры",
@@ -1238,6 +1238,11 @@
             "WhatsApp": "advantage|По умолчанию поддерживается"
           },
           {
+            "FeatureName": "Статус Чтения Сообщений Отдельными Участниками",
+            "Telegram": "advantage|[В малых группах](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#read-receipts-in-small-groups) (информация сохраняется в течение 7 дней)",
+            "Viber": "advantage|Только в группах (сообщества не поддерживаются)"
+          },
+          {
             "FeatureName": "Реакции на Сообщения",
             "Telegram": "mediocrity|Через ботов",
             "Viber": "advantage|[Поддерживаются](https://www.viber.com/en/blog/2020-09-30/perfectly-react-to-messages-and-everything-else-thats-new-on-viber/)"
@@ -1697,7 +1702,7 @@
           },
           {
             "FeatureName": "Запись Конференций",
-            "Telegram": "advantage|[Аудио](https://telegram.org/blog/voice-chats-on-steroids#recorded-chats), с индикацией записи"
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#record-live-streams-and-video-chats), с индикацией записи"
           },
           {
             "FeatureName": "Быстрое Приглашение Участников",
@@ -1957,6 +1962,12 @@
             "Telegram": "advantage|Высокая",
             "Viber": "mediocrity|Средняя",
             "WhatsApp": "mediocrity|Средняя"
+          },
+          {
+            "FeatureName": "Количество Багов",
+            "Telegram": "disadvantage|[Высокое](https://bugs.telegram.org/?type=issues&sort=rate)",
+            "Viber": "advantage|Низкое",
+            "WhatsApp": "advantage|Низкое"
           }
         ]
       },
@@ -2049,10 +2060,9 @@
         "AspectName": "Интерфейс",
         "Features": [
           {
-            "FeatureName": "Изменение Фона Отдельных Чатов",
-            "Telegram": "disadvantage|Не поддерживается (фон общий для всех чатов)",
-            "Viber": "advantage|Поддерживается",
-            "WhatsApp": "disadvantage|Не поддерживается (фон общий для всех чатов)"
+            "FeatureName": "Персонализация Отдельных Чатов",
+            "Telegram": "advantage|Изменение тем [личных чатов](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#chat-themes)",
+            "Viber": "advantage|Изменение фонов"
           },
           {
             "FeatureName": "Расширенная Конфигурация Фона",
