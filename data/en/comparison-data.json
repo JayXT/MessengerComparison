@@ -241,7 +241,7 @@
             "FeatureName": "Recovery",
             "Telegram": "advantage|Unlimited",
             "Viber": "disadvantage|Only to a phone with the same OS",
-            "WhatsApp": "disadvantage|Only to a phone with the same OS"
+            "WhatsApp": "mediocrity|Manual, migration is limited to [certain](https://blog.whatsapp.com/taking-your-chats-with-you) devices only"
           },
           {
             "FeatureName": "Data Retention Period",
@@ -420,7 +420,7 @@
           },
           {
             "FeatureName": "Animated Emoji",
-            "Telegram": "advantage|[Yes](https://telegram.org/blog/folders#new-animated-emoji), some support touch feedback, sounds and [other](https://telegram.org/blog/pinned-messages-locations-playlists/world#jackpot) [features](https://telegram.org/blog/folders#and-one-more-thing)"
+            "Telegram": "advantage|[Yes](https://telegram.org/blog/folders#new-animated-emoji), with extra features: [1](https://telegram.org/blog/pinned-messages-locations-playlists/world#jackpot), [2](https://telegram.org/blog/folders#and-one-more-thing), [3](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#interactive-emoji)"
           },
           {
             "FeatureName": "Stickers",
@@ -1238,6 +1238,11 @@
             "WhatsApp": "advantage|Supported by default"
           },
           {
+            "FeatureName": "Message Read Receipts For Individual Users",
+            "Telegram": "advantage|[In small groups](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#read-receipts-in-small-groups) (information is stored for 7 days)",
+            "Viber": "advantage|Groups only (communities are not supported)"
+          },
+          {
             "FeatureName": "Message Reactions",
             "Telegram": "mediocrity|Via bots",
             "Viber": "advantage|[Supported](https://www.viber.com/en/blog/2020-09-30/perfectly-react-to-messages-and-everything-else-thats-new-on-viber/)"
@@ -1697,7 +1702,7 @@
           },
           {
             "FeatureName": "Recording Conferences",
-            "Telegram": "advantage|[Audio](https://telegram.org/blog/voice-chats-on-steroids#recorded-chats), with recording indication"
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#record-live-streams-and-video-chats), with recording indication"
           },
           {
             "FeatureName": "Quick Invitation of Participants",
@@ -1957,6 +1962,12 @@
             "Telegram": "advantage|High",
             "Viber": "mediocrity|Average",
             "WhatsApp": "mediocrity|Average"
+          },
+          {
+            "FeatureName": "A Number of Bugs",
+            "Telegram": "disadvantage|[High](https://bugs.telegram.org/?type=issues&sort=rate)",
+            "Viber": "advantage|Low",
+            "WhatsApp": "advantage|Low"
           }
         ]
       },
@@ -2049,10 +2060,9 @@
         "AspectName": "User Interface",
         "Features": [
           {
-            "FeatureName": "Changing Background for Individual Chats",
-            "Telegram": "disadvantage|Not supported (background is common for all chats)",
-            "Viber": "advantage|Supported",
-            "WhatsApp": "disadvantage|Not supported (background is common for all chats)"
+            "FeatureName": "Personalization of Individual Chats",
+            "Telegram": "advantage|Changing themes for [personal chats](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#chat-themes)",
+            "Viber": "advantage|Changing backgrounds"
           },
           {
             "FeatureName": "Extended Backgrounds Configuration",
