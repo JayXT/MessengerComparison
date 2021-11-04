@@ -9,7 +9,7 @@
             "FeatureName": "Компания",
             "Telegram": "Telegram FZ LLC",
             "Viber": "Rakuten, Inc.",
-            "WhatsApp": "disadvantage|[Facebook](https://en.wikipedia.org/wiki/Criticism_of_Facebook)"
+            "WhatsApp": "disadvantage|[Meta (Facebook)](https://en.wikipedia.org/wiki/Criticism_of_Facebook)"
           },
           {
             "FeatureName": "Тип",
@@ -32,7 +32,7 @@
             "FeatureName": "Идея",
             "Telegram": "advantage|[Свобода](https://telegram.org/blog/200-million) [безопасного и приватного](https://telegram.org/faq#q-do-you-process-data-requests) общения доступна для каждого",
             "Viber": "mediocrity|\"[Максимально защищенный](https://www.viber.com/security/) мессенджер.\" Резервные копии не зашифрованы.",
-            "WhatsApp": "disadvantage|\"[Конфиденциальность и безопасность](https://www.whatsapp.com/security/) – часть нашей ДНК.\" Резервные копии не зашифрованы, обнаружены [уязвимости](https://telegra.ph/CHomu-WhatsApp-N%D1%96koli-Ne-Bude-Bezpechnim-05-16), [утечки информации](https://telegra.ph/Why-Using-WhatsApp-Is-Dangerous-01-30-4)"
+            "WhatsApp": "disadvantage|\"[Конфиденциальность и безопасность](https://www.whatsapp.com/security/) – часть нашей ДНК.\" Обнаружены [уязвимости](https://telegra.ph/CHomu-WhatsApp-N%D1%96koli-Ne-Bude-Bezpechnim-05-16), [утечки информации](https://telegra.ph/Why-Using-WhatsApp-Is-Dangerous-01-30-4)"
           },
           {
             "FeatureName": "Политика Конфиденциальности",
@@ -270,7 +270,7 @@
             "FeatureName": "Шифрование Данных Сохраненных На Серверах",
             "Telegram": "advantage|Поддерживается (сохраняются только облачные чаты)",
             "Viber": "disadvantage|Резервные копии Google/Apple не зашифрованы",
-            "WhatsApp": "disadvantage|Резервные копии Google/Apple не зашифрованы"
+            "WhatsApp": "mediocrity|[Возможно шифрование](https://faq.whatsapp.com/general/chats/about-end-to-end-encrypted-backup) резервных копий Google/Apple"
           },
           {
             "FeatureName": "Расположение Ключа Шифрования Хранимых Данных",
@@ -420,7 +420,7 @@
           },
           {
             "FeatureName": "Анимированные Эмодзи",
-            "Telegram": "advantage|[Да](https://telegram.org/blog/folders#new-animated-emoji), с дополнительными особенностями: [1](https://telegram.org/blog/pinned-messages-locations-playlists/world#jackpot), [2](https://telegram.org/blog/folders#and-one-more-thing), [3](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#interactive-emoji)"
+            "Telegram": "advantage|[Да](https://telegram.org/blog/folders#new-animated-emoji), с дополнительными особенностями: [1](https://telegram.org/blog/pinned-messages-locations-playlists/world#jackpot), [2](https://telegram.org/blog/folders#and-one-more-thing), [3](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/#more-interactive-emoji)"
           },
           {
             "FeatureName": "Стикеры",
@@ -504,7 +504,7 @@
           },
           {
             "FeatureName": "Расположение и Места",
-            "Telegram": "advantage|[В частности](https://telegram.org/blog/verifiable-apps-and-more#improved-venue-sharing), в режиме реального времени, с просмотром взаимного расположения и [уведомлениями](https://telegram.org/blog/pinned-messages-locations-playlists/world#improved-live-locations)",
+            "Telegram": "advantage|[В частности](https://telegram.org/blog/verifiable-apps-and-more#improved-venue-sharing), в режиме реального времени, с просмотром взаимного расположения, [времени в пути](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/#transit-times-for-shared-locations-on-ios) и [уведомлениями](https://telegram.org/blog/pinned-messages-locations-playlists/world#improved-live-locations)",
             "Viber": "mediocrity|Поддерживаются",
             "WhatsApp": "advantage|В частности, в режиме реального времени и просмотром взаимного расположения"
           },
@@ -876,9 +876,9 @@
           },
           {
             "FeatureName": "Просмотр Содержимого по типам Медиа",
-            "Telegram": "advantage|Такие категории как: медиа, файлы, ссылки, аудио, голос, GIF",
-            "Viber": "advantage|Такие категории как: медиа, ссылки, файлы, GIF",
-            "WhatsApp": "advantage|Частично поддерживается, кроме того доступны каталоги товаров в WhatsApp Business"
+            "Telegram": "advantage|[Гибкий доступ](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/#hyper-speed-scrolling-for-shared-media) к: медиа, файлам, ссылкам, аудио, голосовым сообщениям, GIF",
+            "Viber": "mediocrity|Такие категории как: медиа, ссылки, файлы, GIF",
+            "WhatsApp": "mediocrity|Частично поддерживается, кроме того, доступны каталоги товаров в WhatsApp Business"
           },
           {
             "FeatureName": "Фильтрация Типов Медиа по Отправителю",
@@ -1007,7 +1007,7 @@
       },
       {
         "AspectName": "Секретные Чаты",
-        "WhatsApp": "disadvantage|Не поддерживаются, все чаты используют сквозное шифрование с возможностью сопоставления цифровых или QR-кодов, но резервные копии не зашифрованы",
+        "WhatsApp": "mediocrity|Не поддерживаются, все чаты используют сквозное шифрование с возможностью сопоставления цифровых или QR-кодов, но шифрование резервных копий не обязательно",
         "Features": [
           {
             "FeatureName": "Защищенные Чаты с Контактами",
@@ -1112,7 +1112,7 @@
             "FeatureName": "Шифрование",
             "Telegram": "advantage|Поддерживается ([MTProto](https://core.telegram.org/mtproto/description) в облачном режиме)",
             "Viber": "mediocrity|Группы поддерживают, сообщества используют SSL",
-            "WhatsApp": "mediocrity|Поддерживается (резервные копии не зашифрованы)"
+            "WhatsApp": "mediocrity|Поддерживается (шифрование резервных копий необязательно)"
           },
           {
             "FeatureName": "Редактирование Информации",
@@ -1144,8 +1144,8 @@
             "WhatsApp": "advantage|Доступ через закрытые ссылки"
           },
           {
-            "FeatureName": "Временные Пригласительные Ссылки",
-            "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/autodelete-inv2#expiring-invite-links) (по продолжительности действия и/или количеству использований)"
+            "FeatureName": "Расширенные Пригласительные Ссылки",
+            "Telegram": "advantage|С поддержкой [именования](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/#unique-names-for-invite-links), [запросов на присоединение](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/#join-requests-for-groups-and-channels) и [ограничений](https://telegram.org/blog/autodelete-inv2/#expiring-invite-links) на продолжительность действия/количество использований"
           },
           {
             "FeatureName": "Группы С Привязкой к Местоположению",
@@ -1323,8 +1323,8 @@
             "Viber": "mediocrity|Доступ через закрытые ссылки, только на мобильных устройствах"
           },
           {
-            "FeatureName": "Временные Пригласительные Ссылки",
-            "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/autodelete-inv2#expiring-invite-links) (по продолжительности действия и/или количеству использований)"
+            "FeatureName": "Расширенные Пригласительные Ссылки",
+            "Telegram": "advantage|С поддержкой [именования](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/#unique-names-for-invite-links), [подтверждения запросов](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/#join-requests-for-groups-and-channels) и [ограничений](https://telegram.org/blog/autodelete-inv2/#expiring-invite-links) на продолжительность действия/количество использований"
           },
           {
             "FeatureName": "Ручное Добавление Подписчиков",
@@ -2070,7 +2070,7 @@
           },
           {
             "FeatureName": "Поддержка Тем",
-            "Telegram": "advantage|Поддерживаются, в частности [пользовательские, облачные темы](https://telegram.org/blog/scheduled-reminders-themes#custom-cloud-themes)",
+            "Telegram": "advantage|Поддерживаются, в частности [пользовательские, облачные темы](https://telegram.org/blog/scheduled-reminders-themes#custom-cloud-themes), [глобальные темы](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/#global-chat-themes-on-ios)",
             "Viber": "mediocrity|Только темная и темно-синяя тема",
             "WhatsApp": "mediocrity|Только [темная тема](https://blog.whatsapp.com/dark-mode-now-available-for-i-phone-and-android)"
           },
@@ -3081,7 +3081,7 @@
           },
           {
             "FeatureName": "Изменение Темы",
-            "Telegram": "advantage|Поддерживается (в частности доступны 5 стандартных), с [изменением](https://telegram.org/blog/verifiable-apps-and-more#new-predefined-colors) акцентных цветов",
+            "Telegram": "advantage|Поддерживается (в частности стандартные), с [изменением](https://telegram.org/blog/verifiable-apps-and-more#new-predefined-colors) акцентных цветов",
             "Viber": "mediocrity|Темная, темно-синяя тема",
             "WhatsApp": "mediocrity|Темная тема"
           },
