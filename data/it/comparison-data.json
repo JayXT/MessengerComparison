@@ -9,7 +9,7 @@
             "FeatureName": "Azienda",
             "Telegram": "Telegram FZ LLC",
             "Viber": "Rakuten, Inc.",
-            "WhatsApp": "disadvantage|[Facebook](https://en.wikipedia.org/wiki/Criticism_of_Facebook)"
+            "WhatsApp": "disadvantage|[Meta (Facebook)](https://en.wikipedia.org/wiki/Criticism_of_Facebook)"
           },
           {
             "FeatureName": "Tipo",
@@ -32,7 +32,7 @@
             "FeatureName": "Idea",
             "Telegram": "advantage|[Libertà](https://telegram.org/blog/200-million) di comunicazione [protetta e privata](https://telegram.org/faq#q-do-you-process-data-requests) disponibile per tutti",
             "Viber": "mediocrity|\"[Il più sicuro](https://www.viber.com/security/) messaggero.\" I backup non sono crittografati.",
-            "WhatsApp": "disadvantage|\"[Privacy and sicurezza](https://www.whatsapp.com/security/) – è nel nostro DNA\" I backup non sono crittografati, [vulnerabilità](https://telegra.ph/Why-WhatsApp-Will-Never-Be-Secure-05-15), [perdite di dati](https://telegra.ph/Why-Using-WhatsApp-Is-Dangerous-01-30-4) sono state scoperte."
+            "WhatsApp": "disadvantage|\"[Privacy e sicurezza](https://www.whatsapp.com/security/) – è nel nostro DNA\" [Vulnerabilità](https://telegra.ph/Why-WhatsApp-Will-Never-Be-Secure-05-15), [perdite di dati](https://telegra.ph/Why-Using-WhatsApp-Is-Dangerous-01-30-4) sono state scoperte."
           },
           {
             "FeatureName": "Informativa sulla Privacy",
@@ -270,7 +270,7 @@
             "FeatureName": "Crittografia dei Dati Archiviati sul Server",
             "Telegram": "advantage|Supportato (vengono salvate solo le chat cloud)",
             "Viber": "disadvantage|Google/Apple backups non sono crittografati",
-            "WhatsApp": "disadvantage|Google/Apple backups non sono crittografati"
+            "WhatsApp": "mediocrity|Crittografia dei backup di Google/Apple [è possibile](https://faq.whatsapp.com/general/chats/about-end-to-end-encrypted-backup)"
           },
           {
             "FeatureName": "Posizione della Chiave di Crittografia per i Dati Memorizzati",
@@ -420,7 +420,7 @@
           },
           {
             "FeatureName": "Emoji animate",
-            "Telegram": "advantage|[Si](https://telegram.org/blog/folders#new-animated-emoji), con caratteristiche extra: [1](https://telegram.org/blog/pinned-messages-locations-playlists/world#jackpot), [2](https://telegram.org/blog/folders#and-one-more-thing), [3](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#interactive-emoji)"
+            "Telegram": "advantage|[Si](https://telegram.org/blog/folders#new-animated-emoji), con caratteristiche extra: [1](https://telegram.org/blog/pinned-messages-locations-playlists/world#jackpot), [2](https://telegram.org/blog/folders#and-one-more-thing), [3](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/it#altre-emoji-interattive)"
           },
           {
             "FeatureName": "Stickers",
@@ -504,7 +504,7 @@
           },
           {
             "FeatureName": "Posizione e Luoghi",
-            "Telegram": "advantage|[In particolare](https://telegram.org/blog/verifiable-apps-and-more#improved-venue-sharing) in tempo reale con visualizzazione della posizione reciproca e [notifica](https://telegram.org/blog/pinned-messages-locations-playlists/world#improved-live-locations)",			
+            "Telegram": "advantage|[In particolare](https://telegram.org/blog/verifiable-apps-and-more#improved-venue-sharing) in tempo reale con visualizzazione della posizione reciproca, [tempo di viaggio](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/it#tempo-di-viaggio-per-le-posizioni-condivise-su-ios) e [notifica](https://telegram.org/blog/pinned-messages-locations-playlists/world#improved-live-locations)",			
             "Viber": "mediocrity|Supportati",
             "WhatsApp": "advantage|Sì, in particolare in tempo reale con la visualizzazione della posizione reciproca"
           },
@@ -876,8 +876,8 @@
           },
           {
             "FeatureName": "Visualizzazione del Contenuto in Base ai Tipi di File Multimediali",
-            "Telegram": "advantage|In categorie quali: media, file, link, audio, voce, GIF",
-            "Viber": "advantage|Per categorie come: media, links, files, GIF",
+            "Telegram": "advantage|[Accesso flessibile](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/it#scorrimento-iperveloce-e-vista-calendario-per-i-media-condivisi) to: media, files, links, audio, messaggi vocali, GIF",
+            "Viber": "mediocrity|Per categorie come: media, links, files, GIF",
             "WhatsApp": "mediocrity|Parzialmente supportati, a parte che i cataloghi di merci sono disponibili in WhatsApp Business"
           },
 		  {
@@ -1007,7 +1007,7 @@
       },
       {
         "AspectName": "Chat Segrete",
-        "WhatsApp": "disadvantage|Non supportato, tutte le chat utilizzano la crittografia end-to-end con possibilità di raccogliere codici digitali o QR, ma i backup non sono crittografati",
+        "WhatsApp": "mediocrity|Non supportato, tutte le chat utilizzano la crittografia end-to-end con possibilità di raccogliere codici digitali o QR, ma la crittografia di backup è facoltativa",
         "Features": [
           {
             "FeatureName": "Chat Sicure con Contatti",
@@ -1112,7 +1112,7 @@
             "FeatureName": "Crittografia",
             "Telegram": "advantage|Supportata ([MTProto](https://core.telegram.org/mtproto/description) in modalità cloud)",
             "Viber": "mediocrity|I gruppi supportano la crittografia, le comunità utilizzano SSL",
-            "WhatsApp": "mediocrity|Supportato (i backup non sono crittografati)"
+            "WhatsApp": "mediocrity|Supportato (la crittografia dei backup è facoltativa)"
           },
           {
             "FeatureName": "Modifica delle Informazioni",
@@ -1144,8 +1144,8 @@
             "WhatsApp": "advantage|Accesso tramite link chiuso"
           },
 		  {
-            "FeatureName": "Link di Invito con Scadenza",
-            "Telegram": "advantage|[Supportati](https://telegram.org/blog/autodelete-inv2/uk?setln=it#link-d-39invito-con-scadenza) (con una durata e/o numero di usi)"
+            "FeatureName": "Link di Invito Estesi",
+            "Telegram": "advantage|Con il supporto per [nominarli](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/it#nomi-unici-per-i-link-d-39invito), [richieste d'accesso](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/it#richieste-di-accesso-per-gruppi-e-canali) e [limitarli](https://telegram.org/blog/autodelete-inv2/uk?setln=en#expiring-invite-links) sulla durata/numero di usi"
           },
           {
             "FeatureName": "Gruppi Basati sulla Posizione",
@@ -1323,8 +1323,8 @@
             "Viber": "mediocrity|Accesso tramite link privato, solo su dispositivi mobili"
           },
 		  {
-            "FeatureName": "Link di Invito con Scadenza",
-            "Telegram": "advantage|[Supportati](https://telegram.org/blog/autodelete-inv2/uk?setln=it#link-d-39invito-con-scadenza) (con una durata e/o numero di usi)"
+            "FeatureName": "Link di Invito Estesi",
+            "Telegram": "advantage|Con il supporto per [nominarli](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/it#nomi-unici-per-i-link-d-39invito), [richieste d'accesso](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/it#richieste-di-accesso-per-gruppi-e-canali) e [limitarli](https://telegram.org/blog/autodelete-inv2/uk?setln=en#expiring-invite-links) sulla durata/numero di usi"
           },
           {
             "FeatureName": "Aggiunta Manuale di Abbonati",
@@ -2070,7 +2070,7 @@
           },
           {
             "FeatureName": "Supporto Temi",
-            "Telegram": "advantage|Supportato, in particolare, [temi personalizzati, temi cloud](https://telegram.org/blog/scheduled-reminders-themes#custom-cloud-themes)",
+            "Telegram": "advantage|Supportato, in particolare, [temi personalizzati, temi cloud](https://telegram.org/blog/scheduled-reminders-themes#custom-cloud-themes), [temi globali](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/it#temi-della-chat-globali-su-ios)",
             "Viber": "mediocrity|Solo tema scuro e blu scuro",
             "WhatsApp": "mediocrity|Solo [Tema scuro](https://blog.whatsapp.com/dark-mode-now-available-for-i-phone-and-android)"
           },
