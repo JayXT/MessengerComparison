@@ -435,6 +435,10 @@
             "WhatsApp": "mediocrity|[Ограниченная поддержка](https://blog.whatsapp.com/introducing-animated-stickers-qr-codes-and-more)"
           },
           {
+            "FeatureName": "\"AR-Линзы\"",
+            "Viber": "advantage|Через [интеграцию](https://www.viber.com/en/blog/2021-11-21/say-it-all-with-viber-lenses/) со Snap"
+          },
+          {
             "FeatureName": "Анимации",
             "Telegram": "advantage|Поддерживаются",
             "Viber": "advantage|Поддерживаются",
@@ -717,6 +721,10 @@
             "WhatsApp": "disadvantage|Собственные, личные сообщения (в течение 1 ч с уведомлением об удалении)"
           },
           {
+            "FeatureName": "Удаление Сообщений За Датой",
+            "Telegram": "advantage|[В чатах 1 на 1](https://telegram.org/blog/protected-content-delete-by-date-and-more#delete-messages-by-date), с поддержкой диапазона"
+          },
+          {
             "FeatureName": "Самоуничтожение Отправленных Фото/Видео",
             "Telegram": "advantage|Поддерживается (уничтожение от 1 с до 1 мин. после просмотра)",
             "WhatsApp": "mediocrity|Через [ViewOnce](https://blog.whatsapp.com/view-once-photos-and-videos-on-whatsapp), без конфигурации"
@@ -893,8 +901,8 @@
           {
             "FeatureName": "Автоудаление Сообщений",
             "Telegram": "advantage|[Через 24 часа, 7 дней или месяц](https://telegram.org/blog/video-1000/#auto-delete-after-1-month)",
-            "Viber": "mediocrity|[Только в личных чатах](https://help.viber.com/en/article/disappearing-messages) (10 с, 30 с, 1 мин, 1 год)",
-            "WhatsApp": "mediocrity|[Через 7 дней](https://blog.whatsapp.com/introducing-disappearing-messages-on-whatsapp)"
+            "Viber": "mediocrity|[Через 10 с, 30 с, 1 мин, 1 час](https://help.viber.com/en/article/disappearing-messages) (только на мобильных устройствах)",
+            "WhatsApp": "advantage|[Через 24 часа, 7 или 90 дней](https://blog.whatsapp.com/more-control-and-privacy-with-default-disappearing-messages-and-multiple-durations), с поддержкой параметра по умолчанию"
           },
           {
             "FeatureName": "Прикрепление Чатов",
@@ -1148,8 +1156,16 @@
             "Telegram": "advantage|С поддержкой [именования](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/#unique-names-for-invite-links), [запросов на присоединение](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/#join-requests-for-groups-and-channels) и [ограничений](https://telegram.org/blog/autodelete-inv2/#expiring-invite-links) на продолжительность действия/количество использований"
           },
           {
+            "FeatureName": "Защищенное Содержимое",
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/protected-content-delete-by-date-and-more#protected-content-in-groups-and-channels)"
+          },
+          {
             "FeatureName": "Группы С Привязкой к Местоположению",
             "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/contacts-local-groups#location-based-chats) (как публичные группы с опцией поиска относительно местоположения)."
+          },
+          {
+            "FeatureName": "Публикация От Имени Канала",
+            "Telegram": "advantage|Поддерживается, [в публичных группах](https://telegram.org/blog/protected-content-delete-by-date-and-more#anonymous-posting-in-public-groups)"
           },
           {
             "FeatureName": "Получение Приватных Сообщений",
@@ -1327,6 +1343,10 @@
             "Telegram": "advantage|С поддержкой [именования](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/#unique-names-for-invite-links), [подтверждения запросов](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/#join-requests-for-groups-and-channels) и [ограничений](https://telegram.org/blog/autodelete-inv2/#expiring-invite-links) на продолжительность действия/количество использований"
           },
           {
+            "FeatureName": "Защищенное Содержимое",
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/protected-content-delete-by-date-and-more#protected-content-in-groups-and-channels)"
+          },
+          {
             "FeatureName": "Ручное Добавление Подписчиков",
             "Telegram": "advantage|Поддерживается",
             "Viber": "advantage|Поддерживается"
@@ -1495,6 +1515,10 @@
             "Viber": "mediocrity|Ограниченная поддержка (через кнопки)"
           },
           {
+            "FeatureName": "Обработка Запросов На Присоединение К Сообществам",
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/protected-content-delete-by-date-and-more#responses-to-join-requests)"
+          },
+          {
             "FeatureName": "Контекстуальная Логика",
             "Telegram": "advantage|[На основе языков интерфейса, типов чатов/пользователей](https://telegram.org/blog/animated-backgrounds#bot-menu)"
           },
@@ -1531,7 +1555,7 @@
           },
           {
             "FeatureName": "Варианты Использования",
-            "Telegram": "advantage|Получение новостей, информации, уведомлений, покупка товаров и услуг, создание новых инструментов, игр, социальных сервисов, оптимизация пользовательского опыта (IV, Предпросмотр ссылок), обучение, автоматизация, обратная связь, авторизация, викторины и множество другого",
+            "Telegram": "advantage|Получение новостей, информации, уведомлений, покупка товаров и услуг, создание новых инструментов, игр, социальных сервисов, оптимизация пользовательского опыта (IV, Предпросмотр ссылок), обучение, автоматизация, обратная связь, авторизация, викторины, [пожертвования](https://t.me/donate) и множество другого",
             "Viber": "mediocrity|Получение новостей, информации, рекламы, связь с публичным аккаунтом, поддержка"
           }
         ]
@@ -2070,7 +2094,7 @@
           },
           {
             "FeatureName": "Поддержка Тем",
-            "Telegram": "advantage|Поддерживаются, в частности [пользовательские, облачные темы](https://telegram.org/blog/scheduled-reminders-themes#custom-cloud-themes), [глобальные темы](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/#global-chat-themes-on-ios)",
+            "Telegram": "advantage|Поддерживаются, в частности [пользовательские, облачные темы](https://telegram.org/blog/scheduled-reminders-themes#custom-cloud-themes), [глобальные темы](https://telegram.org/blog/protected-content-delete-by-date-and-more#global-chat-themes-on-android)",
             "Viber": "mediocrity|Только темная и темно-синяя тема",
             "WhatsApp": "mediocrity|Только [темная тема](https://blog.whatsapp.com/dark-mode-now-available-for-i-phone-and-android)"
           },
@@ -2829,9 +2853,9 @@
           },
           {
             "FeatureName": "Контроль Активных Сеансов",
-            "Telegram": "advantage|Поддерживается, с расширенной информацией в режиме реального времени и возможностью завершить все остальные сессии с любого устройства",
-            "Viber": "mediocrity|Поддерживается",
-            "WhatsApp": "mediocrity|Поддерживается"
+            "Telegram": "advantage|[Расширенный контроль](https://telegram.org/blog/protected-content-delete-by-date-and-more#manage-connected-devices) с информацией и разрешениями в режиме реального времени",
+            "Viber": "disadvantage|Базовый контроль",
+            "WhatsApp": "disadvantage|Базовый контроль"
           },
           {
             "FeatureName": "Удаление Облачных Черновиков",
