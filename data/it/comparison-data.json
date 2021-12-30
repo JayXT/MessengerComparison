@@ -434,6 +434,10 @@
             "Viber": "mediocrity|Solo Memoji (iOS)",
             "WhatsApp": "mediocrity|[Supporto limitato](https://blog.whatsapp.com/introducing-animated-stickers-qr-codes-and-more)"
           },
+		  {
+            "FeatureName": "\"AR-Lenses\"",
+            "Viber": "advantage|Via Snap [integrazione](https://www.viber.com/en/blog/2021-11-21/say-it-all-with-viber-lenses/)"
+          },
           {
             "FeatureName": "Animazioni",
             "Telegram": "advantage|Supportate",
@@ -717,6 +721,10 @@
             "WhatsApp": "disadvantage|Messaggi privati propri (entro 1 ora con notifica di cancellazione)"
           },
 		  {
+            "FeatureName": "Cancellazione dei Messaggi per Data",
+            "Telegram": "advantage|[Nelle chat 1-a-1](https://telegram.org/blog/protected-content-delete-by-date-and-more/it?ln=a#elimina-i-messaggi-per-data), con supporto per l'intervallo di date"
+          },
+		  {
             "FeatureName": "Autodistruzione di Foto/Video Inviati",
             "Telegram": "advantage|Supportato (distruzione nell'intervallo da 1 s a 1 minuto dopo che un messaggio è stato visto)",
             "WhatsApp": "mediocrity|Tramite [ViewOnce](https://blog.whatsapp.com/view-once-photos-and-videos-on-whatsapp), senza configurazione"
@@ -893,8 +901,8 @@
 		  {
             "FeatureName": "Auto-Cancellazione Messaggi",
             "Telegram": "advantage|[Dopo 24 ore, 7 giorni, o un mese](https://telegram.org/blog/video-1000/it?ln=a#autoelimina-dopo-1-mese)",
-            "Viber": "mediocrity|[Solo nelle chat personali](https://help.viber.com/en/article/disappearing-messages) (10 s, 30 s, 1 min, 1 h)",
-            "WhatsApp": "mediocrity|[Dopo 7 giorni](https://blog.whatsapp.com/introducing-disappearing-messages-on-whatsapp)"
+            "Viber": "mediocrity|[Dopo 10 s, 30s, 1 min, 1 ora](https://help.viber.com/en/article/disappearing-messages) (solo dispositivi mobili)",
+            "WhatsApp": "advantage|[Dopo 24 ore, 7 o 90 giorni](https://blog.whatsapp.com/more-control-and-privacy-with-default-disappearing-messages-and-multiple-durations) con supporto per un'impostazione predefinita"
           },
           {
             "FeatureName": "Chat Fissate",
@@ -1147,9 +1155,17 @@
             "FeatureName": "Link di Invito Estesi",
             "Telegram": "advantage|Con il supporto per [nominarli](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/it#nomi-unici-per-i-link-d-39invito), [richieste d'accesso](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/it#richieste-di-accesso-per-gruppi-e-canali) e [limitarli](https://telegram.org/blog/autodelete-inv2/uk?setln=en#expiring-invite-links) sulla durata/numero di usi"
           },
+		  {
+            "FeatureName": "Contenuto Protetto",
+            "Telegram": "advantage|[Supportato](https://telegram.org/blog/protected-content-delete-by-date-and-more/it?ln=a#contenuto-protetto-in-gruppi-e-canali)"
+          },
           {
             "FeatureName": "Gruppi Basati sulla Posizione",
             "Telegram": "advantage|[Supportato](https://telegram.org/blog/contacts-local-groups#location-based-chats) (come gruppi pubblici con la possibilità di cercare in base alla posizione)."
+          },
+		  {
+            "FeatureName": "Pubblicare per Conto di un Canale",
+            "Telegram": "advantage|Supportato, [in gruppi pubblici](https://telegram.org/blog/protected-content-delete-by-date-and-more/it?ln=a#pubblicazione-anonima-nei-gruppi-pubblici)"
           },
           {
             "FeatureName": "Ricezione Di Messaggi Privati",
@@ -1326,6 +1342,10 @@
             "FeatureName": "Link di Invito Estesi",
             "Telegram": "advantage|Con il supporto per [nominarli](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/it#nomi-unici-per-i-link-d-39invito), [richieste d'accesso](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/it#richieste-di-accesso-per-gruppi-e-canali) e [limitarli](https://telegram.org/blog/autodelete-inv2/uk?setln=en#expiring-invite-links) sulla durata/numero di usi"
           },
+		  {
+            "FeatureName": "Contenuto Protetto",
+            "Telegram": "advantage|[Supportato](https://telegram.org/blog/protected-content-delete-by-date-and-more/it?ln=a#contenuto-protetto-in-gruppi-e-canali)"
+          },
           {
             "FeatureName": "Aggiunta Manuale di Abbonati",
             "Telegram": "advantage|Supportato",
@@ -1495,6 +1515,10 @@
             "Viber": "mediocrity|Supporto limitato (tramite bottoni)"
           },
 		  {
+            "FeatureName": "Gestire le Richieste di Adesione alla Comunità",
+            "Telegram": "advantage|[Supportato](https://telegram.org/blog/protected-content-delete-by-date-and-more/it?ln=a#risposte-alle-richieste-di-accesso)"
+          },
+		  {
             "FeatureName": "Logica Dipendente dal Contesto",
             "Telegram": "advantage|[In base alle lingue UI, ai tipi di utenti/chat](https://telegram.org/blog/animated-backgrounds/it?ln=a#menu-per-i-bot)"
           },
@@ -1531,7 +1555,7 @@
           },
           {
             "FeatureName": "Casi d'uso",
-            "Telegram": "advantage|Ricevere notizie, informazioni, notifiche, acquisto servizi e beni, creazione di nuovi strumenti, giochi, servizi sociali, UX ottimizzazione (IV, anteprime dei collegamenti), apprendimento, automazione, feedback, autorizzazione, quizzes e molto di più",
+            "Telegram": "advantage|Ricevere notizie, informazioni, notifiche, acquisto servizi e beni, creazione di nuovi strumenti, giochi, servizi sociali, UX ottimizzazione (IV, anteprime dei collegamenti), apprendimento, automazione, feedback, autorizzazione, quiz, [donazioni](https://t.me/donate) e molti altri",
             "Viber": "mediocrity|Ricevere notizie, informazioni, annunci, comunicazione per account pubblico, supporto"
           }
         ]
@@ -2070,7 +2094,7 @@
           },
           {
             "FeatureName": "Supporto Temi",
-            "Telegram": "advantage|Supportato, in particolare, [temi personalizzati, temi cloud](https://telegram.org/blog/scheduled-reminders-themes#custom-cloud-themes), [temi globali](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/it#temi-della-chat-globali-su-ios)",
+            "Telegram": "advantage|Supportato, in particolare, [temi personalizzati, temi cloud](https://telegram.org/blog/scheduled-reminders-themes#custom-cloud-themes), [temi globali](https://telegram.org/blog/protected-content-delete-by-date-and-more/it?ln=a#temi-della-chat-globali-su-android)",
             "Viber": "mediocrity|Solo tema scuro e blu scuro",
             "WhatsApp": "mediocrity|Solo [Tema scuro](https://blog.whatsapp.com/dark-mode-now-available-for-i-phone-and-android)"
           },
@@ -2829,9 +2853,9 @@
           },
           {
             "FeatureName": "Controllo Sessioni Attive",
-            "Telegram": "advantage|Supportato, con informazioni estese in tempo reale e possibilità di terminare tutte le altre sessioni da qualsiasi dispositivo",
-            "Viber": "mediocrity|Supportato",
-            "WhatsApp": "mediocrity|Supportato"
+            "Telegram": "advantage|[Controllo esteso](https://telegram.org/blog/protected-content-delete-by-date-and-more/it?ln=a#gestisci-i-dispositivi-connessi) con informazioni e permessi in tempo reale",
+            "Viber": "disadvantage|Controllo di base",
+            "WhatsApp": "disadvantage|Controllo di base"
           },
           {
             "FeatureName": "Eliminazione Bozze Cloud",
