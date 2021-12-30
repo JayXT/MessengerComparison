@@ -13,13 +13,13 @@
           },
           {
             "FeatureName": "Тип",
-            "Telegram": "advantage|[Некоммерческий](https://telegram.org/faq#q-how-are-you-going-to-make-money-out-of-this)",
+            "Telegram": "advantage|[Полукоммерческий](https://telegram.org/faq#q-how-are-you-going-to-make-money-out-of-this)",
             "Viber": "mediocrity|Коммерческий",
             "WhatsApp": "mediocrity|Коммерческий"
           },
           {
             "FeatureName": "Источник Финансирования",
-            "Telegram": "advantage|Digital Fortress и Павел Дуров, пожертвования, [инвестиции](https://en.wikipedia.org/wiki/Telegram_(software)#Telegram_Open_Network_ICO) в Telegram Open Network",
+            "Telegram": "advantage|[Конфиденциальная рекламная платформа](https://promote.telegram.org/basics), Павел Дуров, пожертвования, [инвестиции](https://en.wikipedia.org/wiki/Telegram_(software)#Telegram_Open_Network_ICO) в TON",
             "Viber": "mediocrity|[Реклама](https://support.viber.com/customer/en/portal/articles/2536775), платные функции (стикеры, местные номера, Viber Out)",
             "WhatsApp": "mediocrity|Рекламный бизнес и подписки"
           }
@@ -370,8 +370,8 @@
         "Features": [
           {
             "FeatureName": "Текст",
-            "Telegram": "advantage|С поддержкой комбинированного форматирования (жирный, моноширинный, курсивный, подчеркнутый, зачеркнутый шрифт)",
-            "Viber": "advantage|С поддержкой комбинированного форматирования (жирный, моноширинный, курсивный, зачеркнутый шрифт)",
+            "Telegram": "advantage|С поддержкой комбинированного форматирования ([спойлеры](https://telegram.org/blog/reactions-spoilers-translations#spoilers), жирный, моноширинный, курсивный, подчеркнутый, зачеркнутый шрифт)",
+            "Viber": "mediocrity|С поддержкой комбинированного форматирования (жирный, моноширинный, курсивный, зачеркнутый шрифт)",
             "WhatsApp": "mediocrity|С поддержкой форматирования (жирный, моноширинный, курсивный, зачеркнутый шрифт)"
           },
           {
@@ -420,7 +420,7 @@
           },
           {
             "FeatureName": "Анимированные Эмодзи",
-            "Telegram": "advantage|[Да](https://telegram.org/blog/folders#new-animated-emoji), с дополнительными особенностями: [1](https://telegram.org/blog/pinned-messages-locations-playlists/world#jackpot), [2](https://telegram.org/blog/folders#and-one-more-thing), [3](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/#more-interactive-emoji)"
+            "Telegram": "advantage|[Да](https://telegram.org/blog/folders#new-animated-emoji), с дополнительными особенностями: [1](https://telegram.org/blog/pinned-messages-locations-playlists/world#jackpot), [2](https://telegram.org/blog/folders#and-one-more-thing), [3](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/#more-interactive-emoji), [4](https://telegram.org/blog/reactions-spoilers-translations#more-interactive-emoji)"
           },
           {
             "FeatureName": "Стикеры",
@@ -534,8 +534,8 @@
           },
           {
             "FeatureName": "Реакции на Сообщения",
-            "Telegram": "mediocrity|Через ботов",
-            "Viber": "advantage|Да"
+            "Telegram": "advantage|[Да](https://telegram.org/blog/reactions-spoilers-translations#reactions), с поддержкой настроек и анимаций (опционально для групп и каналов)",
+            "Viber": "mediocrity|[Да](https://www.viber.com/en/blog/2020-09-30/perfectly-react-to-messages-and-everything-else-thats-new-on-viber/)"
           },
           {
             "FeatureName": "Содержание Ботов/Расширений",
@@ -820,8 +820,8 @@
           },
           {
             "FeatureName": "Перевод Сообщений",
-            "Telegram": "mediocrity|Не поддерживается (за исключением использования ботов)",
-            "Viber": "mediocrity|Поддерживается (текст направляется на сервера поставщиков услуги)",
+            "Telegram": "mediocrity|Опционально, с [дополнительными настройками](https://telegram.org/blog/reactions-spoilers-translations#message-translation) (текст отправляется третьей стороне)",
+            "Viber": "mediocrity|Поддерживается (текст отправляется третьей стороне)",
             "WhatsApp": "mediocrity|Не поддерживается"
           },
           {
@@ -1259,11 +1259,6 @@
             "Viber": "advantage|Только в группах (сообщества не поддерживаются)"
           },
           {
-            "FeatureName": "Реакции на Сообщения",
-            "Telegram": "mediocrity|Через ботов",
-            "Viber": "advantage|[Поддерживаются](https://www.viber.com/en/blog/2020-09-30/perfectly-react-to-messages-and-everything-else-thats-new-on-viber/)"
-          },
-          {
             "FeatureName": "Коллекции Избранного Содержания",
             "Telegram": "advantage|Через [набор](https://telegram.org/blog/pinned-messages-locations-playlists#multiple-pinned-messages) прикрепленных сообщений, просмотр по типам медиа или фильтрацию по хэштегам",
             "Viber": "advantage|Поддерживается для сообществ"
@@ -1385,11 +1380,6 @@
           {
             "FeatureName": "Удобный Обмен Сообщениями",
             "Telegram": "advantage|Поддерживается (выбор/поиск получателей, комментирование)"
-          },
-          {
-            "FeatureName": "Реакции на Сообщения",
-            "Telegram": "mediocrity|Через ботов",
-            "Viber": "advantage|[Поддерживаются](https://www.viber.com/en/blog/2020-09-30/perfectly-react-to-messages-and-everything-else-thats-new-on-viber/)"
           },
           {
             "FeatureName": "Коллекции Избранного Содержания",
@@ -1686,7 +1676,7 @@
           {
             "FeatureName": "Количество Участников",
             "Telegram": "advantage|[Неограниченно](https://telegram.org/blog/live-streams-forwarding-next-channel#unlimited-live-streams), трансляция видео от первых [30](https://telegram.org/blog/group-video-calls#group-video-calls) участников",
-            "Viber": "mediocrity|До 30 участников",
+            "Viber": "mediocrity|До 40 участников",
             "WhatsApp": "disadvantage|До 8 участников (на смартфонах и [Facebook Portal](https://portal.facebook.com/))"
           },
           {
@@ -2005,10 +1995,10 @@
             "WhatsApp": "mediocrity|[Средняя поддержка](https://shortcutworld.com/WhatsApp-Desktop/win/Whatsapp-Desktop_Shortcuts)"
           },
           {
-            "FeatureName": "Поддержка QR-кодов",
-            "Telegram": "advantage|Для [пригласительных ссылок](https://telegram.org/blog/autodelete-inv2#expiring-invite-links), обмена прокси (на macOS), авторизации (Telegram Desktop)",
-            "Viber": "advantage|Для добавления друзей, присоединение к группам, добавления купонов, авторизации",
-            "WhatsApp": "advantage|Для сопоставления ключей шифрования, приглашения в группы, добавление контактов, связи с бизнес-аккаунтами"
+            "FeatureName": "QR-коды",
+            "Telegram": "advantage|Для [пригласительных ссылок](https://telegram.org/blog/autodelete-inv2#expiring-invite-links), обмена прокси (на macOS), авторизации (Telegram Desktop), с [поддержкой тем](https://telegram.org/blog/reactions-spoilers-translations#themed-qr-codes)",
+            "Viber": "mediocrity|Для добавления друзей, присоединение к группам, добавления купонов, авторизации",
+            "WhatsApp": "mediocrity|Для сопоставления ключей шифрования, приглашения в группы, добавление контактов, связи с бизнес-аккаунтами"
           },
           {
             "FeatureName": "Быстрые Переходы",
@@ -2615,7 +2605,7 @@
     ]
   },
   {
-    "GroupName": "Настройка",
+    "GroupName": "Дополнительные настройки",
     "Aspects": [
       {
         "AspectName": "Общие",
