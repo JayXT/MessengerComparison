@@ -414,25 +414,15 @@
           },
           {
             "FeatureName": "Emoji",
-            "Telegram": "advantage|Supported (including several sets on Desktop)",
-            "Viber": "advantage|Supported",
-            "WhatsApp": "advantage|Supported"
-          },
-          {
-            "FeatureName": "Animated Emoji",
-            "Telegram": "advantage|[Yes](https://telegram.org/blog/folders#new-animated-emoji), with extra features: [1](https://telegram.org/blog/pinned-messages-locations-playlists/world#jackpot), [2](https://telegram.org/blog/folders#and-one-more-thing), [3](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/?setln=en#more-interactive-emoji), [4](https://telegram.org/blog/reactions-spoilers-translations#more-interactive-emoji)"
+            "Telegram": "advantage|In particular, [animated ones](https://telegram.org/blog/folders#new-animated-emoji), with extra features: [1](https://telegram.org/blog/pinned-messages-locations-playlists/world#jackpot), [2](https://telegram.org/blog/folders#and-one-more-thing), [3](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/?setln=en#more-interactive-emoji), [4](https://telegram.org/blog/reactions-spoilers-translations#more-interactive-emoji), [5](https://telegram.org/blog/video-stickers-better-reactions#new-reactions-and-interactive-emoji)",
+            "Viber": "mediocrity|Supported",
+            "WhatsApp": "mediocrity|Supported"
           },
           {
             "FeatureName": "Stickers",
-            "Telegram": "advantage|[Thousands](https://telegram.org/blog/400-million#20-000-stickers) of publicly available packs and no paid ones",
-            "Viber": "mediocrity|Paid and free stickers, some of them support sound",
-            "WhatsApp": "disadvantage|A few standard packs and limited support via third-party applications"
-          },
-          {
-            "FeatureName": "Animated Stickers",
-            "Telegram": "advantage|[Supported](https://telegram.org/blog/animated-stickers), they combine significant resources economy and high playback smoothness",
-            "Viber": "mediocrity|Memoji-only (iOS)",
-            "WhatsApp": "mediocrity|[Limited support](https://blog.whatsapp.com/introducing-animated-stickers-qr-codes-and-more)"
+            "Telegram": "advantage|[Thousands](https://telegram.org/blog/400-million#20-000-stickers) of free, cloud sets of static, [animated](https://telegram.org/blog/animated-stickers) and [video](https://telegram.org/blog/video-stickers-better-reactions#video-stickers) stickers",
+            "Viber": "disadvantage|Paid and free stickers, some of them support sound; memoji (iOS)",
+            "WhatsApp": "disadvantage|A few standard sets and limited support via third-party applications, in particular for [animated](https://blog.whatsapp.com/introducing-animated-stickers-qr-codes-and-more) stickers"
           },
           {
             "FeatureName": "\"AR-Lenses\"",
@@ -534,7 +524,7 @@
           },
           {
             "FeatureName": "Message Reactions",
-            "Telegram": "advantage|[Yes](https://telegram.org/blog/reactions-spoilers-translations#reactions), with settings and animations support (opt-in for groups and channels)",
+            "Telegram": "advantage|[Synchronized](https://telegram.org/blog/video-stickers-better-reactions#better-reactions), with settings and animations support (opt-in for groups and channels)",
             "Viber": "mediocrity|[Yes](https://www.viber.com/en/blog/2020-09-30/perfectly-react-to-messages-and-everything-else-thats-new-on-viber/)"
           },
           {
@@ -2002,7 +1992,7 @@
           },
           {
             "FeatureName": "Quick Transitions",
-            "Telegram": "advantage|To the beginning of chat list, to last message, mention or date in the chat",
+            "Telegram": "advantage|To the beginning of chat list, to last message, mention or date in the chat, to [recent chats](https://telegram.org/blog/video-stickers-better-reactions#navigating-recent-chats)",
             "Viber": "mediocrity|Limited support",
             "WhatsApp": "mediocrity|Limited support"
           },
@@ -2212,7 +2202,7 @@
           },
           {
             "FeatureName": "Platform Capabilities",
-            "Telegram": "advantage|Creation, managing and sharing sticker packs (including animated ones) as well as viewing their statistics",
+            "Telegram": "advantage|Creation, managing and sharing all types of sticker sets as well as viewing their statistics",
             "Viber": "mediocrity|Buying and downloading packs, [creation, managing and sharing](https://www.viber.com/blog/2019-09-16/create-your-own-stickers-and-express-yourself-perfectly/) your own stickers"
           },
           {
@@ -2269,7 +2259,7 @@
           },
           {
             "FeatureName": "Main Advantages",
-            "Telegram": "advantage|Speed, network traffic economy, caching, configuring appearance, no ads, simple adoption by developers and support by [thousands](https://instantview.telegram.org/contest) of websites"
+            "Telegram": "advantage|Speed, network traffic economy, caching, configuring appearance, no ads, [convenient translation](https://telegram.org/blog/video-stickers-better-reactions#bug-busting-and-more), simple adoption by developers and support by [thousands](https://instantview.telegram.org/contest) of websites"
           }
         ]
       },
