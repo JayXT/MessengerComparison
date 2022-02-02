@@ -414,6 +414,12 @@
           },
           {
             "FeatureName": "Эмодзи",
+            "Telegram": "advantage|В частности [анимированные](https://telegram.org/blog/folders#new-animated-emoji), с дополнительными особенностями: [1](https://telegram.org/blog/pinned-messages-locations-playlists/world#jackpot), [2](https://telegram.org/blog/folders#and-one-more-thing), [3](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/?setln=en#more-interactive-emoji), [4](https://telegram.org/blog/reactions-spoilers-translations#more-interactive-emoji), [5](https://telegram.org/blog/video-stickers-better-reactions#new-reactions-and-interactive-emoji)",
+            "Viber": "mediocrity|Поддерживаются",
+            "WhatsApp": "mediocrity|Поддерживаются"
+          },
+          {
+            "FeatureName": "Стикеры",
             "Telegram": "advantage|[Тысячи](https://telegram.org/blog/400-million#20-000-stickers) бесплатных облачных статичных наборов, [анимированных](https://telegram.org/blog/animated-stickers) и [видео](https://telegram.org/blog/video-stickers-better-reactions#video-stickers) стикеров",
             "Viber": "disadvantage|Платные и бесплатные стикеры, некоторые поддерживают звук; мемоджи (iOS)",
             "WhatsApp": "disadvantage|Несколько стандартных наборов и ограниченная поддержка через сторонние приложения, в том числе [анимированных](https://blog.whatsapp.com/introducing-animated-stickers-qr-codes-and-more) стикеров"
