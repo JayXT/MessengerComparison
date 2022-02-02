@@ -414,25 +414,15 @@
           },
           {
             "FeatureName": "Эмодзи",
-            "Telegram": "advantage|Поддерживаются (в том числе несколько наборов на Desktop)",
-            "Viber": "advantage|Поддерживаются",
-            "WhatsApp": "advantage|Поддерживаются"
-          },
-          {
-            "FeatureName": "Анимированные Эмодзи",
-            "Telegram": "advantage|[Да](https://telegram.org/blog/folders#new-animated-emoji), с дополнительными особенностями: [1](https://telegram.org/blog/pinned-messages-locations-playlists/world#jackpot), [2](https://telegram.org/blog/folders#and-one-more-thing), [3](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/#more-interactive-emoji), [4](https://telegram.org/blog/reactions-spoilers-translations#more-interactive-emoji)"
+            "Telegram": "advantage|В частности [анимированные](https://telegram.org/blog/folders#new-animated-emoji), с дополнительными особенностями: [1](https://telegram.org/blog/pinned-messages-locations-playlists/world#jackpot), [2](https://telegram.org/blog/folders#and-one-more-thing), [3](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/?setln=en#more-interactive-emoji), [4](https://telegram.org/blog/reactions-spoilers-translations#more-interactive-emoji), [5](https://telegram.org/blog/video-stickers-better-reactions#new-reactions-and-interactive-emoji)",
+            "Viber": "mediocrity|Поддерживаются",
+            "WhatsApp": "mediocrity|Поддерживаются"
           },
           {
             "FeatureName": "Стикеры",
-            "Telegram": "advantage|[Тысячи](https://telegram.org/blog/400-million#20-000-stickers) общедоступных наборов и никаких платных",
-            "Viber": "mediocrity|Платные и бесплатные стикеры, некоторые поддерживают звук",
-            "WhatsApp": "disadvantage|Несколько стандартных наборов и ограниченная поддержка через сторонние приложения"
-          },
-          {
-            "FeatureName": "Анимированные Стикеры",
-            "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/animated-stickers), сочетают существенную экономию ресурсов и высокую плавность воспроизведения",
-            "Viber": "mediocrity|Только мемоджи (iOS)",
-            "WhatsApp": "mediocrity|[Ограниченная поддержка](https://blog.whatsapp.com/introducing-animated-stickers-qr-codes-and-more)"
+            "Telegram": "advantage|[Тысячи](https://telegram.org/blog/400-million#20-000-stickers) бесплатных облачных статичных наборов, [анимированных](https://telegram.org/blog/animated-stickers) и [видео](https://telegram.org/blog/video-stickers-better-reactions#video-stickers) стикеров",
+            "Viber": "disadvantage|Платные и бесплатные стикеры, некоторые поддерживают звук; мемоджи (iOS)",
+            "WhatsApp": "disadvantage|Несколько стандартных наборов и ограниченная поддержка через сторонние приложения, в том числе [анимированных](https://blog.whatsapp.com/introducing-animated-stickers-qr-codes-and-more) стикеров"
           },
           {
             "FeatureName": "\"AR-Линзы\"",
@@ -534,7 +524,7 @@
           },
           {
             "FeatureName": "Реакции на Сообщения",
-            "Telegram": "advantage|[Да](https://telegram.org/blog/reactions-spoilers-translations#reactions), с поддержкой настроек и анимаций (опционально для групп и каналов)",
+            "Telegram": "advantage|[Синхронные](https://telegram.org/blog/video-stickers-better-reactions#better-reactions), с поддержкой настроек и анимаций (опционально для групп и каналов)",
             "Viber": "mediocrity|[Да](https://www.viber.com/en/blog/2020-09-30/perfectly-react-to-messages-and-everything-else-thats-new-on-viber/)"
           },
           {
@@ -2002,7 +1992,7 @@
           },
           {
             "FeatureName": "Быстрые Переходы",
-            "Telegram": "advantage|В начало списка чатов, к последнему сообщению, упоминания или даты в чате",
+            "Telegram": "advantage|В начало списка чатов, к последнему сообщению, упоминания или даты в чате, до [недавних чатов](https://telegram.org/blog/video-stickers-better-reactions#navigating-recent-chats)",
             "Viber": "mediocrity|Ограниченная поддержка",
             "WhatsApp": "mediocrity|Ограниченная поддержка"
           },
@@ -2212,7 +2202,7 @@
           },
           {
             "FeatureName": "Возможности Платформы",
-            "Telegram": "advantage|Создание, управление и обмен наборами стикеров, а также просмотр их статистики (в частности анимированных)",
+            "Telegram": "advantage|Создание, управление и обмен наборами всех видов стикеров, а также просмотр их статистики",
             "Viber": "mediocrity|Покупка и загрузка наборов, [создание, управление и обмен](https://www.viber.com/blog/2019-09-16/create-your-own-stickers-and-express-yourself-perfectly/) собственными стикерами"
           },
           {
@@ -2269,7 +2259,7 @@
           },
           {
             "FeatureName": "Основные Преимущества",
-            "Telegram": "advantage|Скорость, экономия трафика, кэширование, настройки внешнего вида, отсутствие рекламы, простая адаптация разработчиками и поддержка [тысяч](https://instantview.telegram.org/contest) веб-сайтов"
+            "Telegram": "advantage|Скорость, экономия трафика, кэширование, настройки внешнего вида, отсутствие рекламы, [удобный перевод](https://telegram.org/blog/video-stickers-better-reactions#bug-busting-and-more), простая адаптация разработчиками и поддержка [тысяч](https://instantview.telegram.org/contest) веб-сайтов"
           }
         ]
       },
