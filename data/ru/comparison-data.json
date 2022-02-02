@@ -425,12 +425,6 @@
             "WhatsApp": "disadvantage|Несколько стандартных наборов и ограниченная поддержка через сторонние приложения, в том числе [анимированных](https://blog.whatsapp.com/introducing-animated-stickers-qr-codes-and-more) стикеров"
           },
           {
-            "FeatureName": "Анимированные Стикеры",
-            "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/animated-stickers), сочетают существенную экономию ресурсов и высокую плавность воспроизведения",
-            "Viber": "mediocrity|Только мемоджи (iOS)",
-            "WhatsApp": "mediocrity|[Ограниченная поддержка](https://blog.whatsapp.com/introducing-animated-stickers-qr-codes-and-more)"
-          },
-          {
             "FeatureName": "\"AR-Линзы\"",
             "Viber": "advantage|Через [интеграцию](https://www.viber.com/en/blog/2021-11-21/say-it-all-with-viber-lenses/) со Snap"
           },
