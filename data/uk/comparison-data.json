@@ -953,6 +953,10 @@
             "Telegram": "advantage|Тимчасове/постійне вимкнення, параметри системи, лічильника на іконці…",
             "Viber": "mediocrity|Обмежені налаштування в межах системи (від Android 8.0), тимчасове вимкнення",
             "WhatsApp": "mediocrity|Тимчасове/постійне вимкнення"
+          },
+          {
+            "FeatureName": "Менеджер Завантажень",
+            "Telegram": "advantage|[Підтримується](https://telegram.org/blog/downloads-attachments-streaming#download-manager)"
           }
         ]
       },
@@ -1703,6 +1707,10 @@
             "FeatureName": "Демонстрація Робочого Столу",
             "Telegram": "advantage|[Підтримується](https://telegram.org/blog/group-video-calls#screen-sharing), з можливістю вибору окремих вікон в настільній версії",
             "Viber": "mediocrity|Підтримується (на Viber Desktop)"
+          },
+          {
+            "FeatureName": "RTMP Трансляції",
+            "Telegram": "advantage|[Підтримуються](https://telegram.org/blog/downloads-attachments-streaming#live-streaming-with-other-apps) (в тому числі з OBS Studio)"
           },
           {
             "FeatureName": "Запис Конференцій",
@@ -2507,7 +2515,7 @@
           },
           {
             "FeatureName": "Користувачів (Через Номер Телефону)",
-            "Telegram": "mediocrity|Підтримується (на iOS)",
+            "Telegram": "advantage|[Підтримується](https://telegram.org/blog/downloads-attachments-streaming#phone-number-links)",
             "WhatsApp": "advantage|[Підтримуються](https://faq.whatsapp.com/en/general/26000030/?category=5245251) (з можливістю введення тексту повідомлень)"
           },
           {

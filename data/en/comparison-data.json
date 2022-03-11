@@ -953,6 +953,10 @@
             "Telegram": "advantage|Temporary/permanent muting, system settings, icon counter;",
             "Viber": "mediocrity|Settings limited to OS (starting from Android 8.0), temporary muting",
             "WhatsApp": "mediocrity|Temporary/permanent muting"
+          },
+          {
+            "FeatureName": "Downloads Manager",
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/downloads-attachments-streaming#download-manager)"
           }
         ]
       },
@@ -1703,6 +1707,10 @@
             "FeatureName": "Screen Sharing",
             "Telegram": "advantage|[Supported](https://telegram.org/blog/group-video-calls#screen-sharing), with an option to share individual windows on desktop",
             "Viber": "mediocrity|Supported (on Viber Desktop)"
+          },
+          {
+            "FeatureName": "RTMP Streaming",
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/downloads-attachments-streaming#live-streaming-with-other-apps) (particularly via OBS Studio)"
           },
           {
             "FeatureName": "Recording Conferences",
@@ -2507,7 +2515,7 @@
           },
           {
             "FeatureName": "Users (Via phone number)",
-            "Telegram": "mediocrity|Supported (on iOS)",
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/downloads-attachments-streaming#phone-number-links)",
             "WhatsApp": "advantage|[Supported](https://faq.whatsapp.com/en/general/26000030/?category=5245251) (with possibility to type text messages)"
           },
           {
