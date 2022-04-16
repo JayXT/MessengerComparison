@@ -408,8 +408,8 @@
           },
           {
             "FeatureName": "Пересилання Повідомлень",
-            "Telegram": "advantage|З [гнучкими](https://telegram.org/blog/live-streams-forwarding-next-channel#flexible-forwarding) опціями",
-            "Viber": "advantage|Підтримується",
+            "Telegram": "advantage|З [гнучкими](https://telegram.org/blog/live-streams-forwarding-next-channel#flexible-forwarding) опціями та [збереженням відповідей](https://telegram.org/blog/notifications-bots/#replies-in-forwarded-messages)",
+            "Viber": "mediocrity|Підтримується",
             "WhatsApp": "mediocrity|Підтримується (1 чат за раз)"
           },
           {
@@ -733,8 +733,8 @@
           {
             "FeatureName": "Медіа",
             "Telegram": "advantage|Всі види",
-            "Viber": "disadvantage|Зображення, голосові/відео повідомлення",
-            "WhatsApp": "disadvantage|Зображення, музика, голосові/відео повідомлення"
+            "Viber": "advantage|Всі види",
+            "WhatsApp": "advantage|Всі види"
           },
           {
             "FeatureName": "Веб-вміст",
@@ -748,7 +748,7 @@
           },
           {
             "FeatureName": "Картинка в Картинці",
-            "Telegram": "advantage|Для відео, відео повідомлень та веб-вмісту",
+            "Telegram": "advantage|Для відео, відео повідомлень та веб-вмісту ([Android](https://telegram.org/blog/notifications-bots/#improved-picture-in-picture-on-android), iOS, Desktop)",
             "Viber": "disadvantage|YouTube"
           },
           {
@@ -772,7 +772,8 @@
           },
           {
             "FeatureName": "Зміна Швидкості Відтворення",
-            "Telegram": "advantage|Для відео, аудіо, голосових та відео повідомлень"
+            "Telegram": "advantage|Для відео, аудіо, голосових та відео повідомлень",
+            "WhatsApp": "mediocrity|Голосових повідомлень"
           },
           {
             "FeatureName": "Перемотування Відео",
@@ -809,8 +810,8 @@
             "WhatsApp": "advantage|Точного часу та статусу відправки, перегляду, читання"
           },
           {
-            "FeatureName": "Перекладу Повідомлення",
-            "Telegram": "mediocrity|Опціонально, з [додатковими налаштуваннями](https://telegram.org/blog/reactions-spoilers-translations#message-translation) (текст надсилається третій стороні)",
+            "FeatureName": "Перекладу Повідомлень",
+            "Telegram": "mediocrity|Опціонально, з [додатковими](https://telegram.org/blog/reactions-spoilers-translations#message-translation) [налаштуваннями](https://telegram.org/blog/notifications-bots/#improved-message-translation-on-ios) (текст надсилається третій стороні)",
             "Viber": "mediocrity|Підтримується (текст надсилається третій стороні)",
             "WhatsApp": "mediocrity|Не підтримується"
           },
@@ -890,7 +891,7 @@
           },
           {
             "FeatureName": "Автовидалення Повідомлень",
-            "Telegram": "advantage|[Через 24 години, 7 днів чи місяць](https://telegram.org/blog/video-1000/#auto-delete-after-1-month)",
+            "Telegram": "advantage|[Через довільний проміжок часу](https://telegram.org/blog/notifications-bots#new-auto-delete-menu-in-profiles)",
             "Viber": "mediocrity|[Через 10 с, 30 с, 1 хв, 1 год](https://help.viber.com/en/article/disappearing-messages) (лише на мобільних пристроях)",
             "WhatsApp": "advantage|[Через 24 години, 7 чи 90 днів](https://blog.whatsapp.com/more-control-and-privacy-with-default-disappearing-messages-and-multiple-durations), з підтримкою параметру за замовчуванням"
           },
@@ -950,7 +951,7 @@
           },
           {
             "FeatureName": "Контроль Сповіщень Окремих Чатів",
-            "Telegram": "advantage|Тимчасове/постійне вимкнення, параметри системи, лічильника на іконці…",
+            "Telegram": "advantage|[Користувацькі звуки](https://telegram.org/blog/notifications-bots#custom-notification-sounds), [тимчасове/постійне](https://telegram.org/blog/notifications-bots#custom-mute-durations) вимкнення, параметри системи, лічильника на іконці…",
             "Viber": "mediocrity|Обмежені налаштування в межах системи (від Android 8.0), тимчасове вимкнення",
             "WhatsApp": "mediocrity|Тимчасове/постійне вимкнення"
           },
@@ -1499,6 +1500,10 @@
             "Viber": "mediocrity|Обмежена підтримка (через кнопки)"
           },
           {
+            "FeatureName": "Інтеграція Веб Інтерфейсів",
+            "Telegram": "advantage|З [необмеженими](https://telegram.org/blog/notifications-bots/#bot-revolution) можливостями"
+          },
+          {
             "FeatureName": "Обробка Запитів На Приєднання До Спільнот",
             "Telegram": "advantage|[Підтримується](https://telegram.org/blog/protected-content-delete-by-date-and-more#responses-to-join-requests)"
           },
@@ -1508,7 +1513,7 @@
           },
           {
             "FeatureName": "Додавання Ботів до Інших Чатів",
-            "Telegram": "advantage|Підтримується (до груп/каналів)"
+            "Telegram": "advantage|Підтримується (до [груп/каналів](https://telegram.org/blog/notifications-bots/#instantly-configure-bot-admins))"
           },
           {
             "FeatureName": "Зупинка Ботів",

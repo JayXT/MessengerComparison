@@ -408,8 +408,8 @@
           },
           {
             "FeatureName": "Message Forwarding",
-            "Telegram": "advantage|With [flexible](https://telegram.org/blog/live-streams-forwarding-next-channel#flexible-forwarding) options",
-            "Viber": "advantage|Supported",
+            "Telegram": "advantage|With [flexible](https://telegram.org/blog/live-streams-forwarding-next-channel#flexible-forwarding) options and [preserved replies](https://telegram.org/blog/notifications-bots/#replies-in-forwarded-messages)",
+            "Viber": "mediocrity|Supported",
             "WhatsApp": "mediocrity|Supported (1 chat at a time)"
           },
           {
@@ -733,8 +733,8 @@
           {
             "FeatureName": "Media",
             "Telegram": "advantage|All kinds",
-            "Viber": "disadvantage|Images, voice/video messages",
-            "WhatsApp": "disadvantage|Images, music, voice/video messages"
+            "Viber": "advantage|All kinds",
+            "WhatsApp": "advantage|All kinds"
           },
           {
             "FeatureName": "Web Content",
@@ -748,7 +748,7 @@
           },
           {
             "FeatureName": "Picture-in-Picture",
-            "Telegram": "advantage|For videos, video messages and web content",
+            "Telegram": "advantage|For videos, video messages and web content ([Android](https://telegram.org/blog/notifications-bots/#improved-picture-in-picture-on-android), iOS, Desktop)",
             "Viber": "disadvantage|YouTube"
           },
           {
@@ -772,7 +772,8 @@
           },
           {
             "FeatureName": "Changing Playback Speed",
-            "Telegram": "advantage|For video, audio, voice and video messages"
+            "Telegram": "advantage|For video, audio, voice and video messages",
+            "WhatsApp": "mediocrity|For voice messages"
           },
           {
             "FeatureName": "Video Rewind",
@@ -810,7 +811,7 @@
           },
           {
             "FeatureName": "Message Translation",
-            "Telegram": "mediocrity|Opt-in, with [extra settings](https://telegram.org/blog/reactions-spoilers-translations#message-translation) (the text is sent to the third-party)",
+            "Telegram": "mediocrity|Opt-in, with [extra](https://telegram.org/blog/reactions-spoilers-translations#message-translation) [settings](https://telegram.org/blog/notifications-bots/#improved-message-translation-on-ios) (the text is sent to the third-party)",
             "Viber": "mediocrity|Supported (the text is sent to the third-party)",
             "WhatsApp": "mediocrity|Not supported"
           },
@@ -890,7 +891,7 @@
           },
           {
             "FeatureName": "Auto-Delete Messages",
-            "Telegram": "advantage|[After 24 hours, 7 days, or a month](https://telegram.org/blog/video-1000/#auto-delete-after-1-month)",
+            "Telegram": "advantage|[After an arbitrary duration](https://telegram.org/blog/notifications-bots#new-auto-delete-menu-in-profiles)",
             "Viber": "mediocrity|[After 10 s, 30s, 1 min, 1 hour](https://help.viber.com/en/article/disappearing-messages) (mobile devices only)",
             "WhatsApp": "advantage|[After 24 hours, 7 or 90 days](https://blog.whatsapp.com/more-control-and-privacy-with-default-disappearing-messages-and-multiple-durations) with support for a default setting"
           },
@@ -950,7 +951,7 @@
           },
           {
             "FeatureName": "Notification Control for Individual Chats",
-            "Telegram": "advantage|Temporary/permanent muting, system settings, icon counter;",
+            "Telegram": "advantage|[Custom sounds](https://telegram.org/blog/notifications-bots#custom-notification-sounds), [temporary/permanent](https://telegram.org/blog/notifications-bots#custom-mute-durations) muting, system settings, icon counter...",
             "Viber": "mediocrity|Settings limited to OS (starting from Android 8.0), temporary muting",
             "WhatsApp": "mediocrity|Temporary/permanent muting"
           },
@@ -1499,6 +1500,10 @@
             "Viber": "mediocrity|Limited support (via buttons)"
           },
           {
+            "FeatureName": "Web UI Integration",
+            "Telegram": "advantage|With [unlimited](https://telegram.org/blog/notifications-bots/#bot-revolution) capabilities"
+          },
+          {
             "FeatureName": "Handling Community Join Requests",
             "Telegram": "advantage|[Supported](https://telegram.org/blog/protected-content-delete-by-date-and-more#responses-to-join-requests)"
           },
@@ -1508,7 +1513,7 @@
           },
           {
             "FeatureName": "Adding Bots to Other Chats",
-            "Telegram": "advantage|Supported (to groups/channels)"
+            "Telegram": "advantage|Supported (to [groups/channels](https://telegram.org/blog/notifications-bots/#instantly-configure-bot-admins))"
           },
           {
             "FeatureName": "Stopping Bots",
