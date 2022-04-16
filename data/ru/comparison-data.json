@@ -408,8 +408,8 @@
           },
           {
             "FeatureName": "Пересылка Сообщений",
-            "Telegram": "advantage|С [гибкими](https://telegram.org/blog/live-streams-forwarding-next-channel#flexible-forwarding) опциями",
-            "Viber": "advantage|Поддерживается",
+            "Telegram": "advantage|С [гибкими](https://telegram.org/blog/live-streams-forwarding-next-channel#flexible-forwarding) опциями и [сохранением ответов](https://telegram.org/blog/notifications-bots/#replies-in-forwarded-messages)",
+            "Viber": "mediocrity|Поддерживается",
             "WhatsApp": "mediocrity|Поддерживается (1 чат за раз)"
           },
           {
@@ -733,8 +733,8 @@
           {
             "FeatureName": "Медиа",
             "Telegram": "advantage|Все виды",
-            "Viber": "disadvantage|Изображения, голосовые/видео сообщения",
-            "WhatsApp": "disadvantage|Изображения, музыка, голосовые/видео сообщения"
+            "Viber": "advantage|Все виды",
+            "WhatsApp": "advantage|Все виды"
           },
           {
             "FeatureName": "Веб-содержимое",
@@ -748,7 +748,7 @@
           },
           {
             "FeatureName": "Картинка в Картинке",
-            "Telegram": "advantage|Для видео, видео сообщений и веб-содержимого",
+            "Telegram": "advantage|Для видео, видео сообщений и веб-содержимого ([Android](https://telegram.org/blog/notifications-bots/#improved-picture-in-picture-on-android), iOS, Desktop)",
             "Viber": "disadvantage|YouTube"
           },
           {
@@ -772,7 +772,8 @@
           },
           {
             "FeatureName": "Изменение Скорости Воспроизведение",
-            "Telegram": "advantage|Для видео, аудио, голосовых и видео сообщений"
+            "Telegram": "advantage|Для видео, аудио, голосовых и видео сообщений",
+            "WhatsApp": "mediocrity|Голосовых сообщений"
           },
           {
             "FeatureName": "Перемотка Видео",
@@ -810,7 +811,7 @@
           },
           {
             "FeatureName": "Перевод Сообщений",
-            "Telegram": "mediocrity|Опционально, с [дополнительными настройками](https://telegram.org/blog/reactions-spoilers-translations#message-translation) (текст отправляется третьей стороне)",
+            "Telegram": "mediocrity|Опционально, с [дополнительными](https://telegram.org/blog/reactions-spoilers-translations#message-translation) [настройками](https://telegram.org/blog/notifications-bots/#improved-message-translation-on-ios) (текст отправляется третьей стороне)",
             "Viber": "mediocrity|Поддерживается (текст отправляется третьей стороне)",
             "WhatsApp": "mediocrity|Не поддерживается"
           },
@@ -890,7 +891,7 @@
           },
           {
             "FeatureName": "Автоудаление Сообщений",
-            "Telegram": "advantage|[Через 24 часа, 7 дней или месяц](https://telegram.org/blog/video-1000/#auto-delete-after-1-month)",
+            "Telegram": "advantage|[Через произвольный промежуток времени](https://telegram.org/blog/notifications-bots#new-auto-delete-menu-in-profiles)",
             "Viber": "mediocrity|[Через 10 с, 30 с, 1 мин, 1 час](https://help.viber.com/en/article/disappearing-messages) (только на мобильных устройствах)",
             "WhatsApp": "advantage|[Через 24 часа, 7 или 90 дней](https://blog.whatsapp.com/more-control-and-privacy-with-default-disappearing-messages-and-multiple-durations), с поддержкой параметра по умолчанию"
           },
@@ -950,9 +951,13 @@
           },
           {
             "FeatureName": "Контроль Уведомлений Отдельных Чатов",
-            "Telegram": "advantage|Временное/постоянное отключение, параметры системы, счётчик в иконке…",
+            "Telegram": "advantage|[Пользовательские звуки](https://telegram.org/blog/notifications-bots#custom-notification-sounds), [временное/постоянное](https://telegram.org/blog/notifications-bots#custom-mute-durations) отключение, параметры системы, счётчика на иконке…",
             "Viber": "mediocrity|Ограниченные настройки в рамках системы (от Android 8.0), временное отключение",
             "WhatsApp": "mediocrity|Временное/постоянное отключение"
+          },
+          {
+            "FeatureName": "Менеджер Загрузок",
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/downloads-attachments-streaming#download-manager)"
           }
         ]
       },
@@ -1495,6 +1500,10 @@
             "Viber": "mediocrity|Ограниченная поддержка (через кнопки)"
           },
           {
+            "FeatureName": "Интеграция Веб Интерфейсов",
+            "Telegram": "advantage|С [неограниченными](https://telegram.org/blog/notifications-bots/#bot-revolution) возможностями"
+          },
+          {
             "FeatureName": "Обработка Запросов На Присоединение К Сообществам",
             "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/protected-content-delete-by-date-and-more#responses-to-join-requests)"
           },
@@ -1504,7 +1513,7 @@
           },
           {
             "FeatureName": "Добавление Ботов к Другим Чатам",
-            "Telegram": "advantage|Поддерживается (для групп/каналов)"
+            "Telegram": "advantage|Поддерживается (для [групп/каналов](https://telegram.org/blog/notifications-bots/#instantly-configure-bot-admins))"
           },
           {
             "FeatureName": "Остановка Ботов",
@@ -1703,6 +1712,10 @@
             "FeatureName": "Демонстрация Рабочего Стола",
             "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/group-video-calls#screen-sharing), с возможностью выбора отдельных окон в настольной версии",
             "Viber": "advantage|Поддерживается (на Viber Desktop)"
+          },
+          {
+            "FeatureName": "RTMP Трансляции",
+            "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/downloads-attachments-streaming#live-streaming-with-other-apps) (в том числе с OBS Studio)"
           },
           {
             "FeatureName": "Запись Конференций",
@@ -2507,7 +2520,7 @@
           },
           {
             "FeatureName": "Пользователю (Через Номер Телефона)",
-            "Telegram": "mediocrity|Поддерживается (на iOS)",
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/downloads-attachments-streaming#phone-number-links)",
             "WhatsApp": "advantage|[Поддерживается](https://faq.whatsapp.com/en/general/26000030/?category=5245251) (с возможностью написания сообщений)"
           },
           {
