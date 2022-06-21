@@ -19,7 +19,7 @@
           },
           {
             "FeatureName": "Funding Source",
-            "Telegram": "advantage|[Privacy-conscious ad platform](https://promote.telegram.org/basics), Pavel Durov, donations, TON [investments](https://en.wikipedia.org/wiki/Telegram_(software)#Telegram_Open_Network_ICO)",
+            "Telegram": "advantage|[Privacy-conscious ad platform](https://promote.telegram.org/basics) or [Telegram Premium](https://telegram.org/blog/700-million-and-premium) subscriptions; Pavel Durov",
             "Viber": "mediocrity|[Ads](https://support.viber.com/customer/en/portal/articles/2536775), paid features (stickers, local numbers, Viber Out)",
             "WhatsApp": "mediocrity|Advertising and subscriptions"
           }
@@ -54,11 +54,13 @@
           },
           {
             "FeatureName": "Collaboration with Community",
-            "Telegram": "advantage|Crowdsourcing and [contests](https://contest.com/)"
+            "Telegram": "advantage|Crowdsourcing and [contests](https://contest.com/)",
+            "WhatsApp": "advantage|In scope of a [separate](https://about.facebook.com/community/) initiative"
           },
           {
             "FeatureName": "Press Requests",
-            "Telegram": "advantage|Via [@PressBot](https://t.me/PressBot)"
+            "Telegram": "advantage|Via [@PressBot](https://t.me/PressBot)",
+            "WhatsApp": "advantage|Via press@fb.com"
           },
           {
             "FeatureName": "Apps",
@@ -351,7 +353,7 @@
           },
           {
             "FeatureName": "Support for Multiple Accounts",
-            "Telegram": "advantage|[Available](https://telegram.org/blog/profile-videos-people-nearby-and-more#multiple-accounts-on-telegram-desktop)"
+            "Telegram": "advantage|[Available](https://telegram.org/blog/profile-videos-people-nearby-and-more#multiple-accounts-on-telegram-desktop) (3 without subscription, 4 with Premium)"
           },
           {
             "FeatureName": "Alternative Clients",
@@ -420,7 +422,7 @@
           },
           {
             "FeatureName": "Stickers",
-            "Telegram": "advantage|[Thousands](https://telegram.org/blog/400-million#20-000-stickers) of free, cloud sets of static, [animated](https://telegram.org/blog/animated-stickers) and [video](https://telegram.org/blog/video-stickers-better-reactions#video-stickers) stickers",
+            "Telegram": "advantage|[Thousands](https://telegram.org/blog/400-million#20-000-stickers) of free, cloud sets of static, [animated](https://telegram.org/blog/animated-stickers) and [video](https://telegram.org/blog/video-stickers-better-reactions#video-stickers) stickers; [extra ones](https://telegram.org/blog/700-million-and-premium#unique-stickers) in Premium subscription",
             "Viber": "disadvantage|Paid and free stickers, some of them support sound; memoji (iOS)",
             "WhatsApp": "disadvantage|A few standard sets and limited support via third-party applications, in particular for [animated](https://blog.whatsapp.com/introducing-animated-stickers-qr-codes-and-more) stickers"
           },
@@ -482,9 +484,9 @@
           },
           {
             "FeatureName": "Files",
-            "Telegram": "advantage|Up to 2 GB with no limits on number of files",
+            "Telegram": "advantage|Up to 2 GB ([4 GB](https://telegram.org/blog/700-million-and-premium#4-gb-uploads) in Premium) with no limits on number of files",
             "Viber": "mediocrity|Up to 0.2 GB",
-            "WhatsApp": "disadvantage|Media up to 0.016 GB, files up to 0.1 GB"
+            "WhatsApp": "mediocrity|Media up to 0.016 GB, files up to [2 GB](https://blog.whatsapp.com/reactions-2gb-file-sharing-512-groups)"
           },
           {
             "FeatureName": "File Collections",
@@ -520,12 +522,14 @@
           },
           {
             "FeatureName": "Comments",
-            "Telegram": "advantage|Yes"
+            "Telegram": "advantage|Yes",
+            "Viber": "advantage|Yes"
           },
           {
             "FeatureName": "Message Reactions",
-            "Telegram": "advantage|[Synchronized](https://telegram.org/blog/video-stickers-better-reactions#better-reactions), with settings and animations support (opt-in for groups and channels)",
-            "Viber": "mediocrity|[Yes](https://www.viber.com/en/blog/2020-09-30/perfectly-react-to-messages-and-everything-else-thats-new-on-viber/)"
+            "Telegram": "advantage|[Synchronized](https://telegram.org/blog/video-stickers-better-reactions#better-reactions), with settings and animations support (opt-in for groups and channels); [extra reactions](https://telegram.org/blog/700-million-and-premium#unique-reactions) with Premium",
+            "Viber": "mediocrity|[Yes](https://www.viber.com/en/blog/2020-09-30/perfectly-react-to-messages-and-everything-else-thats-new-on-viber/)",
+            "WhatsApp": "mediocrity|Yes"
           },
           {
             "FeatureName": "Bots/Extensions Content",
@@ -578,7 +582,8 @@
           },
           {
             "FeatureName": "Scheduled Message Sending",
-            "Telegram": "advantage|[Available](https://telegram.org/blog/scheduled-reminders-themes) (particularly sending [when](https://telegram.org/blog/verifiable-apps-and-more#send-when-online) online), with scheduled messages viewing and controlling"
+            "Telegram": "advantage|[Available](https://telegram.org/blog/scheduled-reminders-themes) (particularly sending [when](https://telegram.org/blog/verifiable-apps-and-more#send-when-online) online), with scheduled messages viewing and controlling",
+            "Viber": "mediocrity|For certain types of chats and messages"
           },
           {
             "FeatureName": "Silent Message Sending",
@@ -816,6 +821,12 @@
             "WhatsApp": "mediocrity|Not supported"
           },
           {
+            "FeatureName": "Voice Messages Transcription",
+            "Telegram": "mediocrity|[With Premium](https://telegram.org/blog/700-million-and-premium#voice-to-text) (the message is sent to the third-party)",
+            "Viber": "mediocrity|Not supported",
+            "WhatsApp": "mediocrity|Not supported"
+          },
+          {
             "FeatureName": "Favorite Messages/Content",
             "Telegram": "advantage|Via sending to Saved Messages, or adding animations/stickers to favorites",
             "Viber": "advantage|Via extension",
@@ -843,7 +854,8 @@
           },
           {
             "FeatureName": "Chats' Structuring: Concept",
-            "Telegram": "advantage|Creation of [folders (tabs)](https://telegram.org/blog/folders) with instant cloud sync across all your devices"
+            "Telegram": "advantage|Creation of [folders (tabs)](https://telegram.org/blog/folders) with instant cloud sync across all your devices",
+            "WhatsApp": "advantage|Creation of [communities](https://blog.whatsapp.com/sharing-our-vision-for-communities-on-whatsapp) managed by admins and consisting of groups"
           },
           {
             "FeatureName": "Chats' Structuring: Filtering",
@@ -851,11 +863,12 @@
           },
           {
             "FeatureName": "Chats' Structuring: Limitations",
-            "Telegram": "advantage|Up to 10 folders with up to 100 chats per each"
+            "Telegram": "advantage|Up to 10 folders with up to 100 chats per each ([20 folders, 200 chats](https://telegram.org/blog/700-million-and-premium#doubled-limits) in Premium)"
           },
           {
             "FeatureName": "Chats' Structuring: Other Features",
-            "Telegram": "advantage|Creation of quick folders, syncing the sequence of folders/chats, support for keyboard shortcuts, icons (Telegram Desktop)"
+            "Telegram": "advantage|Creation of quick folders, syncing the sequence of folders/chats, support for keyboard shortcuts, icons (Telegram Desktop); [Premium](https://telegram.org/blog/700-million-and-premium#chat-management): changing default folder, auto archiving and muting",
+            "WhatsApp": "mediocrity|Announcement messages in communities"
           },
           {
             "FeatureName": "Operations with Multiple Chats Simultaneously",
@@ -867,7 +880,7 @@
           },
           {
             "FeatureName": "Preview Of",
-            "Telegram": "advantage|Your accounts; chats, users"
+            "Telegram": "advantage|Your accounts; [chats](https://telegram.org/blog/700-million-and-premium#improved-chat-previews-on-android), users"
           },
           {
             "FeatureName": "Chat Video Avatars",
@@ -897,7 +910,7 @@
           },
           {
             "FeatureName": "Pinning Chats",
-            "Telegram": "advantage|Supported (up to 5 chats, unlimited number in archive, folders)",
+            "Telegram": "advantage|Up to 5 chats (10 in Premium), unlimited number in archive, folders",
             "Viber": "advantage|Supported",
             "WhatsApp": "advantage|Supported"
           },
@@ -1092,7 +1105,7 @@
             "FeatureName": "Adaptability To Business Needs",
             "Telegram": "advantage|High (full control in scope of Telegram Bot API)",
             "Viber": "disadvantage|Low",
-            "WhatsApp": "mediocrity|Average (limited by WhatsApp Business API)"
+            "WhatsApp": "mediocrity|Average (limited by [WhatsApp Business API](https://blog.whatsapp.com/making-it-easier-for-businesses-of-all-sizes-to-get-started-on-whatsapp))"
           }
         ]
       },
@@ -1109,7 +1122,7 @@
             "FeatureName": "Maximum Number of Participants",
             "Telegram": "advantage|Groups - 200 000;  \nBroadcast Groups - unlimited (only admins can send messages)",
             "Viber": "advantage|Groups – 250;  \nCommunities – unlimited",
-            "WhatsApp": "disadvantage|256"
+            "WhatsApp": "disadvantage|512"
           },
           {
             "FeatureName": "Encryption",
@@ -1137,7 +1150,7 @@
           },
           {
             "FeatureName": "Public Groups",
-            "Telegram": "advantage|Access via open link, search by name",
+            "Telegram": "advantage|Access via open link, [request](https://telegram.org/blog/700-million-and-premium#join-requests-for-public-groups); search by name",
             "Viber": "advantage|Access to communities via link/edited screenshot, search for verified communities by name, badges support"
           },
           {
@@ -1228,9 +1241,9 @@
           },
           {
             "FeatureName": "Sponsor Sticker Packs",
-            "Telegram": "advantage|Absent (all sticker packs are free)",
+            "Telegram": "advantage|Absent",
             "Viber": "advantage|Present, installing sticker pack joins to community, stickers serve as a links to community",
-            "WhatsApp": "mediocrity|Absent"
+            "WhatsApp": "advantage|Absent"
           },
           {
             "FeatureName": "User Mentions",
@@ -1287,7 +1300,7 @@
           {
             "FeatureName": "Via",
             "Telegram": "advantage|[Channels](https://telegram.org/tour/channels); [Broadcast Groups](https://telegram.org/blog/autodelete-inv2/uk?setln=en#groups-with-unlimited-members)",
-            "Viber": "mediocrity|Communities; Business Inbox; Public Accounts"
+            "Viber": "advantage|[Channels](https://help.viber.com/en/article/channels-knowledge-base-for-admins); Communities; Business Inbox; Public Accounts"
           },
           {
             "FeatureName": "Number of Subscribers",
@@ -1316,7 +1329,7 @@
           {
             "FeatureName": "Access Method",
             "Telegram": "advantage|Private and public channels",
-            "Viber": "advantage|Private and public communities"
+            "Viber": "advantage|Private and public communities, channels"
           },
           {
             "FeatureName": "Public",
@@ -1384,15 +1397,16 @@
           {
             "FeatureName": "Community Highlights",
             "Telegram": "advantage|Highlights in channels, discussions in groups",
-            "Viber": "advantage|Supported for [communities](https://www.viber.com/blog/2020-01-23/recent-stickers-memoji-on-iphone-and-more-see-whats-new-on-viber/)"
+            "Viber": "advantage|Supported for [communities](https://www.viber.com/blog/2020-01-23/recent-stickers-memoji-on-iphone-and-more-see-whats-new-on-viber/) and channels"
           },
           {
             "FeatureName": "Discussions and Comments",
-            "Telegram": "advantage|[Built-in comments](https://telegram.org/blog/filters-anonymous-admins-comments#channel-comments) based on [discussion groups](https://telegram.org/blog/privacy-discussions-web-bots#broadcasts-meet-group-chats), or comments via bots ([@discussbot](https://t.me/discussbot), [@commentsbot](https://t.me/commentsbot))"
+            "Telegram": "advantage|[Built-in comments](https://telegram.org/blog/filters-anonymous-admins-comments#channel-comments) based on [discussion groups](https://telegram.org/blog/privacy-discussions-web-bots#broadcasts-meet-group-chats), or comments via bots ([@discussbot](https://t.me/discussbot), [@commentsbot](https://t.me/commentsbot))",
+            "Viber": "advantage|Built-in comments in channels"
           },
           {
             "FeatureName": "Presence of Advertising",
-            "Telegram": "advantage|Solely from channels you've subscribed to",
+            "Telegram": "mediocrity|From the [privacy-conscious ad platform](https://promote.telegram.org/basics) and channel owners",
             "Viber": "disadvantage|Other than communities, ads are received in form of business messages and emails from Viber (if you connected your email address)"
           },
           {
@@ -1402,13 +1416,14 @@
           },
           {
             "FeatureName": "Sponsored Sticker Packs",
-            "Telegram": "advantage|Absent (all sticker packs are free)",
-            "Viber": "advantage|Present (installing sticker pack joins you to community, stickers serve as links to community"
+            "Telegram": "advantage|Absent",
+            "Viber": "advantage|Present (installing sticker pack joins you to community, stickers serve as links to community",
+            "WhatsApp": "advantage|Absent"
           },
           {
             "FeatureName": "General Statistics",
             "Telegram": "advantage|[Detailed integrated stats](https://telegram.org/blog/folders#channel-stats), extended statistics via bots",
-            "Viber": "mediocrity|Via [Community Insights](https://help.viber.com/en/article/learn-about-your-community-with-insights) tools"
+            "Viber": "mediocrity|Via [Community & Channel Insights](https://help.viber.com/en/article/learn-about-your-community-with-insights) tools"
           },
           {
             "FeatureName": "Individual Posts' Statistics",
@@ -1466,7 +1481,7 @@
           },
           {
             "FeatureName": "Bot Attributes",
-            "Telegram": "advantage|Name, photo, description and address",
+            "Telegram": "advantage|Name, photo, description, address and [explanatory message](https://telegram.org/blog/700-million-and-premium#better-bots)",
             "Viber": "advantage|Public account level parameters (brand, description, location and CTA-buttons)"
           },
           {
@@ -1676,7 +1691,7 @@
             "FeatureName": "Number of Participants",
             "Telegram": "advantage|[Unlimited](https://telegram.org/blog/live-streams-forwarding-next-channel#unlimited-live-streams), video broadcasting from the first [30](https://telegram.org/blog/group-video-calls#group-video-calls) members",
             "Viber": "mediocrity|Up to 40 participants",
-            "WhatsApp": "disadvantage|Up to 8 participants (mobile devices and [Facebook Portal](https://portal.facebook.com/))"
+            "WhatsApp": "mediocrity|Up to [8/32 (video/audio)](https://faq.whatsapp.com/226697115160417/?helpref=hc_fnav) participants (mobile devices and [Facebook Portal](https://portal.facebook.com/))"
           },
           {
             "FeatureName": "Organized As",
@@ -2210,7 +2225,7 @@
           },
           {
             "FeatureName": "Approach",
-            "Telegram": "advantage|Open and free platform",
+            "Telegram": "advantage|Open and free platform (+ additional stickers in scope of Premium)",
             "Viber": "mediocrity|Semi-closed and commercial platform"
           },
           {
@@ -2621,7 +2636,7 @@
           },
           {
             "FeatureName": "Changing and Viewing Profile Videos",
-            "Telegram": "advantage|[Yes](https://telegram.org/blog/profile-videos-people-nearby-and-more#profile-videos), with extended editing"
+            "Telegram": "advantage|[Yes](https://telegram.org/blog/profile-videos-people-nearby-and-more#profile-videos), with extended editing, in particular using [editor](https://telegram.org/blog/700-million-and-premium#animated-profile-picture-creator-on-macos) on macOS"
           },
           {
             "FeatureName": "Changing Name",
@@ -2768,7 +2783,7 @@
           },
           {
             "FeatureName": "Viewing Profile Status",
-            "WhatsApp": "advantage|Your contacts; your contacts except; only"
+            "WhatsApp": "advantage|Your contacts; your contacts except for; only share with"
           },
           {
             "FeatureName": "Viewing Profile Description",
@@ -2806,7 +2821,7 @@
             "FeatureName": "Exceptions Support",
             "Telegram": "advantage|For all rules: from phone number to groups",
             "Viber": "disadvantage|Configuration is not supported",
-            "WhatsApp": "mediocrity|Status only"
+            "WhatsApp": "advantage|For last seen, profile photo, about and status"
           },
           {
             "FeatureName": "Adding Groups to Exceptions",
@@ -3094,7 +3109,7 @@
           },
           {
             "FeatureName": "Changing App Icon",
-            "Telegram": "advantage|[Supported](https://telegram.org/blog/animated-backgrounds#ios-semi-transparency-amp-new-app-icons) (on iOS)"
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/animated-backgrounds#ios-semi-transparency-amp-new-app-icons)"
           },
           {
             "FeatureName": "Changing Theme",
@@ -3150,7 +3165,7 @@
           },
           {
             "FeatureName": "Saving to Gallery",
-            "Telegram": "advantage|Disabled/enabled",
+            "Telegram": "advantage|Disabled/enabled for users, groups and channels",
             "Viber": "advantage|Disabled/enabled (Android)",
             "WhatsApp": "advantage|Enabled/disabled"
           },
