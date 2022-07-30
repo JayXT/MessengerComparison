@@ -54,12 +54,12 @@
           },
           {
             "FeatureName": "Collaborazione con la Community",
-            "Telegram": "advantage|Crowdsourcing and [concorsi](https://contest.com/)"
+            "Telegram": "advantage|Crowdsourcing and [concorsi](https://contest.com/)",
             "WhatsApp": "advantage|Nell'ambito di un'iniziativa [separata](https://about.facebook.com/community/)"
           },
 		  {
             "FeatureName": "Richieste della Stampa",
-            "Telegram": "advantage|Tramite [@PressBot](https://t.me/PressBot)"
+            "Telegram": "advantage|Tramite [@PressBot](https://t.me/PressBot)",
 			"WhatsApp": "advantage|Tramite press@fb.com"										
           },
           {
@@ -854,8 +854,8 @@
           },
           {
             "FeatureName": "Struttura delle Chat: Concetto",
-            "Telegram": "advantage|Creazione di [cartelle (schede)](https://telegram.org/blog/folders/it) con la sincronizzazione cloud istantanea su tutti i tuoi dispositivi"
-			"WhatsApp": "advantage|Creazione di [comunità](https://blog.whatsapp.com/sharing-our-vision-for-communities-on-whatsapp?lang=it) gestito dagli amministratori e composto da gruppi"
+            "Telegram": "advantage|Creazione di [cartelle (schede)](https://telegram.org/blog/folders/it) con la sincronizzazione cloud istantanea su tutti i tuoi dispositivi",
+			      "WhatsApp": "advantage|Creazione di [comunità](https://blog.whatsapp.com/sharing-our-vision-for-communities-on-whatsapp?lang=it) gestito dagli amministratori e composto da gruppi"
           },
           {
             "FeatureName": "Struttura delle Chat: Filtraggio",
@@ -892,7 +892,7 @@
             "Viber": "mediocrity|Per categorie come: media, link, file, GIF",
             "WhatsApp": "mediocrity|Parzialmente supportati, a parte questo, i cataloghi dei prodotti sono disponibili in WhatsApp Business"
           },
-		  {
+		      {
             "FeatureName": "Filtraggio Tipi di Supporto in Base al Mittente",
             "Telegram": "advantage|Supportato (su ricerca globale)",
             "Viber": "advantage|Supportato (a livello di chat)"
@@ -2506,8 +2506,8 @@
           },
           {
             "FeatureName": "Implementazione",
-          },
             "Telegram": "advantage|Discussione, valutazione dei lavori e visualizzare i vincitori tramite il sito web [contest.com](https://contest.com/)"
+          },
           {
             "FeatureName": "Informazione Dettagli dei Concorsi",
             "Telegram": "advantage|Tramite canali ufficiali: [Telegram Contests](https://t.me/contest), [Telegram Designers](https://t.me/designers), [Aptitude Test Contest](https://t.me/AptitudeTestContest)"
