@@ -10,7 +10,7 @@ The comparison table is available via following URLs:
 Current Maintainers:
 - JayXT: EN, UK
 - Hookz: RU
-- David S.: IT
+- ReallyNotNothing, David S.: IT
 - Teuscard: PT (translation is out-of-date)
 
 
