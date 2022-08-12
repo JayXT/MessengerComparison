@@ -416,7 +416,7 @@
           },
           {
             "FeatureName": "Emoji",
-            "Telegram": "advantage|In particular, [animated ones](https://telegram.org/blog/folders#new-animated-emoji), with extra features: [1](https://telegram.org/blog/pinned-messages-locations-playlists/world#jackpot), [2](https://telegram.org/blog/folders#and-one-more-thing), [3](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/?setln=en#more-interactive-emoji), [4](https://telegram.org/blog/reactions-spoilers-translations#more-interactive-emoji), [5](https://telegram.org/blog/video-stickers-better-reactions#new-reactions-and-interactive-emoji)",
+            "Telegram": "advantage|In particular, [custom](https://telegram.org/blog/custom-emoji/#custom-animated-emoji) (Premium), [animated ones](https://telegram.org/blog/folders#new-animated-emoji), with extra features: [1](https://telegram.org/blog/pinned-messages-locations-playlists/world#jackpot), [2](https://telegram.org/blog/folders#and-one-more-thing), [3](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/?setln=en#more-interactive-emoji), [4](https://telegram.org/blog/reactions-spoilers-translations#more-interactive-emoji), [5](https://telegram.org/blog/video-stickers-better-reactions#new-reactions-and-interactive-emoji)",
             "Viber": "mediocrity|Supported",
             "WhatsApp": "mediocrity|Supported"
           },
@@ -462,7 +462,8 @@
           {
             "FeatureName": "Temporary/Secret Images or Video",
             "Telegram": "advantage|Supported",
-            "Viber": "advantage|Supported"
+            "Viber": "advantage|Supported",
+            "WhatsApp":"advantage|Via [View Once](https://blog.whatsapp.com/view-once-photos-and-videos-on-whatsapp), with screenshot blocking"
           },
           {
             "FeatureName": "Drawings/Inscriptions",
@@ -539,8 +540,8 @@
           },
           {
             "FeatureName": "Finance",
-            "Telegram": "advantage|[In any chats](https://telegram.org/blog/payments-2-0-scheduled-voice-chats?#payments-2-0) via one of payment providers and with support for tipping",
-            "Viber": "advantage|Via [Moneytou](https://www.viber.com/blog/2019-12-18/pay-your-friends-back-with-moneytou/) extension (~1% commision), [Apple Pay/Google Pay](https://www.viber.com/en/blog/2020-11-23/pay-in-chatbots-backup-media-and-all-thats-new-on-viber/)",
+            "Telegram": "advantage|[In any chats](https://telegram.org/blog/payments-2-0-scheduled-voice-chats?#payments-2-0) via one of payment providers and with support for tipping, via [@wallet](https://t.me/wallet) bot",
+            "Viber": "advantage|Via [Viber Pay](https://www.viber.com/en/blog/2022-07-27/our-latest-super-feature-viber-pay/), [Moneytou](https://www.viber.com/blog/2019-12-18/pay-your-friends-back-with-moneytou/) extension (~1% commision), [Apple Pay/Google Pay](https://www.viber.com/en/blog/2020-11-23/pay-in-chatbots-backup-media-and-all-thats-new-on-viber/)",
             "WhatsApp": "advantage|By using Facebook Pay, [Indian UPI](https://blog.whatsapp.com/send-payments-in-india-with-whatsapp)"
           },
           {
@@ -1018,6 +1019,12 @@
             "FeatureName": "Additional Security Features",
             "Telegram": "advantage|In scope of secret chats",
             "Viber": "advantage|Screenshot notifications"
+          },
+          {
+            "FeatureName": "Gifting Premium Subscriptions",
+            "Telegram": "mediocrity|[Supported](https://telegram.org/blog/custom-emoji/#gifting-telegram-premium) (for 3, 6 or 12 months)",
+            "Viber": "mediocrity|Subscriptions are absent",
+            "WhatsApp": "mediocrity|Subscriptions are absent"
           }
         ]
       },
@@ -1265,6 +1272,10 @@
             "FeatureName": "Message Read Receipts For Individual Users",
             "Telegram": "advantage|[In small groups](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#read-receipts-in-small-groups) (information is stored for 7 days)",
             "Viber": "advantage|Groups only (communities are not supported)"
+          },
+          {
+            "FeatureName": "Silent Group Leaving",
+            "Whatsapp": "advantage|Only admins get notifications"
           },
           {
             "FeatureName": "Collections of Favorites",
@@ -2215,7 +2226,7 @@
         ]
       },
       {
-        "AspectName": "Stickers Platform",
+        "AspectName": "Stickers/Emoji Platform",
         "WhatsApp": "disadvantage|Limited stickers support through third-party apps (there is also available a set of standard packs)",
         "Features": [
           {
@@ -2225,17 +2236,22 @@
           },
           {
             "FeatureName": "Approach",
-            "Telegram": "advantage|Open and free platform (+ additional stickers in scope of Premium)",
+            "Telegram": "advantage|Open and free platform with optional paid features",
             "Viber": "mediocrity|Semi-closed and commercial platform"
           },
           {
-            "FeatureName": "Platform Capabilities",
-            "Telegram": "advantage|Creation, managing and sharing all types of sticker sets as well as viewing their statistics",
-            "Viber": "mediocrity|Buying and downloading packs, [creation, managing and sharing](https://www.viber.com/blog/2019-09-16/create-your-own-stickers-and-express-yourself-perfectly/) your own stickers"
+            "FeatureName": "Free Capabilities",
+            "Telegram": "advantage|Creation, managing and sharing all types of sticker sets, custom emoji as well as viewing their statistics",
+            "Viber": "mediocrity|[Creation, managing and sharing](https://www.viber.com/blog/2019-09-16/create-your-own-stickers-and-express-yourself-perfectly/) your own stickers"
           },
           {
-            "FeatureName": "Mechanisms of Sticker Sets Creation",
-            "Telegram": "advantage|Via [the bot or API for developers](https://core.telegram.org/import-stickers)",
+            "FeatureName": "Paid Capabilities",
+            "Telegram": "mediocrity|Sending custom emoji and premium stickers (Premium)",
+            "Viber": "mediocrity|Buying and downloading sticker sets"
+          },
+          {
+            "FeatureName": "Mechanisms of Sets Creation",
+            "Telegram": "advantage|Via [the bot or API for developers](https://core.telegram.org/stickers)",
             "Viber": "advantage|Via built-in interface"
           },
           {
@@ -2773,7 +2789,7 @@
             "FeatureName": "Viewing Last Seen/Online Status",
             "Telegram": "advantage|All, your contacts, nobody",
             "Viber": "mediocrity|Limited support, configuring online status is possible once a day",
-            "WhatsApp": "mediocrity|Only last seen (all, your contacts, nobody)"
+            "WhatsApp": "advantage|All, your contacts, nobody"
           },
           {
             "FeatureName": "Viewing Message Reading Status",
@@ -2818,10 +2834,14 @@
             "WhatsApp": "advantage|All, your contacts, nobody"
           },
           {
+            "FeatureName": "Sending Voice/Video Messages",
+            "Telegram": "advantage|All, your contacts, nobody (Premium)"
+          },
+          {
             "FeatureName": "Exceptions Support",
             "Telegram": "advantage|For all rules: from phone number to groups",
             "Viber": "disadvantage|Configuration is not supported",
-            "WhatsApp": "advantage|For last seen, profile photo, about and status"
+            "WhatsApp": "advantage|For online status, last seen, profile photo, about and status"
           },
           {
             "FeatureName": "Adding Groups to Exceptions",

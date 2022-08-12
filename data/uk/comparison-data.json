@@ -416,7 +416,7 @@
           },
           {
             "FeatureName": "Емоджі",
-            "Telegram": "advantage|Зокрема [анімовані](https://telegram.org/blog/folders#new-animated-emoji), з додатковими особливостями: [1](https://telegram.org/blog/pinned-messages-locations-playlists/world#jackpot), [2](https://telegram.org/blog/folders#and-one-more-thing), [3](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/?setln=en#more-interactive-emoji), [4](https://telegram.org/blog/reactions-spoilers-translations#more-interactive-emoji), [5](https://telegram.org/blog/video-stickers-better-reactions#new-reactions-and-interactive-emoji)",
+            "Telegram": "advantage|Зокрема [користувацькі](https://telegram.org/blog/custom-emoji/#custom-animated-emoji) (Premium), [анімовані](https://telegram.org/blog/folders#new-animated-emoji),  з додатковими особливостями: [1](https://telegram.org/blog/pinned-messages-locations-playlists/world#jackpot), [2](https://telegram.org/blog/folders#and-one-more-thing), [3](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/?setln=en#more-interactive-emoji), [4](https://telegram.org/blog/reactions-spoilers-translations#more-interactive-emoji), [5](https://telegram.org/blog/video-stickers-better-reactions#new-reactions-and-interactive-emoji)",
             "Viber": "mediocrity|Підтримуються",
             "WhatsApp": "mediocrity|Підтримуються"
           },
@@ -462,7 +462,8 @@
           {
             "FeatureName": "Тимчасові/Секретні Зображення чи Відео",
             "Telegram": "advantage|Підтримуються",
-            "Viber": "advantage|Підтримуються"
+            "Viber": "advantage|Підтримуються",
+            "WhatsApp":"advantage|Через [View Once](https://blog.whatsapp.com/view-once-photos-and-videos-on-whatsapp), з блокуванням скріншотів"
           },
           {
             "FeatureName": "Малюнки/Написи",
@@ -539,8 +540,8 @@
           },
           {
             "FeatureName": "Фінанси",
-            "Telegram": "advantage|[В будь яких чатах](https://telegram.org/blog/payments-2-0-scheduled-voice-chats?#payments-2-0) через одного з кількох платіжних провайдерів та з підтримкою чайових",
-            "Viber": "advantage|Через розширення [Moneytou](https://www.viber.com/blog/2019-12-18/pay-your-friends-back-with-moneytou/) (комісія ~1%), [Apple Pay/Google Pay](https://www.viber.com/en/blog/2020-11-23/pay-in-chatbots-backup-media-and-all-thats-new-on-viber/)",
+            "Telegram": "advantage|[В будь яких чатах](https://telegram.org/blog/payments-2-0-scheduled-voice-chats?#payments-2-0) через одного з кількох платіжних провайдерів та з підтримкою чайових, через бота [@wallet](https://t.me/wallet)",
+            "Viber": "advantage|Через [Viber Pay](https://www.viber.com/en/blog/2022-07-27/our-latest-super-feature-viber-pay/), розширення [Moneytou](https://www.viber.com/blog/2019-12-18/pay-your-friends-back-with-moneytou/) (комісія ~1%), [Apple Pay/Google Pay](https://www.viber.com/en/blog/2020-11-23/pay-in-chatbots-backup-media-and-all-thats-new-on-viber/)",
             "WhatsApp": "advantage|Через використання Facebook Pay, [UPI в Індії](https://blog.whatsapp.com/send-payments-in-india-with-whatsapp)"
           },
           {
@@ -1018,6 +1019,12 @@
             "FeatureName": "Додаткові Функції Безпеки",
             "Telegram": "advantage|В рамках секретних чатів",
             "Viber": "advantage|Сповіщення про скріншоти"
+          },
+          {
+            "FeatureName": "Premium Підписки У Подарунок",
+            "Telegram": "mediocrity|[Підтримуються](https://telegram.org/blog/custom-emoji/#gifting-telegram-premium) (на 3, 6 або 12 місяців)",
+            "Viber": "mediocrity|Підписки відсутні",
+            "WhatsApp": "mediocrity|Підписки відсутні"
           }
         ]
       },
@@ -1265,6 +1272,10 @@
             "FeatureName": "Статус Читання Повідомлень Окремими Учасниками",
             "Telegram": "advantage|[В малих групах](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#read-receipts-in-small-groups) (інформація зберігається впродовж 7 днів)",
             "Viber": "advantage|Лише в групах (спільноти не підтримуються)"
+          },
+          {
+            "FeatureName": "Тихе Покидання Групи",
+            "Whatsapp": "advantage|Сповіщення отримують лише адміни"
           },
           {
             "FeatureName": "Колекції Обраного Вмісту",
@@ -2215,7 +2226,7 @@
         ]
       },
       {
-        "AspectName": "Платформа Стікерів",
+        "AspectName": "Платформа Стікерів/Емоджі",
         "WhatsApp": "disadvantage|Обмежена підтримка стікерів через сторонні додатки (доступний також ряд стандартних наборів)",
         "Features": [
           {
@@ -2225,17 +2236,22 @@
           },
           {
             "FeatureName": "Підхід",
-            "Telegram": "advantage|Відкрита та вільна платформа (+ окремі стікери в рамках Premium)",
+            "Telegram": "advantage|Відкрита та вільна платформа з необов'язковими платними функціями",
             "Viber": "mediocrity|Напівзакрита та комерційна платформа"
           },
           {
-            "FeatureName": "Можливості Платформи",
-            "Telegram": "advantage|Створення, керування та обмін наборами всіх видів стікерів, а також перегляд їх статистики",
-            "Viber": "mediocrity|Купівля та завантаження наборів, [створення, керування та обмін](https://www.viber.com/blog/2019-09-16/create-your-own-stickers-and-express-yourself-perfectly/) власними стікерами"
+            "FeatureName": "Безкоштовні Можливості",
+            "Telegram": "advantage|Створення, керування та обмін наборами всіх видів стікерів, користувацьких емоджі, а також перегляд їх статистики",
+            "Viber": "mediocrity|[Створення, керування та обмін](https://www.viber.com/blog/2019-09-16/create-your-own-stickers-and-express-yourself-perfectly/) власними стікерами"
           },
           {
-            "FeatureName": "Механізми Створення Наборів Стікерів",
-            "Telegram": "advantage|Через [бота або API для розробників](https://core.telegram.org/import-stickers)",
+            "FeatureName": "Платні Можливості",
+            "Telegram": "mediocrity|Надсилання користувацьких емоджі та преміальних стікерів (Premium)",
+            "Viber": "mediocrity|Купівля та завантаження наборів стікерів"
+          },
+          {
+            "FeatureName": "Механізми Створення Наборів",
+            "Telegram": "advantage|Через [бота або API для розробників](https://core.telegram.org/stickers)",
             "Viber": "advantage|Через вбудований інтерфейс"
           },
           {
@@ -2773,7 +2789,7 @@
             "FeatureName": "Перегляд Останніх Відвідин/Статусу Онлайн",
             "Telegram": "advantage|Усі, ваші контакти, ніхто",
             "Viber": "mediocrity|Обмежена підтримка, налаштування статусу онлайн можливе раз на добу",
-            "WhatsApp": "mediocrity|Лише останні відвідини (всі, ваші контакти, ніхто)"
+            "WhatsApp": "advantage|Усі, ваші контакти, ніхто"
           },
           {
             "FeatureName": "Перегляд Статусу Читання Повідомлень",
@@ -2818,10 +2834,14 @@
             "WhatsApp": "advantage|Усі, ваші контакти, ніхто"
           },
           {
+            "FeatureName": "Надсилання Голосових/Відео Повідомлень",
+            "Telegram": "advantage|Усі, ваші контакти, ніхто (Premium)"
+          },
+          {
             "FeatureName": "Підтримка Винятків",
             "Telegram": "advantage|Для всіх правил: від номеру телефону і до груп",
             "Viber": "disadvantage|Конфігурація не підтримується",
-            "WhatsApp": "advantage|Для останніх відвідин, фото, опису профілю та статусу"
+            "WhatsApp": "advantage|Для статусу онлайн, останніх відвідин, фото, опису профілю та статусу"
           },
           {
             "FeatureName": "Додавання Груп до Винятків",
