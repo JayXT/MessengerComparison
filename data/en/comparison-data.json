@@ -1275,7 +1275,7 @@
           },
           {
             "FeatureName": "Silent Group Leaving",
-            "Whatsapp": "advantage|Only admins get notifications"
+            "WhatsApp": "advantage|Only admins get notifications"
           },
           {
             "FeatureName": "Collections of Favorites",
