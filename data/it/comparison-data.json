@@ -13,7 +13,6 @@
           },
           {
             "FeatureName": "Tipo",
-
             "Telegram": "advantage|[Non commerciale](https://telegram.org/faq/it#d-come-avete-intenzione-di-ricavare-denaro)",
             "Viber": "mediocrity|Commerciale",
             "WhatsApp": "mediocrity|Commerciale"
@@ -31,7 +30,7 @@
         "Features": [
           {
             "FeatureName": "Idea",
-            "Telegram": "advantage|[Libertà](https://telegram.org/blog/200-million) di comunicazione [protetta e privata](https://telegram.org/faq?setln=it#d-elaborate-le-richieste-di-dati) disponibile per tutti",
+            "Telegram": "advantage|[Libertà](https://telegram.org/blog/200-million) di comunicazione [protetta e privata](https://telegram.org/faq/it#d-elaborate-le-richieste-di-dati) disponibile per tutti",
             "Viber": "mediocrity|\"[Il più sicuro](https://viber.com/security/) messaggero.\" I backup non sono crittografati.",
             "WhatsApp": "disadvantage|\"[Privacy e sicurezza](https://whatsapp.com/security?lang=it) – è nel nostro DNA\" [Vulnerabilità](https://telegra.ph/Why-WhatsApp-Will-Never-Be-Secure-05-15), [perdite di dati](https://telegra.ph/Why-Using-WhatsApp-Is-Dangerous-01-30-4) sono state scoperte."
           },
@@ -65,7 +64,7 @@
           },
           {
             "FeatureName": "Apps",
-            "Telegram": "advantage|[Open-sourced](https://telegram.org/apps?setln=it#codice-sorgente), con la [possibilità](https://core.telegram.org/reproducible-builds) di verificare il codice sorgente in uso",
+            "Telegram": "advantage|[Open-sourced](https://telegram.org/apps/it#codice-sorgente), con la [possibilità](https://core.telegram.org/reproducible-builds) di verificare il codice sorgente in uso",
             "Viber": "disadvantage|Chiusa",
             "WhatsApp": "disadvantage|Chiusa"
           },
@@ -99,13 +98,13 @@
         "Features": [
           {
             "FeatureName": "FAQ e Guide per l'Utente",
-            "Telegram": "advantage|[Base](https://telegram.org/faq?setln=it) e [tecnico](https://core.telegram.org/techfaq)",
+            "Telegram": "advantage|[Base](https://telegram.org/faq/it) e [tecnico](https://core.telegram.org/techfaq)",
             "Viber": "advantage|Informazioni dettagliate sul [sito Web del supporto](https://support.viber.com/)",
             "WhatsApp": "advantage|[FAQ strutturate con istruzioni](https://faq.whatsapp.com/?locale=it_IT/)"
           },
           {
             "FeatureName": "Blog",
-            "Telegram": "advantage|Semplice, descrittivo, interessante [blog](https://telegram.org/blog?setln=it) che descrive tutti gli aggiornamenti ed è ben integrato con le app",
+            "Telegram": "advantage|Semplice, descrittivo, interessante [blog](https://telegram.org/blog) che descrive tutti gli aggiornamenti ed è ben integrato con le app",
             "Viber": "mediocrity|[Disponibile](https://viber.com/blog/), fornisce solo informazioni selettive o di marketing",
             "WhatsApp": "disadvantage|[Disponibile](https://blog.whatsapp.com?lang=it/), anche se viene aggiornato raramente e fornisce quasi nessuna informazione sugli aggiornamenti"
           },
@@ -128,13 +127,13 @@
         "Features": [
           {
             "FeatureName": "Controllo Spam",
-            "Telegram": "mediocrity|[Disponibile](https://telegram.org/faq_spam?setln=it), con supporto per [etichette](https://telegram.org/blog/privacy-discussions-web-bots#scam-alerts) (ci sono problemi con lo spam in grandi gruppi/canali)",
+            "Telegram": "mediocrity|[Disponibile](https://telegram.org/faq_spam/it), con supporto per [etichette](https://telegram.org/blog/privacy-discussions-web-bots#scam-alerts) (ci sono problemi con lo spam in grandi gruppi/canali)",
             "Viber": "mediocrity|[In particolare attraverso il box delle richieste di messaggi](https://viber.com/en/blog/2021-01-27/securitips-how-to-play-it-safe-on-viber-and-how-your-chats-are-kept-private/) (lo spam delle aziende, gli annunci e le notifiche ridondanti sono ancora ricevute)",
             "WhatsApp": "advantage|Disponibile"
           },
           {
             "FeatureName": "Contenuti Illegali/Criminali",
-            "Telegram": "disadvantage|[Sono bloccati](https://telegram.org/faq?setln=it#d-c-39e-del-contenuto-illegale-su-telegram-come-posso-eliminarlo), ma con ritardo",
+            "Telegram": "disadvantage|[Sono bloccati](https://telegram.org/faq/it#d-c-39e-del-contenuto-illegale-su-telegram-come-posso-eliminarlo), ma con ritardo",
             "Viber": "advantage|È bloccato",
             "WhatsApp": "advantage|È bloccato"
           }
@@ -358,7 +357,7 @@
           },
           {
             "FeatureName": "Client Alternativi",
-            "Telegram": "advantage|[Presenti](https://telegram.org/apps?setln=it#telegram-database-library-tdlib)",
+            "Telegram": "advantage|[Presenti](https://telegram.org/apps/it#telegram-database-library-tdlib)",
             "WhatsApp": "mediocrity|WhatsApp for Business (nonostante le caratteristiche di marketing crea un'eccessiva frammentazione)"
           }
         ]
@@ -464,7 +463,7 @@
             "FeatureName": "Immagini o Video Temporanei/Segreti",
             "Telegram": "advantage|Supportate",
             "Viber": "advantage|Supportate",
-			"WhatsApp":"advantage|Tramite [Visualizza una Volta](https://blog.whatsapp.com/view-once-photos-and-videos-on-whatsapp?lang=it), con blocco screenshot"
+            "WhatsApp":"advantage|Tramite [Visualizza una Volta](https://blog.whatsapp.com/view-once-photos-and-videos-on-whatsapp?lang=it), con blocco screenshot"
           },
           {
             "FeatureName": "Disegni/Iscrizioni",
@@ -857,7 +856,7 @@
           {
             "FeatureName": "Struttura delle Chat: Concetto",
             "Telegram": "advantage|Creazione di [cartelle (schede)](https://telegram.org/blog/folders/it) con la sincronizzazione cloud istantanea su tutti i tuoi dispositivi",
-			"WhatsApp": "advantage|Creazione di [comunità](https://blog.whatsapp.com/sharing-our-vision-for-communities-on-whatsapp?lang=it) gestito dagli amministratori e composto da gruppi"
+            "WhatsApp": "advantage|Creazione di [comunità](https://blog.whatsapp.com/sharing-our-vision-for-communities-on-whatsapp?lang=it) gestito dagli amministratori e composto da gruppi"
           },
           {
             "FeatureName": "Struttura delle Chat: Filtraggio",
