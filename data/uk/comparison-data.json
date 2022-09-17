@@ -528,7 +528,7 @@
           },
           {
             "FeatureName": "Реакції на Повідомлення",
-            "Telegram": "advantage|[Синхронні](https://telegram.org/blog/video-stickers-better-reactions#better-reactions), з підтримкою налаштувань та анімацій (опціонально для груп та каналів); [додаткові реакції](https://telegram.org/blog/700-million-and-premium#unique-reactions) з Premium",
+            "Telegram": "advantage|[Синхронні](https://telegram.org/blog/video-stickers-better-reactions#better-reactions), з підтримкою налаштувань та анімацій (опціонально для груп та каналів); [додаткові можливості](https://telegram.org/blog/infinite-reactions-statuses#infinite-reactions) з Premium",
             "Viber": "mediocrity|[Так](https://www.viber.com/en/blog/2020-09-30/perfectly-react-to-messages-and-everything-else-thats-new-on-viber/)",
             "WhatsApp": "mediocrity|Так"
           },
@@ -971,7 +971,7 @@
           },
           {
             "FeatureName": "Менеджер Завантажень",
-            "Telegram": "advantage|[Підтримується](https://telegram.org/blog/downloads-attachments-streaming#download-manager)"
+            "Telegram": "advantage|[Підтримується](https://telegram.org/blog/downloads-attachments-streaming#download-manager), з [пріоритезацією](https://telegram.org/blog/infinite-reactions-statuses#prioritize-downloads-on-android)"
           }
         ]
       },
@@ -1577,7 +1577,7 @@
       },
       {
         "AspectName": "Медіа Статус",
-        "Telegram": "advantage|Через налаштування профілю, канали, ботів та без обмежень в 24 години",
+        "Telegram": "advantage|Через налаштування профілю, канали, ботів та без обмежень в 24 години, а також, в рамках Telegram Premium, [емоджі статуси](https://telegram.org/blog/infinite-reactions-statuses#emoji-statuses) з довільною тривалістю",
         "Features": [
           {
             "FeatureName": "Призначення",
@@ -2600,7 +2600,7 @@
           },
           {
             "FeatureName": "Інших Параметрів та Можливостей",
-            "Telegram": "advantage|[Широка підтримка](https://t.me/DeepLink)",
+            "Telegram": "advantage|Широка підтримка: [1](https://t.me/DeepLink), [2](https://telegram.org/blog/infinite-reactions-statuses#new-username-links)",
             "Viber": "mediocrity|Мінімальна підтримка",
             "WhatsApp": "mediocrity|Мінімальна підтримка"
           }
