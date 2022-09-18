@@ -2600,7 +2600,7 @@
           },
           {
             "FeatureName": "Другим Параметрам и Возможностям",
-            "Telegram": "advantage|Широкая поддержка: [1](https://t.me/DeepLink), [2](https://telegram.org/blog/infinite-reactions-statuses#new-username-links)",
+            "Telegram": "advantage|Широкая поддержка: [1](https://corefork.telegram.org/api/links), [2](https://telegram.org/blog/infinite-reactions-statuses#new-username-links)",
             "Viber": "mediocrity|Минимальная поддержка",
             "WhatsApp": "mediocrity|Минимальная поддержка"
           }
