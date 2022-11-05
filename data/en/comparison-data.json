@@ -1683,7 +1683,7 @@
           },
           {
             "FeatureName": "Screen Sharing",
-            "Telegram": "mediocrity|[Supported](https://telegram.org/blog/video-1000/#screen-sharing-with-sound)  (low resolution)",
+            "Telegram": "mediocrity|[Supported](https://telegram.org/blog/video-1000/#screen-sharing-with-sound)  (low screen resolution)",
             "Viber": "mediocrity|Supported (on Viber Desktop)"
           },
           {
@@ -1747,7 +1747,7 @@
           },
           {
             "FeatureName": "Screen Sharing",
-            "Telegram": "advantage|[Supported](https://telegram.org/blog/group-video-calls#screen-sharing), with an option to share individual windows on desktop",
+            "Telegram": "mediocrity|[Supported](https://telegram.org/blog/group-video-calls#screen-sharing), with an option to share individual windows on desktop (low screen resolution)",
             "Viber": "mediocrity|Supported (on Viber Desktop)"
           },
           {
