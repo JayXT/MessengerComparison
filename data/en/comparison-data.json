@@ -19,7 +19,7 @@
           },
           {
             "FeatureName": "Funding Source",
-            "Telegram": "advantage|[Privacy-conscious ad platform](https://promote.telegram.org/basics) or [Telegram Premium](https://telegram.org/blog/700-million-and-premium) subscriptions; Pavel Durov",
+            "Telegram": "advantage|[Privacy-conscious ad platform](https://promote.telegram.org/basics) or [Telegram Premium](https://telegram.org/blog/700-million-and-premium) subscriptions; [Fragment](https://fragment.com/); Pavel Durov",
             "Viber": "mediocrity|[Ads](https://support.viber.com/customer/en/portal/articles/2536775), paid features (stickers, local numbers, Viber Out)",
             "WhatsApp": "mediocrity|Advertising and subscriptions"
           }
@@ -508,7 +508,8 @@
           {
             "FeatureName": "Polls",
             "Telegram": "advantage|[Yes](https://telegram.org/blog/polls-2-0-vmq) (anonymous/non-anonymous, with multiple answers, [quizzes](https://telegram.org/blog/400-million#better-quizzes))",
-            "Viber": "mediocrity|Yes (up to 4 choices, quiz mode)"
+            "Viber": "mediocrity|Yes (up to 4 choices, quiz mode)",
+            "WhatsApp":"mediocrity|Yes"
           },
           {
             "FeatureName": "Voice Messages",
@@ -822,8 +823,8 @@
             "WhatsApp": "mediocrity|Not supported"
           },
           {
-            "FeatureName": "Voice Messages Transcription",
-            "Telegram": "mediocrity|[With Premium](https://telegram.org/blog/700-million-and-premium#voice-to-text) (the message is sent to the third-party)",
+            "FeatureName": "Voice Messages/Video Transcription",
+            "Telegram": "mediocrity|[With Premium](https://telegram.org/blog/topics-in-groups-collectible-usernames#voice-to-text-for-video-messages) (the message is sent to the [third-party](https://telegram.org/privacy#8-5-transcription-of-voice-messages-at-the-request-of-the-user))",
             "Viber": "mediocrity|Not supported",
             "WhatsApp": "mediocrity|Not supported"
           },
@@ -856,7 +857,7 @@
           {
             "FeatureName": "Chats' Structuring: Concept",
             "Telegram": "advantage|Creation of [folders (tabs)](https://telegram.org/blog/folders) with instant cloud sync across all your devices",
-            "WhatsApp": "advantage|Creation of [communities](https://blog.whatsapp.com/sharing-our-vision-for-communities-on-whatsapp) managed by admins and consisting of groups"
+            "WhatsApp": "advantage|Creation of [communities](https://blog.whatsapp.com/communities-now-available) managed by admins and consisting of groups"
           },
           {
             "FeatureName": "Chats' Structuring: Filtering",
@@ -1084,13 +1085,13 @@
           {
             "FeatureName": "Interaction with Businesses",
             "Telegram": "advantage|Via bots, channels",
-            "Viber": "mediocrity|Via [chatbots](https://help.viber.com/en/article/how-to-buy-from-a-chatbot-on-viber-faq) (Ukraine-only)",
+            "Viber": "advantage|Via [chatbots](https://help.viber.com/en/article/how-to-buy-from-a-chatbot-on-viber-faq) (Ukraine-only), channels",
             "WhatsApp": "advantage|Via chats with WhatsApp Business accounts"
           },
           {
             "FeatureName": "Company Profile",
             "Telegram": "mediocrity|As description of a bot, channel or as their contents",
-            "Viber": "mediocrity|As chatbot description",
+            "Viber": "mediocrity|As chatbot, channel description or their contents",
             "WhatsApp": "advantage|As a [separate](https://www.whatsapp.com/business/api) page with details"
           },
           {
@@ -1111,7 +1112,7 @@
           {
             "FeatureName": "Adaptability To Business Needs",
             "Telegram": "advantage|High (full control in scope of Telegram Bot API)",
-            "Viber": "disadvantage|Low",
+            "Viber": "mediocrity|Average",
             "WhatsApp": "mediocrity|Average (limited by [WhatsApp Business API](https://blog.whatsapp.com/making-it-easier-for-businesses-of-all-sizes-to-get-started-on-whatsapp))"
           }
         ]
@@ -1129,7 +1130,7 @@
             "FeatureName": "Maximum Number of Participants",
             "Telegram": "advantage|Groups - 200 000;  \nBroadcast Groups - unlimited (only admins can send messages)",
             "Viber": "advantage|Groups – 250;  \nCommunities – unlimited",
-            "WhatsApp": "disadvantage|512"
+            "WhatsApp": "mediocrity|1024"
           },
           {
             "FeatureName": "Encryption",
@@ -1177,6 +1178,10 @@
           {
             "FeatureName": "Location-Based Groups",
             "Telegram": "advantage|[Supported](https://telegram.org/blog/contacts-local-groups#location-based-chats) (as public groups with an option to search them according to your location)."
+          },
+          {
+            "FeatureName": "\"Topics\"",
+            "Telegram": "advantage|As [individual chats](https://telegram.org/blog/topics-in-groups-collectible-usernames#topics-in-groups) available in groups with more than 200 members."
           },
           {
             "FeatureName": "Posting On Behalf Of A Channel",
@@ -1482,12 +1487,12 @@
         "Features": [
           {
             "FeatureName": "Main Concept",
-            "Telegram": "advantage|Messenger integration with any services, performing the whole diversity of tasks within Telegram",
+            "Telegram": "advantage|Messenger integration with any services, performing the [whole diversity](https://core.telegram.org/bots/features) of tasks within Telegram",
             "Viber": "mediocrity|Chatbots for business optimization and user support during [interaction](https://developers.viber.com/docs/general/get-started/) with public accounts"
           },
           {
             "FeatureName": "Implementation",
-            "Telegram": "advantage|[Special](https://core.telegram.org/bots#4-how-are-bots-different-from-humans) Telegram accounts without phone number that are controlled by applications and answer or refer to users within Bot API capabilities and developers' fantasy",
+            "Telegram": "advantage|[Special](https://core.telegram.org/bots) Telegram accounts without phone number that are controlled by applications and answer or refer to users within Bot API capabilities and developers' fantasy",
             "Viber": "mediocrity|Applications that answer to users via Viber API, offering in particular various business offers and relevant info"
           },
           {
@@ -1497,7 +1502,7 @@
           },
           {
             "FeatureName": "Creation Limitations",
-            "Telegram": "advantage|[Almost absent](https://core.telegram.org/bots#6-botfather)",
+            "Telegram": "advantage|[Almost absent](https://core.telegram.org/bots/tutorial)",
             "Viber": "disadvantage|[All requirements](https://developers.viber.com/docs/general/get-started/#public-account-bot-guidelines) to bots and [requirements](https://support.viber.com/customer/en/portal/articles/2689496-public-account-naming-policy) to public account"
           },
           {
@@ -1618,7 +1623,7 @@
           },
           {
             "FeatureName": "Connection Stability",
-            "Telegram": "mediocrity|Average",
+            "Telegram": "disadvantage|Low (periodic stutters, echo, delays, quality drops, disconnections, key exchange issues)",
             "Viber": "advantage|High",
             "WhatsApp": "advantage|High"
           },
@@ -1678,7 +1683,7 @@
           },
           {
             "FeatureName": "Screen Sharing",
-            "Telegram": "advantage|[Supported](https://telegram.org/blog/video-1000/#screen-sharing-with-sound)",
+            "Telegram": "mediocrity|[Supported](https://telegram.org/blog/video-1000/#screen-sharing-with-sound)  (low resolution)",
             "Viber": "mediocrity|Supported (on Viber Desktop)"
           },
           {
@@ -1702,7 +1707,7 @@
             "FeatureName": "Number of Participants",
             "Telegram": "advantage|[Unlimited](https://telegram.org/blog/live-streams-forwarding-next-channel#unlimited-live-streams), video broadcasting from the first [30](https://telegram.org/blog/group-video-calls#group-video-calls) members",
             "Viber": "mediocrity|Up to 40 participants",
-            "WhatsApp": "mediocrity|Up to [8/32 (video/audio)](https://faq.whatsapp.com/226697115160417/?helpref=hc_fnav) participants (mobile devices and [Facebook Portal](https://portal.facebook.com/))"
+            "WhatsApp": "mediocrity|Up to [32](https://faq.whatsapp.com/226697115160417/?helpref=hc_fnav) participants (mobile devices and [Facebook Portal](https://portal.facebook.com/))"
           },
           {
             "FeatureName": "Organized As",
@@ -1713,6 +1718,12 @@
           {
             "FeatureName": "Encryption",
             "WhatsApp": "advantage|Supported (theoretically Signal)"
+          },
+          {
+            "FeatureName": "Connection Stability",
+            "Telegram": "disadvantage|Low (periodic stutters, echo, delays)",
+            "Viber": "advantage|High",
+            "WhatsApp": "advantage|High"
           },
           {
             "FeatureName": "Controlling Number of Speakers",
@@ -2539,6 +2550,23 @@
           {
             "FeatureName": "Ensuring Unbiased Assessment",
             "Telegram": "advantage|Owing to anonymous results representation"
+          }
+        ]
+      },
+      {
+        "AspectName": "Collectible Usernames Platform",
+        "Features": [
+          {
+            "FeatureName": "Concept",
+            "Telegram": "advantage|Decentralized auction for [t.me pseudonyms/domains](https://telegram.org/blog/topics-in-groups-collectible-usernames#collectible-usernames) based on [TON](https://ton.org/) blockchain"
+          },
+          {
+            "FeatureName": "Implementation",
+            "Telegram": "advantage|Bidding/buying/selling of items via [fragment.com](https://fragment.com/) with their subsequent connection to Telegram account"
+          },
+          {
+            "FeatureName": "Assets Availability",
+            "Telegram": "advantage|As any number of additional pseudonyms for users, their public channels and groups"
           }
         ]
       },
