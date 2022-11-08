@@ -19,7 +19,7 @@
           },
           {
             "FeatureName": "Источник Финансирования",
-            "Telegram": "advantage|[Конфиденциальная рекламная платформа](https://promote.telegram.org/basics) или подписки [Telegram Premium](https://telegram.org/blog/700-million-and-premium); Павел Дуров",
+            "Telegram": "advantage|[Конфиденциальная рекламная платформа](https://promote.telegram.org/basics) или подписки [Telegram Premium](https://telegram.org/blog/700-million-and-premium); [Fragment](https://fragment.com/); Павел Дуров",
             "Viber": "mediocrity|[Реклама](https://support.viber.com/customer/en/portal/articles/2536775), платные функции (стикеры, местные номера, Viber Out)",
             "WhatsApp": "mediocrity|Рекламный бизнес и подписки"
           }
@@ -508,7 +508,8 @@
           {
             "FeatureName": "Опросы",
             "Telegram": "advantage|[Да](https://telegram.org/blog/polls-2-0-vmq) (анонимные/неанонимные, с выбором нескольких ответов, [викторины](https://telegram.org/blog/400-million#better-quizzes))",
-            "Viber": "mediocrity|Да (до 4-х опций, режим викторины)"
+            "Viber": "mediocrity|Да (до 4-х опций, режим викторины)",
+            "WhatsApp": "mediocrity|Да"
           },
           {
             "FeatureName": "Голосовые Сообщения",
@@ -822,8 +823,8 @@
             "WhatsApp": "mediocrity|Не поддерживается"
           },
           {
-            "FeatureName": "Транскрипции Голосовых Сообщений",
-            "Telegram": "mediocrity|[C Premium](https://telegram.org/blog/700-million-and-premium#voice-to-text) (сообщение отправляется третьей стороне)",
+            "FeatureName": "Транскрипции Голосовых/Видео Сообщений",
+            "Telegram": "mediocrity|[C Premium](https://telegram.org/blog/topics-in-groups-collectible-usernames#voice-to-text-for-video-messages) (сообщение отправляется [третьей стороне](https://telegram.org/privacy#8-5-transcription-of-voice-messages-at-the-request-of-the-user))",
             "Viber": "mediocrity|Не поддерживается",
             "WhatsApp": "mediocrity|Не поддерживается"
           },
@@ -856,7 +857,7 @@
           {
             "FeatureName": "Структурирование Чатов: Концепция",
             "Telegram": "advantage|Создание [папок (вкладок)](https://telegram.org/blog/folders) с мгновенной облачной синхронизацией между всеми устройствами",
-            "WhatsApp": "advantage|Создание [сообществ](https://blog.whatsapp.com/sharing-our-vision-for-communities-on-whatsapp), управляемые админами и состоят из групп"
+            "WhatsApp": "advantage|Создание [сообществ](https://blog.whatsapp.com/communities-now-available), управляемые админами и состоят из групп"
           },
           {
             "FeatureName": "Структурирование Чатов: Фильтрация",
@@ -1084,13 +1085,13 @@
           {
             "FeatureName": "Взаимодействие с Бизнесом",
             "Telegram": "advantage|Через ботов, каналы",
-            "Viber": "mediocrity|Через [чатботов](https://help.viber.com/en/article/how-to-buy-from-a-chatbot-on-viber-faq) (только в Украине)",
+            "Viber": "advantage|Через [чатботов](https://help.viber.com/en/article/how-to-buy-from-a-chatbot-on-viber-faq) (только в Украине), каналы",
             "WhatsApp": "advantage|Через чаты с аккаунтами WhatsApp Business"
           },
           {
             "FeatureName": "Профиль Компании",
             "Telegram": "mediocrity|Как описание бота, канала или их содержания",
-            "Viber": "mediocrity|Как описание чатбота",
+            "Viber": "mediocrity|Как описание чатбота, канала или их содержания",
             "WhatsApp": "advantage|Как [отдельная](https://www.whatsapp.com/business/api) страница с деталями"
           },
           {
@@ -1111,7 +1112,7 @@
           {
             "FeatureName": "Адаптивность Под Потребности Бизнеса",
             "Telegram": "advantage|Высокая (полный контроль в рамках Telegram Bot API)",
-            "Viber": "disadvantage|Низкая",
+            "Viber": "mediocrity|Средняя",
             "WhatsApp": "mediocrity|Средняя (ограничена [WhatsApp Business API](https://blog.whatsapp.com/making-it-easier-for-businesses-of-all-sizes-to-get-started-on-whatsapp))"
           }
         ]
@@ -1129,7 +1130,7 @@
             "FeatureName": "Максимальное Количество Участников",
             "Telegram": "advantage|Группы - 200 000;  \nГруппы для Трансляций - неограниченно, отправка сообщений только админами",
             "Viber": "advantage|Группы – 250;  \nСообщества - неограниченно",
-            "WhatsApp": "disadvantage|512"
+            "WhatsApp": "mediocrity|1024"
           },
           {
             "FeatureName": "Шифрование",
@@ -1177,6 +1178,10 @@
           {
             "FeatureName": "Группы С Привязкой к Местоположению",
             "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/contacts-local-groups#location-based-chats) (как публичные группы с опцией поиска относительно местоположения)."
+          },
+          {
+            "FeatureName": "\"Темы\"",
+            "Telegram": "advantage|Как [отдельные чаты](https://telegram.org/blog/topics-in-groups-collectible-usernames#topics-in-groups) доступны в группах с более чем 200 участников."
           },
           {
             "FeatureName": "Публикация От Имени Канала",
@@ -1482,12 +1487,12 @@
         "Features": [
           {
             "FeatureName": "Основная Концепция",
-            "Telegram": "advantage|Интеграция мессенджера с любыми сервисами, выполнения самых разнообразных задач в пределах Telegram",
+            "Telegram": "advantage|Интеграция мессенджера с любыми сервисами, выполнения [самых разнообразных](https://core.telegram.org/bots/features) задач в пределах Telegram",
             "Viber": "mediocrity|Чатбот для оптимизации бизнеса и поддержки при [взаимодействии](https://developers.viber.com/docs/general/get-started/) с публичными аккаунтами"
           },
           {
             "FeatureName": "Реализация",
-            "Telegram": "advantage|[Особые](https://core.telegram.org/bots#4-how-are-bots-different-from-humans) Telegram-аккаунты без номеров телефона, контролируемые программами и обращаются к пользователям в рамках возможностей Bot API и фантазии разработчиков",
+            "Telegram": "advantage|[Особые](https://core.telegram.org/bots) Telegram-аккаунты без номеров телефона, контролируемые программами и обращаются к пользователям в рамках возможностей Bot API и фантазии разработчиков",
             "Viber": "mediocrity|Программы, через интерфейс Viber API соответствуют пользователям, предоставляя в частности различные бизнес предложения и связанную информацию"
           },
           {
@@ -1497,7 +1502,7 @@
           },
           {
             "FeatureName": "Ограничения на Создание",
-            "Telegram": "advantage|[Практически Отсутствуют](https://core.telegram.org/bots#6-botfather)",
+            "Telegram": "advantage|[Практически Отсутствуют](https://core.telegram.org/bots/tutorial)",
             "Viber": "disadvantage|[Все требования](https://developers.viber.com/docs/general/get-started/#public-account-bot-guidelines) к ботам и [требования](https://support.viber.com/customer/en/portal/articles/2689496-public-account-naming-policy) к публичному аккаунту"
           },
           {
@@ -1618,7 +1623,7 @@
           },
           {
             "FeatureName": "Стабильность Связи",
-            "Telegram": "mediocrity|Средняя",
+            "Telegram": "disadvantage|Низкая (периодические зависания, эхо, задержки, снижение качества, разъединение, проблемы с обменом ключами)",
             "Viber": "advantage|Высокая",
             "WhatsApp": "advantage|Высокая"
           },
@@ -1678,7 +1683,7 @@
           },
           {
             "FeatureName": "Демонстрация Рабочего Стола",
-            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/video-1000/#screen-sharing-with-sound)",
+            "Telegram": "mediocrity|[Поддерживается](https://telegram.org/blog/video-1000/#screen-sharing-with-sound) (низкое разрешение)",
             "Viber": "mediocrity|Поддерживается (на Viber Desktop)"
           },
           {
@@ -1702,7 +1707,7 @@
             "FeatureName": "Количество Участников",
             "Telegram": "advantage|[Неограниченно](https://telegram.org/blog/live-streams-forwarding-next-channel#unlimited-live-streams), трансляция видео от первых [30](https://telegram.org/blog/group-video-calls#group-video-calls) участников",
             "Viber": "mediocrity|До 40 участников",
-            "WhatsApp": "mediocrity|До [8/32 (видео/аудио)](https://faq.whatsapp.com/226697115160417/?helpref=hc_fnav) участников (на смартфонах и [Facebook Portal](https://portal.facebook.com/))"
+            "WhatsApp": "mediocrity|До [32](https://faq.whatsapp.com/226697115160417/?helpref=hc_fnav) участников (на смартфонах и [Facebook Portal](https://portal.facebook.com/))"
           },
           {
             "FeatureName": "Организовано Как",
@@ -1713,6 +1718,12 @@
           {
             "FeatureName": "Шифрование",
             "WhatsApp": "advantage|Поддерживается (теоретически Signal)"
+          },
+          {
+            "FeatureName": "Стабильность Cвязи",
+            "Telegram": "disadvantage|Низкая (периодические зависания, эхо, задержки)",
+            "Viber": "advantage|Высокая",
+            "WhatsApp": "advantage|Высокая"
           },
           {
             "FeatureName": "Контроль Количества Участников",
@@ -1736,7 +1747,7 @@
           },
           {
             "FeatureName": "Демонстрация Рабочего Стола",
-            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/group-video-calls#screen-sharing), с возможностью выбора отдельных окон в настольной версии",
+            "Telegram": "mediocrity|[Поддерживается](https://telegram.org/blog/group-video-calls#screen-sharing), с возможностью выбора отдельных окон в настольной версии (низкое разрешение)",
             "Viber": "advantage|Поддерживается (на Viber Desktop)"
           },
           {
@@ -2543,7 +2554,24 @@
         ]
       },
       {
-        "AspectName": "Ссылка для доступа к",
+        "AspectName": "Платформа Коллекционных Имен Пользователей",
+        "Features": [
+          {
+            "FeatureName": "Концепция",
+            "Telegram": "advantage|Децентрализованный аукцион [псевдонимов/доменов t.me](https://telegram.org/blog/topics-in-groups-collectible-usernames#collectible-usernames) на основе блокчейна [TON](https://ton.org/)"
+          },
+          {
+            "FeatureName": "Реализация",
+            "Telegram": "advantage|Ставки/покупка/продажа лотов через [fragment.com](https://fragment.com/) с последующей их привязкой к аккаунту Telegram."
+          },
+          {
+            "FeatureName": "Доступность Активов",
+            "Telegram": "advantage|Как любое количество дополнительных псевдонимов для пользователей, их публичных каналов и групп"
+          }
+        ]
+      },
+      {
+        "AspectName": "Ссылка Для Доступа К",
         "Features": [
           {
             "FeatureName": "Пользователю (Через Имя Пользователя)",
