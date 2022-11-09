@@ -19,7 +19,7 @@
           },
           {
             "FeatureName": "Fonte di Finanziamento",
-            "Telegram": "advantage|[Piattaforma pubblicitaria attenta alla privacy](https://promote.telegram.org/basics) o Abbonamenti [Telegram Premium](https://telegram.org/blog/700-million-and-premium/it); Pavel Durov",
+            "Telegram": "advantage|[Piattaforma pubblicitaria attenta alla privacy](https://promote.telegram.org/basics) o Abbonamenti [Telegram Premium](https://telegram.org/blog/700-million-and-premium/it); [Fragment](https://fragment.com); Pavel Durov",
             "Viber": "mediocrity|[Annunci](https://support.viber.com/customer/en/portal/articles/2536775), funzioni a pagamento (sticker, numeri locali, Viber Out)",
             "WhatsApp": "mediocrity|Pubblicità e abbonamenti"
           }
@@ -508,7 +508,8 @@
           {
             "FeatureName": "Sondaggi",
             "Telegram": "advantage|[Si](https://telegram.org/blog/polls-2-0-vmq/it) (anonimo/non anonimo, con più risposte, [quiz](https://telegram.org/blog/400-million/it#quiz-migliorati))",
-            "Viber": "mediocrity|Si (fino a 4 scelte, modalità quiz)"
+            "Viber": "mediocrity|Si (fino a 4 scelte, modalità quiz)",
+			"WhatsApp":"mediocrity|Si"
           },
           {
             "FeatureName": "Messaggi Vocali",
@@ -822,8 +823,8 @@
             "WhatsApp": "mediocrity|Non supportato"
           },
 		  {
-            "FeatureName": "Trascrizione Messaggi Vocali",
-            "Telegram": "mediocrity|[Con il Premium](https://telegram.org/blog/700-million-and-premium/it#da-voce-a-testo) (il testo viene inviato ai server di fornitori di terze parti)",
+            "FeatureName": "Trascrizione Messaggi Vocali/Video",
+            "Telegram": "mediocrity|[Con il Premium](https://telegram.org/blog/topics-in-groups-collectible-usernames/it#trascrizione-per-i-videomessaggi) (il testo viene inviato a [terze parti](https://telegram.org/privacy#8-5-transcription-of-voice-messages-at-the-request-of-the-user))",
             "Viber": "mediocrity|Non supportato",
             "WhatsApp": "mediocrity|Non supportato"
           },
@@ -856,7 +857,7 @@
           {
             "FeatureName": "Struttura delle Chat: Concetto",
             "Telegram": "advantage|Creazione di [cartelle (schede)](https://telegram.org/blog/folders/it) con la sincronizzazione cloud istantanea su tutti i tuoi dispositivi",
-            "WhatsApp": "advantage|Creazione di [comunità](https://blog.whatsapp.com/sharing-our-vision-for-communities-on-whatsapp?lang=it) gestito dagli amministratori e composto da gruppi"
+            "WhatsApp": "advantage|Creazione di [comunità](https://blog.whatsapp.com/communities-now-available) gestito dagli amministratori e composto da gruppi"
           },
           {
             "FeatureName": "Struttura delle Chat: Filtraggio",
@@ -1084,13 +1085,13 @@
           {
             "FeatureName": "Interazione con le aziende",
             "Telegram": "advantage|Tramite bots, canali",
-            "Viber": "mediocrity|Tramite [chatbots](https://help.viber.com/en/article/how-to-buy-from-a-chatbot-on-viber-faq) (solo per l'Ucraina)",
+            "Viber": "advantage|Tramite [chatbots](https://help.viber.com/en/article/how-to-buy-from-a-chatbot-on-viber-faq) (solo per l'Ucraina), canali",
             "WhatsApp": "advantage|Tramite chat con account WhatsApp Business"
           },
           {
             "FeatureName": "Profilo Aziendale",
             "Telegram": "mediocrity|Come descrizione di un bot, canale o come loro contenuto",
-            "Viber": "mediocrity|Come descrizione del chatbot",
+            "Viber": "mediocrity|Come chatbot, descrizione del canale o loro contenuto",
             "WhatsApp": "advantage|Come una [separata](https://developers.facebook.com/docs/whatsapp/cloud-api/get-started?locale=it_IT) pagina con i dettagli"
           },
           {
@@ -1111,7 +1112,7 @@
           {
             "FeatureName": "Adattabilità alle esigenze aziendali",
             "Telegram": "advantage|Alta (controllo completo nell'ambito dell'API Telegram Bot)",
-            "Viber": "disadvantage|Bassa",
+            "Viber": "mediocrity|Media",
             "WhatsApp": "mediocrity|Media (limitato da [WhatsApp Business API](https://blog.whatsapp.com/making-it-easier-for-businesses-of-all-sizes-to-get-started-on-whatsapp?lang=it))"
           }
         ]
@@ -1129,7 +1130,7 @@
             "FeatureName": "Numero Massimo di Partecipanti",
             "Telegram": "advantage|Gruppi - 200 000;  \nGruppi Broadcast - illimitati (solo gli amministratori possono inviare messaggi)",
             "Viber": "advantage|Gruppi – 250;  \nComunità – illimitati",
-            "WhatsApp": "disadvantage|512"
+            "WhatsApp": "mediocrity|1024"
           },
           {
             "FeatureName": "Crittografia",
@@ -1177,6 +1178,10 @@
           {
             "FeatureName": "Gruppi Basati sulla Posizione",
             "Telegram": "advantage|[Supportato](https://telegram.org/blog/contacts-local-groups#location-based-chats) (come gruppi pubblici con la possibilità di cercare in base alla posizione)."
+          },
+		  {
+            "FeatureName": "\"Argomenti\"",
+            "Telegram": "advantage|Come [chat individuale](https://telegram.org/blog/topics-in-groups-collectible-usernames/it#topic-nei-gruppi) disponibile nei gruppi con più di 200 membri."
           },
 		  {
             "FeatureName": "Pubblicare per Conto di un Canale",
@@ -1482,12 +1487,12 @@
         "Features": [
           {
             "FeatureName": "Concetto Principale",
-            "Telegram": "advantage|Integrazione dell'app con tutti i servizi, eseguendo l'intera varietà di compiti all'interno di Telegram",
+            "Telegram": "advantage|Integrazione dell'app con tutti i servizi, eseguendo l'[intera varietà](https://core.telegram.org/bots/features) di compiti all'interno di Telegram",
             "Viber": "mediocrity|Chatbot per l'ottimizzazione aziendale e il supporto degli utenti durante l'[interazione](https://developers.viber.com/docs/general/get-started/) con account pubblici"
           },
           {
             "FeatureName": "Implementazione",
-            "Telegram": "advantage|[Speciali](https://core.telegram.org/bots#4-how-are-bots-different-from-humans) account Telegram senza numero di telefono che sono controllati dalle applicazioni e rispondono o fanno riferimento agli utenti all'interno di funzionalità bot API e fantasia degli sviluppatori",
+            "Telegram": "advantage|[Speciali](https://core.telegram.org/bots) account Telegram senza numero di telefono che sono controllati dalle applicazioni e rispondono o fanno riferimento agli utenti all'interno di funzionalità bot API e fantasia degli sviluppatori",
             "Viber": "mediocrity|Applicazioni che rispondono agli utenti tramite Viber API, offrendo in particolare varie offerte commerciali e informazioni pertinenti"
           },
           {
@@ -1497,7 +1502,7 @@
           },
           {
             "FeatureName": "Limitazioni della Creazione",
-            "Telegram": "advantage|[Quasi assente](https://core.telegram.org/bots#6-botfather)",
+            "Telegram": "advantage|[Quasi assente](https://core.telegram.org/bots/tutorial)",
             "Viber": "disadvantage|[Tutti i requisiti](https://developers.viber.com/docs/general/get-started/#public-account-bot-guidelines) ai bot e [requisiti](https://support.viber.com/customer/en/portal/articles/2689496-public-account-naming-policy) ad account pubblici"
           },
           {
@@ -1618,7 +1623,7 @@
           },
 		  {
             "FeatureName": "Stabilità del Collegamento",
-            "Telegram": "mediocrity|Media",
+            "Telegram": "disadvantage|Low (lag periodici, echo, ritardi, cadute di qualità, disconnessioni, problemi chiave di scambio)",
             "Viber": "advantage|Alta",
             "WhatsApp": "advantage|Alta"
           },
@@ -1678,7 +1683,7 @@
           },
           {
             "FeatureName": "Condivisione dello Schermo",
-            "Telegram": "advantage|[Supportato](https://telegram.org/blog/video-1000/it#condivisione-schermo-con-il-suono)",
+            "Telegram": "mediocrity|[Supportato](https://telegram.org/blog/video-1000/it#condivisione-schermo-con-il-suono) (bassa risoluzione dello schermo)",
             "Viber": "mediocrity|Supportato (su Viber Desktop)"
 		  },
           {
@@ -1702,7 +1707,7 @@
             "FeatureName": "Numero di Partecipanti",
             "Telegram": "advantage|[Illimitati](https://telegram.org/blog/live-streams-forwarding-next-channel/it#dirette-streaming-illimitate), trasmissione video per i primi [30](https://telegram.org/blog/group-video-calls/it#videochiamate-di-gruppo) membri",
             "Viber": "mediocrity|Fino a 40 partecipanti",
-            "WhatsApp": "disadvantage|Fino a [8/32(video/audio)](https://faq.whatsapp.com/226697115160417?lang=it) partecipanti (dispositivi mobili e [Facebook Portal](https://portal.facebook.com/))"
+            "WhatsApp": "disadvantage|Fino a [32](https://faq.whatsapp.com/226697115160417?lang=it) partecipanti (dispositivi mobili e [Facebook Portal](https://portal.facebook.com/))"
           },
           {
             "FeatureName": "Organizzato Come",
@@ -1713,6 +1718,12 @@
           {
             "FeatureName": "Crittografia",
             "WhatsApp": "advantage|Supportata (teoricamente Signal)"
+          },
+		  {
+            "FeatureName": "Stabilità Connessione",
+            "Telegram": "disadvantage|Bassa (lag periodici, echo, ritardi)",
+            "Viber": "advantage|Alta",
+            "WhatsApp": "advantage|Alta"
           },
           {
             "FeatureName": "Controllo del Numero dei Partecipanti",
@@ -1736,7 +1747,7 @@
           },
 		  {
             "FeatureName": "Condivisione dello Schermo",
-            "Telegram": "advantage|[Supportato](https://telegram.org/blog/group-video-calls/it#condivisione-schermo), con un'opzione per condividere singole finestre su desktop",
+            "Telegram": "mediocrity|[Supportato](https://telegram.org/blog/group-video-calls/it#condivisione-schermo), con un'opzione per condividere singole finestre su desktop (bassa risoluzione dello schermo)",
             "Viber": "mediocrity|Supportato (su Viber Desktop)"
           },
 		  {
@@ -2539,6 +2550,23 @@
           {
             "FeatureName": "Garantire una Valutazione Imparziale",
             "Telegram": "advantage|A causa della rappresentazione anonima dei risultati"
+          }
+        ]
+      },
+	  {
+        "AspectName": "Piattaforma di username collezionabili",
+        "Features": [
+          {
+            "FeatureName": "Concetto",
+            "Telegram": "advantage|Asta decentrata per [t.me pseudonimi/domini](https://telegram.org/blog/topics-in-groups-collectible-usernames/it#username-collezionabili) basati sulla blockchain [TON](https://ton.org/)"
+          },
+          {
+            "FeatureName": "Implementazione",
+            "Telegram": "advantage|Fare offerte/comprare/vendere item tramite [fragment.com](https://fragment.com/) con la loro successiva connessione all'account Telegram"
+          },
+          {
+            "FeatureName": "Disponibilità",
+            "Telegram": "advantage|Come un numero qualsiasi di pseudonimi aggiuntivi per gli utenti, i loro canali e gruppi pubblici"
           }
         ]
       },
