@@ -42,7 +42,7 @@
           },
           {
             "FeatureName": "Розкриття Даних Користувачів Третім Сторонам",
-            "Telegram": "advantage|Відсутнє (потенційно [номери телефонів та IP-адреси терористів](https://telegram.org/privacy#8-3-law-enforcement-authorities))",
+            "Telegram": "mediocrity|[Номери телефонів та IP-адреси](https://telegram.org/privacy#8-3-law-enforcement-authorities)) за рішеннями суду",
             "Viber": "disadvantage|[Можливе, зокрема партнерам](https://www.viber.com/terms/viber-privacy-policy/)",
             "WhatsApp": "disadvantage|[З Facebook та пов'язаними компаніями](https://www.whatsapp.com/legal/updates/privacy-policy?eea=0#privacy-policy-updates-how-we-work-with-other-facebook-companies)"
           },
@@ -127,7 +127,7 @@
         "Features": [
           {
             "FeatureName": "Контроль Спаму",
-            "Telegram": "mediocrity|[Наявний](https://telegram.org/faq_spam), з підтримкою [міток](https://telegram.org/blog/privacy-discussions-web-bots#scam-alerts) (є проблеми зі спамом у великих групах/каналах)",
+            "Telegram": "mediocrity|[Наявний](https://telegram.org/faq_spam), з підтримкою [міток](https://telegram.org/blog/privacy-discussions-web-bots#scam-alerts) (є проблеми зі спамом у великих групах/каналах); доступна опція [\"Агресивного Анти-Спаму\"](https://telegram.org/blog/ultimate-privacy-topics-2-0/#aggressive-anti-spam) в групах",
             "Viber": "mediocrity|[Зокрема через скриньку запитів повідомлень](https://www.viber.com/en/blog/2021-01-27/securitips-how-to-play-it-safe-on-viber-and-how-your-chats-are-kept-private/) (спам від компаній, реклама та надлишкові сповіщення все ще надходять)",
             "WhatsApp": "advantage|Наявний"
           },
@@ -144,7 +144,7 @@
         "Features": [
           {
             "FeatureName": "Через",
-            "Telegram": "advantage|Номер телефону, ім'я користувача, групи та [місцезнаходження](https://telegram.org/blog/new-profiles-people-nearby#people-nearby-2-0) (вимкнуто за замовчуванням)",
+            "Telegram": "advantage|Номер телефону, [платний анонімний номер](https://telegram.org/blog/ultimate-privacy-topics-2-0/#sign-up-without-a-sim-card), ім'я користувача, групи та [місцезнаходження](https://telegram.org/blog/new-profiles-people-nearby#people-nearby-2-0) (вимкнуто за замовчуванням)",
             "Viber": "disadvantage|Номер телефону, спільноти",
             "WhatsApp": "disadvantage|Номер телефону"
           }
@@ -425,6 +425,12 @@
             "Telegram": "advantage|[Тисячі](https://telegram.org/blog/400-million#20-000-stickers) безкоштовних хмарних наборів статичних, [анімованих](https://telegram.org/blog/animated-stickers) та [відео](https://telegram.org/blog/video-stickers-better-reactions#video-stickers) стікерів; [додаткові](https://telegram.org/blog/700-million-and-premium#unique-stickers) в рамках Premium",
             "Viber": "disadvantage|Платні та безкоштовні стікери, деякі підтримують звук; мемоджі (iOS)",
             "WhatsApp": "disadvantage|Декілька стандартних наборів та обмежена підтримка через сторонні додатки, зокрема [анімованих](https://blog.whatsapp.com/introducing-animated-stickers-qr-codes-and-more) стікерів"
+          },
+          {
+            "FeatureName": "Аватари",
+            "Telegram": "advantage|Не підтримуються (анімовані/відео стікери надають більше можливостей)",
+            "Viber": "mediocrity|Не підтримуються (лише стікери)",
+            "WhatsApp": "advantage|[Підтримуються](https://blog.whatsapp.com/avatars-on-whatsapp)"
           },
           {
             "FeatureName": "\"AR-Лінзи\"",
@@ -1181,11 +1187,11 @@
           },
           {
             "FeatureName": "\"Теми\"",
-            "Telegram": "advantage|Як [окремі чати](https://telegram.org/blog/topics-in-groups-collectible-usernames#topics-in-groups) доступні в групах з понад 200 учасників."
+            "Telegram": "advantage|Як [особливі чати](https://telegram.org/blog/ultimate-privacy-topics-2-0/#topics-2-0) для груп зі 100+ учасників, що надають функціональність форумів."
           },
           {
             "FeatureName": "Публікація Від Імені Каналу",
-            "Telegram": "advantage|Підтримується, [в публічних групах](https://telegram.org/blog/protected-content-delete-by-date-and-more#anonymous-posting-in-public-groups)"
+            "Telegram": "advantage|[В публічних групах](https://telegram.org/blog/protected-content-delete-by-date-and-more#anonymous-posting-in-public-groups) (Premium)"
           },
           {
             "FeatureName": "Отримання Приватних Повідомлень",
@@ -2036,7 +2042,7 @@
           },
           {
             "FeatureName": "QR-коди",
-            "Telegram": "advantage|Для [запрошувальних посилань](https://telegram.org/blog/autodelete-inv2/uk?setln=en#expiring-invite-links), обміну проксі (на macOS), авторизації (Telegram Desktop), з [підтримкою тем](https://telegram.org/blog/reactions-spoilers-translations#themed-qr-codes)",
+            "Telegram": "advantage|Для [запрошувальних посилань](https://telegram.org/blog/autodelete-inv2/uk?setln=en#expiring-invite-links) (зокрема [тимчасових](https://telegram.org/blog/ultimate-privacy-topics-2-0/#temporary-qr-codes)), обміну проксі (на macOS), авторизації (Telegram Desktop), з [підтримкою тем](https://telegram.org/blog/reactions-spoilers-translations#themed-qr-codes)",
             "Viber": "mediocrity|Для додавання друзів, приєднання до груп, додавання купонів, авторизації",
             "WhatsApp": "mediocrity|Для співставлення ключів шифрування, запрошення до груп, додавання контактів, зв'язку з бізнес-акаунтами"
           },
@@ -2554,11 +2560,11 @@
         ]
       },
       {
-        "AspectName": "Платформа Колекційних Імен Користувачів",
+        "AspectName": "Платформа Предметів Колекціонування",
         "Features": [
           {
             "FeatureName": "Концепція",
-            "Telegram": "advantage|Децентралізований аукціон [псевдонімів/доменів t.me](https://telegram.org/blog/topics-in-groups-collectible-usernames#collectible-usernames) на основі блокчейну [TON](https://ton.org/)"
+            "Telegram": "advantage|Децентралізований аукціон [псевдонімів/доменів t.me](https://telegram.org/blog/topics-in-groups-collectible-usernames#collectible-usernames) та [анонімних номерів](https://telegram.org/blog/ultimate-privacy-topics-2-0/#sign-up-without-a-sim-card) на основі блокчейну [TON](https://ton.org/)"
           },
           {
             "FeatureName": "Реалізація",
@@ -2566,7 +2572,7 @@
           },
           {
             "FeatureName": "Доступність Активів",
-            "Telegram": "advantage|Як будь яка кількість додаткових псевдонімів для користувачів, їх публічних каналів та груп"
+            "Telegram": "advantage|Як анонімні номери та будь яка кількість додаткових псевдонімів для користувачів, їх публічних каналів та груп"
           }
         ]
       },
@@ -2908,6 +2914,11 @@
             "WhatsApp": "mediocrity|Підтримується (лише 6-значний PIN)"
           },
           {
+            "FeatureName": "Автовидалення Повідомлень",
+            "Telegram": "advantage|Опціонально, з [контролем](https://telegram.org/blog/ultimate-privacy-topics-2-0/#auto-delete-all-chats) таймеру, для всіх нових чатів та вибіркових існуючих",
+            "WhatsApp": "advantage|Опціонально, через 24 години, 7 або 90 днів"
+          },
+          {
             "FeatureName": "Контроль Активних Сеансів",
             "Telegram": "advantage|[Розширений контроль](https://telegram.org/blog/protected-content-delete-by-date-and-more#manage-connected-devices) з інформацією та дозволами в режимі реального часу",
             "Viber": "disadvantage|Базовий контроль",
@@ -3008,7 +3019,7 @@
           },
           {
             "FeatureName": "Використання Сховища: Очищення Кешу",
-            "Telegram": "advantage|Доступне за типами вмісту (можлива очистка окремих каналів з контекстного меню)",
+            "Telegram": "advantage|Доступне за типами вмісту (можлива очистка окремих каналів з контекстного меню), зокрема для [окремих чатів](https://telegram.org/blog/ultimate-privacy-topics-2-0/#detailed-storage-usage-and-more-on-android)",
             "Viber": "disadvantage|Лише відео та голосові повідомлення",
             "WhatsApp": "advantage|Доступне за чатами, часто пересланими повідомленнями чи вмістом > 5 MБ"
           },
