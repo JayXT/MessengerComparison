@@ -20,7 +20,7 @@ jobs:
 
     - name: Deploy Website
       if: success()
-      uses: crazy-max/ghaction-github-pages@v1.5.1
+      uses: crazy-max/ghaction-github-pages@v3.1.0
       with:
         target_branch: gh-pages
         build_dir: ${{ env.OUTPUT_DIR }}
