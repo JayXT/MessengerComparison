@@ -42,7 +42,7 @@
           },
           {
             "FeatureName": "Disclosing User Data To Third Parties",
-            "Telegram": "mediocrity|Potentially [phones numbers and IP-addresses](https://telegram.org/privacy#8-3-law-enforcement-authorities) based on court orders",
+            "Telegram": "mediocrity|[Phones numbers and IP-addresses](https://telegram.org/privacy#8-3-law-enforcement-authorities) could be disclosed based on court orders",
             "Viber": "disadvantage|[Possible, to partners in particular](https://www.viber.com/terms/viber-privacy-policy/)",
             "WhatsApp": "disadvantage|[To Facebook and related companies](https://www.whatsapp.com/legal/updates/privacy-policy?eea=0#privacy-policy-updates-how-we-work-with-other-facebook-companies)"
           },
