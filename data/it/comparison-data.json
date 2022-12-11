@@ -42,7 +42,7 @@
           },
 		  {
             "FeatureName": "Divulgazione dei Dati Utente a Terzi",
-            "Telegram": "advantage|Assente ([Numeri di telefono e indirizzi IP dei terroristi](https://telegram.org/privacy#8-3-law-enforcement-authorities) possono essere potenzialmente divulgati)",
+            "Telegram": "mediocrity|[Numeri di telefono e indirizzi IP](https://telegram.org/privacy#8-3-law-enforcement-authorities) potrebbero essere divulgati in base a provvedimenti del tribunale",
             "Viber": "disadvantage|[Possibile, ai partners in particolare](https://viber.com/terms/viber-privacy-policy/)",
             "WhatsApp": "disadvantage|[A Facebook e alle aziende collegate](https://whatsapp.com/legal/updates/privacy-policy?eea=0?lang=it#privacy-policy-updates-how-we-work-with-other-facebook-companies)"
           },
@@ -127,7 +127,7 @@
         "Features": [
           {
             "FeatureName": "Controllo Spam",
-            "Telegram": "mediocrity|[Disponibile](https://telegram.org/faq_spam/it), con supporto per [etichette](https://telegram.org/blog/privacy-discussions-web-bots#scam-alerts) (ci sono problemi con lo spam in grandi gruppi/canali)",
+            "Telegram": "mediocrity|[Disponibile](https://telegram.org/faq_spam/it), con supporto per [etichette](https://telegram.org/blog/privacy-discussions-web-bots#scam-alerts) (ci sono problemi con lo spam in grandi gruppi/canali); L'opzione [\"Anti-Spam Aggressivo\"](https://telegram.org/blog/ultimate-privacy-topics-2-0/it#anti-spam-aggressivo) è disponibile nei gruppi",
             "Viber": "mediocrity|[In particolare attraverso il box delle richieste di messaggi](https://viber.com/en/blog/2021-01-27/securitips-how-to-play-it-safe-on-viber-and-how-your-chats-are-kept-private/) (lo spam delle aziende, gli annunci e le notifiche ridondanti sono ancora ricevute)",
             "WhatsApp": "advantage|Disponibile"
           },
@@ -144,7 +144,7 @@
         "Features": [
           {
             "FeatureName": "Tramite",
-            "Telegram": "advantage|Numero di telefono, nome utente, gruppi e [posizione](https://telegram.org/blog/new-profiles-people-nearby/it#persone-vicine-2-0) (disattivato per impostazione predefinita)",
+            "Telegram": "advantage|Numero di telefono, [numeri di telefono anonimi a pagamento](https://telegram.org/blog/ultimate-privacy-topics-2-0/it#iscrizione-senza-scheda-sim), nome utente, gruppi e [posizione](https://telegram.org/blog/new-profiles-people-nearby/it#persone-vicine-2-0) (disattivato per impostazione predefinita)",
             "Viber": "disadvantage|Numero di telefono, comunità",
             "WhatsApp": "disadvantage|Numero di telefono"
           }
@@ -427,6 +427,12 @@
             "WhatsApp": "disadvantage|Alcuni set standard e supporto limitato tramite applicazioni di terze parti, in particolare per gli sticker [animated](https://blog.whatsapp.com/introducing-animated-stickers-qr-codes-and-more?lang=it)"
           },
 		  {
+            "FeatureName": "Avatar",
+            "Telegram": "advantage|Non supportati (sticker animati/video offrono più funzionalità)",
+            "Viber": "mediocrity|Non supportati (solo sticker)",
+            "WhatsApp": "advantage|[Supportati](https://blog.whatsapp.com/avatars-on-whatsapp?lang=it)"
+          },
+		  {
             "FeatureName": "\"AR-Lenses\"",
             "Viber": "advantage|Tramite [integrazione](https://viber.com/en/blog/2021-11-21/say-it-all-with-viber-lenses/) Snap"
           },
@@ -529,7 +535,7 @@
 		  },
           {
             "FeatureName": "Reazioni ai messaggi",
-            "Telegram": "advantage|[Sincronizzati](https://telegram.org/blog/video-stickers-better-reactions/it#reazioni-migliorate), con supporto per impostazioni e animazioni (opt-in per gruppi e canali); [capacità extra](https://telegram.org/blog/infinite-reactions-statuses/it#reazioni-infinite) con il Premium",
+            "Telegram": "advantage|[Sincronizzati](https://telegram.org/blog/video-stickers-better-reactions/it#reazioni-migliorate), con supporto per impostazioni e animazioni (attiva per gruppi e canali); [capacità extra](https://telegram.org/blog/infinite-reactions-statuses/it#reazioni-infinite) con il Premium",
             "Viber": "mediocrity|[Si](https://viber.com/en/blog/2020-09-30/perfectly-react-to-messages-and-everything-else-thats-new-on-viber/)",
             "WhatsApp": "mediocrity|Si"
           },
@@ -818,7 +824,7 @@
           },
           {
             "FeatureName": "Traduzione Messaggi",
-            "Telegram": "mediocrity|mediocrity|Opt-in, con [extra](https://telegram.org/blog/reactions-spoilers-translations/it#traduzione-dei-messaggi) [impostazioni](https://telegram.org/blog/notifications-bots/it#traduzione-dei-messaggi-migliorata-su-ios) (il testo viene inviato ai server di fornitori di terze parti)",
+            "Telegram": "mediocrity|Attiva, con [extra](https://telegram.org/blog/reactions-spoilers-translations/it#traduzione-dei-messaggi) [impostazioni](https://telegram.org/blog/notifications-bots/it#traduzione-dei-messaggi-migliorata-su-ios) (il testo viene inviato ai server di fornitori di terze parti)",
             "Viber": "mediocrity|Supportato (il testo viene inviato ai server di fornitori di terze parti)",
             "WhatsApp": "mediocrity|Non supportato"
           },
@@ -1181,11 +1187,11 @@
           },
 		  {
             "FeatureName": "\"Argomenti\"",
-            "Telegram": "advantage|Come [chat individuale](https://telegram.org/blog/topics-in-groups-collectible-usernames/it#topic-nei-gruppi) disponibile nei gruppi con più di 200 membri."
+            "Telegram": "advantage|Come [chat speciali](https://telegram.org/blog/ultimate-privacy-topics-2-0/it#topic-2-0) per gruppi con 100+ membri, che consentono un'esperienza simile a un forum."
           },
 		  {
             "FeatureName": "Pubblicare per Conto di un Canale",
-            "Telegram": "advantage|Supportato, [in gruppi pubblici](https://telegram.org/blog/protected-content-delete-by-date-and-more/it#pubblicazione-anonima-nei-gruppi-pubblici)"
+            "Telegram": "advantage|[In gruppi pubblici](https://telegram.org/blog/protected-content-delete-by-date-and-more/it#pubblicazione-anonima-nei-gruppi-pubblici) (Premium)"
           },
           {
             "FeatureName": "Ricezione Di Messaggi Privati",
@@ -2036,7 +2042,7 @@
           },
           {
             "FeatureName": "Supporto Codici QR",
-            "Telegram": "advantage|Per [link d'invito](https://telegram.org/blog/autodelete-inv2/it#link-d-39invito-con-scadenza), condivisione proxy (su macOS), autorizzazione (Telegram Desktop), con [supporto tematico](https://telegram.org/blog/reactions-spoilers-translations/it#codici-qr-a-tema)",
+            "Telegram": "advantage|Per [link d'invito](https://telegram.org/blog/autodelete-inv2/it#link-d-39invito-con-scadenza), (in particolare [quelli temporanei](https://telegram.org/blog/ultimate-privacy-topics-2-0/it#codici-qr-temporanei)), condivisione proxy (su macOS), autorizzazione (Telegram Desktop), con [supporto tematico](https://telegram.org/blog/reactions-spoilers-translations/it#codici-qr-a-tema)",
             "Viber": "mediocrity|Utilizzato per aggiungere amici, partecipare a gruppi, aggiungere coupon, autorizzazioni",
             "WhatsApp": "mediocrity|Utilizzato per la raccolta delle chiavi di crittografia, gli inviti di gruppo, l'aggiunta di contatti, comunicazione con le aziende"
           },
@@ -2554,11 +2560,11 @@
         ]
       },
 	  {
-        "AspectName": "Piattaforma di username collezionabili",
+        "AspectName": "Piattaforma Collezionabili",
         "Features": [
           {
             "FeatureName": "Concetto",
-            "Telegram": "advantage|Asta decentrata per [t.me pseudonimi/domini](https://telegram.org/blog/topics-in-groups-collectible-usernames/it#username-collezionabili) basati sulla blockchain [TON](https://ton.org/)"
+            "Telegram": "advantage|Asta decentrata per [pseudonimi/domini t.me](https://telegram.org/blog/topics-in-groups-collectible-usernames/it#username-collezionabili) e [numeri di telefoni anonimi](https://telegram.org/blog/ultimate-privacy-topics-2-0/it#iscrizione-senza-scheda-sim) basati sulla blockchain [TON](https://ton.org/)"
           },
           {
             "FeatureName": "Implementazione",
@@ -2566,7 +2572,7 @@
           },
           {
             "FeatureName": "Disponibilità",
-            "Telegram": "advantage|Come un numero qualsiasi di pseudonimi aggiuntivi per gli utenti, i loro canali e gruppi pubblici"
+            "Telegram": "advantage|Come numeri di telefoni anonimi e un numero qualsiasi di pseudonimi aggiuntivi per gli utenti, i loro canali e gruppi pubblici"
           }
         ]
       },
@@ -2907,6 +2913,11 @@
             "Telegram": "advantage|Supportata",
             "WhatsApp": "mediocrity|Supportata (Solo PIN a 6 cifre)"
           },
+		  {
+            "FeatureName": "Eliminazione Automatica Messaggi",
+            "Telegram": "advantage|Attiva, con [controllo](https://telegram.org/blog/ultimate-privacy-topics-2-0/it#autoeliminazione-per-tutte-le-chat) timer, per tutte le nuove chat e quelle esistenti tramite selezione",
+            "WhatsApp": "advantage|Attiva, in 24 ore, 7 o 90 giorni"
+          },
           {
             "FeatureName": "Controllo Sessioni Attive",
             "Telegram": "advantage|[Controllo esteso](https://telegram.org/blog/protected-content-delete-by-date-and-more/it#gestisci-i-dispositivi-connessi) con informazioni e permessi in tempo reale",
@@ -3008,7 +3019,7 @@
           },
           {
             "FeatureName": "Utilizzo dello Storage: Cancellazione Cache",
-            "Telegram": "advantage|Disponibile per tipi di contenuto (è possibile cancellare i singoli canali dal menu contestuale)",
+            "Telegram": "advantage|Disponibile per tipi di contenuto (è possibile cancellare i singoli canali dal menu contestuale), in particolare per [chat individuali](https://telegram.org/blog/ultimate-privacy-topics-2-0/it#utilizzo-archivio-dettagliato-e-altro-su-android)",
             "Viber": "disadvantage|Solo video e messaggi vocali",
             "WhatsApp": "advantage|Disponibile tramite chat, messaggi spesso inoltrati o contenuti > 5 MB"
           },
