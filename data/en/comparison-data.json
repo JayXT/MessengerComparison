@@ -466,6 +466,10 @@
             "WhatsApp": "advantage|Supported"
           },
           {
+            "FeatureName": "Hidden Media",
+            "Telegram": "advantage|[Photos/video](https://telegram.org/blog/hidden-media-zero-storage-profile-pics#hidden-media)"
+          },
+          {
             "FeatureName": "Temporary/Secret Images or Video",
             "Telegram": "advantage|Supported",
             "Viber": "advantage|Supported",
@@ -654,9 +658,9 @@
             "WhatsApp": "mediocrity|On images only"
           },
           {
-            "FeatureName": "Adding Masks, Stickers, Text",
-            "Telegram": "advantage|To images and videos",
-            "Viber": "advantage|To images and videos",
+            "FeatureName": "Adding Masks, Stickers, Shapes, Text",
+            "Telegram": "advantage|To [images and videos](https://telegram.org/blog/hidden-media-zero-storage-profile-pics#new-drawing-and-text-tools) (with extended capabilities)",
+            "Viber": "mediocrity|To images and videos (without shapes)",
             "WhatsApp": "mediocrity|Only to images (text and emoji)"
           },
           {
@@ -1023,6 +1027,10 @@
             "WhatsApp": "advantage|Supported (via WhatsApp for Business)"
           },
           {
+            "FeatureName": "Setting Profile Photos For Contacts",
+            "Telegram": "advantage|With [possibility to propose photos](https://telegram.org/blog/hidden-media-zero-storage-profile-pics#profile-pictures-for-your-contacts)"
+          },
+          {
             "FeatureName": "Additional Security Features",
             "Telegram": "advantage|In scope of secret chats",
             "Viber": "advantage|Screenshot notifications"
@@ -1180,6 +1188,10 @@
           {
             "FeatureName": "Protected Content",
             "Telegram": "advantage|[Supported](https://telegram.org/blog/protected-content-delete-by-date-and-more#protected-content-in-groups-and-channels)"
+          },
+          {
+            "FeatureName": "Hiding Member List",
+            "Telegram": "advantage|[Available](https://telegram.org/blog/hidden-media-zero-storage-profile-pics#hiding-group-members) (in groups with 100+ people)"
           },
           {
             "FeatureName": "Location-Based Groups",
@@ -1766,7 +1778,8 @@
           },
           {
             "FeatureName": "Quick Invitation of Participants",
-            "Telegram": "advantage|Via [links for speakers or listeners](https://telegram.org/blog/voice-chats-on-steroids#speaker-and-listener-links)"
+            "Telegram": "advantage|Via [links for speakers or listeners](https://telegram.org/blog/voice-chats-on-steroids#speaker-and-listener-links)",
+            "WhatsApp": "advantage|Via link"
           },
           {
             "FeatureName": "Conference Titles",
@@ -2842,9 +2855,9 @@
           },
           {
             "FeatureName": "Viewing Profile Picture",
-            "Telegram": "advantage|All, your contacts",
-            "Viber": "advantage|Supported",
-            "WhatsApp": "advantage|All, your contacts, nobody"
+            "Telegram": "advantage|All, your contacts, nobody, with support for [public profile pictures](https://telegram.org/blog/hidden-media-zero-storage-profile-pics#public-profile-pictures)",
+            "Viber": "mediocrity|Supported",
+            "WhatsApp": "mediocrity|All, your contacts, nobody"
           },
           {
             "FeatureName": "Forwarding Your Messages",
@@ -3009,19 +3022,10 @@
         "AspectName": "Data and Storage",
         "Features": [
           {
-            "FeatureName": "Storage Usage: Media Retention Period",
-            "Telegram": "advantage|Forever, month, week or 3 days",
-            "Viber": "mediocrity|For video and voice messages during 14 days (enabled/disabled)"
-          },
-          {
-            "FeatureName": "Storage Usage: Cache Size Limit",
-            "Telegram": "advantage|Supported"
-          },
-          {
-            "FeatureName": "Storage Usage: Clearing Cache",
-            "Telegram": "advantage|Available by content types (it's possible to clear individual channels from context menu), in particular for [individual chats](https://telegram.org/blog/ultimate-privacy-topics-2-0/#detailed-storage-usage-and-more-on-android)",
-            "Viber": "disadvantage|Video and voice messages only",
-            "WhatsApp": "advantage|Available by chats, often forwarded messages or content > 5 MB"
+            "FeatureName": "Storage Usage: Cache Control",
+            "Telegram": "advantage|[Extended control](https://telegram.org/blog/hidden-media-zero-storage-profile-pics#zero-storage-usage) by content types, chat types, with automation, exceptions and limits",
+            "Viber": "disadvantage|Clearing of video and voice messages only",
+            "WhatsApp": "mediocrity|Clearing by chats, often forwarded messages or content > 5 MB"
           },
           {
             "FeatureName": "Storage Usage: Clearing Local Data",
