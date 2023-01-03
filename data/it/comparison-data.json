@@ -466,6 +466,10 @@
             "WhatsApp": "advantage|Supportati"
           },
           {
+            "FeatureName": "Media Nascosti",
+            "Telegram": "advantage|[Foto/video](https://telegram.org/blog/hidden-media-zero-storage-profile-pics/it#media-nascosti)"
+          },
+          {
             "FeatureName": "Immagini o Video Temporanei/Segreti",
             "Telegram": "advantage|Supportate",
             "Viber": "advantage|Supportate",
@@ -654,9 +658,9 @@
             "WhatsApp": "mediocrity|Solo su immagini"
           },
           {
-            "FeatureName": "Aggiunta Maschere, Sticker, Testo",
-            "Telegram": "advantage|Alle immagini e ai video",
-            "Viber": "advantage|Alle immagini e ai video",
+            "FeatureName": "Aggiunta Maschere, Sticker, Forme, Testo",
+            "Telegram": "advantage|Alle [immagini e video](https://telegram.org/blog/hidden-media-zero-storage-profile-pics/it#nuovi-strumenti-di-disegno-e-testo) (con capacità estese)",
+            "Viber": "mediocrity|Alle immagini e ai video (senza forme)",
             "WhatsApp": "mediocrity|Solo alle immagini (testo ed emoji)"
           },
           {
@@ -1023,6 +1027,10 @@
             "WhatsApp": "advantage|Supportato (tramite WhatsApp Business)"
           },
           {
+            "FeatureName": "Impostazioni Foto Profilo per i Contatti",
+            "Telegram": "advantage|Con [possibilità di proporre foto](https://telegram.org/blog/hidden-media-zero-storage-profile-pics/it#foto-del-profilo-per-i-tuoi-contatti)"
+          },
+          {
             "FeatureName": "Funzionalità di Sicurezza Aggiuntive",
             "Telegram": "advantage|Nell'ambito delle chat segrete",
             "Viber": "advantage|Notifiche degli screenshot"
@@ -1182,12 +1190,16 @@
             "Telegram": "advantage|[Supportato](https://telegram.org/blog/protected-content-delete-by-date-and-more/it#contenuto-protetto-in-gruppi-e-canali)"
           },
           {
+            "FeatureName": "Nascondere Lista Membri",
+            "Telegram": "advantage|[Disponibile](https://telegram.org/blog/hidden-media-zero-storage-profile-pics/it#nascondi-i-membri-del-gruppo) (in gruppi con 100+ utenti)"
+          },
+          {
             "FeatureName": "Gruppi Basati sulla Posizione",
             "Telegram": "advantage|[Supportato](https://telegram.org/blog/contacts-local-groups#location-based-chats) (come gruppi pubblici con la possibilità di cercare in base alla posizione)."
           },
 		  {
             "FeatureName": "\"Argomenti\"",
-            "Telegram": "advantage|Come [chat speciali](https://telegram.org/blog/ultimate-privacy-topics-2-0/it#topic-2-0) per gruppi con 100+ membri, che consentono un'esperienza simile a un forum."
+            "Telegram": "advantage|Come [chat speciali](https://telegram.org/blog/ultimate-privacy-topics-2-0/it#topic-2-0) che consentono un'esperienza simile a un forum."
           },
 		  {
             "FeatureName": "Pubblicare per Conto di un Canale",
@@ -1766,7 +1778,8 @@
           },
           {
             "FeatureName": "Invito Rapido dei Partecipanti",
-            "Telegram": "advantage|Tramite [links per speakers o ascoltatori](https://telegram.org/blog/voice-chats-on-steroids/it#link-per-speaker-e-ascoltatori)"
+            "Telegram": "advantage|Tramite [link per speakers o ascoltatori](https://telegram.org/blog/voice-chats-on-steroids/it#link-per-speaker-e-ascoltatori)",
+            "WhatsApp": "advantage|Tramite link"
           },
           {
             "FeatureName": "Titoli delle Conferenze",
@@ -2842,9 +2855,9 @@
           },
           {
             "FeatureName": "Visualizzazione Immagine del Profilo",
-            "Telegram": "advantage|Tutti, i tuoi contatti",
-            "Viber": "advantage|Supportato",
-            "WhatsApp": "advantage|Tutti, i tuoi contatti, nessuno"
+            "Telegram": "advantage|Tutti, i tuoi contatti, nessuno, con supporto per [foto profile pubbliche](https://telegram.org/blog/hidden-media-zero-storage-profile-pics/it#foto-del-profilo-pubbliche)",
+            "Viber": "mediocrity|Supportato",
+            "WhatsApp": "mediocrity|Tutti, i tuoi contatti, nessuno"
           },
           {
             "FeatureName": "Inoltro dei Messaggi",
@@ -3009,19 +3022,10 @@
         "AspectName": "Dati e Archiviazione",
         "Features": [
           {
-            "FeatureName": "Uso dello Storage: Periodo di Conservazione dei Media",
-            "Telegram": "advantage|Per sempre, un mese, una settimana o 3 giorni",
-            "Viber": "mediocrity|Per i video e i messaggi vocali per 14 giorni (abilitato/disabilitato)"
-          },
-          {
-            "FeatureName": "Utilizzo dello Storage: Limite Dimensione Cache",
-            "Telegram": "advantage|Supportata"
-          },
-          {
-            "FeatureName": "Utilizzo dello Storage: Cancellazione Cache",
-            "Telegram": "advantage|Disponibile per tipi di contenuto (è possibile cancellare i singoli canali dal menu contestuale), in particolare per [chat individuali](https://telegram.org/blog/ultimate-privacy-topics-2-0/it#utilizzo-archivio-dettagliato-e-altro-su-android)",
-            "Viber": "disadvantage|Solo video e messaggi vocali",
-            "WhatsApp": "advantage|Disponibile tramite chat, messaggi spesso inoltrati o contenuti > 5 MB"
+            "FeatureName": "Uso dello Storage: Controllo Cache",
+            "Telegram": "advantage|[Controllo esteso](https://telegram.org/blog/hidden-media-zero-storage-profile-pics/it#zero-utilizzo-archivio) per tipi di contenuto, tipi di chat, con automazione, eccezioni e limiti",
+            "Viber": "disadvantage|Pulizia solo di video e i messaggi vocali",
+            "WhatsApp": "mediocrity|Pulizia per chat, messaggi o contenuti spesso inoltrati > 5 MB"
           },
           {
             "FeatureName": "Utilizzo dello Storage: Cancellazione Dati Locali",
