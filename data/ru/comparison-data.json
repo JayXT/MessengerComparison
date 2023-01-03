@@ -466,6 +466,10 @@
             "WhatsApp": "advantage|Поддерживаются"
           },
           {
+            "FeatureName": "Скрытые Медиа",
+            "Telegram": "advantage|[Фото/Видео](https://telegram.org/blog/hidden-media-zero-storage-profile-pics#hidden-media)"
+          },
+          {
             "FeatureName": "Временные/Секретные Изображения или Видео",
             "Telegram": "advantage|Поддерживаются",
             "Viber": "advantage|Поддерживаются",
@@ -654,9 +658,9 @@
             "WhatsApp": "mediocrity|Только на изображениях"
           },
           {
-            "FeatureName": "Добавление Масок, Стикеров, Текста",
-            "Telegram": "advantage|К изображениям и видео",
-            "Viber": "advantage|К изображениям и видео",
+            "FeatureName": "Добавление Масок, Стикеров, Фигур, Текста",
+            "Telegram": "advantage|К [изображениям и видео](https://telegram.org/blog/hidden-media-zero-storage-profile-pics#new-drawing-and-text-tools) (с расширенными возможностями)",
+            "Viber": "mediocrity|К изображениям и видео (без фигур)",
             "WhatsApp": "mediocrity|Только к изображениям (текст и эмодзи)"
           },
           {
@@ -1023,6 +1027,10 @@
             "WhatsApp": "advantage|Поддерживается (через WhatsApp for Business)"
           },
           {
+            "FeatureName": "Установка Фото Профиля Для Контактов",
+            "Telegram": "advantage|С [возможностью предложений](https://telegram.org/blog/hidden-media-zero-storage-profile-pics#profile-pictures-for-your-contacts) (для контактов)"
+          },
+          {
             "FeatureName": "Дополнительные Функции Безопасности",
             "Telegram": "advantage|В рамках секретных чатов",
             "Viber": "advantage|Уведомление о скриншотах"
@@ -1182,12 +1190,16 @@
             "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/protected-content-delete-by-date-and-more#protected-content-in-groups-and-channels)"
           },
           {
+            "FeatureName": "Скрытие Списка Участников",
+            "Telegram": "advantage|[Доступно](https://telegram.org/blog/hidden-media-zero-storage-profile-pics#hiding-group-members) (в группах от 100 человек)"
+          },
+          {
             "FeatureName": "Группы С Привязкой к Местоположению",
             "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/contacts-local-groups#location-based-chats) (как публичные группы с опцией поиска относительно местоположения)."
           },
           {
             "FeatureName": "\"Темы\"",
-            "Telegram": "advantage|Как [специальные чаты](https://telegram.org/blog/ultimate-privacy-topics-2-0/#topics-2-0) для групп из 100+ участников, предоставляющих функциональность форумов."
+            "Telegram": "advantage|Как [специальные чаты](https://telegram.org/blog/ultimate-privacy-topics-2-0/#topics-2-0), предоставляющих функциональность форумов."
           },
           {
             "FeatureName": "Публикация От Имени Канала",
@@ -1766,7 +1778,8 @@
           },
           {
             "FeatureName": "Быстрое Приглашение Участников",
-            "Telegram": "advantage|Через [ссылки для говорящих или слушателей](https://telegram.org/blog/voice-chats-on-steroids#speaker-and-listener-links)"
+            "Telegram": "advantage|Через [ссылки для говорящих или слушателей](https://telegram.org/blog/voice-chats-on-steroids#speaker-and-listener-links)",
+            "WhatsApp": "advantage|Через ссылки"
           },
           {
             "FeatureName": "Названия Конференций",
@@ -2842,9 +2855,9 @@
           },
           {
             "FeatureName": "Просмотр Фото Профиля",
-            "Telegram": "advantage|Все, ваши контакты",
-            "Viber": "advantage|Поддерживается",
-            "WhatsApp": "advantage|Все, ваши контакты, никто"
+            "Telegram": "advantage|Все, ваши контакты, никто, с поддержкой [публичных изображений профиля](https://telegram.org/blog/hidden-media-zero-storage-profile-pics#public-profile-pictures)",
+            "Viber": "mediocrity|Поддерживается",
+            "WhatsApp": "mediocrity|Все, ваши контакты, никто"
           },
           {
             "FeatureName": "Пересылка Ваших сообщений",
@@ -3009,19 +3022,10 @@
         "AspectName": "Данные и Хранилище",
         "Features": [
           {
-            "FeatureName": "Использование Хранилища: Период Хранение Медиа",
-            "Telegram": "advantage|Всегда, месяц, неделю или 3 дня",
-            "Viber": "mediocrity|Для видео и голосовых сообщений в течение 14 дней (Включен/выключен)"
-          },
-          {
-            "FeatureName": "Использование Хранилища: Ограничение Объема Кэша",
-            "Telegram": "advantage|Поддерживается"
-          },
-          {
-            "FeatureName": "Использование Хранилища: Очистка кэша",
-            "Telegram": "advantage|Доступное по типам содержания (возможна очистка отдельных каналов из контекстного меню), в частности для [отдельных чатов](https://telegram.org/blog/ultimate-privacy-topics-2-0/#detailed-storage-usage-and-more-on-android)",
-            "Viber": "disadvantage|Только видео и голосовые сообщения",
-            "WhatsApp": "advantage|Доступное по чатами, часто пересылаемых сообщений или содержанием > 5 MБ"
+            "FeatureName": "Использование Хранилища: Контроль Кэша",
+            "Telegram": "advantage|[Расширенный контроль](https://telegram.org/blog/hidden-media-zero-storage-profile-pics#zero-storage-usage) по типам содержимого, типам чатов, с автоматизацией, исключениям и лимитами",
+            "Viber": "disadvantage|Только очистка видео и голосовых сообщений",
+            "WhatsApp": "mediocrity|Очистка за чатами, часто пересылаемыми сообщениями или содержимым > 5 МБ"
           },
           {
             "FeatureName": "Использование Хранилища: Очистка Локальных Данных",
