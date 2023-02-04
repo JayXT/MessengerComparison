@@ -308,7 +308,8 @@
           {
             "FeatureName": "Proxy Support",
             "Telegram": "advantage|Present",
-            "Viber": "advantage|Present"
+            "Viber": "advantage|Present",
+            "WhatsApp":"advantage|Present"
           },
           {
             "FeatureName": "Extended Tools with Support for Encryption",
@@ -981,6 +982,12 @@
             "WhatsApp": "mediocrity|Temporary/permanent muting"
           },
           {
+            "FeatureName": "Chat Translation",
+            "Telegram": "mediocrity|In [real-time](https://telegram.org/blog/profile-pics-emoji-translations#translating-entire-chats) (Premium, the text is sent to a third-party)",
+            "Viber": "mediocrity|Not supported",
+            "WhatsApp": "mediocrity|Not supported"
+          },
+          {
             "FeatureName": "Downloads Manager",
             "Telegram": "advantage|[Supported](https://telegram.org/blog/downloads-attachments-streaming#download-manager), with [priority changes](https://telegram.org/blog/infinite-reactions-statuses#prioritize-downloads-on-android)"
           }
@@ -1255,7 +1262,7 @@
           },
           {
             "FeatureName": "Users' Permissions Control",
-            "Telegram": "advantage|Atomic rights on: sending messages, media, stickers and GIF, polls, text links, adding users, pinning messages, changing group info",
+            "Telegram": "advantage|Atomic rights on: sending text messages, media ([of every type](https://telegram.org/blog/profile-pics-emoji-translations#granular-media-permissions)), stickers and GIF, polls, text links, adding users, pinning messages, changing group info",
             "Viber": "disadvantage|Rights to: send messages (atomic control by community superadmins)",
             "WhatsApp": "disadvantage|Sending messages, changing group info"
           },
@@ -1545,7 +1552,7 @@
           },
           {
             "FeatureName": "Interaction with Bot Messages",
-            "Telegram": "advantage|Via [inline](https://core.telegram.org/bots#inline-keyboards-and-on-the-fly-updating) keyboards with support to update dynamic messages content",
+            "Telegram": "advantage|Via [inline](https://core.telegram.org/bots/features#inline-keyboards) keyboards with support to update dynamic messages content",
             "Viber": "mediocrity|Limited support (via buttons)"
           },
           {
@@ -1555,6 +1562,10 @@
           {
             "FeatureName": "Handling Community Join Requests",
             "Telegram": "advantage|[Supported](https://telegram.org/blog/protected-content-delete-by-date-and-more#responses-to-join-requests)"
+          },
+          {
+            "FeatureName": "Chat And User Selection",
+            "Telegram": "advantage|Based on certain [criteria](https://telegram.org/blog/profile-pics-emoji-translations#chat-selection-for-bots)"
           },
           {
             "FeatureName": "Context-dependent Logic",
@@ -2692,14 +2703,10 @@
         "AspectName": "General",
         "Features": [
           {
-            "FeatureName": "Changing and Viewing Previous Profile Photos",
-            "Telegram": "advantage|Supported (including option to look for images on the web)",
-            "Viber": "mediocrity|Changing only (import from social networks is supported)",
-            "WhatsApp": "mediocrity|Changing only"
-          },
-          {
-            "FeatureName": "Changing and Viewing Profile Videos",
-            "Telegram": "advantage|[Yes](https://telegram.org/blog/profile-videos-people-nearby-and-more#profile-videos), with extended editing, in particular using [editor](https://telegram.org/blog/700-million-and-premium#animated-profile-picture-creator-on-macos) on macOS"
+            "FeatureName": "Interaction With Profile Media",
+            "Telegram": "advantage|With photos, [video](https://telegram.org/blog/profile-videos-people-nearby-and-more#profile-videos), [emoji, stickers](https://telegram.org/blog/profile-pics-emoji-translations#profile-picture-maker) and support for viewing previous ones, creation, editing, search on the web, in particular for channels, groups and contacts",
+            "Viber": "disadvantage|With photos only (social media import is supported)",
+            "WhatsApp": "disadvantage|With photos only"
           },
           {
             "FeatureName": "Changing Name",
@@ -3048,7 +3055,7 @@
           },
           {
             "FeatureName": "Data Usage: Statistics",
-            "Telegram": "advantage|Number/volume/duration of incoming/outcoming data by previous classification",
+            "Telegram": "advantage|Number/volume/duration of incoming/outcoming data by previous classification and [visualization](https://telegram.org/blog/profile-pics-emoji-translations#network-usage)",
             "WhatsApp": "mediocrity|Volume of incoming/outcoming data by previous types"
           },
           {
@@ -3095,6 +3102,12 @@
             "Telegram": "advantage|Max size, preloading next track (for audio)",
             "Viber": "disadvantage|Configuration is not supported",
             "WhatsApp": "disadvantage|Configuration is not supported"
+          },
+          {
+            "FeatureName": "Saving to Gallery",
+            "Telegram": "advantage|[Disabled/enabled](https://telegram.org/blog/profile-pics-emoji-translations#auto-save-incoming-media) (photo, video) for users, groups and channels with support for exceptions",
+            "Viber": "mediocrity|Disabled/enabled (Android)",
+            "WhatsApp": "mediocrity|Enabled/disabled"
           },
           {
             "FeatureName": "Auto-play",
@@ -3225,12 +3238,6 @@
             "Telegram": "advantage|Disabled/enabled",
             "Viber": "advantage|Disabled/enabled",
             "WhatsApp": "advantage|Disabled/enabled"
-          },
-          {
-            "FeatureName": "Saving to Gallery",
-            "Telegram": "advantage|Disabled/enabled for users, groups and channels",
-            "Viber": "advantage|Disabled/enabled (Android)",
-            "WhatsApp": "advantage|Enabled/disabled"
           },
           {
             "FeatureName": "Distance Units",

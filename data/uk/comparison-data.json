@@ -308,7 +308,8 @@
           {
             "FeatureName": "Підтримка Proxy",
             "Telegram": "advantage|Присутня",
-            "Viber": "advantage|Присутня"
+            "Viber": "advantage|Присутня",
+            "WhatsApp":"advantage|Присутня"
           },
           {
             "FeatureName": "Розширені Засоби з Підтримкою Шифрування",
@@ -981,6 +982,12 @@
             "WhatsApp": "mediocrity|Тимчасове/постійне вимкнення"
           },
           {
+            "FeatureName": "Переклад Чатів",
+            "Telegram": "mediocrity|В [режимі реального часу](https://telegram.org/blog/profile-pics-emoji-translations#translating-entire-chats) (Premium, текст надсилається третій стороні)",
+            "Viber": "mediocrity|Не підтримується",
+            "WhatsApp": "mediocrity|Не підтримується"
+          },
+          {
             "FeatureName": "Менеджер Завантажень",
             "Telegram": "advantage|[Підтримується](https://telegram.org/blog/downloads-attachments-streaming#download-manager), з [пріоритезацією](https://telegram.org/blog/infinite-reactions-statuses#prioritize-downloads-on-android)"
           }
@@ -1255,7 +1262,7 @@
           },
           {
             "FeatureName": "Контроль Дозволів Користувачів",
-            "Telegram": "advantage|Атомарні права на: надсилання повідомлень, медіа, стікерів та GIF, опитувань, текстових посилань, додавання користувачів, прикріплення повідомлень, зміну інформації про групу",
+            "Telegram": "advantage|Атомарні права на: надсилання текстових повідомлень, медіа ([кожного типу](https://telegram.org/blog/profile-pics-emoji-translations#granular-media-permissions)), стікерів та GIF, опитувань, текстових посилань, додавання користувачів, прикріплення повідомлень, зміну інформації про групу",
             "Viber": "disadvantage|Права на: надсилання повідомлень (атомарно контролюються суперадмінами спільнот)",
             "WhatsApp": "disadvantage|Надсилання повідомлень, зміна інформації групи"
           },
@@ -1545,7 +1552,7 @@
           },
           {
             "FeatureName": "Взаємодія З Повідомленнями Ботів",
-            "Telegram": "advantage|Через [вбудовані](https://core.telegram.org/bots#inline-keyboards-and-on-the-fly-updating) клавітатури з підтримкою оновлення вмісту динамічних повідомлень",
+            "Telegram": "advantage|Через [вбудовані](https://core.telegram.org/bots/features#inline-keyboards) клавітатури з підтримкою оновлення вмісту динамічних повідомлень",
             "Viber": "mediocrity|Обмежена підтримка (через кнопки)"
           },
           {
@@ -1555,6 +1562,10 @@
           {
             "FeatureName": "Обробка Запитів На Приєднання До Спільнот",
             "Telegram": "advantage|[Підтримується](https://telegram.org/blog/protected-content-delete-by-date-and-more#responses-to-join-requests)"
+          },
+          {
+            "FeatureName": "Вибір Користувачів та Груп",
+            "Telegram": "advantage|На основі певних [критерїів](https://telegram.org/blog/profile-pics-emoji-translations#chat-selection-for-bots)"
           },
           {
             "FeatureName": "Контекстуальна Логіка",
@@ -2692,14 +2703,10 @@
         "AspectName": "Загальні",
         "Features": [
           {
-            "FeatureName": "Зміна та Перегляд Попередніх Фото Профілю",
-            "Telegram": "advantage|Підтримується (зокрема з можливістю пошуку зображень в інтернеті)",
-            "Viber": "mediocrity|Лише зміна (підтримується імпорт з соц мереж)",
-            "WhatsApp": "mediocrity|Лише зміна"
-          },
-          {
-            "FeatureName": "Зміна та Перегляд Відео Профілю",
-            "Telegram": "advantage|[Так](https://telegram.org/blog/profile-videos-people-nearby-and-more#profile-videos), з розширеним редагуванням, зокрема [редактором](https://telegram.org/blog/700-million-and-premium#animated-profile-picture-creator-on-macos) в macOS"
+            "FeatureName": "Взаємодія з Медіа Профілю",
+            "Telegram": "advantage|З фото, [відео](https://telegram.org/blog/profile-videos-people-nearby-and-more#profile-videos), [емоджі, стікерами](https://telegram.org/blog/profile-pics-emoji-translations#profile-picture-maker) з підтримкою перегляду попередніх, створення, редагування, пошуку в інтернеті, зокрема для каналів, груп та контактів",
+            "Viber": "disadvantage|Лише з фото (підтримується імпорт з соц мереж)",
+            "WhatsApp": "disadvantage|Лише з фото"
           },
           {
             "FeatureName": "Зміна Імені",
@@ -3048,7 +3055,7 @@
           },
           {
             "FeatureName": "Споживання Трафіку: Статистика",
-            "Telegram": "advantage|Кількість/об’єм/тривалість вхідних/вихідних даних за попередньою класифікацією",
+            "Telegram": "advantage|Кількість/об’єм/тривалість вхідних/вихідних даних за попередньою класифікацією та [візуалізацією](https://telegram.org/blog/profile-pics-emoji-translations#network-usage)",
             "WhatsApp": "mediocrity|Об’єм вхідних/вихідних даних за попередніми типами"
           },
           {
@@ -3095,6 +3102,12 @@
             "Telegram": "advantage|Максимальний розмір, завантаження наступного треку (для аудіо)",
             "Viber": "disadvantage|Конфігурація не підтримується",
             "WhatsApp": "disadvantage|Конфігурація не підтримується"
+          },
+          {
+            "FeatureName": "Зберігати до Галереї",
+            "Telegram": "advantage|[Вимкнено/увімкнено](https://telegram.org/blog/profile-pics-emoji-translations#auto-save-incoming-media) (фото, відео) для користувачів, груп та каналів з підтримкою винятків",
+            "Viber": "mediocrity|Вимкнено/увімкнено (Android)",
+            "WhatsApp": "mediocrity|Увімкнено/вимкнено"
           },
           {
             "FeatureName": "Автовідтворення",
@@ -3225,12 +3238,6 @@
             "Telegram": "advantage|Вимкнено/увімкнено",
             "Viber": "advantage|Вимкнено/увімкнено",
             "WhatsApp": "advantage|Вимкнено/увімкнено"
-          },
-          {
-            "FeatureName": "Зберігати до Галереї",
-            "Telegram": "advantage|Вимкнено/увімкнено для користувачів, груп та каналів",
-            "Viber": "advantage|Вимкнено/увімкнено (Android)",
-            "WhatsApp": "advantage|Увімкнено/вимкнено"
           },
           {
             "FeatureName": "Одиниця Відстані",
