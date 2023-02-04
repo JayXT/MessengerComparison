@@ -36,10 +36,16 @@ section.main {
     margin: 0px 0px 45px 0px;
 }
 
-h2.outdated {
+h2.warning {
     color: #d90000;
     font-style: italic;
     font-size: 20px;
+}
+
+h2.warning>a {
+    color: #d90000;
+    border-bottom: .1em solid #d90000;
+    border-bottom-color: #d90000;
 }
 
 a:link, a:visited, a:hover, a:active {

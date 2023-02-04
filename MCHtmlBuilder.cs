@@ -51,8 +51,12 @@ namespace MessengerComparison
                         <section class=""main"">
                             <div class=""headline"">
                                 <h1>{GeneralData["Headline"]}</h1>
+
+                                {(GeneralData.ContainsKey("Notice") && !string.IsNullOrEmpty(GeneralData["Notice"]) ?
+                                $"<h2 class=\"warning\">{GeneralData["Notice"].ToHtml()}{GeneralData["UpdatedText"]} {LastUpdatedDateText}</h2>" : "")}
+
                                 {(IsTranslationOutOfDate ?
-                                $"<h2 class=\"outdated\">Translation is out of date: {LastUpdatedDateText}</h2>" : "")}
+                                $"<h2 class=\"warning\">Translation is out of date: {LastUpdatedDateText}</h2>" : "")}                                
                             </div>
                             <table>
                                 <colgroup>
