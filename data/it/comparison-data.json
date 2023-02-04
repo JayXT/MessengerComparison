@@ -308,7 +308,8 @@
           {
             "FeatureName": "Supporto Proxy",
             "Telegram": "advantage|Presente",
-            "Viber": "advantage|Presente"
+            "Viber": "advantage|Presente",
+			"WhatsApp":"advantage|Presente"
           },
           {
             "FeatureName": "Strumenti Estesi con Supporto per la Crittografia",
@@ -980,6 +981,12 @@
             "Viber": "mediocrity|Impostazioni limitate al sistema operativo (a partire da Android 8.0), silenziamento temporaneo",
             "WhatsApp": "mediocrity|Silenziamento temporaneo/permanente"
           },
+		  {
+            "FeatureName": "Traduzione Chat",
+            "Telegram": "mediocrity|In [tempo reale](https://telegram.org/blog/profile-pics-emoji-translations/it#traduzione-di-intere-chat) (Premium, il testo viene inviato a terze parti)",
+            "Viber": "mediocrity|Non supportata",
+            "WhatsApp": "mediocrity|Non supportata"
+          },
           {
 			"FeatureName": "Downloads Manager",
             "Telegram": "advantage|[Supported](https://telegram.org/blog/downloads-attachments-streaming/it#gestione-dei-download), con [cambio priorità](https://telegram.org/blog/infinite-reactions-statuses/it#imposta-la-priorita-dei-download-su-android)"
@@ -1255,8 +1262,8 @@
           },
           {
             "FeatureName": "Controllo delle Autorizzazioni degli Utenti",
-            "Telegram": "advantage|Diritti Atomici su: invio di messaggi, media, sticker e GIF, sondaggi, collegamenti di testo, aggiunta di utenti, messaggi fissati, modifica delle informazioni del gruppo",
-            "Viber": "disadvantage|Diritti a: inviare messaggi (controllo atomico da parte di superadmin della comunità)",
+            "Telegram": "advantage|Permessi: inviare messaggi, media ([di qualsiasi tipo](https://telegram.org/blog/profile-pics-emoji-translations/it#permessi-dettagliati-per-i-media)), sticker e GIF, sondaggi, link, aggiungere utenti, fissare messaggi, modificare info del gruppo",
+			"Viber": "disadvantage|Permessi: inviare messaggi (controllo da parte di superadmin della comunità)",
             "WhatsApp": "disadvantage|Invio di messaggi, modifica delle informazioni di gruppo"
           },
           {
@@ -1545,7 +1552,7 @@
           },
           {
             "FeatureName": "Interazione con i Messaggi dei Bot",
-            "Telegram": "advantage|Tramite tastiere [inline](https://core.telegram.org/bots#inline-keyboards-and-on-the-fly-updating) con supporto per l'aggiornamento del contenuto dei messaggi dinamici",
+            "Telegram": "advantage|Tramite tastiere [inline](https://core.telegram.org/bots/features#inline-keyboards) con supporto per l'aggiornamento del contenuto dei messaggi dinamici",
             "Viber": "mediocrity|Supporto limitato (tramite bottoni)"
           },
 		  {
@@ -1555,6 +1562,10 @@
 		  {
             "FeatureName": "Gestire le Richieste di Adesione alla Comunità",
             "Telegram": "advantage|[Supportato](https://telegram.org/blog/protected-content-delete-by-date-and-more/it#risposte-alle-richieste-di-accesso)"
+          },
+		  {
+            "FeatureName": "Selezione Chat e Utente",
+            "Telegram": "advantage|Basato su certi [criteri](https://telegram.org/blog/profile-pics-emoji-translations/it#selezione-chat-per-i-bot)"
           },
 		  {
             "FeatureName": "Logica Dipendente dal Contesto",
@@ -2692,14 +2703,10 @@
         "AspectName": "Generali",
         "Features": [
           {
-            "FeatureName": "Modifica e Visualizzazione Foto Profilo Precedenti",
-            "Telegram": "advantage|Supportato (inclusa l'opzione per cercare immagini sul web)",
-            "Viber": "mediocrity|Solo modifica (è supportata l'importazione dai social network)",
-            "WhatsApp": "mediocrity|Solo modifica"
-          },
-          {
-            "FeatureName": "Modifica e Visualizzazione Video Profilo",
-            "Telegram": "advantage|[Si](https://telegram.org/blog/profile-videos-people-nearby-and-more/it#video-del-profilo), con modifica estesa, in particolare usando l'[editor](https://telegram.org/blog/700-million-and-premium/it#creatore-di-immagini-profilo-animate-su-macos) su macOS"
+            "FeatureName": "Interazione Con Media Profilo",
+            "Telegram": "advantage|Con foto, [video](https://telegram.org/blog/profile-videos-people-nearby-and-more/it#video-del-profilo), [emoji, sticker](https://telegram.org/blog/profile-pics-emoji-translations/it#creazione-di-foto-del-profilo) e supporto per la visualizzazione delle foto precedenti, la creazione, la modifica, la ricerca sul web, in particolare per canali, gruppi e contatti",
+            "Viber": "disadvantage|Solamente con foto (è supportata l'importazione dai social media)",
+            "WhatsApp": "disadvantage|Solamente con foto"
           },
           {
             "FeatureName": "Modifica Nome",
@@ -3048,7 +3055,7 @@
           },
           {
             "FeatureName": "Utilizzo Dati: Statistiche",
-            "Telegram": "advantage|Numero/volume/durata dei dati in entrata/uscita dalla precedente classificazione",
+            "Telegram": "advantage|Numero/volume/durata dei dati in entrata/uscita dalla precedente classificazione e [visualizzazione](https://telegram.org/blog/profile-pics-emoji-translations/it#utilizzo-rete)",
             "WhatsApp": "mediocrity|Volume dei dati in entrata/uscita per tipi precedenti"
           },
           {
@@ -3095,6 +3102,12 @@
             "Telegram": "advantage|Dimensione massima, precaricando la traccia successiva (per audio)",
             "Viber": "disadvantage|La configurazione non è supportata",
             "WhatsApp": "disadvantage|La configurazione non è supportata"
+          },
+		  {
+            "FeatureName": "Salvataggio nella Galleria",
+            "Telegram": "advantage|[Disabilitato/abilitato](https://telegram.org/blog/profile-pics-emoji-translations/it#autosalvataggio-dei-media-in-arrivo) (foto, video) per utenti, gruppi e canali con supporto di eccezioni",
+            "Viber": "mediocrity|Disabilitato/abilitato (Android)",
+            "WhatsApp": "mediocrity|Abilitato/disabilitato"
           },
           {
             "FeatureName": "Auto-play",
@@ -3225,12 +3238,6 @@
             "Telegram": "advantage|Disabilitato/abilitato",
             "Viber": "advantage|Disabilitato/abilitato",
             "WhatsApp": "advantage|Disabilitato/abilitato"
-          },
-          {
-            "FeatureName": "Salvataggio nella Galleria",
-            "Telegram": "advantage|Disabilitato/abilitato per utenti, gruppi e canali",
-            "Viber": "advantage|Disabilitato/abilitato (Android)",
-            "WhatsApp": "advantage|Abilitato/disabilitato"
           },
           {
             "FeatureName": "Unità Distanza",
