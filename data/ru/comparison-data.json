@@ -1552,7 +1552,7 @@
           },
           {
             "FeatureName": "Взаимодействие с Сообщениями Ботов",
-            "Telegram": "advantage|Через [встроенные]((https://core.telegram.org/bots/features#inline-keyboards)) клавитатуры с поддержкой обновления содержимого динамических сообщений",
+            "Telegram": "advantage|Через [встроенные](https://core.telegram.org/bots/features#inline-keyboards) клавитатуры с поддержкой обновления содержимого динамических сообщений",
             "Viber": "mediocrity|Ограниченная поддержка (через кнопки)"
           },
           {
