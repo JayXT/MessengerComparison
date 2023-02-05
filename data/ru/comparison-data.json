@@ -308,7 +308,8 @@
           {
             "FeatureName": "Поддержка Прокси",
             "Telegram": "advantage|Присутствует",
-            "Viber": "advantage|Присутствует"
+            "Viber": "advantage|Присутствует",
+            "WhatsApp": "advantage|Присутствует"
           },
           {
             "FeatureName": "Дополнительные Средства с Поддержкой Шифрования",
@@ -981,6 +982,12 @@
             "WhatsApp": "mediocrity|Временное/постоянное отключение"
           },
           {
+            "FeatureName": "Перевод Чатов",
+            "Telegram": "mediocrity|В [режиме реального времени](https://telegram.org/blog/profile-pics-emoji-translations#translating-entire-chats) (Premium, текст посылается третьей стороне)",
+            "Viber": "mediocrity|Не поддерживается",
+            "WhatsApp": "mediocrity|Не поддерживается"
+          },
+          {
             "FeatureName": "Менеджер Загрузок",
             "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/downloads-attachments-streaming#download-manager), c [приоритезацией](https://telegram.org/blog/infinite-reactions-statuses#prioritize-downloads-on-android)"
           }
@@ -1255,7 +1262,7 @@
           },
           {
             "FeatureName": "Контроль Разрешений Пользователей",
-            "Telegram": "advantage|Атомарные права на: отправку сообщений, медиа, стикеров и GIF, опросов, текстовых ссылок, добавление пользователей, прикрепление сообщений, изменение информации о группе",
+            "Telegram": "advantage|Атомарные права на: отправку текстовых сообщений, медиа ([каждого типа](https://telegram.org/blog/profile-pics-emoji-translations#granular-media-permissions)), стикеров и GIF, опросов, текстовых ссылок, добавление пользователей, прикрепление сообщений, изменение информации о группе",
             "Viber": "disadvantage|Права на: передачи сообщений (атомарно контролируются суперадминами сообществ)",
             "WhatsApp": "disadvantage|Отправка сообщений, изменение информации группы"
           },
@@ -1545,7 +1552,7 @@
           },
           {
             "FeatureName": "Взаимодействие с Сообщениями Ботов",
-            "Telegram": "advantage|Через [встроенные](https://core.telegram.org/bots#inline-keyboards-and-on-the-fly-updating) клавитатуры с поддержкой обновления содержимого динамических сообщений",
+            "Telegram": "advantage|Через [встроенные](https://core.telegram.org/bots/features#inline-keyboards) клавитатуры с поддержкой обновления содержимого динамических сообщений",
             "Viber": "mediocrity|Ограниченная поддержка (через кнопки)"
           },
           {
@@ -1555,6 +1562,10 @@
           {
             "FeatureName": "Обработка Запросов На Присоединение К Сообществам",
             "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/protected-content-delete-by-date-and-more#responses-to-join-requests)"
+          },
+          {
+            "FeatureName": "Выбор Пользователей и Групп",
+            "Telegram": "advantage|На основе определённых [критериев](https://telegram.org/blog/profile-pics-emoji-translations#chat-selection-for-bots)"
           },
           {
             "FeatureName": "Контекстуальная Логика",
@@ -2271,7 +2282,7 @@
           },
           {
             "FeatureName": "Бесплатные Возможности",
-            "Telegram": "advantage|Создание, управление и обмен наборами всех видов стикеров, пользовательские эмоджи, а также просмотр их статистики",
+            "Telegram": "advantage|Создание, управление и обмен наборами всех видов стикеров, пользовательские эмодзи, а также просмотр их статистики",
             "Viber": "mediocrity|[Создание, управление и обмен](https://www.viber.com/blog/2019-09-16/create-your-own-stickers-and-express-yourself-perfectly/) собственными стикерами"
           },
           {
@@ -2692,14 +2703,10 @@
         "AspectName": "Общие",
         "Features": [
           {
-            "FeatureName": "Изменение и Просмотр Предварительных Фото Профиля",
-            "Telegram": "advantage|Поддерживается (в частности с возможностью поиска изображений в интернете)",
-            "Viber": "mediocrity|Только изменение (поддерживается импорт из социальных сетей)",
-            "WhatsApp": "mediocrity|Только изменение"
-          },
-          {
-            "FeatureName": "Изменение и Просмотр Видео Профиля",
-            "Telegram": "advantage|[Да](https://telegram.org/blog/profile-videos-people-nearby-and-more#profile-videos), с расширенным редактированием, в частности [редактором](https://telegram.org/blog/700-million-and-premium#animated-profile-picture-creator-on-macos) в macOS"
+            "FeatureName": "Взаимодействие с Медиа Профиля",
+            "Telegram": "advantage|С фото, [видео](https://telegram.org/blog/profile-videos-people-nearby-and-more#profile-videos), [эмодзи, стикерами](https://telegram.org/blog/profile-pics-emoji-translations#profile-picture-maker) с поддержкой просмотра предыдущих, создания, редактирования, поиска в интернете, в частности для каналов, групп и контактов",
+            "Viber": "disadvantage|Только с фото (поддерживается импорт из соцсетей)",
+            "WhatsApp": "disadvantage|Только с фото"
           },
           {
             "FeatureName": "Изменение Имени",
@@ -3048,7 +3055,7 @@
           },
           {
             "FeatureName": "Потребление Трафика: Статистика",
-            "Telegram": "advantage|Количество/объем/продолжительность входящих/исходящих данных по предварительной классификации",
+            "Telegram": "advantage|Количество/объем/продолжительность входящих/исходящих данных по предварительной классификации и [визуализацией](https://telegram.org/blog/profile-pics-emoji-translations#network-usage)",
             "WhatsApp": "mediocrity|Объем входящих/исходящих данных по предварительным типами"
           },
           {
@@ -3097,7 +3104,13 @@
             "WhatsApp": "disadvantage|Конфигурация не поддерживается"
           },
           {
-            "FeatureName": "Автозапуск",
+            "FeatureName": "Хранить в Галерее",
+            "Telegram": "advantage|[Выключено/включено](https://telegram.org/blog/profile-pics-emoji-translations#auto-save-incoming-media) (фото, видео) для пользователей, групп и каналов с поддержкой исключений",
+            "Viber": "mediocrity|Выключено/включено (Android)",
+            "WhatsApp": "mediocrity|Включено/выключено"
+          },
+          {
+            "FeatureName": "Автовоспроизведение",
             "Telegram": "advantage|Для GIF, видео и видеосообщений",
             "Viber": "advantage|Для видео"
           },
@@ -3225,12 +3238,6 @@
             "Telegram": "advantage|Выключен/включен",
             "Viber": "advantage|Выключен/включен",
             "WhatsApp": "advantage|Выключен/включен"
-          },
-          {
-            "FeatureName": "Сохранить в Галерею",
-            "Telegram": "advantage|Выключен/включен для пользователей, групп и каналов",
-            "Viber": "advantage|Выключен/включен (Android)",
-            "WhatsApp": "advantage|Включен/выключен"
           },
           {
             "FeatureName": "Единица Расстояния",
