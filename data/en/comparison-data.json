@@ -343,6 +343,10 @@
             "WhatsApp": "disadvantage|Present"
           },
           {
+            "FeatureName": "Power Saving Mode",
+            "Telegram": "advantage|With [extended](https://telegram.org/blog/power-saving#power-saving-mode) configuration"
+          },
+          {
             "FeatureName": "Support for Data Import",
             "Telegram": "advantage|[Importing chats and groups](https://telegram.org/blog/move-history) from WhatsApp, Line, KakaoTalk (message sending dates [are preserved](https://telegram.org/blog/autodelete-inv2/uk?setln=en#improved-chat-import))"
           },
@@ -790,7 +794,7 @@
           },
           {
             "FeatureName": "Changing Playback Speed",
-            "Telegram": "advantage|For video, audio, voice and video messages",
+            "Telegram": "advantage|[Granular](https://telegram.org/blog/power-saving#granular-playback-speed), for video, audio, voice and video messages",
             "WhatsApp": "mediocrity|For voice messages"
           },
           {
@@ -1300,7 +1304,7 @@
           },
           {
             "FeatureName": "Message Read Receipts For Individual Users",
-            "Telegram": "advantage|[In small groups](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#read-receipts-in-small-groups) (information is stored for 7 days)",
+            "Telegram": "advantage|[In small groups](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#read-receipts-in-small-groups) with [timestamps](https://telegram.org/blog/power-saving#read-time-in-small-groups) (information is stored for 7 days)",
             "Viber": "advantage|Groups only (communities are not supported)"
           },
           {
@@ -1598,6 +1602,10 @@
             "Telegram": "advantage|Supported ([ via links](https://telegram.org/blog/privacy-discussions-web-bots#meet-seamless-web-bots))"
           },
           {
+            "FeatureName": "Localization",
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/power-saving#translated-bot-descriptions)"
+          },
+          {
             "FeatureName": "Creation of Bots",
             "Telegram": "advantage|Via bot [@BotFather](https://telegram.me/botfather) and Bot API",
             "Viber": "mediocrity|Via Viber REST API"
@@ -1623,7 +1631,7 @@
           },
           {
             "FeatureName": "Capabilities",
-            "WhatsApp": "advantage|Viewing contacts' status, preparing replies and forwarding"
+            "WhatsApp": "advantage|Viewing contacts' status, reactions, preparing replies and forwarding"
           },
           {
             "FeatureName": "Muting Notifications",
@@ -1631,7 +1639,7 @@
           },
           {
             "FeatureName": "Privacy Settings",
-            "WhatsApp": "advantage|[Supported](https://faq.whatsapp.com/en/android/26000031/?category=5245234)"
+            "WhatsApp": "advantage|[Supported](https://faq.whatsapp.com/en/android/26000031/?category=5245234) with audience [selection](https://blog.whatsapp.com/new-ways-to-enjoy-whatsapp-status)"
           }
         ]
       },
@@ -3248,6 +3256,10 @@
             "Telegram": "advantage|All, your sets, none",
             "Viber": "disadvantage|Configuration is not supported",
             "WhatsApp": "disadvantage|Configuration is not supported"
+          },
+          {
+            "FeatureName": "Stickers and Masks: Dynamic Pack Order",
+            "Telegram": "advantage|[Enabled/disabled](https://telegram.org/blog/power-saving#dynamic-order-for-sticker-packs)"
           },
           {
             "FeatureName": "Stickers and Masks: Loop Animated Stickers",

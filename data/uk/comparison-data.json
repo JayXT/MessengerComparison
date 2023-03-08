@@ -343,6 +343,10 @@
             "WhatsApp": "disadvantage|Присутня"
           },
           {
+            "FeatureName": "Режим Енергозбереження",
+            "Telegram": "advantage|З [розширеною](https://telegram.org/blog/power-saving#power-saving-mode) конфігурацією"
+          },
+          {
             "FeatureName": "Підтримка Імпорту Даних",
             "Telegram": "advantage|[Імпорт чатів та груп](https://telegram.org/blog/move-history) з WhatsApp, Line, KakaoTalk (дата відправки повідомлень [зберігається](https://telegram.org/blog/autodelete-inv2/uk?setln=en#improved-chat-import))"
           },
@@ -790,7 +794,7 @@
           },
           {
             "FeatureName": "Зміна Швидкості Відтворення",
-            "Telegram": "advantage|Для відео, аудіо, голосових та відео повідомлень",
+            "Telegram": "advantage|[Гранульована](https://telegram.org/blog/power-saving#granular-playback-speed), для відео, аудіо, голосових та відео повідомлень",
             "WhatsApp": "mediocrity|Голосових повідомлень"
           },
           {
@@ -1300,7 +1304,7 @@
           },
           {
             "FeatureName": "Статус Читання Повідомлень Окремими Учасниками",
-            "Telegram": "advantage|[В малих групах](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#read-receipts-in-small-groups) (інформація зберігається впродовж 7 днів)",
+            "Telegram": "advantage|[В малих групах](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#read-receipts-in-small-groups) з [часовими мітками](https://telegram.org/blog/power-saving#read-time-in-small-groups) (інформація зберігається впродовж 7 днів)",
             "Viber": "advantage|Лише в групах (спільноти не підтримуються)"
           },
           {
@@ -1598,6 +1602,10 @@
             "Telegram": "advantage|Підтримується ([ через посилання](https://telegram.org/blog/privacy-discussions-web-bots#meet-seamless-web-bots))"
           },
           {
+            "FeatureName": "Локалізація",
+            "Telegram": "advantage|[Підтримується](https://telegram.org/blog/power-saving#translated-bot-descriptions)"
+          },
+          {
             "FeatureName": "Створення Ботів",
             "Telegram": "advantage|Через бота [@BotFather](https://telegram.me/botfather) та Bot API",
             "Viber": "mediocrity|Через Viber REST API"
@@ -1623,7 +1631,7 @@
           },
           {
             "FeatureName": "Можливості",
-            "WhatsApp": "advantage|Перегляд статусів контактів, формування відповідей та пересилання"
+            "WhatsApp": "advantage|Перегляд статусів контактів, реакції, формування відповідей та пересилання"
           },
           {
             "FeatureName": "Вимкнення Сповіщень",
@@ -1631,7 +1639,7 @@
           },
           {
             "FeatureName": "Налаштування Приватності",
-            "WhatsApp": "advantage|[Підтримуються](https://faq.whatsapp.com/en/android/26000031/?category=5245234)"
+            "WhatsApp": "advantage|[Підтримуються](https://faq.whatsapp.com/en/android/26000031/?category=5245234) з [вибором](https://blog.whatsapp.com/new-ways-to-enjoy-whatsapp-status) аудиторії"
           }
         ]
       },
@@ -3248,6 +3256,10 @@
             "Telegram": "advantage|Усіх, ваших, жодних",
             "Viber": "disadvantage|Конфігурація не підтримується",
             "WhatsApp": "disadvantage|Конфігурація не підтримується"
+          },
+          {
+            "FeatureName": "Наліпки та Маски: Динамічний Порядок Наборів",
+            "Telegram": "advantage|[Увімкнено/вимкнено](https://telegram.org/blog/power-saving#dynamic-order-for-sticker-packs)"
           },
           {
             "FeatureName": "Наліпки та Маски: Зациклення Анімованих Наліпок",
