@@ -202,13 +202,13 @@
             "FeatureName": "Type",
             "Telegram": "advantage|Cloud-based and instantaneous",
             "Viber": "disadvantage|1 primary device (phone/tablet) and a few secondary devices (tablets/PCs), which sync with the primary device",
-            "WhatsApp": "disadvantage|1 phone and 1 PC connected to it"
+            "WhatsApp": "mediocrity|[Hybrid](https://engineering.fb.com/2021/07/14/security/whatsapp-multi-device/)"
           },
           {
             "FeatureName": "Number of Devices",
             "Telegram": "advantage|Unlimited",
             "Viber": "disadvantage|One primary device and a few secondary ones",
-            "WhatsApp": "disadvantage|2"
+            "WhatsApp": "mediocrity|5 (including a phone)"
           },
           {
             "FeatureName": "Content for Sync",
@@ -295,6 +295,10 @@
           {
             "FeatureName": "Notifications About 2FA Settings Changes",
             "Telegram": "advantage|[Supported](https://telegram.org/blog/animated-backgrounds#login-info-reminders)"
+          },
+          {
+            "FeatureName": "Extended Device Verification",
+            "WhatsApp": "advantage|[Supported](https://blog.whatsapp.com/new-security-features-account-protect-device-verification-automatic-security-codes)"
           }
         ]        
       },
@@ -923,7 +927,7 @@
             "FeatureName": "Auto-Delete Messages",
             "Telegram": "advantage|[After an arbitrary duration](https://telegram.org/blog/notifications-bots#new-auto-delete-menu-in-profiles)",
             "Viber": "mediocrity|[After 10 s, 30s, 1 min, 1 hour](https://help.viber.com/en/article/disappearing-messages) (mobile devices only)",
-            "WhatsApp": "advantage|[After 24 hours, 7 or 90 days](https://blog.whatsapp.com/more-control-and-privacy-with-default-disappearing-messages-and-multiple-durations) with support for a default setting"
+            "WhatsApp": "advantage|[After 24 hours, 7 or 90 days](https://blog.whatsapp.com/more-control-and-privacy-with-default-disappearing-messages-and-multiple-durations) with support for a default setting and [message exceptions](https://blog.whatsapp.com/keep-in-chat-your-new-sender-superpower)"
           },
           {
             "FeatureName": "Pinning Chats",
@@ -949,7 +953,8 @@
           {
             "FeatureName": "Viewing Groups in Common with Contact",
             "Telegram": "advantage|Supported",
-            "Viber": "advantage|Supported"
+            "Viber": "advantage|Supported",
+            "WhatsApp": "advantage|Supported"
           },
           {
             "FeatureName": "Adding Contacts with Unknown Number",
@@ -1189,12 +1194,13 @@
           {
             "FeatureName": "Private Groups",
             "Telegram": "advantage|Access via closed link",
-            "Viber": "mediocrity|Access to groups/communities via closed link, only on mobile devices",
+            "Viber": "advantage|Access to groups/communities via closed link",
             "WhatsApp": "advantage|Access via closed link"
           },
           {
             "FeatureName": "Extended Invite Links",
-            "Telegram": "advantage|With support for [naming](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/?setln=en#unique-names-for-invite-links), [join requests](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/?setln=en#join-requests-for-groups-and-channels) and [limits](https://telegram.org/blog/autodelete-inv2/uk?setln=en#expiring-invite-links) on duration/number of uses"
+            "Telegram": "advantage|With support for [naming](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/?setln=en#unique-names-for-invite-links), [join requests](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/?setln=en#join-requests-for-groups-and-channels) and [limits](https://telegram.org/blog/autodelete-inv2/uk?setln=en#expiring-invite-links) on duration/number of uses",
+            "WhatsApp": "mediocrity|With support for [join requests](https://blog.whatsapp.com/getting-more-out-of-groups-on-whatsapp)"
           },
           {
             "FeatureName": "Protected Content",
@@ -1561,7 +1567,7 @@
           },
           {
             "FeatureName": "Web UI Integration",
-            "Telegram": "advantage|With [unlimited](https://telegram.org/blog/notifications-bots/#bot-revolution) capabilities"
+            "Telegram": "advantage|With [unlimited](https://telegram.org/blog/shareable-folders-custom-wallpapers#better-bots) capabilities"
           },
           {
             "FeatureName": "Handling Community Join Requests",
@@ -1727,6 +1733,12 @@
             "FeatureName": "Cellular Calls",
             "Telegram": "mediocrity|Not supported (they contradict the philosophy and security approach)",
             "Viber": "advantage|Via paid Viber Out",
+            "WhatsApp": "mediocrity|Not supported"
+          },
+          {
+            "FeatureName": "Caller ID",
+            "Telegram": "mediocrity|Not supported (privacy threat)",
+            "Viber": "mediocrity|[Supported](https://www.viber.com/en/blog/2023-04-05/free-caller-id-is-now-on-viber/)",
             "WhatsApp": "mediocrity|Not supported"
           }
         ]
@@ -2153,8 +2165,8 @@
         "Features": [
           {
             "FeatureName": "Personalization of Individual Chats",
-            "Telegram": "advantage|Changing themes for [personal chats](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#chat-themes)",
-            "Viber": "advantage|Changing backgrounds"
+            "Telegram": "advantage|Changing [themes](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#chat-themes) and [wallpapers](https://telegram.org/blog/shareable-folders-custom-wallpapers#custom-wallpapers) for personal chats",
+            "Viber": "mediocrity|Changing backgrounds"
           },
           {
             "FeatureName": "Extended Backgrounds Configuration",
@@ -2604,7 +2616,7 @@
           },
           {
             "FeatureName": "Assets Availability",
-            "Telegram": "advantage|As anonymous numbers and any number of additional pseudonyms for users, their public channels and groups"
+            "Telegram": "advantage|As anonymous numbers and any number of additional pseudonyms for users and [chats](https://telegram.org/blog/shareable-folders-custom-wallpapers#bot-links-and-telegram-premium-on-fragment)"
           }
         ]
       },
@@ -2634,6 +2646,10 @@
             "FeatureName": "Bots",
             "Telegram": "advantage|Supported",
             "Viber": "advantage|Supported"
+          },
+          {
+            "FeatureName": "Chat Collections",
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/shareable-folders-custom-wallpapers#shareable-chat-folders) (with extended configuration)"
           },
           {
             "FeatureName": "Messages",
