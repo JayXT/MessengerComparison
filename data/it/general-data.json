@@ -1,11 +1,12 @@
 {
-    "Headline": "Confronto Dettagliato tra le App di Messaggistica",
-    "Description": "Quale servizio di messaggistica sceglierai?",
-    "Feature": "Funzionalità",
-    "Telegram": "Telegram",
-    "Viber": "Viber",
-    "WhatsApp": "WhatsApp",
-    "UpdatedText": "Traduzione aggiornata al:",
-    "UpdatedFormat": "dd MMMM yyyy",
-    "Author": "Autrice Traduzione: [ReallyNotNothing](https://github.com/ReallyNotNothing)"
+	"Headline": "Confronto Dettagliato tra le App di Messaggistica",
+	"Description": "Quale servizio di messaggistica sceglierai?",
+	"Notice": "",
+	"Feature": "Funzionalità",
+	"Telegram": "Telegram",
+	"Viber": "Viber",
+	"WhatsApp": "WhatsApp",
+	"UpdatedText": "Traduzione aggiornata al:",
+	"UpdatedFormat": "dd MMMM yyyy",
+	"Author": "Autrice Traduzione: [ReallyNotNothing](https://github.com/ReallyNotNothing)"
 }
