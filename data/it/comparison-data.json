@@ -295,7 +295,7 @@
 		  {
 			"FeatureName": "Notifiche sui Cambiamenti delle Impostazioni Autenticazione a 2 fattori",
 			"Telegram": "advantage|[Supportato](https://telegram.org/blog/animated-backgrounds/it#promemoria-per-le-informazioni-di-accesso)"
-		  }
+		  },
 		  {
 			"FeatureName": "Estensione Verifica Dispositivo",
 			"WhatsApp": "advantage|[Supportata](https://blog.whatsapp.com/new-security-features-account-protect-device-verification-automatic-security-codes?lang=it)"
@@ -1199,7 +1199,7 @@
 		  },
 		  {
 			"FeatureName": "Link di Invito Estesi",
-			"Telegram": "advantage|Con il supporto per [nominarli](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/it#nomi-unici-per-i-link-d-39invito), [richieste d'accesso](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/it#richieste-di-accesso-per-gruppi-e-canali) e [limitarli](https://telegram.org/blog/autodelete-inv2/it#link-d-39invito-con-scadenza) sulla durata/numero di usi"
+			"Telegram": "advantage|Con il supporto per [nominarli](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/it#nomi-unici-per-i-link-d-39invito), [richieste d'accesso](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/it#richieste-di-accesso-per-gruppi-e-canali) e [limitarli](https://telegram.org/blog/autodelete-inv2/it#link-d-39invito-con-scadenza) sulla durata/numero di usi",
 			"WhatsApp": "mediocrity|Con supporto per [richieste d'accesso](https://blog.whatsapp.com/getting-more-out-of-groups-on-whatsapp?lang=it)"
 		  },
 		  {
