@@ -87,7 +87,7 @@
         "Features": [
           {
             "FeatureName": "Кількість Активних Користувачів",
-            "Telegram": "mediocrity|[700 мільйонів](https://telegram.org/blog/700-million-and-premium)",
+            "Telegram": "mediocrity|[800 мільйонів](https://t.me/durov/215)",
             "Viber": "mediocrity|[260 мільйонів](https://en.wikipedia.org/wiki/Messaging_apps)",
             "WhatsApp": "advantage|[2000 мільйонів](https://blog.whatsapp.com/10000666/Two-Billion-Users--Connecting-the-World-Privately)"
           }
@@ -202,7 +202,7 @@
             "FeatureName": "Вид",
             "Telegram": "advantage|Хмарна та миттєва",
             "Viber": "disadvantage|1 первинний пристрій (смартфон/планшет) та декілька вторинних (планшети/комп'ютери), які синхронізуються з первинним пристроєм",
-            "WhatsApp": "mediocrity|[Гібридна](https://engineering.fb.com/2021/07/14/security/whatsapp-multi-device/)"
+            "WhatsApp": "mediocrity|[Гібридна](https://engineering.fb.com/2021/07/14/security/whatsapp-multi-device/), з підтримкою [декількох](https://blog.whatsapp.com/one-whatsapp-account-now-across-multiple-phones) мобільних пристроїв"
           },
           {
             "FeatureName": "Кількість Пристроїв",
@@ -421,7 +421,7 @@
             "FeatureName": "Пересилання Повідомлень",
             "Telegram": "advantage|З [гнучкими](https://telegram.org/blog/live-streams-forwarding-next-channel#flexible-forwarding) опціями та [збереженням відповідей](https://telegram.org/blog/notifications-bots/#replies-in-forwarded-messages)",
             "Viber": "mediocrity|Підтримується",
-            "WhatsApp": "mediocrity|Підтримується (1 чат за раз)"
+            "WhatsApp": "mediocrity|З можливістю приховування/заміни тексту медіа (1 чат за раз)"
           },
           {
             "FeatureName": "Емоджі",
@@ -528,7 +528,7 @@
             "FeatureName": "Опитування",
             "Telegram": "advantage|[Так](https://telegram.org/blog/polls-2-0-vmq) (анонімні/неанонімні, з вибором кількох відповідей, [вікторини](https://telegram.org/blog/400-million#better-quizzes))",
             "Viber": "mediocrity|Так (до 4-х опцій, режим вікторини)",
-            "WhatsApp":"mediocrity|Так"
+            "WhatsApp":"mediocrity|[Так](https://blog.whatsapp.com/new-updates-to-polls-and-sharing-with-captions-on-whatsapp), зокрема з вибором кількох відповідей"
           },
           {
             "FeatureName": "Голосові Повідомлення",
@@ -645,7 +645,8 @@
           {
             "FeatureName": "Тексту Повідомлень",
             "Telegram": "advantage|Підтримується",
-            "Viber": "advantage|Підтримується"
+            "Viber": "advantage|Підтримується",
+            "WhatsApp":"advantage|Підтримується"
           },
           {
             "FeatureName": "Заміна Медіа/Файлів",
@@ -930,6 +931,12 @@
             "WhatsApp": "advantage|[Через 24 години, 7 чи 90 днів](https://blog.whatsapp.com/more-control-and-privacy-with-default-disappearing-messages-and-multiple-durations), з підтримкою параметру за замовчуванням та [повідомлень винятків](https://blog.whatsapp.com/keep-in-chat-your-new-sender-superpower)"
           },
           {
+            "FeatureName": "Збереження Вибіркових Повідомлень",
+            "Telegram": "mediocrity|Через пересилання в Збережене чи інший чат",
+            "Viber": "mediocrity|Через пересилання в Збережене чи інший чат",
+            "WhatsApp": "advantage|[Підтримується](https://blog.whatsapp.com/keep-in-chat-your-new-sender-superpower) (якщо автовидалення увімкнено)"
+          },
+          {
             "FeatureName": "Прикріплення Чатів",
             "Telegram": "advantage|До 5 чатів (10 в Premium), в архіві, папках необмежена кількість",
             "Viber": "advantage|Підтримується",
@@ -947,7 +954,12 @@
             "Viber": "advantage|Підтримується"
           },
           {
+            "FeatureName": "Блокування Чатів",
+            "WhatsApp": "advantage|[Підтримується](https://blog.whatsapp.com/chat-lock-making-your-most-intimate-conversations-even-more-private)"
+          },
+          {
             "FeatureName": "Фільтрування Невідомих Чатів",
+            "Telegram": "mediocrity|Лише автоматичне архівування",
             "Viber": "advantage|[Автоматичне](https://www.viber.com/en/blog/2020-11-23/pay-in-chatbots-backup-media-and-all-thats-new-on-viber/)"
           },
           {
@@ -1351,12 +1363,14 @@
           {
             "FeatureName": "Через",
             "Telegram": "advantage|[Канали](https://telegram.org/tour/channels); [Групи для Трасляцій](https://telegram.org/blog/autodelete-inv2/uk?setln=en#groups-with-unlimited-members)",
-            "Viber": "advantage|[Канали](https://help.viber.com/en/article/channels-knowledge-base-for-admins); Спільноти; Скриньку Бізнес Повідомлень; Публічні Акаунти"
+            "Viber": "advantage|[Канали](https://help.viber.com/en/article/channels-knowledge-base-for-admins); Спільноти; Скриньку Бізнес Повідомлень; Публічні Акаунти",
+            "WhatsApp":"advantage|[Канали](https://blog.whatsapp.com/introducing-whatsapp-channels-a-private-way-to-follow-what-matters)"
           },
           {
             "FeatureName": "Кількість Підписників",
             "Telegram": "advantage|Необмежена",
-            "Viber": "advantage|Необмежена"
+            "Viber": "advantage|Необмежена",
+            "WhatsApp": "advantage|Необмежена"
           },
           {
             "FeatureName": "Шифрування",
@@ -1366,12 +1380,14 @@
           {
             "FeatureName": "Редагування Інформації",
             "Telegram": "advantage|Зміна назви, фото та опису каналу",
-            "Viber": "advantage|Зміна назви, фото та опису спільноти"
+            "Viber": "advantage|Зміна назви, фото та опису спільноти",
+            "WhatsApp": "advantage|Зміна назви, фото та опису спільноти"
           },
           {
             "FeatureName": "Спільна Історія Публікацій",
             "Telegram": "advantage|Так, зміни синхронізуються в режимі реального часу",
-            "Viber": "mediocrity|Так"
+            "Viber": "mediocrity|Так",
+            "WhatsApp": "mediocrity|Так, зберігається лише 30 днів"
           },
           {
             "FeatureName": "Перегляд Історії Дій",
@@ -1380,12 +1396,14 @@
           {
             "FeatureName": "Спосіб Доступу",
             "Telegram": "advantage|Приватні та публічні канали",
-            "Viber": "advantage|Приватні та публічні спільноти, канали"
+            "Viber": "advantage|Приватні та публічні спільноти, канали",
+            "WhatsApp": "mediocrity|Публічні канали доступні, або недоступні в директоріях"
           },
           {
             "FeatureName": "Публічні",
             "Telegram": "advantage|Доступ за відкритим посиланням, пошук за іменем",
-            "Viber": "advantage|Доступ до публічних акаунтів за посиланням, до спільнот за посиланням/редагованим скріншотом, пошук перевірених за іменем, підтримка значків"
+            "Viber": "advantage|Доступ до публічних акаунтів за посиланням, до спільнот за посиланням/редагованим скріншотом, пошук перевірених за іменем, підтримка значків",
+            "WhatsApp": "advantage|Доступ за посиланням, або з директорії"
           },
           {
             "FeatureName": "Приватні",
@@ -1398,7 +1416,8 @@
           },
           {
             "FeatureName": "Захищений Вміст",
-            "Telegram": "advantage|[Підтримується](https://telegram.org/blog/protected-content-delete-by-date-and-more#protected-content-in-groups-and-channels)"
+            "Telegram": "advantage|[Підтримується](https://telegram.org/blog/protected-content-delete-by-date-and-more#protected-content-in-groups-and-channels)",
+            "WhatsApp": "advantage|Підтримується"
           },
           {
             "FeatureName": "Ручне Додавання Підписників",
@@ -1408,7 +1427,8 @@
           {
             "FeatureName": "Інформація про Авторів Повідомлень",
             "Telegram": "advantage|Прихована, надсилання від імені каналу з опціональними [підписами адміністраторів](https://www.telegram.org/blog/channels-2-0#admin-signatures)",
-            "Viber": "disadvantage|Відображається"
+            "Viber": "mediocrity|Прихована (лише в каналах)",
+            "WhatsApp": "advantage|Прихована"
           },
           {
             "FeatureName": "Зміна Власника",
@@ -1417,7 +1437,8 @@
           {
             "FeatureName": "Вибір та Контроль Адміністраторів",
             "Telegram": "advantage|Атомарні права на: зміну інформації каналу, публікацію повідомлень, редагування та видалення повідомлень інших, запрошення користувачів посиланням, додаванням адмінів, керування відео чатами",
-            "Viber": "advantage|Аналогічно до категорії груп"
+            "Viber": "advantage|Аналогічно до категорії груп",
+            "WhatsApp":"mediocrity|Підтримується"
           },
           {
             "FeatureName": "Чорний Список Користувачів",
@@ -1458,7 +1479,8 @@
           {
             "FeatureName": "Наявність Реклами",
             "Telegram": "mediocrity|Від [конфіденційної рекламної платформи](https://promote.telegram.org/basics) та власників каналів",
-            "Viber": "disadvantage|Окрім спільнот, отримання реклами через бізнес повідомлення, а також електронних листів від Viber (за умови прив’язки email)"
+            "Viber": "disadvantage|Окрім спільнот, отримання реклами через бізнес повідомлення, а також електронних листів від Viber (за умови прив’язки email)",
+            "WhatsApp":"advantage|Від власників каналів"
           },
           {
             "FeatureName": "Спонсорські Канали",
@@ -1498,7 +1520,8 @@
           {
             "FeatureName": "Варіанти Використання",
             "Telegram": "advantage|Блоги, навчальні, розважальні ЗМІ, канали новин, струкутурвання власної інформації, монетизація…",
-            "Viber": "mediocrity|Обмежена відправка новин, медіа, монетизація"
+            "Viber": "mediocrity|Обмежена відправка новин, медіа, монетизація",
+            "WhatsApp": "mediocrity|Обмежені блоги, навчальні, розважальні ЗМІ, канали новин"
           }
         ]
       },
@@ -1624,27 +1647,31 @@
         ]
       },
       {
-        "AspectName": "Медіа Статус",
-        "Telegram": "advantage|Через налаштування профілю, канали, ботів та без обмежень в 24 години, а також, в рамках Telegram Premium, [емоджі статуси](https://telegram.org/blog/infinite-reactions-statuses#emoji-statuses) з довільною тривалістю",
+        "AspectName": "Історії",
         "Features": [
           {
             "FeatureName": "Призначення",
-            "WhatsApp": "advantage|Створення персоналізованого статусу"
+            "Telegram": "advantage|Створення персоналізованого соціального статусу",
+            "WhatsApp": "advantage|Створення персоналізованого соціального статусу"
           },
           {
             "FeatureName": "Типи Підтримуваного Контенту",
-            "WhatsApp": "advantage|Текст та медіа з підтримкою редагування, доступні впродовж 24 годин після відправки"
+            "Telegram": "advantage|Текст та медіа з підтримкою розширеного редагування, конфігурацією періоду доступності",
+            "WhatsApp": "mediocrity|Текст та медіа з підтримкою редагування, доступні впродовж 24 годин після відправки"
           },
           {
             "FeatureName": "Можливості",
+            "Telegram": "advantage|Перегляд статусів контактів, реакції, формування відповідей та пересилання, збереження чернеток, архівування",
             "WhatsApp": "advantage|Перегляд статусів контактів, реакції, формування відповідей та пересилання"
           },
           {
             "FeatureName": "Вимкнення Сповіщень",
+            "Telegram": "advantage|Підтримується (для окремих контактів)", 
             "WhatsApp": "advantage|Підтримується (для окремих контактів)"
           },
           {
             "FeatureName": "Налаштування Приватності",
+            "Telegram": "advantage|Підтримуються",
             "WhatsApp": "advantage|[Підтримуються](https://faq.whatsapp.com/en/android/26000031/?category=5245234) з [вибором](https://blog.whatsapp.com/new-ways-to-enjoy-whatsapp-status) аудиторії"
           }
         ]
@@ -1912,8 +1939,8 @@
           {
             "FeatureName": "Даних",
             "Telegram": "advantage|Підтримується (повідомлення, боти, користувачі, стікерпаки, канали…)",
-            "Viber": "disadvantage|Лише локально (за виключенням перевірених спільнот)",
-            "WhatsApp": "disadvantage|Лише локально"
+            "Viber": "mediocrity|Лише локально (за виключенням перевірених спільнот)",
+            "WhatsApp": "mediocrity|Лише локально"
           },
           {
             "FeatureName": "Фільтрація",
@@ -1921,7 +1948,8 @@
           },
           {
             "FeatureName": "Перегляд За Категоріями",
-            "Telegram": "advantage|Чати, медіа, посилання, файли, музика, голосові повідомлення"
+            "Telegram": "advantage|Чати, медіа, посилання, файли, музика, голосові повідомлення",
+            "WhatsApp": "advantage|Фото, відео, посилання, опитування"
           }
         ]
       },
@@ -2755,6 +2783,10 @@
             "WhatsApp": "mediocrity|Підтримується (опис обов’язковий)"
           },
           {
+            "FeatureName": "Зміна Емоджі Статусу",
+            "Telegram": "advantage|[Підтримується](https://telegram.org/blog/infinite-reactions-statuses#emoji-statuses) (лише Premium)"
+          },
+          {
             "FeatureName": "Резервне Копіювання/Відновлення",
             "Telegram": "advantage|Через всесторонню хмарну синхронізацію",
             "Viber": "mediocrity|Підтримується (включно з налаштуванням періодичності)",
@@ -2779,14 +2811,14 @@
         "Features": [
           {
             "FeatureName": "Контроль Сповіщень За Типами Чатів",
-            "Telegram": "advantage|Підтримується (приватні чати, групи, канали)",
-            "Viber": "mediocrity|Обмежена підтримка в рамках налаштувань Android 8.0",
+            "Telegram": "advantage|Підтримується (приватні чати, групи, канали, історії)",
+            "Viber": "mediocrity|Обмежена підтримка в рамках налаштувань Android",
             "WhatsApp": "advantage|Підтримується (чати, групи)"
           },
           {
             "FeatureName": "Підтримка Винятків Сповіщень",
             "Telegram": "advantage|Для кожного типу чатів з підтримкою їх [швидкого очищення](https://telegram.org/blog/contacts-local-groups#enhanced-notification-exceptions)",
-            "Viber": "mediocrity|Обмежена підтримка в рамках налаштувань Android 8.0",
+            "Viber": "mediocrity|Обмежена підтримка в рамках налаштувань Android",
             "WhatsApp": "mediocrity|Через налаштування окремих чатів"
           },
           {
@@ -2881,7 +2913,7 @@
           },
           {
             "FeatureName": "Перегляд Опису Профілю",
-            "Telegram": "disadvantage|Конфігурація не підтримується",
+            "Telegram": "advantage|Всі, ваші контакти, ніхто",
             "WhatsApp": "advantage|Всі, ваші контакти, ніхто"
           },
           {
@@ -2898,7 +2930,7 @@
             "FeatureName": "Отримання Викликів",
             "Telegram": "advantage|Від усіх, ваших контактів чи нікого",
             "Viber": "disadvantage|Конфігурація не підтримується",
-            "WhatsApp": "disadvantage|Конфігурація не підтримується"
+            "WhatsApp": "mediocrity|Лише [можливість](https://blog.whatsapp.com/new-privacy-features-silence-unknown-callers-and-privacy-checkup) вимикання звуку при дзвінках від невідомих номерів"
           },
           {
             "FeatureName": "Виклики Peer-to-Peer",
