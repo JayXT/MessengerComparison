@@ -539,7 +539,8 @@
           {
             "FeatureName": "Video Messages",
             "Telegram": "advantage|[Supported](https://telegram.org/blog/video-1000/#video-messages-2-0) (up to 60 seconds), with support rewind and zoom",
-            "Viber": "mediocrity|Supported (up to 20 seconds)"
+            "Viber": "mediocrity|Supported (up to 20 seconds)",
+            "WhatsApp": "advantage|[Supported](https://blog.whatsapp.com/introducing-instant-video-messages) (up 60 seconds)"
           },
           {
             "FeatureName": "Comments",
@@ -1651,18 +1652,34 @@
         "Features": [
           {
             "FeatureName": "Destination",
-            "Telegram": "advantage|Creation of the personalized social status",
-            "WhatsApp": "advantage|Creation of the personalized social status"
+            "Telegram": "advantage|[Interaction](https://telegram.org/blog/stories#telegram-stories) with the personalized user social status",
+            "WhatsApp": "advantage|Interaction with the personalized user social status"
           },
           {
             "FeatureName": "Types of Supported Content",
-            "Telegram": "advantage|Text and media with support for extended editing, configuration of the availability period",
+            "Telegram": "advantage|Text, stickers, location and media with support for extended editing, configuration of [the availability period](https://telegram.org/tour/stories#expiration-options)",
             "WhatsApp": "mediocrity|Text and media with support for editing, which are available within 24 hours after sending"
           },
           {
-            "FeatureName": "Capabilities",
-            "Telegram": "advantage|Viewing contacts' status, reactions, preparing replies and forwarding, saving drafts, archiving",
-            "WhatsApp": "advantage|Viewing contacts' status, reactions, preparing replies and forwarding"
+            "FeatureName": "Main Capabilities",
+            "Telegram": "advantage|Viewing contacts' status, reactions, preparing replies and forwarding, saving drafts, archiving and [more](https://telegram.org/tour/stories)",
+            "WhatsApp": "mediocrity|Viewing contacts' status, reactions, preparing replies and forwarding"
+          },
+          {
+            "FeatureName": "Dual Camera Mode",
+            "Telegram": "advantage|With [flexible](https://telegram.org/blog/stories#dual-camera-mode) configuration"
+          },
+          {
+            "FeatureName": "Publishing Into Profile",
+            "Telegram": "advantage|[Supported](https://telegram.org/tour/stories#stories-on-your-profile)"
+          },
+          {
+            "FeatureName": "Editing Published Stories",
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/stories#editing-stories)"
+          },
+          {
+            "FeatureName": "Detailed Statistics",
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/stories#detailed-view-statistics)"
           },
           {
             "FeatureName": "Muting Notifications",
@@ -1671,7 +1688,7 @@
           },
           {
             "FeatureName": "Privacy Settings",
-            "Telegram": "advantage|Supported",
+            "Telegram": "advantage|[Granular](https://telegram.org/blog/stories#granular-privacy-settings)",
             "WhatsApp": "advantage|[Supported](https://faq.whatsapp.com/en/android/26000031/?category=5245234) with audience [selection](https://blog.whatsapp.com/new-ways-to-enjoy-whatsapp-status)"
           }
         ]

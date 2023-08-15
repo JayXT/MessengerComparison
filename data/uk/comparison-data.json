@@ -539,7 +539,8 @@
           {
             "FeatureName": "Відео Повідомлення",
             "Telegram": "advantage|[Підтримуються](https://telegram.org/blog/video-1000/#video-messages-2-0) (до 60 с.), з перемотуванням та масштабуванням",
-            "Viber": "mediocrity|Підтримуються (до 20 с.)"
+            "Viber": "mediocrity|Підтримуються (до 20 с.)",
+            "WhatsApp": "advantage|[Підтримуються](https://blog.whatsapp.com/introducing-instant-video-messages) (до 60 с.)"
           },
           {
             "FeatureName": "Коментарі",
@@ -1651,18 +1652,34 @@
         "Features": [
           {
             "FeatureName": "Призначення",
-            "Telegram": "advantage|Створення персоналізованого соціального статусу",
-            "WhatsApp": "advantage|Створення персоналізованого соціального статусу"
+            "Telegram": "advantage|[Взаємодія](https://telegram.org/blog/stories#telegram-stories) з персоналізованим соціальним статусом користувачів",
+            "WhatsApp": "advantage|Взаємодія з персоналізованим соціальним статусом користувачів"
           },
           {
             "FeatureName": "Типи Підтримуваного Контенту",
-            "Telegram": "advantage|Текст та медіа з підтримкою розширеного редагування, конфігурацією періоду доступності",
+            "Telegram": "advantage|Текст, стікери, місцезнаходження та медіа з підтримкою розширеного редагування, конфігурацією [періоду доступності](https://telegram.org/tour/stories#expiration-options)",
             "WhatsApp": "mediocrity|Текст та медіа з підтримкою редагування, доступні впродовж 24 годин після відправки"
           },
           {
-            "FeatureName": "Можливості",
-            "Telegram": "advantage|Перегляд статусів контактів, реакції, формування відповідей та пересилання, збереження чернеток, архівування",
-            "WhatsApp": "advantage|Перегляд статусів контактів, реакції, формування відповідей та пересилання"
+            "FeatureName": "Основні Можливості",
+            "Telegram": "advantage|Перегляд статусів контактів, реакції, формування відповідей та пересилання, збереження чернеток, архівування та [більше](https://telegram.org/tour/stories)",
+            "WhatsApp": "mediocrity|Перегляд статусів контактів, реакції, формування відповідей та пересилання"
+          },
+          {
+            "FeatureName": "Двохкамерний Режим",
+            "Telegram": "advantage|З [гнучкою](https://telegram.org/blog/stories#dual-camera-mode) конфігурацією"
+          },
+          {
+            "FeatureName": "Публікація в Профіль",
+            "Telegram": "advantage|[Підтримується](https://telegram.org/tour/stories#stories-on-your-profile)"
+          },
+          {
+            "FeatureName": "Редагування Опублікованих Історій",
+            "Telegram": "advantage|[Підтримується](https://telegram.org/blog/stories#editing-stories)"
+          },
+          {
+            "FeatureName": "Деталізована Статистика",
+            "Telegram": "advantage|[Підтримується](https://telegram.org/blog/stories#detailed-view-statistics)"
           },
           {
             "FeatureName": "Вимкнення Сповіщень",
@@ -1671,7 +1688,7 @@
           },
           {
             "FeatureName": "Налаштування Приватності",
-            "Telegram": "advantage|Підтримуються",
+            "Telegram": "advantage|[Гранульовані](https://telegram.org/blog/stories#granular-privacy-settings)",
             "WhatsApp": "advantage|[Підтримуються](https://faq.whatsapp.com/en/android/26000031/?category=5245234) з [вибором](https://blog.whatsapp.com/new-ways-to-enjoy-whatsapp-status) аудиторії"
           }
         ]
