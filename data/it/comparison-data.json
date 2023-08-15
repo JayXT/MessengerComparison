@@ -539,7 +539,8 @@
 		  {
 			"FeatureName": "Videomessaggi",
 			"Telegram": "advantage|[Supportati](https://telegram.org/blog/video-1000/it#videomessaggi-2-0) (fino a 60 secondi) con supporto riavvolgimento e zoom",
-			"Viber": "mediocrity|Supportato (fino a 20 secondi)"
+			"Viber": "mediocrity|Supportato (fino a 20 secondi)",
+			"WhatsApp": "advantage|[Supportato](https://blog.whatsapp.com/introducing-instant-video-messages) (fino a 60 secondi)"
 		  },
 		  {
 			"FeatureName": "Commenti",
@@ -1651,18 +1652,34 @@
 		"Features": [
 		  {
 			"FeatureName": "Destinazione",
-			"Telegram": "advantage|Creazione dello status sociale personalizzato",
-			"WhatsApp": "advantage|Creazione dello status sociale personalizzato"
+			"Telegram": "advantage|[Interazione](https://telegram.org/blog/stories/it#storie-di-telegram) con lo status sociale personalizzato dell'utente"
+			"WhatsApp": "advantage|Interazione con lo status sociale personalizzato dell'utente"
 		  },
 		  {
 			"FeatureName": "Tipi di Contenuti Supportati",
-			"Telegram": "advantage|Testo e media con supporto per la modifica estesa, configurazione del periodo di disponibilità",
+			"Telegram": "advantage|Testo, sticker, posizione e media con supporto per la modifica estesa, configurazione del [periodo di disponibilità](https://telegram.org/tour/stories/it#opzioni-di-scadenza)",
 			"WhatsApp": "mediocrity|Testo e media con supporto per la modifica, che sono disponibili entro 24 ore dall'invio"
 		  },
 		  {
-			"FeatureName": "Capacità",
-			"Telegram": "advantage|Visualizzazione dello stato dei contatti, reazioni, preparazione delle risposte e inoltro, salvataggio bozze, archiviazione",
-			"WhatsApp": "advantage|Visualizzazione dello stato dei contatti, reazioni, preparazione delle risposte e inoltro"
+			"FeatureName": "Capacità Principali",
+			"Telegram": "advantage|Visualizzazione dello stato dei contatti, reazioni, preparazione delle risposte e inoltro, salvataggio bozze, archiviazione e [molto altro](https://telegram.org/tour/stories/it)",
+			"WhatsApp": "mediocrity|Visualizzazione dello stato dei contatti, reazioni, preparazione delle risposte e inoltro"
+		  },
+		  {
+			"FeatureName": "Modalità Doppia Camera",
+			"Telegram": "advantage|Con configurazione [flessibile](https://telegram.org/blog/stories/it#modalita-doppia-fotocamera)"
+		  },
+		  {
+			"FeatureName": "Pubblicazione nel Profilo",
+			"Telegram": "advantage|[Supportata](https://telegram.org/tour/stories/it#storie-sul-tuo-profilo)"
+		  },
+		  {
+			"FeatureName": "Modifica Storie Pubblicate",
+			"Telegram": "advantage|[Supportata](https://telegram.org/blog/stories/it#modificare-le-storie)"
+		  },
+		  {
+			"FeatureName": "Statistiche Dettagliate",
+			"Telegram": "advantage|[Supportata](https://telegram.org/blog/stories/it#statistiche-di-visualizzazione-dettagliate)"
 		  },
 		  {
 			"FeatureName": "Notifiche Silenziate",
@@ -1671,7 +1688,7 @@
 		  },
 		  {
 			"FeatureName": "Impostazioni Privacy",
-			"Telegram": "advantage|Supportato",
+			"Telegram": "advantage|[Dettagliata](https://telegram.org/blog/stories/it#impostazioni-privacy-dettagliate)",
 			"WhatsApp": "advantage|[Supportato](https://faq.whatsapp.com/2538892862990242/?locale=it_IT) con [selezione](https://blog.whatsapp.com/new-ways-to-enjoy-whatsapp-status?lang=it) del pubblico"
 		  }
 		]
@@ -2730,7 +2747,7 @@
 		  },
 		  {
 			"FeatureName": "Badge / Pulsanti di Condivisione",
-			"Telegram": "advantage|[Supportato](https://core.telegram.org/widgets/share) (con configurazione granulare e opzioni proprie)",
+			"Telegram": "advantage|[Supportato](https://core.telegram.org/widgets/share) (con configurazione dettagliata e opzioni proprie)",
 			"Viber": "mediocrity|Supporto limitato"
 		  }
 		]
