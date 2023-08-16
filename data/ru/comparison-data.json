@@ -539,7 +539,8 @@
           {
             "FeatureName": "Видео Сообщения",
             "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/video-1000/#video-messages-2-0) (до 60 с.), с перемоткой и масштабированием",
-            "Viber": "mediocrity|Поддерживаются (до 20 с.)"
+            "Viber": "mediocrity|Поддерживаются (до 20 с.)",
+            "WhatsApp": "advantage|[Поддерживаются](https://blog.whatsapp.com/introducing-instant-video-messages) (до 60 с.)"
           },
           {
             "FeatureName": "Комментарии",
@@ -1651,18 +1652,34 @@
         "Features": [
           {
             "FeatureName": "Назначения",
-            "Telegram": "advantage|Создание персонализированного социального статуса",
-            "WhatsApp": "advantage|Создание персонализированного социального статуса"
+            "Telegram": "advantage|[Взаимодействие](https://telegram.org/blog/stories#telegram-stories) с персонализированным социальным статусом пользователей",
+            "WhatsApp": "advantage|Взаимодействие с персонализированным социальным статусом пользователей"
           },
           {
             "FeatureName": "Поддерживаемые Типы Контента",
-            "Telegram": "advantage|Текст и медиа с поддержкой расширенного редактирования, конфигурацией периода доступности",
+            "Telegram": "advantage|Текст, стикеры, местонахождение и медиа с поддержкой расширенного редактирования, конфигурацией [периода доступности](https://telegram.org/tour/stories#expiration-options)",
             "WhatsApp": "mediocrity|Текст и медиа с поддержкой редактирования, доступные в течение 24 часов после отправки"
           },
           {
-            "FeatureName": "Возможности",
-            "Telegram": "advantage|Просмотр статусов контактов, реакции, формирование ответов и пересылки, сохранение черновиков, архивирование",
-            "WhatsApp": "advantage|Просмотр статусов контактов, реакции, формирование ответов и пересылки"
+            "FeatureName": "Основные Возможности",
+            "Telegram": "advantage|Просмотр статусов контактов, реакции, формирование ответов и пересылки, сохранение черновиков, архивирование и [больше](https://telegram.org/tour/stories)",
+            "WhatsApp": "mediocrity|Просмотр статусов контактов, реакции, формирование ответов и пересылки"
+          },
+          {
+            "FeatureName": "Двухкамерный Режим",
+            "Telegram": "advantage|С [гибкой](https://telegram.org/blog/stories#dual-camera-mode) конфигурацией"
+          },
+          {
+            "FeatureName": "Публикация в Профиль",
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/tour/stories#stories-on-your-profile)"
+          },
+          {
+            "FeatureName": "Редактирование Опубликованных Историй",
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/stories#editing-stories)"
+          },
+          {
+            "FeatureName": "Подробная Статистика",
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/stories#detailed-view-statistics)"
           },
           {
             "FeatureName": "Отключение Уведомлений",
@@ -1670,8 +1687,8 @@
             "WhatsApp": "advantage|Поддерживается (для отдельных контактов)"
           },
           {
-            "FeatureName": "Настройками Приватности",
-            "Telegram": "advantage|Поддерживаются",
+            "FeatureName": "Настройки Приватности",
+            "Telegram": "advantage|[Детальные](https://telegram.org/blog/stories#granular-privacy-settings)",
             "WhatsApp": "advantage|[Поддерживаются](https://faq.whatsapp.com/en/android/26000031/?category=5245234) с [выбором](https://blog.whatsapp.com/new-ways-to-enjoy-whatsapp-status) аудитории"
           }
         ]
