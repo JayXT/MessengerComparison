@@ -563,7 +563,7 @@
 			"FeatureName": "Finanza",
 			"Telegram": "advantage|[In qualsiasi chat](https://telegram.org/blog/payments-2-0-scheduled-voice-chats/it#pagamenti-2-0) tramite uno dei fornitori di pagamento e con il supporto per le mance, tramite [@wallet](https://t.me/wallet) bot",
 			"Viber": "advantage|Tramite [Viber Pay](https://www.viber.com/en/blog/2022-07-27/our-latest-super-feature-viber-pay), [Moneytou](https://viber.com/blog/2019-12-18/pay-your-friends-back-with-moneytou) estensione (~1% commissioni), [Apple Pay/Google Pay](https://viber.com/en/blog/2020-11-23/pay-in-chatbots-backup-media-and-all-thats-new-on-viber)",
-			"WhatsApp": "advantage|Utilizzando Facebook Pay, [UPI India](https://blog.whatsapp.com/send-payments-in-india-with-whatsapp?lang=it), o altri sistemi di pagamento"
+			"WhatsApp": "advantage|Utilizzando Facebook Pay, [UPI India](https://blog.whatsapp.com/send-payments-in-india-with-whatsapp?lang=it)"
 		  },
 		  {
 			"FeatureName": "Prodotti da Cataloghi",
@@ -744,7 +744,7 @@
 		  },
 		  {
 			"FeatureName": "Autodistruzione di Foto/Video Inviati",
-			"Telegram": "advantage|Supportato (distruzione nell'intervallo da 1 secondo a 1 minuto dopo che un messaggio è stato visto o [Visualizza una volta](https://telegram.org/blog/channel-stories/it#media-a-singola-visione))",
+			"Telegram": "advantage|Supportato (distruzione nell'intervallo da 1 secondo a 1 minuto dopo che un messaggio è stato visto)",
 			"WhatsApp": "mediocrity|Tramite [ViewOnce](https://blog.whatsapp.com/view-once-photos-and-videos-on-whatsapp?lang=it), senza configurazione"
 		  },
 		  {
@@ -1141,11 +1141,6 @@
 			"FeatureName": "Cataloghi Prodotti",
 			"Telegram": "advantage|Tramite [canali](https://t.me/TestStore) con messaggi di fatture e bot commercianti",
 			"WhatsApp": "advantage|Supportati"
-		  },
-		  {
-			"FeatureName": "\"Flussi\"",
-			"Telegram": "advantage|Tramite capacità estese dei [bot web](https://core.telegram.org/bots/webapps)",
-			"WhatsApp": "mediocrity|Come [UI](https://blog.whatsapp.com/creating-new-experiences-for-people-and-businesses-on-whatsapp?lang=it) con interazioni semplificate"
 		  },
 		  {
 			"FeatureName": "Un Carrello degli Acquisti",
@@ -1657,12 +1652,12 @@
 		"Features": [
 		  {
 			"FeatureName": "Destinazione",
-			"Telegram": "advantage|[Interazione](https://telegram.org/blog/stories/it#storie-di-telegram) con lo status sociale personalizzato dell'utente e del [canale](https://telegram.org/blog/channel-stories/it#storie-per-i-canali)",
-			"WhatsApp": "mediocrity|Interazione con lo status sociale personalizzato dell'utente"
+			"Telegram": "advantage|[Interazione](https://telegram.org/blog/stories/it#storie-di-telegram) con lo status sociale personalizzato dell'utente",
+			"WhatsApp": "advantage|Interazione con lo status sociale personalizzato dell'utente"
 		  },
 		  {
 			"FeatureName": "Tipi di Contenuti Supportati",
-			"Telegram": "advantage|Testo, sticker, [sticker di reazione](https://telegram.org/blog/channel-stories/it#sticker-di-reazione-nelle-storie), posizione e media con supporto per la modifica estesa, configurazione del [periodo di disponibilità](https://telegram.org/tour/stories/it#opzioni-di-scadenza)",
+			"Telegram": "advantage|Testo, sticker, posizione e media con supporto per la modifica estesa, configurazione del [periodo di disponibilità](https://telegram.org/tour/stories/it#opzioni-di-scadenza)",
 			"WhatsApp": "mediocrity|Testo e media con supporto per la modifica, che sono disponibili entro 24 ore dall'invio"
 		  },
 		  {
@@ -1805,7 +1800,7 @@
 			"FeatureName": "Numero di Partecipanti",
 			"Telegram": "advantage|[Illimitati](https://telegram.org/blog/live-streams-forwarding-next-channel/it#dirette-streaming-illimitate), trasmissione video per i primi [30](https://telegram.org/blog/group-video-calls/it#videochiamate-di-gruppo) membri",
 			"Viber": "mediocrity|Fino a 40 partecipanti",
-			"WhatsApp": "disadvantage|Fino a [32](https://faq.whatsapp.com/226697115160417?lang=it) partecipanti (in particolare su [Facebook Portal](https://portal.facebook.com))"
+			"WhatsApp": "disadvantage|Fino a [32](https://faq.whatsapp.com/226697115160417?lang=it) partecipanti (dispositivi mobili e [Facebook Portal](https://portal.facebook.com))"
 		  },
 		  {
 			"FeatureName": "Organizzato Come",
