@@ -20,7 +20,7 @@
           {
             "FeatureName": "Funding Source",
             "Telegram": "advantage|[Privacy-conscious ad platform](https://promote.telegram.org/basics) or [Telegram Premium](https://telegram.org/blog/700-million-and-premium) subscriptions; [Fragment](https://fragment.com/); Pavel Durov",
-            "Viber": "mediocrity|[Ads](https://support.viber.com/customer/en/portal/articles/2536775), paid features (stickers, local numbers, Viber Out)",
+            "Viber": "mediocrity|[Ads](https://support.viber.com/customer/en/portal/articles/2536775), paid features (stickers, local numbers, Viber Out), [Viber Plus](https://www.viber.com/en/blog/2023-10-04/introducing-viber-plus/)",
             "WhatsApp": "mediocrity|Advertising and subscriptions"
           }
         ]
@@ -117,7 +117,7 @@
           {
             "FeatureName": "Support Model",
             "Telegram": "disadvantage|Volunteer support ([TSF](https://core.telegram.org/tsi))",
-            "Viber": "advantage|Commercial support",
+            "Viber": "advantage|Commercial support ([24/7 for Plus](https://www.viber.com/en/blog/2023-10-04/introducing-viber-plus/))",
             "WhatsApp": "advantage|Commercial support"
           }
         ]
@@ -362,7 +362,8 @@
           },
           {
             "FeatureName": "Support for Multiple Accounts",
-            "Telegram": "advantage|[Available](https://telegram.org/blog/profile-videos-people-nearby-and-more#multiple-accounts-on-telegram-desktop) (3 without subscription, 4 with Premium)"
+            "Telegram": "advantage|[Available](https://telegram.org/blog/profile-videos-people-nearby-and-more#multiple-accounts-on-telegram-desktop) (3 without subscription, 4 with Premium)",
+            "WhatsApp": "mediocrity|Up to [two](https://blog.whatsapp.com/multiple-accounts-coming-to-whatsapp) (Android)"
           },
           {
             "FeatureName": "Alternative Clients",
@@ -381,7 +382,7 @@
         "Features": [
           {
             "FeatureName": "Text",
-            "Telegram": "advantage|With combined formatting support ([spoilers](https://telegram.org/blog/reactions-spoilers-translations#spoilers), bold, monospace, italics, underlined, strikethrough font)",
+            "Telegram": "advantage|With combined formatting support ([spoilers](https://telegram.org/blog/reactions-spoilers-translations#spoilers), [quotes](https://telegram.org/blog/reply-revolution#quote-formatting), bold, monospace, italics, underlined, strikethrough font)",
             "Viber": "mediocrity|With combined formatting support (bold, monospace, italics, strikethrough font)",
             "WhatsApp": "mediocrity|With formatting support (bold, monospace, italics, strikethrough font)"
           },
@@ -413,9 +414,9 @@
           },
           {
             "FeatureName": "Message Replies",
-            "Telegram": "advantage|[Supported](https://telegram.org/blog/replies-mentions-hashtags#replies)",
-            "Viber": "advantage|Supported",
-            "WhatsApp": "advantage|Supported"
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/replies-mentions-hashtags#replies), in particular to [specific parts](https://telegram.org/blog/reply-revolution#reply-revolution), with an option of sending to different chats",
+            "Viber": "mediocrity|Supported",
+            "WhatsApp": "mediocrity|Supported"
           },
           {
             "FeatureName": "Message Forwarding",
@@ -432,8 +433,8 @@
           {
             "FeatureName": "Stickers",
             "Telegram": "advantage|[Thousands](https://telegram.org/blog/400-million#20-000-stickers) of free, cloud sets of static, [animated](https://telegram.org/blog/animated-stickers) and [video](https://telegram.org/blog/video-stickers-better-reactions#video-stickers) stickers; [extra ones](https://telegram.org/blog/700-million-and-premium#unique-stickers) in Premium subscription",
-            "Viber": "disadvantage|Paid and free stickers, some of them support sound; memoji (iOS)",
-            "WhatsApp": "disadvantage|A few standard sets and limited support via third-party applications, in particular for [animated](https://blog.whatsapp.com/introducing-animated-stickers-qr-codes-and-more) stickers"
+            "Viber": "disadvantage|Paid ([free for Plus](https://www.viber.com/en/blog/2023-10-04/introducing-viber-plus/)) and free stickers, some of them support sound; memoji (iOS)",
+            "WhatsApp": "mediocrity|A few standard sets, [AI-stickers](https://blog.whatsapp.com/lets-explore-ai) and limited support via third-party applications, in particular for [animated](https://blog.whatsapp.com/introducing-animated-stickers-qr-codes-and-more) stickers"
           },
           {
             "FeatureName": "Avatars",
@@ -654,6 +655,10 @@
             "Telegram": "advantage|Supported"
           },
           {
+            "FeatureName": "Adjusting Link Previews",
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/reply-revolution#adjustable-link-previews)"
+          },
+          {
             "FeatureName": "Correction of Sent Images",
             "Telegram": "advantage|[Supported](https://telegram.org/blog/voice-chats?ln=r#editing-improvements)"
           },
@@ -845,8 +850,8 @@
           },
           {
             "FeatureName": "Voice Messages/Video Transcription",
-            "Telegram": "mediocrity|[With Premium](https://telegram.org/blog/topics-in-groups-collectible-usernames#voice-to-text-for-video-messages) (the message is sent to the [third-party](https://telegram.org/privacy#8-5-transcription-of-voice-messages-at-the-request-of-the-user))",
-            "Viber": "mediocrity|Not supported",
+            "Telegram": "mediocrity|[With Premium](https://telegram.org/blog/topics-in-groups-collectible-usernames#voice-to-text-for-video-messages) (the message is sent to a [third-party](https://telegram.org/privacy#8-5-transcription-of-voice-messages-at-the-request-of-the-user))",
+            "Viber": "mediocrity|[With Plus](https://www.viber.com/en/blog/2023-10-04/introducing-viber-plus/) (the message is sent to a third-party)",
             "WhatsApp": "mediocrity|Not supported"
           },
           {
@@ -1067,7 +1072,6 @@
           {
             "FeatureName": "Gifting Premium Subscriptions",
             "Telegram": "mediocrity|[Supported](https://telegram.org/blog/custom-emoji/#gifting-telegram-premium) (for 3, 6 or 12 months)",
-            "Viber": "mediocrity|Subscriptions are absent",
             "WhatsApp": "mediocrity|Subscriptions are absent"
           }
         ]
@@ -1128,18 +1132,19 @@
           {
             "FeatureName": "Interaction with Businesses",
             "Telegram": "advantage|Via bots, channels",
-            "Viber": "advantage|Via [chatbots](https://help.viber.com/en/article/how-to-buy-from-a-chatbot-on-viber-faq) (Ukraine-only), channels",
+            "Viber": "advantage|Via [chats](https://www.viber.com/en/blog/2023-10-23/viber-local-businesses/) with Viber Business accounts",
             "WhatsApp": "advantage|Via chats with WhatsApp Business accounts"
           },
           {
             "FeatureName": "Company Profile",
             "Telegram": "mediocrity|As description of a bot, channel or as their contents",
-            "Viber": "mediocrity|As chatbot, channel description or their contents",
+            "Viber": "advantage|As a separate page with details and links",
             "WhatsApp": "advantage|As a [separate](https://www.whatsapp.com/business/api) page with details"
           },
           {
             "FeatureName": "Goods Catalogs",
             "Telegram": "advantage|Via [channels](https://t.me/TestStore) with invoice messages and merchant bots",
+            "Viber": "advantage|Supported",
             "WhatsApp": "advantage|Supported"
           },
           {
@@ -1154,7 +1159,7 @@
           {
             "FeatureName": "Buying Goods",
             "Telegram": "advantage|Via Telegram Bot Payments API",
-            "Viber": "mediocrity|Via Bot Payments API (Ukraine-only)",
+            "Viber": "advantage|Supported",
             "WhatsApp": "advantage|Supported"
           },
           {
@@ -1165,6 +1170,21 @@
           }
         ]
       },
+      {
+        "AspectName": "AI-Chats",
+          "Features": [
+            {
+              "FeatureName": "Communication with Artificial Intelligence",
+              "Telegram": "mediocrity|Unlimited, via respective bots (official ones are missing)",
+              "WhatsApp": "advantage|Via [special chats](https://blog.whatsapp.com/lets-explore-ai) with AI"
+            },
+            {
+              "FeatureName": "Image Generation",
+              "Telegram": "mediocrity|In scope of capabilities of the respective bots (official ones are missing)",
+              "WhatsApp": "advantage|Via /imagine query to Meta AI"
+            }
+          ]
+        },
       {
         "AspectName": "Groups",
         "Features": [
@@ -1673,6 +1693,10 @@
           {
             "FeatureName": "Dual Camera Mode",
             "Telegram": "advantage|With [flexible](https://telegram.org/blog/stories#dual-camera-mode) configuration"
+          },
+          {
+            "FeatureName": "Front Flash",
+            "Telegram": "advantage|With [flexible](https://telegram.org/blog/reply-revolution#story-improvements) configuration"
           },
           {
             "FeatureName": "Publishing Into Profile",
@@ -2184,7 +2208,7 @@
           },
           {
             "FeatureName": "Accurate Fast-forwarding/Rewinding",
-            "Telegram": "advantage|Of [audio](https://telegram.org/blog/move-history#improved-audio-player) and [video](https://telegram.org/blog/payments-2-0-scheduled-voice-chats#improved-video-player)"
+            "Telegram": "advantage|Of [audio](https://telegram.org/blog/move-history#improved-audio-player), [video](https://telegram.org/blog/payments-2-0-scheduled-voice-chats#improved-video-player) and [stories](https://telegram.org/blog/reply-revolution#story-improvements)"
           },
           {
             "FeatureName": "Viewing All Artist's Soundtracks",
@@ -2217,6 +2241,10 @@
             "FeatureName": "Personalization of Individual Chats",
             "Telegram": "advantage|Changing [themes](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#chat-themes) and [wallpapers](https://telegram.org/blog/shareable-folders-custom-wallpapers#custom-wallpapers) for personal chats",
             "Viber": "mediocrity|Changing backgrounds"
+          },
+          {
+            "FeatureName": "Personalization of Account Colors",
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/reply-revolution#account-colors) (Premium)"
           },
           {
             "FeatureName": "Extended Backgrounds Configuration",
@@ -2806,7 +2834,8 @@
           },
           {
             "FeatureName": "Changing Emoji Status",
-            "Telegram": "advantage|[Supported](https://telegram.org/blog/infinite-reactions-statuses#emoji-statuses) (Premium only)"
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/infinite-reactions-statuses#emoji-statuses) (Premium only)",
+            "Viber": "mediocrity|Basic badges (Plus only)"
           },
           {
             "FeatureName": "Backup/Recovery",
@@ -2920,13 +2949,13 @@
           {
             "FeatureName": "Viewing Last Seen/Online Status",
             "Telegram": "advantage|All, your contacts, nobody",
-            "Viber": "mediocrity|Limited support, configuring online status is possible once a day",
+            "Viber": "mediocrity|Limited support, configuring online status is possible once a day; also in [a one-way mode](https://www.viber.com/en/blog/2023-10-04/introducing-viber-plus/) (Viber Plus)",
             "WhatsApp": "advantage|All, your contacts, nobody"
           },
           {
             "FeatureName": "Viewing Message Reading Status",
             "Telegram": "mediocrity|Not supported, read message is shown as read to collocutor",
-            "Viber": "advantage|Supported",
+            "Viber": "advantage|Supported; also in [a one-way mode](https://www.viber.com/en/blog/2023-10-04/introducing-viber-plus/) (Viber Plus)",
             "WhatsApp": "advantage|Enabled/disabled"
           },
           {

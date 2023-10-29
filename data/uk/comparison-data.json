@@ -20,7 +20,7 @@
           {
             "FeatureName": "Джерело Фінансування",
             "Telegram": "advantage|[Конфіденційна рекламна платформа](https://promote.telegram.org/basics) або підписки [Telegram Premium](https://telegram.org/blog/700-million-and-premium); [Fragment](https://fragment.com/); Павло Дуров",
-            "Viber": "mediocrity|[Реклама](https://support.viber.com/customer/en/portal/articles/2536775), платні функції (стікери, місцеві номери, Viber Out)",
+            "Viber": "mediocrity|[Реклама](https://support.viber.com/customer/en/portal/articles/2536775), платні функції (стікери, місцеві номери, Viber Out), [Viber Plus](https://www.viber.com/en/blog/2023-10-04/introducing-viber-plus/)",
             "WhatsApp": "mediocrity|Рекламний бізнес та підписки"
           }
         ]
@@ -117,7 +117,7 @@
           {
             "FeatureName": "Модель підтримки",
             "Telegram": "disadvantage|Підтримка добровольцями ([TSF](https://core.telegram.org/tsi))",
-            "Viber": "advantage|Комерційна підтримка",
+            "Viber": "advantage|Комерційна підтримка ([24/7 для Plus](https://www.viber.com/en/blog/2023-10-04/introducing-viber-plus/))",
             "WhatsApp": "advantage|Комерційна підтримка"
           }
         ]
@@ -362,7 +362,8 @@
           },
           {
             "FeatureName": "Підтримка Кількох Акаунтів",
-            "Telegram": "advantage|[Доступна](https://telegram.org/blog/profile-videos-people-nearby-and-more#multiple-accounts-on-telegram-desktop) (3 без підписки, 4 з Premium)"
+            "Telegram": "advantage|[Доступна](https://telegram.org/blog/profile-videos-people-nearby-and-more#multiple-accounts-on-telegram-desktop) (3 без підписки, 4 з Premium)",
+            "WhatsApp": "mediocrity|До [двох](https://blog.whatsapp.com/multiple-accounts-coming-to-whatsapp) (Android)"
           },
           {
             "FeatureName": "Альтернативні Клієнти",
@@ -381,7 +382,7 @@
         "Features": [
           {
             "FeatureName": "Текст",
-            "Telegram": "advantage|З підтримкою комбінованого форматування ([спойлери](https://telegram.org/blog/reactions-spoilers-translations#spoilers), жирний, моноширний, курсивний, підкреслений, закреслений шрифт)",
+            "Telegram": "advantage|З підтримкою комбінованого форматування ([спойлери](https://telegram.org/blog/reactions-spoilers-translations#spoilers), [цитати](https://telegram.org/blog/reply-revolution#quote-formatting), жирний, моноширний, курсивний, підкреслений, закреслений шрифт)",
             "Viber": "mediocrity|З підтримкою комбінованого форматування (жирний, моноширний, курсивний, закреслений шрифт)",
             "WhatsApp": "mediocrity|З підтримкою форматування (жирний, моноширний, курсивний, закреслений шрифт)"
           },
@@ -413,9 +414,9 @@
           },
           {
             "FeatureName": "Відповіді до Повідомлень",
-            "Telegram": "advantage|[Підтримуються](https://telegram.org/blog/replies-mentions-hashtags#replies)",
-            "Viber": "advantage|Підтримуються",
-            "WhatsApp": "advantage|Підтримуються"
+            "Telegram": "advantage|[Підтримуються](https://telegram.org/blog/replies-mentions-hashtags#replies), зокрема на [окремі частини](https://telegram.org/blog/reply-revolution#reply-revolution), з можливістю відправки в інші чати",
+            "Viber": "mediocrity|Підтримуються",
+            "WhatsApp": "mediocrity|Підтримуються"
           },
           {
             "FeatureName": "Пересилання Повідомлень",
@@ -432,8 +433,8 @@
           {
             "FeatureName": "Стікери",
             "Telegram": "advantage|[Тисячі](https://telegram.org/blog/400-million#20-000-stickers) безкоштовних хмарних наборів статичних, [анімованих](https://telegram.org/blog/animated-stickers) та [відео](https://telegram.org/blog/video-stickers-better-reactions#video-stickers) стікерів; [додаткові](https://telegram.org/blog/700-million-and-premium#unique-stickers) в рамках Premium",
-            "Viber": "disadvantage|Платні та безкоштовні стікери, деякі підтримують звук; мемоджі (iOS)",
-            "WhatsApp": "disadvantage|Декілька стандартних наборів та обмежена підтримка через сторонні додатки, зокрема [анімованих](https://blog.whatsapp.com/introducing-animated-stickers-qr-codes-and-more) стікерів"
+            "Viber": "disadvantage|Платні ([безкоштовні для Plus](https://www.viber.com/en/blog/2023-10-04/introducing-viber-plus/)) та безкоштовні стікери, деякі підтримують звук; мемоджі (iOS)",
+            "WhatsApp": "mediocrity|Декілька стандартних наборів, [AI-стікери](https://blog.whatsapp.com/lets-explore-ai) та обмежена підтримка через сторонні додатки, зокрема [анімованих](https://blog.whatsapp.com/introducing-animated-stickers-qr-codes-and-more) стікерів"
           },
           {
             "FeatureName": "Аватари",
@@ -654,6 +655,10 @@
             "Telegram": "advantage|Підтримується"
           },
           {
+            "FeatureName": "Коригування Попереднього Огляду Посилань",
+            "Telegram": "advantage|[Підтримується](https://telegram.org/blog/reply-revolution#adjustable-link-previews)"
+          },
+          {
             "FeatureName": "Корекція Відправлених Зображень",
             "Telegram": "advantage|[Підтримується](https://telegram.org/blog/voice-chats?ln=r#editing-improvements)"
           },
@@ -846,7 +851,7 @@
           {
             "FeatureName": "Транскрипції Голосових/Відео Повідомлень",
             "Telegram": "mediocrity|[З Premium](https://telegram.org/blog/topics-in-groups-collectible-usernames#voice-to-text-for-video-messages) (повідомлення надсилається [третій стороні](https://telegram.org/privacy#8-5-transcription-of-voice-messages-at-the-request-of-the-user))",
-            "Viber": "mediocrity|Не підтримується",
+            "Viber": "mediocrity|[З Plus](https://www.viber.com/en/blog/2023-10-04/introducing-viber-plus/) (повідомлення надсилаються третій стороні)",
             "WhatsApp": "mediocrity|Не підтримується"
           },
           {
@@ -1067,7 +1072,6 @@
           {
             "FeatureName": "Premium Підписки У Подарунок",
             "Telegram": "mediocrity|[Підтримуються](https://telegram.org/blog/custom-emoji/#gifting-telegram-premium) (на 3, 6 або 12 місяців)",
-            "Viber": "mediocrity|Підписки відсутні",
             "WhatsApp": "mediocrity|Підписки відсутні"
           }
         ]
@@ -1128,18 +1132,19 @@
           {
             "FeatureName": "Взаємодія з Бізнесом",
             "Telegram": "advantage|Через ботів, канали",
-            "Viber": "advantage|Через [чатботів](https://help.viber.com/en/article/how-to-buy-from-a-chatbot-on-viber-faq) (лише в Україні), канали",
+            "Viber": "advantage|Через [чати](https://www.viber.com/en/blog/2023-10-23/viber-local-businesses/) з акаунтами Viber Business",
             "WhatsApp": "advantage|Через чати з акаунтами WhatsApp Business"
           },
           {
             "FeatureName": "Профіль Компанії",
             "Telegram": "mediocrity|Як опис бота, каналу чи їх вміст",
-            "Viber": "mediocrity|Як опис чатбота, каналу чи їх вміст",
+            "Viber": "advantage|Як окрема сторінка з деталями та посиланнями",
             "WhatsApp": "advantage|Як [окрема](https://www.whatsapp.com/business/api) сторінка з деталями"
           },
           {
             "FeatureName": "Каталоги Товарів",
             "Telegram": "advantage|Через [канали](https://t.me/TestStore) з повідомленнями накладними та торгових ботів",
+            "Viber": "advantage|Підтримується",
             "WhatsApp": "advantage|Підтримуються"
           },
           {
@@ -1154,7 +1159,7 @@
           {
             "FeatureName": "Придбання Товарів",
             "Telegram": "advantage|Через Bot Payments API",
-            "Viber": "mediocrity|Через Bot Payments API (лише в Україні)",
+            "Viber": "advantage|Підтримується",
             "WhatsApp": "advantage|Підтримується"
           },
           {
@@ -1162,6 +1167,21 @@
             "Telegram": "advantage|Висока (повний контроль в рамках Telegram Bot API)",
             "Viber": "mediocrity|Cередня",
             "WhatsApp": "mediocrity|Середня (обмежена [WhatsApp Business API](https://blog.whatsapp.com/making-it-easier-for-businesses-of-all-sizes-to-get-started-on-whatsapp))"
+          }
+        ]
+      },
+      {
+      "AspectName": "ШІ-Чати",
+        "Features": [
+          {
+            "FeatureName": "Комунікація з Штучним Інтелектом",
+            "Telegram": "mediocrity|Необмежена, через відповідних ботів (офіційні відсутні)",
+            "WhatsApp": "advantage|Через [особливі чати](https://blog.whatsapp.com/lets-explore-ai) з ШІ"
+          },
+          {
+            "FeatureName": "Генерування Зображень",
+            "Telegram": "mediocrity|В рамках можливостей відповідних ботів (офіційні відсутні)",
+            "WhatsApp": "advantage|Через запит /imagine до Meta AI"
           }
         ]
       },
@@ -1675,6 +1695,10 @@
             "Telegram": "advantage|З [гнучкою](https://telegram.org/blog/stories#dual-camera-mode) конфігурацією"
           },
           {
+            "FeatureName": "Фронтальний Спалах",
+            "Telegram": "advantage|З [гнучкою](https://telegram.org/blog/reply-revolution#story-improvements) конфігурацією"
+          },
+          {
             "FeatureName": "Публікація в Профіль",
             "Telegram": "advantage|[Підтримується](https://telegram.org/tour/stories#stories-on-your-profile)"
           },
@@ -2184,7 +2208,7 @@
           },
           {
             "FeatureName": "Точне Перемотування",
-            "Telegram": "advantage|[Аудіо](https://telegram.org/blog/move-history#improved-audio-player) та [відео](https://telegram.org/blog/payments-2-0-scheduled-voice-chats#improved-video-player)"
+            "Telegram": "advantage|[Аудіо](https://telegram.org/blog/move-history#improved-audio-player), [відео](https://telegram.org/blog/payments-2-0-scheduled-voice-chats#improved-video-player) та [історій](https://telegram.org/blog/reply-revolution#story-improvements)"
           },
           {
             "FeatureName": "Перегляд Всіх Композицій Виконавця",
@@ -2217,6 +2241,10 @@
             "FeatureName": "Персоналізація Окремих Чатів",
             "Telegram": "advantage|Зміна [тем](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#chat-themes) та [фонів](https://telegram.org/blog/shareable-folders-custom-wallpapers#custom-wallpapers) особистих чатів",
             "Viber": "mediocrity|Зміна фонів"
+          },
+          {
+            "FeatureName": "Персоналізація Кольорів Акаунту",
+            "Telegram": "advantage|[Підтримується](https://telegram.org/blog/reply-revolution#account-colors) (Premium)"
           },
           {
             "FeatureName": "Розширена Конфігурація Фону",
@@ -2806,7 +2834,8 @@
           },
           {
             "FeatureName": "Зміна Емоджі Статусу",
-            "Telegram": "advantage|[Підтримується](https://telegram.org/blog/infinite-reactions-statuses#emoji-statuses) (лише Premium)"
+            "Telegram": "advantage|[Підтримується](https://telegram.org/blog/infinite-reactions-statuses#emoji-statuses) (лише Premium)",
+            "Viber": "mediocrity|Базові значки (лише Plus)"
           },
           {
             "FeatureName": "Резервне Копіювання/Відновлення",
@@ -2920,13 +2949,13 @@
           {
             "FeatureName": "Перегляд Останніх Відвідин/Статусу Онлайн",
             "Telegram": "advantage|Усі, ваші контакти, ніхто",
-            "Viber": "mediocrity|Обмежена підтримка, налаштування статусу онлайн можливе раз на добу",
+            "Viber": "mediocrity|Обмежена підтримка, налаштування статусу онлайн можливе раз на добу; також в [односторонньому режимі](https://www.viber.com/en/blog/2023-10-04/introducing-viber-plus/) (Viber Plus)",
             "WhatsApp": "advantage|Усі, ваші контакти, ніхто"
           },
           {
             "FeatureName": "Перегляд Статусу Читання Повідомлень",
             "Telegram": "mediocrity|Не підтримується, прочитане повідомлення відображається таким для співрозмовника",
-            "Viber": "advantage|Підтримується",
+            "Viber": "advantage|Підтримується; також в [односторонньому режимі](https://www.viber.com/en/blog/2023-10-04/introducing-viber-plus/) (Viber Plus)",
             "WhatsApp": "advantage|Увімкнено/вимкнено"
           },
           {
