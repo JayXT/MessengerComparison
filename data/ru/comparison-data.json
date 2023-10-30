@@ -1179,9 +1179,9 @@
             "WhatsApp": "advantage|Через [особые чаты](https://blog.whatsapp.com/lets-explore-ai) с ИИ"
           },
           {
-            "FeatureName": "Генерування Зображень",
-            "Telegram": "mediocrity|В рамках можливостей відповідних ботів (офіційні відсутні)",
-            "WhatsApp": "advantage|Через запит /imagine до Meta AI"
+            "FeatureName": "Генерирование Изображений",
+            "Telegram": "mediocrity|В рамках возможностей соответствующих ботов (официальные отсутствуют)",
+            "WhatsApp": "advantage|Через запрос /imagine в Meta AI"
           }
         ]
       },
