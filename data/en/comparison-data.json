@@ -1520,6 +1520,12 @@
             "WhatsApp": "advantage|Absent"
           },
           {
+            "FeatureName": "Giveaways For Subscribers",
+            "Telegram": "advantage|[Of Premium subscriptions](https://telegram.org/blog/giveaways/en?setln=en)",
+            "Viber": "advantage|Absent",
+            "WhatsApp": "advantage|Absent"
+          },
+          {
             "FeatureName": "General Statistics",
             "Telegram": "advantage|[Detailed integrated stats](https://telegram.org/blog/folders#channel-stats), extended statistics via bots",
             "Viber": "mediocrity|Via [Community & Channel Insights](https://help.viber.com/en/article/learn-about-your-community-with-insights) tools"
@@ -1667,8 +1673,8 @@
           },
           {
             "FeatureName": "Use Cases",
-            "Telegram": "advantage|Recieving news, information, notifications, buying services and goods, creation of new tools, games, social services, UX optimization (IV, link previews), learning, automation, feedback, authorization, quizzes, [donations](https://t.me/donate) and a lot more",
-            "Viber": "mediocrity|Recieving news, information, ads, communication to public account, support"
+            "Telegram": "advantage|Receiving news, information, notifications, buying services and goods, creation of new tools, games, social services, UX optimization (IV, link previews), learning, automation, feedback, authorization, quizzes, [donations](https://t.me/donate) and a lot more",
+            "Viber": "mediocrity|Receiving news, information, ads, communication to public account, support"
           }
         ]
       },

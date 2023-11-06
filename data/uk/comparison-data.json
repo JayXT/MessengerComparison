@@ -1520,6 +1520,12 @@
             "WhatsApp": "advantage|Відсутні"
           },
           {
+            "FeatureName": "Розіграші Для Підписників",
+            "Telegram": "advantage|[Premium-підписок](https://telegram.org/blog/giveaways/en?setln=en)",
+            "Viber": "advantage|Відсутні",
+            "WhatsApp": "advantage|Відсутні"
+          },
+          {
             "FeatureName": "Загальна Статистика",
             "Telegram": "advantage|[Детальна інтегрована статистика](https://telegram.org/blog/folders#channel-stats), розширена статистика через ботів",
             "Viber": "mediocrity|Через інструменти [Community & Channel Insights](https://help.viber.com/en/article/learn-about-your-community-with-insights)"
