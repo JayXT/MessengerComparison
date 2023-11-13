@@ -1520,6 +1520,12 @@
 			"WhatsApp": "advantage|Assenti"
 		  },
 		  {
+            "FeatureName": "Giveaway per gli Abbonati",
+            "Telegram": "advantage|[Di abbonamenti Premium](https://telegram.org/blog/giveaways/it)",
+            "Viber": "advantage|Assenti",
+            "WhatsApp": "advantage|Assenti"
+          },
+		  {
 			"FeatureName": "Statistiche Generali",
 			"Telegram": "advantage|[Statistiche integrate dettagliate](https://telegram.org/blog/folders/it#statistiche-dei-canali), statistiche estese tramite bot",
 			"Viber": "mediocrity|Tramite strumento [Community Insights](https://help.viber.com/en/article/learn-about-your-community-with-insights)"
