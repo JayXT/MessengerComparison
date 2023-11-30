@@ -382,7 +382,7 @@
         "Features": [
           {
             "FeatureName": "Текст",
-            "Telegram": "advantage|З підтримкою комбінованого форматування ([спойлери](https://telegram.org/blog/reactions-spoilers-translations#spoilers), [цитати](https://telegram.org/blog/reply-revolution#quote-formatting), жирний, моноширний, курсивний, підкреслений, закреслений шрифт)",
+            "Telegram": "advantage|З підтримкою комбінованого форматування ([спойлери](https://telegram.org/blog/reactions-spoilers-translations#spoilers), [цитати](https://telegram.org/blog/reply-revolution#quote-formatting), [код](https://telegram.org/blog/similar-channels/#code-highlighting-in-messages), жирний, моноширний, курсивний, підкреслений, закреслений шрифт)",
             "Viber": "mediocrity|З підтримкою комбінованого форматування (жирний, моноширний, курсивний, закреслений шрифт)",
             "WhatsApp": "mediocrity|З підтримкою форматування (жирний, моноширний, курсивний, закреслений шрифт)"
           },
@@ -850,7 +850,7 @@
           },
           {
             "FeatureName": "Транскрипції Голосових/Відео Повідомлень",
-            "Telegram": "mediocrity|[З Premium](https://telegram.org/blog/topics-in-groups-collectible-usernames#voice-to-text-for-video-messages) (повідомлення надсилається [третій стороні](https://telegram.org/privacy/ua#8-4-rozshifrovka-golosovih-ta-vdeopovdomlen-za-zapitom-koristuva))",
+            "Telegram": "mediocrity|[Підтримується](https://telegram.org/blog/similar-channels/#voice-to-text-for-everyone) (повідомлення надсилається [третій стороні](https://telegram.org/privacy/ua#8-4-rozshifrovka-golosovih-ta-vdeopovdomlen-za-zapitom-koristuva))",
             "Viber": "mediocrity|[З Plus](https://www.viber.com/en/blog/2023-10-04/introducing-viber-plus/) (повідомлення надсилаються третій стороні)",
             "WhatsApp": "mediocrity|Не підтримується"
           },
@@ -961,7 +961,7 @@
           },
           {
             "FeatureName": "Блокування Чатів",
-            "WhatsApp": "advantage|[Підтримується](https://blog.whatsapp.com/chat-lock-making-your-most-intimate-conversations-even-more-private)"
+            "WhatsApp": "advantage|[Підтримується](https://blog.whatsapp.com/introducing-secret-code-for-chat-lock)"
           },
           {
             "FeatureName": "Фільтрування Невідомих Чатів",
@@ -1503,6 +1503,10 @@
             "Viber": "advantage|Вбудовані коментарі в каналах"
           },
           {
+            "FeatureName": "Перегляд Схожих Каналів",
+            "Telegram": "advantage|[Підтримується](https://telegram.org/blog/similar-channels#similar-channels)"
+          },
+          {
             "FeatureName": "Наявність Реклами",
             "Telegram": "mediocrity|Від [конфіденційної рекламної платформи](https://promote.telegram.org/basics) та власників каналів",
             "Viber": "disadvantage|Окрім спільнот, отримання реклами через бізнес повідомлення, а також електронних листів від Viber (за умови прив’язки email)",
@@ -1527,12 +1531,12 @@
           },
           {
             "FeatureName": "Загальна Статистика",
-            "Telegram": "advantage|[Детальна інтегрована статистика](https://telegram.org/blog/folders#channel-stats), розширена статистика через ботів",
+            "Telegram": "advantage|[Детальна інтегрована статистика](https://telegram.org/blog/folders#channel-stats), зокрема [історій](https://telegram.org/blog/similar-channels/#story-stats-for-channels), розширена статистика через ботів",
             "Viber": "mediocrity|Через інструменти [Community & Channel Insights](https://help.viber.com/en/article/learn-about-your-community-with-insights)"
           },
           {
             "FeatureName": "Статистика Окремих Публікацій",
-            "Telegram": "advantage|[Детальна інтегрована статистика](https://telegram.org/blog/pinned-messages-locations-playlists/world#channel-post-stats)",
+            "Telegram": "advantage|[Детальна інтегрована статистика](https://telegram.org/blog/pinned-messages-locations-playlists/world#channel-post-stats), зокрема [історій](https://telegram.org/blog/similar-channels/#story-stats-for-channels)",
             "Viber": "mediocrity|[Підтримується](https://help.viber.com/en/article/communities-message-statistics) (перегляди, обміни, натискання на посиланнях)"
           },
           {
@@ -1688,7 +1692,7 @@
           },
           {
             "FeatureName": "Типи Підтримуваного Контенту",
-            "Telegram": "advantage|Текст, стікери, [стікери-реакції](https://telegram.org/blog/channel-stories#reaction-stickers-in-stories), місцезнаходження та медіа з підтримкою розширеного редагування, конфігурацією [періоду доступності](https://telegram.org/tour/stories#expiration-options)",
+            "Telegram": "advantage|Текст, [відеоповідомлення](https://telegram.org/blog/similar-channels/#video-messages-on-stories), стікери, [стікери-реакції](https://telegram.org/blog/channel-stories#reaction-stickers-in-stories), місцезнаходження та інше медіа з підтримкою розширеного редагування, конфігурацією [періоду доступності](https://telegram.org/tour/stories#expiration-options)",
             "WhatsApp": "mediocrity|Текст та медіа з підтримкою редагування, доступні впродовж 24 годин після відправки"
           },
           {
@@ -1707,6 +1711,10 @@
           {
             "FeatureName": "Публікація в Профіль",
             "Telegram": "advantage|[Підтримується](https://telegram.org/tour/stories#stories-on-your-profile)"
+          },
+          {
+            "FeatureName": "Поширення Історій",
+            "Telegram": "advantage|[З підтримкою редагування](https://telegram.org/blog/similar-channels/#reposting-stories)"
           },
           {
             "FeatureName": "Редагування Опублікованих Історій",
@@ -2245,12 +2253,12 @@
         "Features": [
           {
             "FeatureName": "Персоналізація Окремих Чатів",
-            "Telegram": "advantage|Зміна [тем](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#chat-themes) та [фонів](https://telegram.org/blog/shareable-folders-custom-wallpapers#custom-wallpapers) особистих чатів",
+            "Telegram": "advantage|Зміна [тем](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#chat-themes) та [фонів](https://telegram.org/blog/shareable-folders-custom-wallpapers#custom-wallpapers) (Premium: [також для співрозмовників](https://telegram.org/blog/similar-channels/#wallpapers-for-both-sides)) особистих чатів",
             "Viber": "mediocrity|Зміна фонів"
           },
           {
             "FeatureName": "Персоналізація Кольорів Акаунту",
-            "Telegram": "advantage|[Підтримується](https://telegram.org/blog/reply-revolution#account-colors) (Premium)"
+            "Telegram": "advantage|[Підтримується](https://telegram.org/blog/similar-channels/#profile-colors) (Premium)"
           },
           {
             "FeatureName": "Розширена Конфігурація Фону",
@@ -3027,7 +3035,7 @@
             "FeatureName": "Код Блокування",
             "Telegram": "advantage|Підтримується (як [PIN](https://telegram.org/blog/archive-and-new-design#you-shall-not-pass) або пароль), можливе розблокування через відбиток пальця, доступне гнучке автоблокування, контроль вмісту сповіщень",
             "Viber": "mediocrity|Лише PIN (на Viber Desktop)",
-            "WhatsApp": "mediocrity|Виключно через відбиток пальця з контролем вмісту сповіщень та обов'язковим автоблокуванням"
+            "WhatsApp": "mediocrity|З обмеженими опціями"
           },
           {
             "FeatureName": "Приховані Чати",

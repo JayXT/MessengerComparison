@@ -382,7 +382,7 @@
         "Features": [
           {
             "FeatureName": "Text",
-            "Telegram": "advantage|With combined formatting support ([spoilers](https://telegram.org/blog/reactions-spoilers-translations#spoilers), [quotes](https://telegram.org/blog/reply-revolution#quote-formatting), bold, monospace, italics, underlined, strikethrough font)",
+            "Telegram": "advantage|With combined formatting support ([spoilers](https://telegram.org/blog/reactions-spoilers-translations#spoilers), [quotes](https://telegram.org/blog/reply-revolution#quote-formatting), [code](https://telegram.org/blog/similar-channels/#code-highlighting-in-messages), bold, monospace, italics, underlined, strikethrough font)",
             "Viber": "mediocrity|With combined formatting support (bold, monospace, italics, strikethrough font)",
             "WhatsApp": "mediocrity|With formatting support (bold, monospace, italics, strikethrough font)"
           },
@@ -850,7 +850,7 @@
           },
           {
             "FeatureName": "Voice Messages/Video Transcription",
-            "Telegram": "mediocrity|[With Premium](https://telegram.org/blog/topics-in-groups-collectible-usernames#voice-to-text-for-video-messages) (the message is sent to a [third-party](https://telegram.org/privacy#8-5-transcription-of-voice-messages-at-the-request-of-the-user))",
+            "Telegram": "mediocrity|[Supported](https://telegram.org/blog/similar-channels/#voice-to-text-for-everyone) (the message is sent to a [third-party](https://telegram.org/privacy#8-5-transcription-of-voice-messages-at-the-request-of-the-user))",
             "Viber": "mediocrity|[With Plus](https://www.viber.com/en/blog/2023-10-04/introducing-viber-plus/) (the message is sent to a third-party)",
             "WhatsApp": "mediocrity|Not supported"
           },
@@ -961,7 +961,7 @@
           },
           {
             "FeatureName": "Locking Chats",
-            "WhatsApp": "advantage|[Supported](https://blog.whatsapp.com/chat-lock-making-your-most-intimate-conversations-even-more-private)"
+            "WhatsApp": "advantage|[Supported](https://blog.whatsapp.com/introducing-secret-code-for-chat-lock)"
           },
           {
             "FeatureName": "Filtering Unknown Chats",
@@ -1503,6 +1503,10 @@
             "Viber": "advantage|Built-in comments in channels"
           },
           {
+            "FeatureName": "Viewing Similar Channels",
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/similar-channels#similar-channels)"
+          },
+          {
             "FeatureName": "Presence of Advertising",
             "Telegram": "mediocrity|From the [privacy-conscious ad platform](https://promote.telegram.org/basics) and channel owners",
             "Viber": "disadvantage|Other than communities, ads are received in form of business messages and emails from Viber (if you connected your email address)",
@@ -1527,12 +1531,12 @@
           },
           {
             "FeatureName": "General Statistics",
-            "Telegram": "advantage|[Detailed integrated stats](https://telegram.org/blog/folders#channel-stats), extended statistics via bots",
+            "Telegram": "advantage|[Detailed integrated stats](https://telegram.org/blog/folders#channel-stats), in particular for [stories](https://telegram.org/blog/similar-channels/#story-stats-for-channels), extended statistics via bots",
             "Viber": "mediocrity|Via [Community & Channel Insights](https://help.viber.com/en/article/learn-about-your-community-with-insights) tools"
           },
           {
             "FeatureName": "Individual Posts' Statistics",
-            "Telegram": "advantage|[Detailed integrated stats](https://telegram.org/blog/pinned-messages-locations-playlists/world#channel-post-stats)",
+            "Telegram": "advantage|[Detailed integrated stats](https://telegram.org/blog/pinned-messages-locations-playlists/world#channel-post-stats), in particular for [stories](https://telegram.org/blog/similar-channels/#story-stats-for-channels)",
             "Viber": "mediocrity|[Supported](https://help.viber.com/en/article/communities-message-statistics) (views, shares, link clicks)"
           },
           {
@@ -1688,7 +1692,7 @@
           },
           {
             "FeatureName": "Types of Supported Content",
-            "Telegram": "advantage|Text, stickers, [reaction stickers](https://telegram.org/blog/channel-stories#reaction-stickers-in-stories), location and media with support for extended editing, configuration of [the availability period](https://telegram.org/tour/stories#expiration-options)",
+            "Telegram": "advantage|Text, [video messages](https://telegram.org/blog/similar-channels/#video-messages-on-stories), stickers, [reaction stickers](https://telegram.org/blog/channel-stories#reaction-stickers-in-stories), location and other media with support for extended editing, configuration of [the availability period](https://telegram.org/tour/stories#expiration-options)",
             "WhatsApp": "mediocrity|Text and media with support for editing, which are available within 24 hours after sending"
           },
           {
@@ -1707,6 +1711,10 @@
           {
             "FeatureName": "Publishing Into Profile",
             "Telegram": "advantage|[Supported](https://telegram.org/tour/stories#stories-on-your-profile)"
+          },
+          {
+            "FeatureName": "Reposting Stories",
+            "Telegram": "advantage|[With support for editing](https://telegram.org/blog/similar-channels/#reposting-stories)"
           },
           {
             "FeatureName": "Editing Published Stories",
@@ -2245,12 +2253,12 @@
         "Features": [
           {
             "FeatureName": "Personalization of Individual Chats",
-            "Telegram": "advantage|Changing [themes](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#chat-themes) and [wallpapers](https://telegram.org/blog/shareable-folders-custom-wallpapers#custom-wallpapers) for personal chats",
+            "Telegram": "advantage|Changing [themes](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#chat-themes) and [wallpapers](https://telegram.org/blog/shareable-folders-custom-wallpapers#custom-wallpapers) (Premium: [also for colocutors](https://telegram.org/blog/similar-channels/#wallpapers-for-both-sides))  for personal chats",
             "Viber": "mediocrity|Changing backgrounds"
           },
           {
             "FeatureName": "Personalization of Account Colors",
-            "Telegram": "advantage|[Supported](https://telegram.org/blog/reply-revolution#account-colors) (Premium)"
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/similar-channels/#profile-colors) (Premium)"
           },
           {
             "FeatureName": "Extended Backgrounds Configuration",
@@ -3027,7 +3035,7 @@
             "FeatureName": "Passcode Lock",
             "Telegram": "advantage|Supported (as [PIN](https://telegram.org/blog/archive-and-new-design#you-shall-not-pass) or password), it's possible to unlock with fingerprint; flexible auto-lock, notification contents' control are available",
             "Viber": "mediocrity|PIN only (on Viber Desktop)",
-            "WhatsApp": "mediocrity|Solely via fingerprint with notification contents' control and mandatory auto-lock"
+            "WhatsApp": "mediocrity|With limited options"
           },
           {
             "FeatureName": "Hidden Chats",
