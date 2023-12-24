@@ -753,6 +753,10 @@
             "WhatsApp": "mediocrity|Via [ViewOnce](https://blog.whatsapp.com/view-once-photos-and-videos-on-whatsapp), without configuration"
           },
           {
+            "FeatureName": "Self-Destruction of Sent Voice Messages",
+            "WhatsApp": "advantage|Via [ViewOnce](https://blog.whatsapp.com/voice-messages-just-got-more-private)"
+          },
+          {
             "FeatureName": "Deleting The Cache of Separate Messages",
             "Telegram": "advantage|[Supported (iOS)](https://telegram.org/blog/verifiable-apps-and-more#cache-clearing-shortcuts)",
             "Viber": "disadvantage|Not supported (architectural limitations)",
@@ -1525,7 +1529,7 @@
           },
           {
             "FeatureName": "Giveaways For Subscribers",
-            "Telegram": "advantage|[Of Premium subscriptions](https://telegram.org/blog/giveaways/en?setln=en)",
+            "Telegram": "advantage|[Of Premium subscriptions](https://telegram.org/blog/giveaways/en?setln=en) with [extra options](https://telegram.org/blog/posts-in-stories-and-more/#custom-prizes-and-winner-lists-in-giveaways)",
             "Viber": "advantage|Absent",
             "WhatsApp": "advantage|Absent"
           },
@@ -1697,8 +1701,12 @@
           },
           {
             "FeatureName": "Main Capabilities",
-            "Telegram": "advantage|Viewing contacts' status, reactions, preparing replies and forwarding, saving drafts, archiving and [more](https://telegram.org/tour/stories)",
+            "Telegram": "advantage|Viewing status, [reposts](https://telegram.org/blog/posts-in-stories-and-more/#view-reposts-and-more), reactions, preparing replies and forwarding, saving drafts, archiving and [more](https://telegram.org/tour/stories)",
             "WhatsApp": "mediocrity|Viewing contacts' status, reactions, preparing replies and forwarding"
+          },
+          {
+            "FeatureName": "Photo Cutouts",
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/posts-in-stories-and-more/#photo-cutouts-for-stories)"
           },
           {
             "FeatureName": "Dual Camera Mode",
@@ -1715,6 +1723,10 @@
           {
             "FeatureName": "Reposting Stories",
             "Telegram": "advantage|[With support for editing](https://telegram.org/blog/similar-channels/#reposting-stories)"
+          },
+          {
+            "FeatureName": "Sharing Posts in Stories",
+            "Telegram": "advantage|[With appearance customization](https://telegram.org/blog/posts-in-stories-and-more#share-posts-in-stories)"
           },
           {
             "FeatureName": "Editing Published Stories",
@@ -2253,7 +2265,7 @@
         "Features": [
           {
             "FeatureName": "Personalization of Individual Chats",
-            "Telegram": "advantage|Changing [themes](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#chat-themes) and [wallpapers](https://telegram.org/blog/shareable-folders-custom-wallpapers#custom-wallpapers) (Premium: [also for colocutors](https://telegram.org/blog/similar-channels/#wallpapers-for-both-sides))  for personal chats",
+            "Telegram": "advantage|Changing [themes](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#chat-themes) and [wallpapers](https://telegram.org/blog/shareable-folders-custom-wallpapers#custom-wallpapers) (Premium: [also for colocutors](https://telegram.org/blog/similar-channels/#wallpapers-for-both-sides)) for personal chats and [channels](https://telegram.org/blog/posts-in-stories-and-more#customize-channel-appearance)",
             "Viber": "mediocrity|Changing backgrounds"
           },
           {
@@ -2850,6 +2862,17 @@
             "FeatureName": "Changing Emoji Status",
             "Telegram": "advantage|[Supported](https://telegram.org/blog/infinite-reactions-statuses#emoji-statuses) (Premium only)",
             "Viber": "mediocrity|Basic badges (Plus only)"
+          },
+          {
+            "FeatureName": "Buying Subscription",
+            "Telegram": "mediocrity|Telegram Premium",
+            "Viber": "mediocrity|Viber Plus",
+            "WhatsApp": "advantage|Subscriptions are absent"
+          },
+          {
+            "FeatureName": "Gifting Subscriptions",
+            "Telegram": "mediocrity|Telegram Premium for [up to 10 people at a time](https://telegram.org/blog/posts-in-stories-and-more/#massive-premium-gifts)",
+            "WhatsApp": "advantage|Subscriptions are missing"
           },
           {
             "FeatureName": "Backup/Recovery",
