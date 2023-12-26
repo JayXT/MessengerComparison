@@ -750,7 +750,11 @@
 		  {
 			"FeatureName": "Autodistruzione di Foto/Video Inviati",
 			"Telegram": "advantage|Supportato (distruzione nell'intervallo da 1 secondo a 1 minuto dopo che un messaggio è stato visto o [Visualizza una volta](https://telegram.org/blog/channel-stories/it#media-a-singola-visione))",
-			"WhatsApp": "mediocrity|Tramite [ViewOnce](https://blog.whatsapp.com/view-once-photos-and-videos-on-whatsapp?lang=it), senza configurazione"
+			"WhatsApp": "mediocrity|Tramite [Visualizza una volta](https://blog.whatsapp.com/view-once-photos-and-videos-on-whatsapp?lang=it), senza configurazione"
+		  },
+		  {
+			"FeatureName": "Auto-Cancellazione dei Messaggi Vocali Inviati",
+			"WhatsApp": "advantage|Tramite [Visualizza una volta](https://blog.whatsapp.com/voice-messages-just-got-more-private?lang=it)"
 		  },
 		  {
 			"FeatureName": "Cancellazione della Cache dei Messaggi Separati",
@@ -1525,7 +1529,7 @@
 		  },
 		  {
 			"FeatureName": "Giveaway per gli Abbonati",
-			"Telegram": "advantage|[Di abbonamenti Premium](https://telegram.org/blog/giveaways/it)",
+			"Telegram": "advantage|[Di abbonamenti Premium](https://telegram.org/blog/giveaways/it) con [opzioni extra](https://telegram.org/blog/posts-in-stories-and-more/it#premi-personalizzati-e-liste-dei-vincitori-nei-giveaway)",
 			"Viber": "advantage|Assenti",
 			"WhatsApp": "advantage|Assenti"
 		  },
@@ -1697,8 +1701,12 @@
 		  },
 		  {
 			"FeatureName": "Capacità Principali",
-			"Telegram": "advantage|Visualizzazione dello stato dei contatti, reazioni, preparazione delle risposte e inoltro, salvataggio bozze, archiviazione e [molto altro](https://telegram.org/tour/stories/it)",
+			"Telegram": "advantage|Visualizzazione dello stato, [ripubblicazione](https://telegram.org/blog/posts-in-stories-and-more/it#visualizza-i-repost-e-altro), reazioni, preparazione delle risposte e inoltro, salvataggio bozze, archiviazione e [molto altro](https://telegram.org/tour/stories/it)",
 			"WhatsApp": "mediocrity|Visualizzazione dello stato dei contatti, reazioni, preparazione delle risposte e inoltro"
+		  },
+		  {
+			"FeatureName": "Ritaglio Foto",
+			"Telegram": "advantage|[Supportato](https://telegram.org/blog/posts-in-stories-and-more/it#ritaglia-le-foto-per-le-storie)"
 		  },
 		  {
 			"FeatureName": "Modalità Doppia Camera",
@@ -1715,6 +1723,10 @@
 		  {
 			"FeatureName": "Ripubblicazione Storie",
 			"Telegram": "advantage|[Con supporto per la modifica](https://telegram.org/blog/similar-channels/it#ripubblicazione-delle-storie)"
+		  },
+		  {
+			"FeatureName": "Condivisione Post nelle Storie",
+			"Telegram": "advantage|[Con personalizzazione dell'aspetto](https://telegram.org/blog/posts-in-stories-and-more/it#condividi-i-post-nelle-storie)"
 		  },
 		  {
 			"FeatureName": "Modifica Storie Pubblicate",
@@ -2253,7 +2265,7 @@
 		"Features": [
 		  {
 			"FeatureName": "Personalizzazione delle Chat Individuali",
-			"Telegram": "advantage|Cambiando i [temi](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts/it#temi-della-chat) e gli [sfondi](https://telegram.org/blog/shareable-folders-custom-wallpapers/it#sfondi-personalizzati) (Premium: [anche per l'altro utente](https://telegram.org/blog/similar-channels/it#sfondi-per-entrambe-le-parti)) per le chat personali",
+			"Telegram": "advantage|Cambiando i [temi](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts/it#temi-della-chat) e gli [sfondi](https://telegram.org/blog/shareable-folders-custom-wallpapers/it#sfondi-personalizzati) (Premium: [anche per l'altro utente](https://telegram.org/blog/similar-channels/it#sfondi-per-entrambe-le-parti)) per le chat personali e [canali](https://telegram.org/blog/posts-in-stories-and-more/it#personalizza-l-39aspetto-dei-canali)",
 			"Viber": "mediocrity|Cambiando gli sfondi"
 		  },
 		  {
@@ -2852,6 +2864,17 @@
 			"Viber": "mediocrity|Distintivi di base (solo Plus)"
 		  },
 		  {
+			"FeatureName": "Acquisto Abbonamento",
+			"Telegram": "mediocrity|Telegram Premium",
+			"Viber": "mediocrity|Viber Plus",
+			"WhatsApp": "advantage|Abbonamenti assenti"
+		  },
+		  {
+			"FeatureName": "Regalare Abbonamenti",
+			"Telegram": "mediocrity|Telegram Premium [fino a 10 persone alla volta](https://telegram.org/blog/posts-in-stories-and-more/it#invia-piu-regali-premium-rapidamente)",
+			"WhatsApp": "advantage|Abbonamenti mancanti"
+		  },
+		  {
 			"FeatureName": "Backup/Recupero",
 			"Telegram": "advantage|Tramite sincronizzazione cloud completa",
 			"Viber": "mediocrity|Supportata (compresa la frequente configurazione)",
@@ -3231,7 +3254,7 @@
 			"WhatsApp": "mediocrity|Abilitato/disabilitato"
 		  },
 		  {
-			"FeatureName": "Auto-play",
+			"FeatureName": "Auto-riproduzione",
 			"Telegram": "advantage|Per GIF, video e video messaggi",
 			"Viber": "advantage|Per video"
 		  },
