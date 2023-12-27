@@ -753,6 +753,10 @@
             "WhatsApp": "mediocrity|Через [ViewOnce](https://blog.whatsapp.com/view-once-photos-and-videos-on-whatsapp), без конфигурации"
           },
           {
+            "FeatureName": "Самоуничтожение Отправленных Голосовых Сообщений",
+            "WhatsApp": "advantage|Через [ViewOnce](https://blog.whatsapp.com/voice-messages-just-got-more-private)"
+          },
+          {
             "FeatureName": "Удаление Кэша Отдельных Сообщений",
             "Telegram": "advantage|[Поддерживается (iOS)](https://telegram.org/blog/verifiable-apps-and-more#cache-clearing-shortcuts)",
             "Viber": "disadvantage|Не поддерживается (архитектурные ограничения)",
@@ -1525,7 +1529,7 @@
           },
           {
             "FeatureName": "Розыгрыши Для Подписчиков",
-            "Telegram": "advantage|[Premium-подписок](https://telegram.org/blog/giveaways/en?setln=en)",
+            "Telegram": "advantage|[Premium-подписок](https://telegram.org/blog/giveaways/en?setln=en) с [дополнительными опциями](https://telegram.org/blog/posts-in-stories-and-more/#custom-prizes-and-winner-lists-in-giveaways)",
             "Viber": "advantage|Отсутствуют",
             "WhatsApp": "advantage|Отсутствуют"
           },
@@ -1697,8 +1701,12 @@
           },
           {
             "FeatureName": "Основные Возможности",
-            "Telegram": "advantage|Просмотр статусов, реакции, формирование ответов и пересылки, сохранение черновиков, архивирование и [больше](https://telegram.org/tour/stories)",
+            "Telegram": "advantage|Просмотр статусов, [распространений](https://telegram.org/blog/posts-in-stories-and-more/#view-reposts-and-more), реакции, формирование ответов и пересылки, сохранение черновиков, архивирование и [больше](https://telegram.org/tour/stories)",
             "WhatsApp": "mediocrity|Просмотр статусов контактов, реакции, формирование ответов и пересылки"
+          },
+          {
+            "FeatureName": "Вырезки из Фото",
+            "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/posts-in-stories-and-more/#photo-cutouts-for-stories)"
           },
           {
             "FeatureName": "Двухкамерный Режим",
@@ -1715,6 +1723,10 @@
           {
             "FeatureName": "Распространение Историй",
             "Telegram": "advantage|[С помощью редактирования](https://telegram.org/blog/similar-channels/#reposting-stories)"
+          },
+          {
+            "FeatureName": "Распространение Сообщений в Историях",
+            "Telegram": "advantage|[С настройкой оформления](https://telegram.org/blog/posts-in-stories-and-more#share-posts-in-stories)"
           },
           {
             "FeatureName": "Редактирование Опубликованных Историй",
@@ -2253,7 +2265,7 @@
         "Features": [
           {
             "FeatureName": "Персонализация Отдельных Чатов",
-            "Telegram": "advantage|Изменение [тем](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#chat-themes) и [фонов](https://telegram.org/blog/shareable-folders-custom-wallpapers#custom-wallpapers) (Premium: [также для собеседников](https://telegram.org/blog/similar-channels/#wallpapers-for-both-sides)) личных чатов",
+            "Telegram": "advantage|Изменение [тем](https://telegram.org/blog/chat-themes-interactive-emoji-read-receipts#chat-themes) и [фонов](https://telegram.org/blog/shareable-folders-custom-wallpapers#custom-wallpapers) (Premium: [также для собеседников](https://telegram.org/blog/similar-channels/#wallpapers-for-both-sides)) личных чатов и [каналов](https://telegram.org/blog/posts-in-stories-and-more#customize-channel-appearance)",
             "Viber": "mediocrity|Изменение фонов"
           },
           {
@@ -2850,6 +2862,17 @@
             "FeatureName": "Изменение Эмодзи Статуса",
             "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/infinite-reactions-statuses#emoji-statuses) (только Premium)",
             "Viber": "mediocrity|Базовые значки (только Plus)"
+          },
+          {
+            "FeatureName": "Приобретение Подписки",
+            "Telegram": "mediocrity|Telegram Premium",
+            "Viber": "mediocrity|Viber Plus",
+            "WhatsApp": "advantage|Подписки отсутствуют"
+          },
+          {
+            "FeatureName": "Подписки в Подарок",
+            "Telegram": "mediocrity|Telegram Premium до [10 лицам одновременно](https://telegram.org/blog/posts-in-stories-and-more/#massive-premium-gifts)",
+            "WhatsApp": "advantage|Подписки отсутствуют"
           },
           {
             "FeatureName": "Резервное Копирование/Восстановление",
