@@ -1615,7 +1615,7 @@
           },
           {
             "FeatureName": "Комунікація в Режимі Чату",
-            "Telegram": "advantage|Так, з допомогою повідомлень, [команд](https://core.telegram.org/bots#commands) та [клавіатур](https://core.telegram.org/bots#keyboards)",
+            "Telegram": "advantage|Так, з допомогою повідомлень, [команд](https://core.telegram.org/bots#commands), [клавіатур](https://core.telegram.org/bots#keyboards) та [реакцій](https://telegram.org/blog/calls-and-bots#epic-bot-update-reactions-and-much-more)",
             "Viber": "advantage|Так, з допомогою повідомлень та [гнучких клавіатур](https://viber.github.io/docs/tools/keyboard-examples/)"
           },
           {

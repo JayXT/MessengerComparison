@@ -1615,7 +1615,7 @@
           },
           {
             "FeatureName": "Chat-Mode Communication",
-            "Telegram": "advantage|Yes, by utilizing messages, [commands](https://core.telegram.org/bots#commands) and [keyboards](https://core.telegram.org/bots#keyboards)",
+            "Telegram": "advantage|Yes, by utilizing messages, [commands](https://core.telegram.org/bots#commands), [keyboards](https://core.telegram.org/bots#keyboards) and [reactions](https://telegram.org/blog/calls-and-bots#epic-bot-update-reactions-and-much-more)",
             "Viber": "advantage|Yes, with help of messages and [flexible keyboards](https://viber.github.io/docs/tools/keyboard-examples/)"
           },
           {
