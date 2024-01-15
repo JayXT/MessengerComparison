@@ -630,6 +630,10 @@
             "Telegram": "advantage|Поддерживается"
           },
           {
+            "FeatureName": "Паузы При Записи Голосовых/Видео Сообщений",
+            "Telegram": "advantage|Поддерживаются"
+          },
+          {
             "FeatureName": "Быстрые Ответы",
             "Telegram": "advantage|Через свайп по сообщению",
             "Viber": "advantage|Через свайп по сообщению",
@@ -753,8 +757,9 @@
             "WhatsApp": "mediocrity|Через [ViewOnce](https://blog.whatsapp.com/view-once-photos-and-videos-on-whatsapp), без конфигурации"
           },
           {
-            "FeatureName": "Самоуничтожение Отправленных Голосовых Сообщений",
-            "WhatsApp": "advantage|Через [ViewOnce](https://blog.whatsapp.com/voice-messages-just-got-more-private)"
+            "FeatureName": "Самоуничтожение Отправленных Голосовых/Видео Сообщений",
+            "Telegram": "advantage|Поддерживается",
+            "WhatsApp": "advantage|Через [ViewOnce](https://blog.whatsapp.com/voice-messages-just-got-more-private) (только голосовые)"
           },
           {
             "FeatureName": "Удаление Кэша Отдельных Сообщений",
@@ -1615,7 +1620,7 @@
           },
           {
             "FeatureName": "Коммуникация в Режиме Чата",
-            "Telegram": "advantage|Да, с помощью сообщений, [команд](https://core.telegram.org/bots#commands) и [клавиатур](https://core.telegram.org/bots#keyboards)",
+            "Telegram": "advantage|Да, с помощью сообщений, [команд](https://core.telegram.org/bots#commands), [клавиатур](https://core.telegram.org/bots#keyboards) и [реакций](https://telegram.org/blog/calls-and-bots#epic-bot-update-reactions-and-much-more)",
             "Viber": "advantage|Да, с помощью сообщений и [гибких клавиатур](https://viber.github.io/docs/tools/keyboard-examples/)"
           },
           {
