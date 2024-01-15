@@ -630,6 +630,10 @@
             "Telegram": "advantage|Supported"
           },
           {
+            "FeatureName": "Pauses During Recording of Voice/Video Messages",
+            "Telegram": "advantage|Supported"
+          },
+          {
             "FeatureName": "Quick Replies",
             "Telegram": "advantage|By swiping message",
             "Viber": "advantage|By swiping message",
@@ -753,8 +757,9 @@
             "WhatsApp": "mediocrity|Via [ViewOnce](https://blog.whatsapp.com/view-once-photos-and-videos-on-whatsapp), without configuration"
           },
           {
-            "FeatureName": "Self-Destruction of Sent Voice Messages",
-            "WhatsApp": "advantage|Via [ViewOnce](https://blog.whatsapp.com/voice-messages-just-got-more-private)"
+            "FeatureName": "Self-Destruction of Sent Voice/Video Messages",
+            "Telegram": "advantage|Supported",
+            "WhatsApp": "mediocrity|Via [ViewOnce](https://blog.whatsapp.com/voice-messages-just-got-more-private) (voice ones only)"
           },
           {
             "FeatureName": "Deleting The Cache of Separate Messages",

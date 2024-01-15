@@ -630,6 +630,10 @@
             "Telegram": "advantage|Підтримується"
           },
           {
+            "FeatureName": "Паузи При Записі Голосових/Відео Повідомлень",
+            "Telegram": "advantage|Підтримуються"
+          },
+          {
             "FeatureName": "Швидкі Відповіді",
             "Telegram": "advantage|Через свайп по повідомленню",
             "Viber": "advantage|Через свайп по повідомленню",
@@ -753,8 +757,9 @@
             "WhatsApp": "mediocrity|Через [ViewOnce](https://blog.whatsapp.com/view-once-photos-and-videos-on-whatsapp), без конфігурації"
           },
           {
-            "FeatureName": "Самознищення Надісланих Голосових Повідомлень",
-            "WhatsApp": "advantage|Через [ViewOnce](https://blog.whatsapp.com/voice-messages-just-got-more-private)"
+            "FeatureName": "Самознищення Надісланих Голосових/Відео Повідомлень",
+            "Telegram": "advantage|Підтримується",
+            "WhatsApp": "mediocrity|Через [ViewOnce](https://blog.whatsapp.com/voice-messages-just-got-more-private) (лише голосові)"
           },
           {
             "FeatureName": "Видалення Кешу Окремих Повідомлень",
