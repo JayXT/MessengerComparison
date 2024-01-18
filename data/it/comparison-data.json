@@ -630,6 +630,10 @@
 			"Telegram": "advantage|Supportato"
 		  },
 		  {
+      "FeatureName": "Pausa durante la Registrazione di Vocali/Video Messaggi",
+      "Telegram": "advantage|Supportata"
+      },
+		  {
 			"FeatureName": "Risposte Rapide",
 			"Telegram": "advantage|Facendo scorrere il messaggio",
 			"Viber": "advantage|Facendo scorrere il messaggio",
@@ -753,8 +757,9 @@
 			"WhatsApp": "mediocrity|Tramite [Visualizza una volta](https://blog.whatsapp.com/view-once-photos-and-videos-on-whatsapp?lang=it), senza configurazione"
 		  },
 		  {
-			"FeatureName": "Auto-Cancellazione dei Messaggi Vocali Inviati",
-			"WhatsApp": "advantage|Tramite [Visualizza una volta](https://blog.whatsapp.com/voice-messages-just-got-more-private?lang=it)"
+		  "FeatureName": "Auto-Cancellazione dei Vocali/Video Messaggi Inviati",
+      "Telegram": "advantage|Supportata",
+      "WhatsApp": "mediocrity|Tramite [Visualizza una volta](https://blog.whatsapp.com/voice-messages-just-got-more-private?lang=it) (solo i vocali)"
 		  },
 		  {
 			"FeatureName": "Cancellazione della Cache dei Messaggi Separati",
