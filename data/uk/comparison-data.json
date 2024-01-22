@@ -631,7 +631,7 @@
           },
           {
             "FeatureName": "Паузи При Записі Голосових/Відео Повідомлень",
-            "Telegram": "advantage|Підтримуються"
+            "Telegram": "advantage|[Підтримуються](https://t.me/telegram/270)"
           },
           {
             "FeatureName": "Швидкі Відповіді",
@@ -758,7 +758,7 @@
           },
           {
             "FeatureName": "Самознищення Надісланих Голосових/Відео Повідомлень",
-            "Telegram": "advantage|Підтримується",
+            "Telegram": "advantage|[Підтримується](https://t.me/telegram/269)",
             "WhatsApp": "mediocrity|Через [ViewOnce](https://blog.whatsapp.com/voice-messages-just-got-more-private) (лише голосові)"
           },
           {
@@ -1068,6 +1068,10 @@
             "Telegram": "advantage|Як з користувачами (через ім’я користувача, місцезнаходження), через ботів (наприклад, зворотного зв’язку)",
             "Viber": "advantage|Підтримується",
             "WhatsApp": "advantage|Підтримується (через WhatsApp for Business)"
+          },
+          {
+            "FeatureName": "Час Читання Повідомлень",
+            "Telegram": "advantage|[Доступний](https://t.me/telegram/271)"
           },
           {
             "FeatureName": "Встановлення Фото Профілю Для Контактів",
@@ -2995,6 +2999,10 @@
             "WhatsApp": "advantage|Усі, ваші контакти, ніхто"
           },
           {
+            "FeatureName": "Приховування Часу Читання Повідомлень",
+            "Telegram": "advantage|[Підтримується](https://t.me/telegram/273) (односторонній режим лише в Premium)"
+          },
+          {
             "FeatureName": "Перегляд Статусу Читання Повідомлень",
             "Telegram": "mediocrity|Не підтримується, прочитане повідомлення відображається таким для співрозмовника",
             "Viber": "advantage|Підтримується; також в [односторонньому режимі](https://www.viber.com/en/blog/2023-10-04/introducing-viber-plus/) (Viber Plus)",
@@ -3039,6 +3047,10 @@
           {
             "FeatureName": "Надсилання Голосових/Відео Повідомлень",
             "Telegram": "advantage|Усі, ваші контакти, ніхто (Premium)"
+          },
+          {
+            "FeatureName": "Надсилання Повідомлень",
+            "Telegram": "advantage|[Усі, ваші контакти та Premium користувачі](https://t.me/telegram/274) (Premium)"
           },
           {
             "FeatureName": "Підтримка Винятків",

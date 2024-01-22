@@ -631,7 +631,7 @@
           },
           {
             "FeatureName": "Pauses During Recording of Voice/Video Messages",
-            "Telegram": "advantage|Supported"
+            "Telegram": "advantage|[Supported](https://t.me/telegram/270)"
           },
           {
             "FeatureName": "Quick Replies",
@@ -758,7 +758,7 @@
           },
           {
             "FeatureName": "Self-Destruction of Sent Voice/Video Messages",
-            "Telegram": "advantage|Supported",
+            "Telegram": "advantage|[Supported](https://t.me/telegram/269)",
             "WhatsApp": "mediocrity|Via [ViewOnce](https://blog.whatsapp.com/voice-messages-just-got-more-private) (voice ones only)"
           },
           {
@@ -1068,6 +1068,10 @@
             "Telegram": "advantage|As with user (via username, location), via bots (e.g., feedback bots)",
             "Viber": "advantage|Supported",
             "WhatsApp": "advantage|Supported (via WhatsApp for Business)"
+          },
+          {
+            "FeatureName": "Messages Read Time",
+            "Telegram": "advantage|[Available](https://t.me/telegram/271)"
           },
           {
             "FeatureName": "Setting Profile Photos For Contacts",
@@ -2995,6 +2999,10 @@
             "WhatsApp": "advantage|All, your contacts, nobody"
           },
           {
+            "FeatureName": "Hiding Messages Read Time",
+            "Telegram": "advantage|[Supported](https://t.me/telegram/273) (one-way mode only in Premium)"
+          },
+          {
             "FeatureName": "Viewing Message Reading Status",
             "Telegram": "mediocrity|Not supported, read message is shown as read to collocutor",
             "Viber": "advantage|Supported; also in [a one-way mode](https://www.viber.com/en/blog/2023-10-04/introducing-viber-plus/) (Viber Plus)",
@@ -3039,6 +3047,10 @@
           {
             "FeatureName": "Sending Voice/Video Messages",
             "Telegram": "advantage|All, your contacts, nobody (Premium)"
+          },
+          {
+            "FeatureName": "Sending Messages",
+            "Telegram": "advantage|[All, your contacts and Premium users](https://t.me/telegram/274) (Premium)"
           },
           {
             "FeatureName": "Exceptions Support",
