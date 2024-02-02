@@ -925,7 +925,7 @@
           },
           {
             "FeatureName": "Перегляд Вмісту За Типами Медіа",
-            "Telegram": "advantage|[Гнучкий доступ](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/?setln=en#hyper-speed-scrolling-for-shared-media) до: медіа, файлів, посилань, аудіо, голосових повідомлень, GIF",
+            "Telegram": "advantage|[Гнучкий доступ](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/?setln=en#hyper-speed-scrolling-for-shared-media) до: [збереженого](https://telegram.org/blog/new-saved-messages-and-9-more#saved-messages-in-shared-media), медіа, файлів, посилань, аудіо, голосових повідомлень, GIF",
             "Viber": "mediocrity|Такі категорії як: медіа, посилання, файли, GIF",
             "WhatsApp": "mediocrity|Частково підтримується, крім того доступні каталоги товарів у WhatsApp Business"
           },
@@ -1051,6 +1051,14 @@
           {
             "FeatureName": "Позначення Повідомлень Виконаними",
             "Viber": "advantage|Підтримується"
+          },
+          {
+            "FeatureName": "Перегляд Збереженого за Чатами",
+            "Telegram": "advantage|[Підтримується](https://telegram.org/blog/new-saved-messages-and-9-more#view-saved-messages-by-chat), з можливістю прикріплення чатів"
+          },
+          {
+            "FeatureName": "Теги для Збережених Повідомлень",
+            "Telegram": "advantage|[Підтримуються](https://telegram.org/blog/new-saved-messages-and-9-more#tags-for-saved-messages) (Premium)"
           }
         ]
       },

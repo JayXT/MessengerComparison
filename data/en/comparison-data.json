@@ -925,7 +925,7 @@
           },
           {
             "FeatureName": "Viewing Content By Media Types",
-            "Telegram": "advantage|[Flexible access](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/?setln=en#hyper-speed-scrolling-for-shared-media) to: media, files, links, audio, voice messages, GIF",
+            "Telegram": "advantage|[Flexible access](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/?setln=en#hyper-speed-scrolling-for-shared-media) to: [saved](https://telegram.org/blog/new-saved-messages-and-9-more#saved-messages-in-shared-media), media, files, links, audio, voice messages, GIF",
             "Viber": "mediocrity|By such categories as: media, links, files, GIF",
             "WhatsApp": "mediocrity|Partially supported, other than that goods catalogs are available in WhatsApp Business"
           },
@@ -1051,6 +1051,14 @@
           {
             "FeatureName": "Marking Messages Done",
             "Viber": "advantage|Supported"
+          },
+          {
+            "FeatureName": "View Saved Messages by Chat",
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/new-saved-messages-and-9-more#view-saved-messages-by-chat), with an ability to pin chats"
+          },
+          {
+            "FeatureName": "Tags for Saved Messages",
+            "Telegram": "advantage|[Supported](https://telegram.org/blog/new-saved-messages-and-9-more#tags-for-saved-messages) (Premium)"
           }
         ]
       },
