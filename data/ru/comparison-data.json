@@ -925,7 +925,7 @@
           },
           {
             "FeatureName": "Просмотр Содержимого по типам Медиа",
-            "Telegram": "advantage|[Гибкий доступ](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/#hyper-speed-scrolling-for-shared-media) к: медиа, файлам, ссылкам, аудио, голосовым сообщениям, GIF",
+            "Telegram": "advantage|[Гибкий доступ](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/#hyper-speed-scrolling-for-shared-media) к: [избранному](https://telegram.org/blog/new-saved-messages-and-9-more#saved-messages-in-shared-media), медиа, файлам, ссылкам, аудио, голосовым сообщениям, GIF",
             "Viber": "mediocrity|Такие категории как: медиа, ссылки, файлы, GIF",
             "WhatsApp": "mediocrity|Частично поддерживается, кроме того, доступны каталоги товаров в WhatsApp Business"
           },
@@ -1051,6 +1051,14 @@
           {
             "FeatureName": "Обозначение Сообщений Выполненными",
             "Viber": "advantage|Поддерживается"
+          },
+          {
+            "FeatureName": "Просмотр Сохранённого по Чатам",
+            "Telegram": "advantage|[Поддерживается](https://telegram.org/blog/new-saved-messages-and-9-more#view-saved-messages-by-chat), с возможностью прикрепления чатов"
+          },
+          {
+            "FeatureName": "Теги для Сохранённых Сообщений",
+            "Telegram": "advantage|[Поддерживаются](https://telegram.org/blog/new-saved-messages-and-9-more#tags-for-saved-messages) (Premium)"
           }
         ]
       },
