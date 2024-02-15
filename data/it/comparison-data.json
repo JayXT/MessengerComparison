@@ -629,6 +629,10 @@
 			"FeatureName": "“Alza per Parlare” (per Registrare Messaggi Vocali)",
 			"Telegram": "advantage|Supportato"
 		  },
+			{
+            "FeatureName": "Pausa Durante la Registrazione di Vocali/Video Messaggi",
+            "Telegram": "advantage|[Supportata](https://telegram.org/blog/new-saved-messages-and-9-more/it#interrompi-e-riprendi-la-registrazione)"
+          },
 		  {
 			"FeatureName": "Risposte Rapide",
 			"Telegram": "advantage|Facendo scorrere il messaggio",
@@ -750,11 +754,12 @@
 		  {
 			"FeatureName": "Autodistruzione di Foto/Video Inviati",
 			"Telegram": "advantage|Supportato (distruzione nell'intervallo da 1 secondo a 1 minuto dopo che un messaggio è stato visto o [Visualizza una volta](https://telegram.org/blog/channel-stories/it#media-a-singola-visione))",
-			"WhatsApp": "mediocrity|Tramite [Visualizza una volta](https://blog.whatsapp.com/view-once-photos-and-videos-on-whatsapp?lang=it), senza configurazione"
+			"WhatsApp": "mediocrity|Tramite [Visualizza una volta](https://blog.whatsapp.com/view-once-photos-and-videos-on-whatsapp?lang=it), senza configurazione (solo i vocali)"
 		  },
 		  {
-			"FeatureName": "Auto-Cancellazione dei Messaggi Vocali Inviati",
-			"WhatsApp": "advantage|Tramite [Visualizza una volta](https://blog.whatsapp.com/voice-messages-just-got-more-private?lang=it)"
+			"FeatureName": "Auto-Cancellazione dei Vocali/Video Messaggi Inviati",
+			"Telegram": "advantage|[Supportata](https://telegram.org/blog/new-saved-messages-and-9-more/it#messaggi-vocali-e-videomessaggi-monouso)",
+			"WhatsApp": "mediocrity|Tramite [Visualizza una volta](https://blog.whatsapp.com/voice-messages-just-got-more-private?lang=it)"
 		  },
 		  {
 			"FeatureName": "Cancellazione della Cache dei Messaggi Separati",
@@ -920,7 +925,7 @@
 		  },
 		  {
 			"FeatureName": "Visualizzazione del Contenuto in Base ai Tipi di File Multimediali",
-			"Telegram": "advantage|[Accesso flessibile](https://telegram.org/blog/shared-media-scrolling-calendar-join-requests-and-more/it#scorrimento-iperveloce-e-vista-calendario-per-i-media-condivisi) to: media, file, link, audio, messaggi vocali, GIF",
+			"Telegram": "advantage|[Accesso flessibile](https://telegram.org/blog/new-saved-messages-and-9-more/it#messaggi-salvati-nei-media-condivisi), media, file, link, audio, messaggi vocali, GIF",
 			"Viber": "mediocrity|Per categorie come: media, link, file, GIF",
 			"WhatsApp": "mediocrity|Parzialmente supportati, a parte questo, i cataloghi dei prodotti sono disponibili in WhatsApp Business"
 		  },
@@ -1046,7 +1051,15 @@
 		  {
 			"FeatureName": "Segna i Messaggi come Fatto",
 			"Viber": "advantage|Supportato"
-		  }
+		  },
+		  {
+            "FeatureName": "Visualizza i Messaggi Salvati per Chat",
+            "Telegram": "advantage|[Supportato](https://telegram.org/blog/new-saved-messages-and-9-more/it#visualizza-i-messaggi-salvati-per-chat), with an ability to pin chats"
+          },
+          {
+            "FeatureName": "Tag per i Messaggi Salvati",
+            "Telegram": "advantage|[Supportati](https://telegram.org/blog/new-saved-messages-and-9-more/it#tag-per-i-messaggi-salvati) (Premium)"
+          }
 		]
 	  },
 	  {
@@ -1064,6 +1077,10 @@
 			"Viber": "advantage|Supportato",
 			"WhatsApp": "advantage|Supportato (tramite WhatsApp Business)"
 		  },
+		  {
+            "FeatureName": "Orario di Lettura dei Messaggi",
+            "Telegram": "advantage|[Disponibile](https://telegram.org/blog/new-saved-messages-and-9-more/it#orario-di-lettura-nelle-chat-private)"
+          },
 		  {
 			"FeatureName": "Impostazioni Foto Profilo per i Contatti",
 			"Telegram": "advantage|Con [possibilità di proporre foto](https://telegram.org/blog/hidden-media-zero-storage-profile-pics/it#foto-del-profilo-per-i-tuoi-contatti)"
@@ -2990,6 +3007,10 @@
 			"WhatsApp": "advantage|Tutti, i tuoi contatti, nessuno"
 		  },
 		  {
+            "FeatureName": "Nascondi Orario di Lettura dei Messaggi",
+            "Telegram": "advantage|[Supportato](https://telegram.org/blog/new-saved-messages-and-9-more/it#orari-di-ultimo-accesso-e-di-lettura-unidirezionali) (unidirezionali solo per Premium)"
+          },
+		  {
 			"FeatureName": "Visualizzazione dello Stato di Lettura dei Messaggi",
 			"Telegram": "mediocrity|Non supportato, il messaggio di lettura viene mostrato come letto al collocatore",
 			"Viber": "advantage|Supportato; anche in [modalità unidirezionale](https://viber.com/en/blog/2023-10-04/introducing-viber-plus) (Viber Plus)",
@@ -3035,6 +3056,10 @@
 			"FeatureName": "Invio Vocali/Video Messaggi",
 			"Telegram": "advantage|Tutti, i tuoi contatti, nessuno (Premium)"
 		  },
+		  {
+            "FeatureName": "Invio Messagggi",
+            "Telegram": "advantage|[Tutti, i tuoi contatti e Utenti Premium](https://telegram.org/blog/new-saved-messages-and-9-more/it#permessi-per-i-messaggi-privati) (Premium)"
+          },
 		  {
 			"FeatureName": "Supporto per le Eccezioni",
 			"Telegram": "advantage|Per tutte le regole: dal numero di telefono ai gruppi",
