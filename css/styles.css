@@ -1,0 +1,260 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+    }
+}
+
+div.language {
+    position: relative;
+    margin: 15px 5px;
+    text-align: left;
+}
+
+div.language * {
+    display: inline;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+section.main {
+    display: block;
+    margin: auto;
+    width: 100%;
+    min-width: 575px;
+    max-width: 1150px;
+}
+
+.headline {
+    margin: 0px 0px 45px 0px;
+}
+
+h2.warning {
+    color: #d90000;
+    font-style: italic;
+    font-size: 20px;
+}
+
+h2.warning>a {
+    color: #d90000;
+    border-bottom: .1em solid #d90000;
+    border-bottom-color: #d90000;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #000;
+    text-decoration: none;
+    border-bottom: .1em solid rgba(0, 0, 0, .7);
+    border-bottom-color: rgba(0, 0, 0, 0.7);
+    border-bottom-style: solid;
+    border-bottom-width: 0.1em;
+}
+
+/*Table Configuration*/
+
+table {
+    position: relative;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-style: hidden;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    width: 100%;
+    table-layout: fixed;
+}
+
+th, td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+th {
+    height: 40px;
+}
+
+td {
+    padding: 10px 5px 10px 5px;
+}
+
+th.header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: white;
+}
+
+th.category {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 44px;
+    background: #f0fbfb;
+    padding: 2px 5px;
+}
+
+.feature-col, .service-col {
+    width: 25%;
+}
+
+td>ol {
+    padding-left: 20px;
+    margin: 0px;
+}
+
+/*Table borders*/
+
+table th.header {
+    border-top: 1px solid #c8c8c8;
+    border-bottom: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+}
+
+table td, table th.category {
+    border-bottom: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+}
+
+table th:first-child, table td:first-child {
+    border-left: 1px solid #c8c8c8;
+}
+
+th.header:first-child {
+    -webkit-border-radius: 3px 0 0 0;
+    border-radius: 3px 0 0 0;
+}
+
+th.header:last-child {
+    -webkit-border-radius: 0 3px 0 0;
+    border-radius: 0 3px 0 0;
+}
+
+tr:last-child td:first-child {
+    -webkit-border-radius: 0 0 0 3px;
+    border-radius: 0 0 0 3px;
+}
+
+tr:last-child td:last-child {
+    -webkit-border-radius: 0 0 3px 0;
+    border-radius: 0 0 3px 0;
+}
+
+/*Messenger Icons*/
+
+.telegram-icon {
+    background-image: url('../icons/TelegramIcon.png');
+}
+
+.viber-icon {
+    background-image: url('../icons/ViberIcon.png');
+}
+
+.whatsapp-icon {
+    background-image: url('../icons/WhatsAppIcon.png');
+}
+
+.telegram-icon, .viber-icon, .whatsapp-icon {
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 0px 5px;
+    padding: 5px 25px 5px 25px;
+}
+
+/*Cells Classes*/
+
+.category-container {
+    display: grid;
+    grid-template-columns: 47.5% 5% 47.5%;
+}
+
+.group-text, .aspect-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: auto 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.group-text {
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.aspect-text {
+    text-align: left;
+}
+
+a.anchor {
+    display: inline-block;
+    width: 20px;
+    height: 20px; 
+    border-bottom-style: none;
+    line-height: 1;
+    scroll-margin-top: 55px;
+}
+
+.anchor-icon {
+    display: inline-block;
+    width: 18px;
+    height: 20px;    
+    margin-top: 2px;
+    vertical-align: text-top;
+    background: url(../icons/LinkIcon.png) 0 0 no-repeat;
+    background-size: 17px 18px;
+    opacity: 0;
+    cursor: pointer;
+    -webkit-transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -ms-transition: opacity .15s ease-in-out;
+    -o-transition: opacity .15s ease-in-out;
+    transition: opacity .15s ease-in-out;
+}
+
+.anchor-icon:hover {
+    opacity: 1 !important;
+}
+
+.category-arrow {
+    font-size: 26px;
+    margin: auto 0;
+    position: relative;
+    top: -4px;
+}
+
+.advantage {
+    background-color: #d1ff82;
+}
+
+.mediocrity {
+    background-color: #fff394;
+}
+
+.disadvantage {
+    background-color: #ffbaba;
+}
+
+p.updated-date {
+    margin: 40px 10px;
+    font-size: 13px;
+    font-style: italic;
+    text-align: right;
+}
